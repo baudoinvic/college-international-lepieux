@@ -37,7 +37,7 @@ function Home() {
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
                 <h1 className='text-center fw-semibold'>Lepieux international school</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
+                <p>High school education excellence we are happy to connect with you in whatever way you are most comfortable</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>

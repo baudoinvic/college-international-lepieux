@@ -54,48 +54,73 @@ const persons = [
 
 function About() {
   return (
-    <div className='about-page'>
-        <header className='height-75'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error recusandae harum ullam repellat cum? Nisi unde, incidunt natus ut ratione dolore quasi at dolores molestias.</p>
-            </div>
-        </header>
-
-        <div className='container my-5'>
-            <div className="row">
-                <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
-                    <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, sunt saepe fugit dolores error mollitia doloribus optio, recusandae aperiam, nihil eius rem eum eaque sequi. Earum perspiciatis laudantium at quo sapiente perferendis distinctio, voluptatum obcaecati ipsa, eos nesciunt saepe adipisci placeat ducimus! Dignissimos quaerat fugiat consequuntur tempora fuga eveniet nobis!</p>
-                    <p className='mb-4 mb-lg-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas ipsa assumenda eos veritatis nemo fuga dolore saepe eius, laborum earum magni id quae quidem tempore tempora consequuntur eveniet voluptatibus, suscipit atque, voluptatem blanditiis deleniti perferendis dolores. Architecto corporis sit suscipit labore modi sint facilis alias laboriosam facere et? Quo eum neque dolores iure, nam voluptates nesciunt quisquam modi maxime alias! Blanditiis vel dicta voluptates ab vero quia incidunt facilis ratione deserunt, inventore atque necessitatibus?</p>
-                    <Link to="/contact">
-                        <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
-                    </Link>
-                </div>
-                <div className='col-lg-6 d-flex justify-content-center'>
-                    <img src={AboutUsSectionImg} className='img-fluid w-75' alt="" />
-                </div>
-            </div>
+    <div className="about-page">
+      <header className="height-75">
+        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
+          <h1 className="text-center fw-semibold">About Us</h1>
+          <p className="text-center w-75 mb-5">
+            At Institut Technique Internationale Lepieux, we are committed to
+            providing exceptional educational opportunities for students from
+            diverse backgrounds. As we prepare to open our doors this year, we
+            are excited to introduce our innovative approach to learning and our
+            dedication to fostering excellence in education. Our goal is to
+            empower students with the knowledge, skills, and competencies
+            necessary to thrive in an ever-evolving global landscape. Through
+            hands-on learning experiences, personalized support, and a
+            collaborative learning environment, we aim to nurture the next
+            generation of leaders, innovators, and problem solvers.
+          </p>
         </div>
+      </header>
 
-        <div className='bg-dark text-light py-5'>
-            <ChooseSection />
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0">
+            <h2 className="mb-4 mb-lg-5">Study with us</h2>
+            <p>
+              Educational Offerings Discover the rich tapestry of learning
+              experiences waiting for you within our institution. Proficient
+              Learning Initiatives Experience and the transformative power of
+              expert-led education, shaping minds and futures.
+            </p>
+            <p className="mb-4 mb-lg-5">
+              Academic Pathways Embark on a transformative journey through our
+              Academic Pathways, where students are empowered to explore diverse
+              subjects.
+            </p>
+            <Link to="/contact">
+              <button
+                type="button"
+                className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+              >
+                Contact Us
+              </button>
+            </Link>
+          </div>
+          <div className="col-lg-6 d-flex justify-content-center">
+            <img src={AboutUsSectionImg} className="img-fluid w-75" alt="" />
+          </div>
         </div>
+      </div>
 
-        <div className='bg-body-tertiary py-5'>
-            <div className="container">
-                <h2 className='text-center mb-5'>Our Winners</h2>
-                <div className='row g-4'>
-                    {persons.map((person) => (
-                        <div key={person.id} className='col-md-4'>
-                            <img src={person.img} className='img-fluid' alt="" />
-                        </div>
-                    ))}
-                </div>
-            </div>
+      <div className="bg-dark text-light py-5">
+        <ChooseSection />
+      </div>
+
+      <div className="bg-body-tertiary py-5">
+        <div className="container">
+          <h2 className="text-center mb-5">Our Winners</h2>
+          <div className="row g-4">
+            {persons.map((person) => (
+              <div key={person.id} className="col-md-4">
+                <img src={person.img} className="img-fluid" alt="" />
+              </div>
+            ))}
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default About;
