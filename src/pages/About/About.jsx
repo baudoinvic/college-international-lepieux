@@ -110,13 +110,7 @@ function About() {
       <div className="bg-body-tertiary py-5">
         <div className="container">
           <h2 className="text-center mb-5">Our Winners</h2>
-          <div className="row g-4">
-            {persons.map((person) => (
-              <div key={person.id} className="col-md-4">
-                <img src={person.img} className="img-fluid" alt="" />
-              </div>
-            ))}
-          </div>
+         */}
         </div>
       </div>
     </div>
