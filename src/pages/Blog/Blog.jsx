@@ -37,23 +37,23 @@ const blogs = [
   {
     id: 4,
     img: [Blog4Img],
-    title: "Blog 4",
+    title: "Build your Career in Commercial and Gestion",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+      " Explore the dynamic opportunities available in these sectors where you can lead, strategize, and drive success. Whether you're drawn to sales, marketing, finance, or operations, commercial and management roles offer diverse pathways for growth and impact.",
   },
   {
     id: 5,
     img: [Blog5Img],
-    title: "Blog 5",
+    title: "Build your career  in Mechanic",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+      "Interested in a hands-on career? Consider becoming a mechanic! Dive into the world of fixing, maintaining, and tinkering with vehicles and machinery. Whether you're drawn to cars, trucks, airplanes, or industrial equipment, a career in mechanics offers endless opportunities to work with your hands and solve problems",
   },
   {
     id: 6,
     img: [Blog6Img],
-    title: "Blog 6",
+    title: "Build your career in construction",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+      "Looking to build a solid career? Consider construction! Dive into a world of building, shaping, and creating structures that define our cities and communities. Whether you're interested in hands-on work like carpentry and masonry,.",
   },
   {
     id: 7,
