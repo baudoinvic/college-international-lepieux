@@ -13,60 +13,69 @@ import Blog8Img from '../../utils/images/blog8-img.jpg';
 import Blog9Img from '../../utils/images/blog9-img.jpg';
 
 const blogs = [
-    {
-        id: 1,
-        img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 2,
-        img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 3,
-        img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 4,
-        img: [Blog4Img],
-        title: 'Blog 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 5,
-        img: [Blog5Img],
-        title: 'Blog 5',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 6,
-        img: [Blog6Img],
-        title: 'Blog 6',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 7,
-        img: [Blog7Img],
-        title: 'Blog 7',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 8,
-        img: [Blog8Img],
-        title: 'Blog 8',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
-    {
-        id: 9,
-        img: [Blog9Img],
-        title: 'Blog 9',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.'
-    },
+  {
+    id: 1,
+    img: [Blog1Img],
+    title: "Build your career in general electricity",
+    description:
+      "Explore the possibilities of building a career in general electricity. From electrical installation to maintenance, the field offers diverse opportunities for those with a passion for hands-on work and problem-solving. Join us as we illuminate the path to a rewarding career in this dynamic industry.",
+  },
+  {
+    id: 2,
+    img: [Blog2Img],
+    title: "Build your  Career in civil aviation",
+    description:
+      "Interested in a career in flying? Civil aviation might be for you! Whether you want to be a pilot, air traffic controller, or work with aircraft technology, there are many opportunities to explore. Join us and start your journey in the skies!.",
+  },
+  {
+    id: 3,
+    img: [Blog3Img],
+    title: "Build your Career in electronics",
+    description:
+      "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets, the field of electronics offers a diverse range of opportunities for those with a passion for innovation and problem-solving. Join us as we empower you to embark on a rewarding career journey in electronics.",
+  },
+  {
+    id: 4,
+    img: [Blog4Img],
+    title: "Blog 4",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
+  {
+    id: 5,
+    img: [Blog5Img],
+    title: "Blog 5",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
+  {
+    id: 6,
+    img: [Blog6Img],
+    title: "Blog 6",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
+  {
+    id: 7,
+    img: [Blog7Img],
+    title: "Blog 7",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
+  {
+    id: 8,
+    img: [Blog8Img],
+    title: "Blog 8",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
+  {
+    id: 9,
+    img: [Blog9Img],
+    title: "Blog 9",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+  },
 ];
 
 function Blog() {

@@ -10,24 +10,27 @@ import Blog2Img from '../../utils/images/blog2-img.jpg';
 import Blog3Img from '../../utils/images/blog3-img.jpg';
 
 const blogs = [
-    {
-        id: 1,
-        img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
-    },
-    {
-        id: 2,
-        img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
-    },
-    {
-        id: 3,
-        img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
-    }
+  {
+    id: 1,
+    img: "https://media.istockphoto.com/id/1326356989/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=iWRoOgPoESyWNLRNAhaez7A8X7L8_UC56I2F9fNaOtg=",
+    title: "Build your career in general electricity",
+    description:
+      "Explore the possibilities of building a career in general electricity. From electrical installation to maintenance, the field offers diverse opportunities for those with a passion for hands-on work and problem-solving. Join us as we illuminate the path to a rewarding career in this dynamic industry.",
+  },
+  {
+    id: 2,
+    img: "https://media.istockphoto.com/id/503893294/photo/excited-elementary-students-learning-to-use-drone-in-class.jpg?s=612x612&w=0&k=20&c=sVquCywhgixTrfCYlLP8FY-68L8x_8HAfSeBB6QKSDA=",
+    title: "Build your  Career in civil aviation",
+    description:
+      "Interested in a career in flying? Civil aviation might be for you! Whether you want to be a pilot, air traffic controller, or work with aircraft technology, there are many opportunities to explore. Join us and start your journey in the skies!.",
+  },
+  {
+    id: 3,
+    img: "https://media.istockphoto.com/id/999096644/photo/working-on-an-engineering-group-project.jpg?s=612x612&w=0&k=20&c=JEPhruE2TnBWmaxHZ3gBigZQOyLLruOeNNW8Phicdfk=",
+    title: "Build your Career in electronics",
+    description:
+      "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets.",
+  },
 ];
 
 function Home() {
