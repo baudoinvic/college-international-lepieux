@@ -32,7 +32,7 @@ const blogs = [
     img: [Blog3Img],
     title: "Build your Career in electronics",
     description:
-      "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets, the field of electronics offers a diverse range of opportunities for those with a passion for innovation and problem-solving. Join us as we empower you to embark on a rewarding career journey in electronics.",
+      "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets, ",
   },
   {
     id: 4,
@@ -58,24 +58,11 @@ const blogs = [
   {
     id: 7,
     img: [Blog7Img],
-    title: "Blog 7",
+    title: "build your career in computing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
+      "Explore the endless possibilities in the world of technology, where you can innovate, problem-solve, and shape the digital landscape. Whether you're passionate about software development, cybersecurity, data analytics.",
   },
-  {
-    id: 8,
-    img: [Blog8Img],
-    title: "Blog 8",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
-  },
-  {
-    id: 9,
-    img: [Blog9Img],
-    title: "Blog 9",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptas suscipit ratione quod culpa, eius ad consequatur, dolor quasi nulla optio quo error tempora temporibus distinctio quidem asperiores dolore ex amet nam. Consequatur, odit corporis.",
-  },
+  
 ];
 
 function Blog() {
