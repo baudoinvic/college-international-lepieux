@@ -74,8 +74,9 @@ function Home() {
             <div className="col-lg-5">
               <h2 className="text-capitalize">2024 start courses</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus, placeat.
+                Welcome to the beginning of the 2024 academic year at Lepieux international school
+                 We're excited to start our courses and begin a journey of
+                learning, growth, and success together.
               </p>
               <Link to="/courses">
                 <button
