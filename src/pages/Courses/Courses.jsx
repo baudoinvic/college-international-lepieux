@@ -12,54 +12,62 @@ import SportCourseImg from '../../utils/images/sport-course.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 
 const courses = [
-    {
-        id: 1,
-        img: [ArtCourseImg],
-        title: 'Art Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 2,
-        img: [BusinessCourseImg],
-        title: 'Business Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 3,
-        img: [ComputerScienceCourseImg],
-        title: 'Computer Science Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 4,
-        img: [EducationCourseImg],
-        title: 'Education Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 5,
-        img: [HealthcareCourseImg],
-        title: 'Healthcare Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 6,
-        img: [LawCourseImg],
-        title: 'Law Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 7,
-        img: [MusicCourseImg],
-        title: 'Music Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 8,
-        img: [SportCourseImg],
-        title: 'Sport Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
+  {
+    id: 1,
+    img: [ArtCourseImg],
+    title: "Electronics",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 2,
+    img: [BusinessCourseImg],
+    title: "General electricity",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 3,
+    img: [ComputerScienceCourseImg],
+    title: "Computer Science ",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 4,
+    img: [EducationCourseImg],
+    title: "Construction",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 5,
+    img: [HealthcareCourseImg],
+    title: "Civil Aviation",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 6,
+    img: [LawCourseImg],
+    title: "Sales and Management",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 7,
+    img: [MusicCourseImg],
+    title: "Mechanical",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
+  {
+    id: 8,
+    img: [SportCourseImg],
+    title: "Veterinary and Agronomy",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+  },
 ];
 
 function Courses() {
