@@ -98,7 +98,11 @@ function About() {
             </Link>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
-            <img src={AboutUsSectionImg} className="img-fluid w-75" alt="" />
+            <img
+              src="https://pbs.twimg.com/media/F-ZOGvhWgAEm9J2?format=jpg&name=4096x4096"
+              className="img-fluid w-75"
+              alt=""
+            />
           </div>
         </div>
       </div>
