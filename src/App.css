@@ -43,6 +43,7 @@ nav .navbar-toggler:focus {
   color: #212529;
 }
 
+
 @media only screen and (max-width: 992px) {
   #basic-navbar-nav {
     background-color: #ffffff;
@@ -66,3 +67,5 @@ nav .navbar-toggler:focus {
     font-size: 2rem;
   }
 }
+
+
