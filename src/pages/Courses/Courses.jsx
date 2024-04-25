@@ -17,14 +17,14 @@ const courses = [
     img: [ArtCourseImg],
     title: "Electronics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This is the electronics course. It covers topics such as circuit design, electronic components, and circuit analysis.",
   },
   {
     id: 2,
     img: [BusinessCourseImg],
     title: "General electricity",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course covers fundamental principles and applications of general electricity, including circuits, voltage, current, resistance, and power.",
   },
   {
     id: 3,
@@ -38,35 +38,35 @@ const courses = [
     img: [EducationCourseImg],
     title: "Construction",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
   },
   {
     id: 5,
     img: [HealthcareCourseImg],
     title: "Civil Aviation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course provides an introduction to civil aviation, covering topics such as aviation regulations, flight operations, aircraft systems, and air traffic management.",
   },
   {
     id: 6,
     img: [LawCourseImg],
     title: "Sales and Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course focuses on commercial and management skills, including marketing, sales, finance, human resources, and business operations.",
   },
   {
     id: 7,
     img: [MusicCourseImg],
     title: "Mechanical",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
   },
   {
     id: 8,
     img: [SportCourseImg],
     title: "Veterinary and Agronomy",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management.",
   },
 ];
 
