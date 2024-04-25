@@ -77,18 +77,23 @@ function Contact() {
       <div className="bg-dark text-light p-5">
         <div className="container">
           <h2 className="text-center mb-5">Our Locations</h2>
-          <div className="row g-4">
-            <div className="col-lg-4 d-flex flex-column align-items-center">
-              <img src={LondonLocationImg} className="img-fluid" alt="" />
-              <h3 className="text-center mt-3">London</h3>
+         
+          <div class="card-container">
+            <div class="first-card">
+              <h1>Kalemie</h1>
+              <span>Kalemie: 560 street</span>
             </div>
-            <div className="col-lg-4 d-flex flex-column align-items-center">
-              <img src={ManchesterLocationImg} className="img-fluid" alt="" />
-              <h3 className="text-center mt-3">France </h3>
+            <div class="first-card">
+              <h1>France</h1>
+              <span>Bordeaux: 690 Street</span>
             </div>
-            <div className="col-lg-4 d-flex flex-column align-items-center">
-              <img src={LiverpoolLocationImg} className="img-fluid" alt="" />
-              <h3 className="text-center mt-3">Switzerland</h3>
+            <div class="first-card">
+              <h1>Belgium</h1>
+              <span>Belgium: 670 street</span>
+            </div>
+            <div class="first-card">
+              <h1>Switzerland</h1>
+              <span>Switzerland: 300 street</span>
             </div>
           </div>
         </div>
