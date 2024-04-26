@@ -5,22 +5,21 @@ const TestimonialData = [
   {
     id: 1,
     name: "ishimwe sandra",
-    text: "I'm so proud to work with Beatha Business. I bought the products many times and got the original ones delivered to my home.",
-    img: "https://picsum.photos/101/101",
+    text: "i'm always happy to study at this school because the skills that i gain at school it's enough for me they have the best eduction never seen.",
+    img: "https://c.stocksy.com/a/ynq000/z9/202986.jpg",
   },
   {
     id: 2,
     name: "Divine josh",
-    text: "I'm so proud to work with Beatha Business. I bought the products many times and got the original ones delivered to my home.",
-    img: "https://picsum.photos/102/102",
+    text: "i'm always happy to study at this school because the skills that i gain at school it's enough for me they have the best eduction never seen.",
+    img: "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180",
   },
   {
     id: 3,
     name: "Tousaint Francis",
-    text: "I'm so proud to work with Beatha Business. I bought the products many times and got the original ones delivered to my home.",
-    img: "https://picsum.photos/104/104",
+    text: "i'm always happy to study at this school because the skills that i gain at school it's enough for me they have the best eduction never seen",
+    img: "https://pngimg.com/uploads/student/student_PNG62539.png",
   },
- 
 ];
 
 const Testimonial = () => {
@@ -66,7 +65,7 @@ const Testimonial = () => {
     <div className="">
       <h1 className="mt-20 text-center">Testimonials</h1>
 
-      <p className="text-center mx-auto">What students say about us</p>
+      <p className="text-center mx-auto">What students says about us</p>
 
       <Slider {...settings}>
         {TestimonialData.map((data) => (
