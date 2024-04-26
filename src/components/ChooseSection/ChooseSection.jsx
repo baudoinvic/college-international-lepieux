@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { CiLight } from "react-icons/ci";
 
 function ChooseSection() {
   return (
@@ -66,7 +67,7 @@ function ChooseSection() {
           <div className="col-lg-4">
             <Card className="d-flex align-items-center border-0 h-100">
               <div className="mt-3">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
                   height="48"
@@ -75,17 +76,18 @@ function ChooseSection() {
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                </svg>
+                </svg> */}
+                <CiLight />
               </div>
               <Card.Body>
                 <Card.Title className="text-center text-capitalize mb-3">
                   our Mission
                 </Card.Title>
                 <Card.Text className="text-center">
-                  Our mission at Lepieux international school is to cultivate a vibrant
-                  community of learners, where each student is inspired to
-                  discover their passions, unlock their potential, and embrace
-                  lifelong learning
+                  Our mission at Lepieux international school is to cultivate a
+                  vibrant community of learners, where each student is inspired
+                  to discover their passions, unlock their potential, and
+                  embrace lifelong learning
                 </Card.Text>
               </Card.Body>
             </Card>
