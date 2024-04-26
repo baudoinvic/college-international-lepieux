@@ -20,7 +20,7 @@ function FaqAccordion() {
           <Accordion.Item eventKey="0">
             <Accordion.Header>How do I enroll my child ?</Accordion.Header>
             <Accordion.Body>
-              To enroll your child at [School Name], please visit our admissions
+              To enroll your child at Lepieux international school, please visit our admissions
               page on our website or contact our admissions office directly. Our
               team will guide you through the enrollment process and answer any
               questions you may have.
