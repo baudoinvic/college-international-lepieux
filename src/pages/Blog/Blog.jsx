@@ -15,7 +15,7 @@ import Blog9Img from '../../utils/images/blog9-img.jpg';
 const blogs = [
   {
     id: 1,
-    img: [Blog1Img],
+    img: "https://media.istockphoto.com/id/1326356989/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=iWRoOgPoESyWNLRNAhaez7A8X7L8_UC56I2F9fNaOtg=",
     title: "Build your career in general electricity",
     description:
       "Explore the possibilities of building a career in general electricity. From electrical installation to maintenance, the field offers diverse opportunities for those with a passion for hands-on work and problem-solving. Join us as we illuminate the path to a rewarding career in this dynamic industry.",
@@ -29,7 +29,7 @@ const blogs = [
   },
   {
     id: 3,
-    img: [Blog3Img],
+    img: "https://media.istockphoto.com/id/1455946567/photo/college-instructor-assisting-electrical-engineering-students.jpg?s=612x612&w=0&k=20&c=NZk9l0sivK3QijpQ9Efc0833A9My4sp2frwIoUejZ98=",
     title: "Build your Career in electronics",
     description:
       "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets, ",
@@ -37,32 +37,31 @@ const blogs = [
   {
     id: 4,
     img: [Blog4Img],
-    title: "Build your Career in Commercial and Gestion",
+    title: "Build your Career in sales management",
     description:
       " Explore the dynamic opportunities available in these sectors where you can lead, strategize, and drive success. Whether you're drawn to sales, marketing, finance, or operations, commercial and management roles offer diverse pathways for growth and impact.",
   },
   {
     id: 5,
-    img: [Blog5Img],
-    title: "Build your career  in Mechanic",
+    img: "https://media.istockphoto.com/id/827810840/photo/group-of-student-mechanics-working-on-car-engine-with-hood-up.jpg?s=612x612&w=0&k=20&c=WrklsPki6PkwqQ_i7dMXz5SKgzLtdbET-S6JZV_TGeY=",
+    title: "Build your career  in Mechanical",
     description:
       "Interested in a hands-on career? Consider becoming a mechanic! Dive into the world of fixing, maintaining, and tinkering with vehicles and machinery. Whether you're drawn to cars, trucks, airplanes, or industrial equipment, a career in mechanics offers endless opportunities to work with your hands and solve problems",
   },
   {
     id: 6,
-    img: [Blog6Img],
+    img: "https://media.istockphoto.com/id/999096644/photo/working-on-an-engineering-group-project.jpg?s=612x612&w=0&k=20&c=JEPhruE2TnBWmaxHZ3gBigZQOyLLruOeNNW8Phicdfk=",
     title: "Build your career in construction",
     description:
       "Looking to build a solid career? Consider construction! Dive into a world of building, shaping, and creating structures that define our cities and communities. Whether you're interested in hands-on work like carpentry and masonry,.",
   },
   {
     id: 7,
-    img: [Blog7Img],
-    title: "build your career in computing",
+    img: "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+    title: "build your career in veterinary and agronomy",
     description:
       "Explore the endless possibilities in the world of technology, where you can innovate, problem-solve, and shape the digital landscape. Whether you're passionate about software development, cybersecurity, data analytics.",
   },
-  
 ];
 
 function Blog() {
