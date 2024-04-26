@@ -20,12 +20,7 @@ const TestimonialData = [
     text: "I'm so proud to work with Beatha Business. I bought the products many times and got the original ones delivered to my home.",
     img: "https://picsum.photos/104/104",
   },
-  {
-    id: 5,
-    name: "Chris johnB",
-    text: "I'm so proud to work with Beatha Business. I bought the products many times and got the original ones delivered to my home.",
-    img: "https://picsum.photos/103/103",
-  },
+ 
 ];
 
 const Testimonial = () => {
@@ -69,12 +64,16 @@ const Testimonial = () => {
 
   return (
     <div className="">
+      <h1 className="mt-20 text-center">Testimonials</h1>
+
+      <p className="text-center mx-auto">What students say about us</p>
+
       <Slider {...settings}>
         {TestimonialData.map((data) => (
           <div className="my-6">
             <div
               key={data.id}
-              className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+              className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-white bg-primary/10 relative"
             >
               <div className="mb-4">
                 <img src={data.img} alt="" className="rounded-full w-20 h-20" />

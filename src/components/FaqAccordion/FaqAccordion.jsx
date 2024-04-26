@@ -1,6 +1,7 @@
 import React from 'react';
 import './FaqAccordion.css';
 import Accordion from 'react-bootstrap/Accordion';
+import Testimonial from '../Testimonial/Testimonial';
 
 
 function FaqAccordion() {
@@ -57,7 +58,7 @@ function FaqAccordion() {
           </Accordion.Item>
         </Accordion>
       </div>
-     
+      <Testimonial />
     </div>
   );
 }
