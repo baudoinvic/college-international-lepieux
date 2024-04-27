@@ -10,6 +10,7 @@ import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 import Testimonial from './components/Testimonial/Testimonial';
 import logo from "../src/utils/images/logo.png";
+import Shortcouses from './pages/Short/Shortcouses';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
               <Nav.Link href="/courses" className="text-uppercase">
                 Our courses
               </Nav.Link>
+              <Nav.Link href="/Shortcourses" className="text-uppercase">
+                Short courses
+              </Nav.Link>
               <Nav.Link href="/about" className="text-uppercase">
                 About us
               </Nav.Link>
@@ -58,6 +62,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/Shortcourses" element={<Shortcouses />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
