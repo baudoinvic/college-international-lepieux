@@ -10,14 +10,14 @@ import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 const courses = [
   {
     id: 1,
-    img: "https://media.istockphoto.com/id/1455946567/photo/college-instructor-assisting-electrical-engineering-students.jpg?s=612x612&w=0&k=20&c=NZk9l0sivK3QijpQ9Efc0833A9My4sp2frwIoUejZ98=",
+    img: "https://media.istockphoto.com/id/691703568/photo/engineering-students-with-their-teacher-writing-on-the-board.jpg?s=612x612&w=0&k=20&c=hDlN563oKwpDNyRSQXqWidPlFNBTbK6_jGtJYOts1Yk=",
     title: "Electronics",
     description:
       "This is the electronics course. It covers topics such as circuit design, electronic components, and circuit analysis.",
   },
   {
     id: 2,
-    img: "https://media.istockphoto.com/id/1326356989/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=iWRoOgPoESyWNLRNAhaez7A8X7L8_UC56I2F9fNaOtg=",
+    img: "https://media.istockphoto.com/id/942164000/photo/group-of-young-people-in-technical-vocational-training-with-teacher.jpg?s=612x612&w=0&k=20&c=Pi2UgPyqiijHDRt9m2th9Bqm5SCCwwOF6zg2NpAZnHI=",
     title: "General electricity",
     description:
       "This course covers fundamental principles and applications of general electricity, including circuits, voltage, current, resistance, and power.",
@@ -25,13 +25,13 @@ const courses = [
   {
     id: 3,
     img: "https://media.istockphoto.com/id/1440160796/photo/two-college-students-reading-a-textbook-during-computer-class.jpg?s=612x612&w=0&k=20&c=_gnYPqDC1Y4mJXRerGkXdpUh7UF2dtvmdXd00MT5CqM=",
-    title: "Computer Science ",
+    title: "cut and seam ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
   },
   {
     id: 4,
-    img: "https://media.istockphoto.com/id/999096644/photo/working-on-an-engineering-group-project.jpg?s=612x612&w=0&k=20&c=JEPhruE2TnBWmaxHZ3gBigZQOyLLruOeNNW8Phicdfk=",
+    img: "https://media.istockphoto.com/id/1204089501/photo/industrial-design-student-building-furniture-with-the-help-of-his-teacher.jpg?s=612x612&w=0&k=20&c=7n3hBHNxMd0dOELxSvxTuOINe5qQd1-1XJheTNQzfaE=",
     title: "Construction",
     description:
       "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
