@@ -13,21 +13,21 @@ const blogs = [
     img: "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
     title: "Veterinary and Agronomy",
     description:
-      "This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management.",
+      "would like to build your career in Veterinary and Agronomy!This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management.",
   },
   {
-    id: 2,
+    id: 6,
     img: "https://media.istockphoto.com/id/1204089501/photo/industrial-design-student-building-furniture-with-the-help-of-his-teacher.jpg?s=612x612&w=0&k=20&c=7n3hBHNxMd0dOELxSvxTuOINe5qQd1-1XJheTNQzfaE=",
     title: "Construction",
     description:
-      "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
+      "would like to build your career in construction. This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
   },
   {
     id: 3,
     img: "https://media.istockphoto.com/id/827810840/photo/group-of-student-mechanics-working-on-car-engine-with-hood-up.jpg?s=612x612&w=0&k=20&c=WrklsPki6PkwqQ_i7dMXz5SKgzLtdbET-S6JZV_TGeY=",
     title: "Mechanical",
     description:
-      "This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
+      "Build your future career in Mechanical. This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
   },
 ];
 

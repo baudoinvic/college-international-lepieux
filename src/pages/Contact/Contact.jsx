@@ -85,7 +85,7 @@ function Contact() {
             </div>
             <div class="first-card">
               <h1>Email Us</h1>
-              <span className="text-white">collengelepieuxinfo@gmail.com</span>
+              <span className="text-white">Collègelepieuxinfo@gmail.com</span>
             </div>
             <div class="first-card">
               <h1>Call us</h1>

@@ -155,6 +155,14 @@ function App() {
                       </li>
                     </Link>
                     <Link
+                      to="/shortcourses"
+                      className="text-decoration-none text-danger"
+                    >
+                      <li className="text-uppercase fw-semibold">
+                        Short courses
+                      </li>
+                    </Link>
+                    <Link
                       to="/about"
                       className="text-decoration-none text-danger"
                     >
@@ -179,13 +187,13 @@ function App() {
                 <div className="col-12 col-md-6 col-lg-7">
                   <ul className="list-unstyled mb-0">
                     <li>
-                      <p>Main Address - Congo Drc, Kalemie</p>
+                      <p>Main Address - Congo Drc. Kalemie 540 Street</p>
                     </li>
                     <li>
                       <p>Phone Number - +250783012138</p>
                     </li>
                     <li>
-                      <p>Email - Lepieuxschool@gmail.com</p>
+                      <p>Email - Collègelepieuxinfo@gmail.com</p>
                     </li>
                   </ul>
                 </div>
