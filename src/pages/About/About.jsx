@@ -59,16 +59,15 @@ function About() {
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h1 className="text-center fw-semibold">About Us</h1>
           <p className="text-center w-75 mb-5">
-            At Institut Technique Internationale Lepieux, we are committed to
-            providing exceptional educational opportunities for students from
-            diverse backgrounds. As we prepare to open our doors this year, we
-            are excited to introduce our innovative approach to learning and our
-            dedication to fostering excellence in education. Our goal is to
-            empower students with the knowledge, skills, and competencies
-            necessary to thrive in an ever-evolving global landscape. Through
-            hands-on learning experiences, personalized support, and a
-            collaborative learning environment, we aim to nurture the next
-            generation of leaders, innovators, and problem solvers.
+            College international Lepieux is a leading secondary educational
+            institution located in the city. from Kalemie, Democratic Republic
+            of Congo, dedicated to providing high quality technical services
+            education to students. Our institute aims to equip students with the
+            skills and knowledge to excel in various technical fields, promoting
+            personal and professional growth. We offering a comprehensive
+            curriculum, state-of-the-art facilities and supportive learning
+            environment to ensure our students receive the best
+            education possible.
           </p>
         </div>
       </header>
@@ -112,16 +111,7 @@ function About() {
       </div>
 
       <div className="bg-body-tertiary py-5">
-        <div className="container">
-          {/* <h2 className="text-center mb-5">Our Winners</h2> */}
-          {/* <div className="row g-4">
-            {persons.map((person) => (
-              <div key={person.id} className="col-md-4">
-                <img src={person.img} className="img-fluid" alt="" />
-              </div>
-            ))}
-          </div> */}
-        </div>
+        <div className="container"></div>
       </div>
     </div>
   );
