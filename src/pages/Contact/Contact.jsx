@@ -74,26 +74,22 @@ function Contact() {
         </Form>
       </div>
 
-      <div className="bg-dark text-light p-5">
+      <div className="bg-dark text-light p-5 mx-auto ">
         <div className="container">
-          <h2 className="text-center mb-5">Our Locations</h2>
-         
-          <div class="card-container">
+          <h2 className="text-center mb-5">For more information</h2>
+
+          <div class="card-container justify-center items-center">
             <div class="first-card">
-              <h1>Kalemie</h1>
-              <span>Kalemie: 560 street</span>
+              <h1>Address</h1>
+              <span className="text-white">Kalemie: 560 street</span>
             </div>
             <div class="first-card">
-              <h1>France</h1>
-              <span>Bordeaux: 690 Street</span>
+              <h1>Email Us</h1>
+              <span className="text-white">collengelepieuxinfo@gmail.com</span>
             </div>
             <div class="first-card">
-              <h1>Belgium</h1>
-              <span>Belgium: 670 street</span>
-            </div>
-            <div class="first-card">
-              <h1>Switzerland</h1>
-              <span>Switzerland: 300 street</span>
+              <h1>Call us</h1>
+              <span className="text-white">+250783012138</span>
             </div>
           </div>
         </div>
