@@ -14,7 +14,7 @@ const courses = [
     img: "https://www.chartercollege.edu/sites/default/files/iStock-800305712.jpg",
     title: "Networking and telecomunication",
     description:
-      "This is the electronics course. It covers topics such as circuit design, electronic components, and circuit analysis.",
+      "Discover networking essentials in this 6-month course covering architecture, protocols, and communication systems.",
   },
 
   {
@@ -22,14 +22,14 @@ const courses = [
     img: "https://media.istockphoto.com/id/657489642/photo/happy-seamstress-at-work.jpg?s=612x612&w=0&k=20&c=yBKMm8cJ5l3TPvtafIzLUQlZ6ARJQC8vQH_EyYXp_xE=",
     title: "cut and seam ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
+      "For a hands-on experience, enroll in our 6-month 'Cut and Seam' course. Learn the art of precision cutting and expert seam techniques.",
   },
   {
     id: 4,
     img: "https://media.istockphoto.com/id/697520720/photo/better-than-any-man.jpg?s=612x612&w=0&k=20&c=gijyjuxgAvC1ZogRaD0Mg92H0pvzX0aXAi5CIgjs458=",
     title: "Adjustment and welding",
     description:
-      "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
+      "Join our 6-month 'Adjustment and Welding' course to master construction principles and techniques. Explore building materials, structural systems, construction methods, and project management essentials.",
   },
 
   {
@@ -37,21 +37,21 @@ const courses = [
     img: "https://crrfstgobain.fr/wp-content/uploads/2021/04/crrf-image-333-1536x1024.jpg",
     title: "Adult rehabilitation school",
     description:
-      "This course focuses on commercial and management skills, including marketing, sales, finance, human resources, and business operations.",
+      "Embark on a 6-month journey at our Adult Rehabilitation School. Gain expertise in commercial and management skills, covering marketing, sales, finance, human resources, and business operations",
   },
   {
     id: 7,
     img: "https://media.istockphoto.com/id/1657566602/photo/two-construction-workers-working-together-on-an-apartment-renovation.jpg?s=612x612&w=0&k=20&c=9U8I8t_7rljrVhCCQHACecXooE0_iJ7bTvlXp7WDNXs=",
     title: "Domestic and industrial installation",
     description:
-      "This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
+      "Explore mechanics in our 6-month 'Domestic and Industrial Installation' course. Learn statics, dynamics, kinematics, and mechanical systems, applied in engineering and technology",
   },
   {
     id: 8,
     img: "https://media.istockphoto.com/id/1616202154/photo/construction-worker-using-modern-concrete-wall-grinding-machine-together-with-vacuum-pump-to.jpg?s=612x612&w=0&k=20&c=vI5Jx1sRyCzArBCuXH7ubvbIJ_g9OXVLfLnh0uECc5c=",
-    title: "Masonry and plumbing",
+    title: "Masonary and plumbing",
     description:
-      "This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management.",
+      "Enroll in our 6-month 'Masonry and Plumbing' course, diving into the essentials of construction and water systems. Learn masonry techniques alongside plumbing principles, preparing you for diverse projects in the field.",
   },
 ];
 
