@@ -82,10 +82,11 @@ function ChooseSection() {
                   our Mission
                 </Card.Title>
                 <Card.Text className="text-center">
-                  Our mission at Lepieux international school is to cultivate a vibrant
-                  community of learners, where each student is inspired to
-                  discover their passions, unlock their potential, and embrace
-                  lifelong learning
+                  Lepieux International Technical Institute is committed to
+                  providing quality technical education, fostering innovation,
+                  and promoting entrepreneurship among its students. We aim to
+                  empower individuals with the skills and knowledge necessary to
+                  thrive in a rapidly evolving global  economy.
                 </Card.Text>
               </Card.Body>
             </Card>

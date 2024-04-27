@@ -5,9 +5,7 @@ import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import StartCoursesImg from '../../utils/images/start-courses-img.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { Card } from 'react-bootstrap';
-import Blog1Img from '../../utils/images/blog1-img.jpg';
-import Blog2Img from '../../utils/images/blog2-img.jpg';
-import Blog3Img from '../../utils/images/blog3-img.jpg';
+
 
 const blogs = [
   {
@@ -40,7 +38,7 @@ function Home() {
         <div className="container d-flex flex-column align-items-center">
           <h2>Welcome To</h2>
           <h1 className="text-center fw-semibold">
-            Lepieux international school
+            Collège international le pieux
           </h1>
           <p>
             High school education excellence we are happy to connect with you in
@@ -77,9 +75,9 @@ function Home() {
             <div className="col-lg-5">
               <h2 className="text-capitalize">2024 start courses</h2>
               <p>
-                Welcome to the beginning of the 2024 academic year at Lepieux international school
-                 We're excited to start our courses and begin a journey of
-                learning, growth, and success together.
+                Welcome to the beginning of the 2024 academic year at Lepieux
+                international school We're excited to start our courses and
+                begin a journey of learning, growth, and success together.
               </p>
               <Link to="/courses">
                 <button
