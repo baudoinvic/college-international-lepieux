@@ -20,13 +20,7 @@ const blogs = [
     description:
       "Explore the possibilities of building a career in general electricity. From electrical installation to maintenance, the field offers diverse opportunities for those with a passion for hands-on work and problem-solving. Join us as we illuminate the path to a rewarding career in this dynamic industry.",
   },
-  {
-    id: 2,
-    img: [Blog2Img],
-    title: "Build your  Career in civil aviation",
-    description:
-      "Interested in a career in flying? Civil aviation might be for you! Whether you want to be a pilot, air traffic controller, or work with aircraft technology, there are many opportunities to explore. Join us and start your journey in the skies!.",
-  },
+
   {
     id: 3,
     img: "https://media.istockphoto.com/id/1455946567/photo/college-instructor-assisting-electrical-engineering-students.jpg?s=612x612&w=0&k=20&c=NZk9l0sivK3QijpQ9Efc0833A9My4sp2frwIoUejZ98=",
@@ -62,6 +56,7 @@ const blogs = [
     description:
       "Explore the endless possibilities in the world of technology, where you can innovate, problem-solve, and shape the digital landscape. Whether you're passionate about software development, cybersecurity, data analytics.",
   },
+  
 ];
 
 function Blog() {

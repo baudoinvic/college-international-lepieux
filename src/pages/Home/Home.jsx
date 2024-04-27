@@ -10,24 +10,24 @@ import { Card } from 'react-bootstrap';
 const blogs = [
   {
     id: 1,
-    img: "https://media.istockphoto.com/id/1326356989/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=iWRoOgPoESyWNLRNAhaez7A8X7L8_UC56I2F9fNaOtg=",
-    title: "Build your career in general electricity",
+    img: "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+    title: "Veterinary and Agronomy",
     description:
-      "Explore the possibilities of building a career in general electricity. From electrical installation to maintenance, the field offers diverse opportunities for those with a passion for hands-on work and problem-solving. Join us as we illuminate the path to a rewarding career in this dynamic industry.",
+      "This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management.",
   },
   {
     id: 2,
-    img: "https://media.istockphoto.com/id/503893294/photo/excited-elementary-students-learning-to-use-drone-in-class.jpg?s=612x612&w=0&k=20&c=sVquCywhgixTrfCYlLP8FY-68L8x_8HAfSeBB6QKSDA=",
-    title: "Build your  Career in civil aviation",
+    img: "https://media.istockphoto.com/id/1204089501/photo/industrial-design-student-building-furniture-with-the-help-of-his-teacher.jpg?s=612x612&w=0&k=20&c=7n3hBHNxMd0dOELxSvxTuOINe5qQd1-1XJheTNQzfaE=",
+    title: "Construction",
     description:
-      "Interested in a career in flying? Civil aviation might be for you! Whether you want to be a pilot, air traffic controller, or work with aircraft technology, there are many opportunities to explore. Join us and start your journey in the skies!.",
+      "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
   },
   {
     id: 3,
-    img: "https://media.istockphoto.com/id/999096644/photo/working-on-an-engineering-group-project.jpg?s=612x612&w=0&k=20&c=JEPhruE2TnBWmaxHZ3gBigZQOyLLruOeNNW8Phicdfk=",
-    title: "Build your Career in electronics",
+    img: "https://media.istockphoto.com/id/827810840/photo/group-of-student-mechanics-working-on-car-engine-with-hood-up.jpg?s=612x612&w=0&k=20&c=WrklsPki6PkwqQ_i7dMXz5SKgzLtdbET-S6JZV_TGeY=",
+    title: "Mechanical",
     description:
-      "Looking to build a career in electronics? Dive into a world of endless possibilities where you can innovate, create, and shape the future of technology. Whether you're interested in designing circuits, troubleshooting systems, or developing cutting-edge gadgets.",
+      "This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
   },
 ];
 
