@@ -24,7 +24,7 @@ const courses = [
   },
   {
     id: 3,
-    img: "https://media.istockphoto.com/id/1440160796/photo/two-college-students-reading-a-textbook-during-computer-class.jpg?s=612x612&w=0&k=20&c=_gnYPqDC1Y4mJXRerGkXdpUh7UF2dtvmdXd00MT5CqM=",
+    img: "https://media.istockphoto.com/id/1048994466/photo/indian-young-girl-sewing-stock-image.jpg?s=612x612&w=0&k=20&c=8YRmaNa8okGasnkmN8rrqDLgM-uExpSR1P3XKJkvDvk=",
     title: "cut and seam ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
@@ -36,16 +36,10 @@ const courses = [
     description:
       "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
   },
-  {
-    id: 5,
-    img: [HealthcareCourseImg],
-    title: "Civil Aviation",
-    description:
-      "This course provides an introduction to civil aviation, covering topics such as aviation regulations, flight operations, aircraft systems, and air traffic management.",
-  },
+
   {
     id: 6,
-    img: [LawCourseImg],
+    img: "https://media.istockphoto.com/id/600697264/photo/medical-business-meeting.jpg?s=612x612&w=0&k=20&c=5WQMnOkFXFq8EPu19h879iQBc448JnB9Tf6DSAw5fS4=",
     title: "Sales and Management",
     description:
       "This course focuses on commercial and management skills, including marketing, sales, finance, human resources, and business operations.",
