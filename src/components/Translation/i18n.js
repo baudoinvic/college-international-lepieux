@@ -3,9 +3,9 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
 // Import translations
-import enTranslations from "./translations/en.json";
-import frTranslations from "./translations/fr.json";
-import swTranslations from "./translations/sw.json";
+import enTranslations from "./en.json";
+import frTranslations from "./fr.json";
+import swTranslations from "./sw.json";
 
 i18n.use(initReactI18next).init({
   resources: {

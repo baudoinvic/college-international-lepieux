@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 import LondonLocationImg from '../../utils/images/London-location.jpg';
 import ManchesterLocationImg from '../../utils/images/Manchester-location.jpg';
 import LiverpoolLocationImg from '../../utils/images/Liverpool-location.jpg';
+import { useTranslation } from "react-i18next";
+
 
 function Contact() {
   return (

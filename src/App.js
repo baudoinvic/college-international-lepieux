@@ -12,13 +12,20 @@ import Testimonial from './components/Testimonial/Testimonial';
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from './pages/Short/Shortcouses';
 import { Button } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import i18n from './components/Translation/i18n';
+
 
 
 function App() {
+   const { t, i18n } = useTranslation();
 
    const handleLanguageChange = (language) => {
-     // Add logic to change the language
-     console.log(`Switching language to: ${language}`);
+     i18n.changeLanguage(language);
+
+     //  const handleLanguageChange = (language) => {
+
+     //    console.log(`Switching language to: ${language}`);
    };
   return (
     <div>
@@ -68,13 +75,13 @@ function App() {
                 onClick={() => handleLanguageChange("fr")}
                 className="me-2"
               >
-                Français
+                Fr
               </Button>
               <Button
                 variant="outline-light"
                 onClick={() => handleLanguageChange("sw")}
               >
-                Kiswahili
+                swahili
               </Button>
             </Nav>
           </Navbar.Collapse>

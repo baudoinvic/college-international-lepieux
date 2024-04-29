@@ -1,7 +1,6 @@
 {
-  "welcome_to": "Welcome To",
-  "college_name": "Collège International Le Pieux",
-  "education_excellence": "High school education excellence we are happy to connect with you in whatever way you are most comfortable",
-  "our_courses": "Our Courses",
-  "contact_us": "Contact Us"
+  "translation": {
+    "address": "Address",
+    "location": "Kalemie: 560 street"
+  }
 }
