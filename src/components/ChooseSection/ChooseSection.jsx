@@ -6,7 +6,7 @@ function ChooseSection() {
     <div>
       <div className="container">
         <h2 className="text-center mb-5">
-          Why choose lepieux international school ?
+          Why choose Collège international le pieux ?
         </h2>
         <div className="row g-4">
           <div className="col-lg-4">
