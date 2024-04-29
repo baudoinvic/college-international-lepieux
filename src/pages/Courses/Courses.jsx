@@ -10,28 +10,28 @@ import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 const courses = [
   {
     id: 1,
-    img: "https://media.istockphoto.com/id/691703568/photo/engineering-students-with-their-teacher-writing-on-the-board.jpg?s=612x612&w=0&k=20&c=hDlN563oKwpDNyRSQXqWidPlFNBTbK6_jGtJYOts1Yk=",
+    img: "https://media.istockphoto.com/id/1336651609/photo/young-teenage-multiethnic-schoolgirl-is-studying-electronics-and-soldering-wires-and-circuit.jpg?s=612x612&w=0&k=20&c=zQOe5jb-MgSPvoomkBYZpvEZcPQybeapPdvUcngTEbw=",
     title: "Electronics",
     description:
       "This is the electronics course. It covers topics such as circuit design, electronic components, and circuit analysis.",
   },
   {
     id: 2,
-    img: "https://media.istockphoto.com/id/942164000/photo/group-of-young-people-in-technical-vocational-training-with-teacher.jpg?s=612x612&w=0&k=20&c=Pi2UgPyqiijHDRt9m2th9Bqm5SCCwwOF6zg2NpAZnHI=",
+    img: "https://media.istockphoto.com/id/1401178933/photo/african-american-technician-repairing-a-3d-printer-in-laboratory.jpg?s=612x612&w=0&k=20&c=ZtwkDIUYj7Exvfdd-DEFwFHTm6svlMHojXopQTnHGc0=",
     title: "General electricity",
     description:
       "This course covers fundamental principles and applications of general electricity, including circuits, voltage, current, resistance, and power.",
   },
   {
     id: 3,
-    img: "https://media.istockphoto.com/id/1048994466/photo/indian-young-girl-sewing-stock-image.jpg?s=612x612&w=0&k=20&c=8YRmaNa8okGasnkmN8rrqDLgM-uExpSR1P3XKJkvDvk=",
+    img: "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
     title: "cut and seam ",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
   },
   {
     id: 4,
-    img: "https://media.istockphoto.com/id/1204089501/photo/industrial-design-student-building-furniture-with-the-help-of-his-teacher.jpg?s=612x612&w=0&k=20&c=7n3hBHNxMd0dOELxSvxTuOINe5qQd1-1XJheTNQzfaE=",
+    img: "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
     title: "Construction",
     description:
       "This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management",
@@ -39,14 +39,14 @@ const courses = [
 
   {
     id: 6,
-    img: "https://media.istockphoto.com/id/600697264/photo/medical-business-meeting.jpg?s=612x612&w=0&k=20&c=5WQMnOkFXFq8EPu19h879iQBc448JnB9Tf6DSAw5fS4=",
+    img: "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
     title: "Sales and Management",
     description:
       "This course focuses on commercial and management skills, including marketing, sales, finance, human resources, and business operations.",
   },
   {
     id: 7,
-    img: "https://media.istockphoto.com/id/827810840/photo/group-of-student-mechanics-working-on-car-engine-with-hood-up.jpg?s=612x612&w=0&k=20&c=WrklsPki6PkwqQ_i7dMXz5SKgzLtdbET-S6JZV_TGeY=",
+    img: "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
     title: "Mechanical",
     description:
       "This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology.",
