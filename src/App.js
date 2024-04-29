@@ -11,12 +11,18 @@ import Contact from './pages/Contact/Contact';
 import Testimonial from './components/Testimonial/Testimonial';
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from './pages/Short/Shortcouses';
+import { Button } from "react-bootstrap";
 
 
 function App() {
+
+   const handleLanguageChange = (language) => {
+     // Add logic to change the language
+     console.log(`Switching language to: ${language}`);
+   };
   return (
     <div>
-      <Navbar expand="lg" className="position-absolute w-100">
+      {/* <Navbar expand="lg" className="position-absolute w-100">
         <Container>
           <Navbar.Brand>
             <Link to="/" className="navbar-brand d-flex align-items-center">
@@ -54,6 +60,63 @@ function App() {
               <Nav.Link href="/contact" className="text-uppercase">
                 Get in touch
               </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar> */}
+
+      <Navbar expand="lg" className="position-absolute w-100">
+        <Container>
+          <Navbar.Brand>
+            <Link to="/" className="navbar-brand d-flex align-items-center">
+              <img src={logo} alt="Logo" className="w-12" />
+              <span className="mx-2 text-light lh-1 fw-semibold">
+                Collège
+                <br />
+                International
+                <br />
+                lepieux
+              </span>
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="bg-light"
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto justify-content-end w-100">
+              <Nav.Link href="/" className="text-uppercase">
+                Home
+              </Nav.Link>
+              <Nav.Link href="/courses" className="text-uppercase">
+                Our courses
+              </Nav.Link>
+              <Nav.Link href="/Shortcourses" className="text-uppercase">
+                Short courses
+              </Nav.Link>
+              <Nav.Link href="/about" className="text-uppercase">
+                About us
+              </Nav.Link>
+              <Nav.Link href="/blog" className="text-uppercase">
+                Blog
+              </Nav.Link>
+              <Nav.Link href="/contact" className="text-uppercase">
+                Get in touch
+              </Nav.Link>
+              {/* Language Selector Button */}
+              <Button
+                variant="outline-light"
+                onClick={() => handleLanguageChange("fr")}
+                className="me-2"
+              >
+                Français
+              </Button>
+              <Button
+                variant="outline-light"
+                onClick={() => handleLanguageChange("sw")}
+              >
+                Kiswahili
+              </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
