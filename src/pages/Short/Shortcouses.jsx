@@ -11,7 +11,7 @@ import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 const courses = [
   {
     id: 1,
-    img: "https://www.chartercollege.edu/sites/default/files/iStock-800305712.jpg",
+    img: "https://media.istockphoto.com/id/1333469661/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=LeO10fn7KfyfW1ruY8SpDiHCLg_jqxPb08diXaeEpZY=",
     title: "Networking and telecomunication",
     description:
       "Discover networking essentials in this 6-month course covering architecture, protocols, and communication systems.",
@@ -19,7 +19,7 @@ const courses = [
 
   {
     id: 3,
-    img: "https://media.istockphoto.com/id/657489642/photo/happy-seamstress-at-work.jpg?s=612x612&w=0&k=20&c=yBKMm8cJ5l3TPvtafIzLUQlZ6ARJQC8vQH_EyYXp_xE=",
+    img: "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
     title: "cut and seam ",
     description:
       "For a hands-on experience, enroll in our 6-month 'Cut and Seam' course. Learn the art of precision cutting and expert seam techniques.",
@@ -41,14 +41,14 @@ const courses = [
   },
   {
     id: 7,
-    img: "https://media.istockphoto.com/id/1657566602/photo/two-construction-workers-working-together-on-an-apartment-renovation.jpg?s=612x612&w=0&k=20&c=9U8I8t_7rljrVhCCQHACecXooE0_iJ7bTvlXp7WDNXs=",
+    img: "https://media.istockphoto.com/id/1351799533/photo/portrait-of-african-american-little-child-wearing-shirt-standing-with-a-drill-in-hands-and.jpg?s=612x612&w=0&k=20&c=KsijlPkM5SuEubjSkngt8Xkv4SyLi0QQc8Av47job_8=",
     title: "Domestic and industrial installation",
     description:
       "Explore mechanics in our 6-month 'Domestic and Industrial Installation' course. Learn statics, dynamics, kinematics, and mechanical systems, applied in engineering and technology",
   },
   {
     id: 8,
-    img: "https://media.istockphoto.com/id/1616202154/photo/construction-worker-using-modern-concrete-wall-grinding-machine-together-with-vacuum-pump-to.jpg?s=612x612&w=0&k=20&c=vI5Jx1sRyCzArBCuXH7ubvbIJ_g9OXVLfLnh0uECc5c=",
+    img: "https://media.istockphoto.com/id/1858053631/photo/back-photo-of-the-helmeted-electrician-using-the-drill-to-make-a-hole-in-the-wall.jpg?s=612x612&w=0&k=20&c=qjqWpIxdRQrdtU3y0JieQSDFI8OH8YmbeR3m79jGHAM=",
     title: "Masonary and plumbing",
     description:
       "Enroll in our 6-month 'Masonry and Plumbing' course, diving into the essentials of construction and water systems. Learn masonry techniques alongside plumbing principles, preparing you for diverse projects in the field.",
