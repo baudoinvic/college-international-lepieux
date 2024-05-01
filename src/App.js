@@ -12,8 +12,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from './pages/Short/Shortcouses';
 import { Button } from "react-bootstrap";
-import { useTranslation } from "react-i18next";
-import i18n from './components/Translation/i18n';
+
 
 
 
