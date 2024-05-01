@@ -18,13 +18,9 @@ import i18n from './components/Translation/i18n';
 
 
 function App() {
-   const { t, i18n } = useTranslation();
-
-   const handleLanguageChange = (language) => {
-     i18n.changeLanguage(language);
-
+  
     
-   };
+  
   return (
     <div>
      
