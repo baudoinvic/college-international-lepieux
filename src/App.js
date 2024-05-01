@@ -23,9 +23,7 @@ function App() {
    const handleLanguageChange = (language) => {
      i18n.changeLanguage(language);
 
-     //  const handleLanguageChange = (language) => {
-
-     //    console.log(`Switching language to: ${language}`);
+    
    };
   return (
     <div>
