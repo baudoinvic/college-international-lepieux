@@ -111,7 +111,7 @@ function About() {
       </div>
 
       <div className="bg-body-tertiary py-5">
-        {/* <div className="container"></div> */}
+       
       </div>
     </div>
   );
