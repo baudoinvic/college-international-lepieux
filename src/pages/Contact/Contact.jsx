@@ -15,7 +15,7 @@ function Contact() {
     firstname: "",
     lastname: "",
     email: "",
-    
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -128,7 +128,15 @@ function Contact() {
 
           <Form.Group className="mb-3">
             <Form.Label>Your Message</Form.Label>
-            <Form.Control as="textarea" rows={3} />
+            <Form.Control
+              type="text"
+              id="message"
+              name="message"
+              
+              onChange={handleChange}
+              required
+              
+            />
           </Form.Group>
 
           <Button variant="danger btn-lg" type="submit">
