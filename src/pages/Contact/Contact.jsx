@@ -4,9 +4,53 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import axios from 'axios';
+import { useState } from 'react';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    
+  });
+
+  const handleChange = (e) => {
+    const fieldName = e.target.name;
+
+    setFormData({
+      ...formData,
+      [fieldName]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      let token = localStorage.getItem("token");
+      console.log("Request Data:", formData);
+
+      const response = await axios({
+        url: "https://beathaecommerceback-end.onrender.com/api/v1/contactus",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        data: JSON.stringify(formData),
+      });
+
+      console.log("Response Data:", response.data);
+      toast.success("Thank you for your feedback");
+    } catch (error) {
+      console.error("Error:", error.response ? error.response.data : error);
+      toast.error("Failed to send message. Please try again later.");
+    }
+  }
   return (
     <div className="contact-page">
       <header className="height-75">
@@ -21,21 +65,41 @@ function Contact() {
       </header>
 
       <div className="container my-5 d-flex justify-content-center">
-        <Form id="contact-form">
+        <Form id="contact-form" onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Col sm={12} md={6} className="mb-3 mb-md-0">
               <Form.Label>First Name</Form.Label>
-              <Form.Control placeholder="First name" />
+              <Form.Control
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="First name"
+                onChange={handleChange}
+                required
+              />
             </Col>
             <Col sm={12} md={6}>
               <Form.Label>Last Name</Form.Label>
-              <Form.Control placeholder="Last name" />
+              <Form.Control
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Last name"
+                onChange={handleChange}
+              />
             </Col>
           </Row>
 
           <Form.Group className="mb-3">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control
+              type="text"
+              id="email"
+              name="email"
+              value={formData.email}
+              required
+              placeholder="Enter email"
+            />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
             </Form.Text>
@@ -49,7 +113,7 @@ function Contact() {
           <Row className="mb-3">
             <Col sm={12} md={6} className="mb-3 mb-md-0">
               <Form.Label>Location</Form.Label>
-              <Form.Select defaultValue="London">
+              <Form.Select>
                 <option>London</option>
                 <option>Manchester</option>
                 <option>Liverpool</option>
@@ -70,6 +134,7 @@ function Contact() {
             Submit
           </Button>
         </Form>
+        <ToastContainer />
       </div>
 
       <div className="bg-dark text-light p-5 mx-auto ">

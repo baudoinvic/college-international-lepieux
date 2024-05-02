@@ -65,14 +65,14 @@ function App() {
               {/* Language Selector Button */}
               <Button
                 variant="outline-light"
-                onClick={() => handleLanguageChange("fr")}
+                
                 className="me-2"
               >
                 Fr
               </Button>
               <Button
                 variant="outline-light"
-                onClick={() => handleLanguageChange("sw")}
+               
               >
                 swahili
               </Button>
