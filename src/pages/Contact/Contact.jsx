@@ -97,6 +97,7 @@ function Contact() {
               id="email"
               name="email"
               value={formData.email}
+              onChange={handleChange}
               required
               placeholder="Enter email"
             />
