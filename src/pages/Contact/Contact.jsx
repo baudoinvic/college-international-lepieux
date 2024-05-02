@@ -4,10 +4,6 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import LondonLocationImg from '../../utils/images/London-location.jpg';
-import ManchesterLocationImg from '../../utils/images/Manchester-location.jpg';
-import LiverpoolLocationImg from '../../utils/images/Liverpool-location.jpg';
-import { useTranslation } from "react-i18next";
 
 
 function Contact() {
