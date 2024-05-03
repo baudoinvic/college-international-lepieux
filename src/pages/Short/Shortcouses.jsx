@@ -89,6 +89,7 @@ function Shortcourses() {
       <div className="bg-dark text-light py-5">
         <FaqAccordion />
       </div>
+      <h1>HHHHHHHHHHHHHHHH</h1>
     </div>
   );
 }
