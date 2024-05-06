@@ -22,8 +22,6 @@ function App() {
   
   return (
     <div>
-     
-
       <Navbar expand="lg" className="position-absolute w-100">
         <Container>
           <Navbar.Brand>
@@ -62,7 +60,15 @@ function App() {
               <Nav.Link href="/contact" className="text-uppercase">
                 Get in touch
               </Nav.Link>
-             
+              {/* Language Selector */}
+              <select
+                className="form-select form-select-sm me-2 w-auto w-16"
+                aria-label=".form-select-sm example"
+              >
+                <option selected>Eng</option>
+                <option>Fr</option>
+                <option>Swahili</option>
+              </select>
             </Nav>
           </Navbar.Collapse>
         </Container>
