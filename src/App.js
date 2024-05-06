@@ -62,20 +62,7 @@ function App() {
               <Nav.Link href="/contact" className="text-uppercase">
                 Get in touch
               </Nav.Link>
-              {/* Language Selector Button */}
-              <Button
-                variant="outline-light"
-                
-                className="me-2"
-              >
-                Fr
-              </Button>
-              <Button
-                variant="outline-light"
-               
-              >
-                swahili
-              </Button>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
