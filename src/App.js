@@ -90,7 +90,10 @@ function App() {
 
       <footer>
         <div className="container my-5">
-          <div className="row d-flex justify-content-between align-items-center">
+          <div
+            className="row d-flex justify-content-between align-items-center "
+            style={{ marginTop: "-6rem" }}
+          >
             <div className="col-md-4">
               <Link to="/contact">
                 <button
@@ -159,7 +162,7 @@ function App() {
                 </Link>
               </ul>
             </div>
-            <div className="col-md-7 col-lg-6">
+            <div className="col-md-7 col-lg-6" >
               <div className="d-row d-md-flex justify-content-between align-items-center">
                 <div className="col-12 col-md-6 col-lg-5 mb-5 mt-4 my-md-0">
                   <ul className="footer-navigation list-unstyled mb-0">
