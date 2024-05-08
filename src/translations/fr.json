@@ -23,6 +23,26 @@
       "description": "Le Collège international le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses étudiants."
     }
   },
+  "courses": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "title": "Vétérinaire et Agronomie",
+      "description": "Souhaitez-vous construire votre carrière en Vétérinaire et Agronomie? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production végétale et la gestion des sols."
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
+      "title": "Construction",
+      "description": "Souhaitez-vous construire votre carrière dans la construction? Ce cours couvre les principes et les techniques de construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projet."
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "title": "Mécanique",
+      "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications dans l'ingénierie et la technologie."
+    }
+  ],
   "faq_section": {
     "heading": "Questions fréquemment posées",
     "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi.",
