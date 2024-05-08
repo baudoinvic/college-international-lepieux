@@ -18,6 +18,11 @@ import { Button } from "react-bootstrap";
 
 function App() {
   
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
     
   
   return (
@@ -65,9 +70,11 @@ function App() {
                 className="form-select form-select-sm me-2 w-auto w-16"
                 aria-label=".form-select-sm example"
               >
-                <option selected>Eng</option>
-                <option>Fr</option>
-                <option>Swahili</option>
+                <option selected onClick={() => changeLanguage("en")}>
+                  Eng
+                </option>
+                <option onClick={() => changeLanguage("fr")}>Fr</option>
+                {/* <option>Swahili</option> */}
               </select>
             </Nav>
           </Navbar.Collapse>
