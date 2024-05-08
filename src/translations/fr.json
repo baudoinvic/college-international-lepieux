@@ -25,14 +25,38 @@
   },
   "faq_section": {
     "heading": "Questions fréquemment posées",
-    "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi."
+    "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi.",
+    "faq_enroll_question": "Comment inscrire mon enfant ?",
+    "faq_enroll_answer": "Pour inscrire votre enfant à l'école internationale Lepieux, veuillez visiter notre page d'admissions sur notre site Web ou contacter directement notre bureau des admissions. Notre équipe vous guidera tout au long du processus d'inscription et répondra à toutes vos questions.",
+    "faq_classes_question": "Quels cours offrons-nous ?",
+    "faq_classes_answer": "Nous proposons différentes matières telles que les mathématiques, les sciences, les arts du langage, les sciences sociales, les arts et l'éducation physique pour offrir aux étudiants une éducation complète.",
+    "faq_safety_question": "Comment l'école internationale Lepieux assure-t-elle la sécurité et le bonheur des élèves ?",
+    "faq_safety_answer": "Nous avons des règles, des dispositifs de sécurité, un accompagnement et des programmes de santé en place pour que tous les élèves se sentent en sécurité et soutenus.",
+    "faq_events_question": "Comment puis-je être informé des événements et des actualités de l'école ?",
+    "faq_events_answer": "Consultez notre site Web, suivez-nous sur les réseaux sociaux ou inscrivez-vous à notre newsletter pour rester informé. Nous pourrions également envoyer des avis à la maison ou vous appeler pour vous tenir au courant des mises à jour importantes."
   },
-  "faq_enroll_question": "Comment inscrire mon enfant ?",
-  "faq_enroll_answer": "Pour inscrire votre enfant à l'école internationale Lepieux, veuillez visiter notre page d'admissions sur notre site Web ou contacter directement notre bureau des admissions. Notre équipe vous guidera tout au long du processus d'inscription et répondra à toutes vos questions.",
-  "faq_classes_question": "Quels cours offrons-nous ?",
-  "faq_classes_answer": "Nous proposons différentes matières telles que les mathématiques, les sciences, les arts du langage, les sciences sociales, les arts et l'éducation physique pour offrir aux étudiants une éducation complète.",
-  "faq_safety_question": "Comment l'école internationale Lepieux assure-t-elle la sécurité et le bonheur des élèves ?",
-  "faq_safety_answer": "Nous avons des règles, des dispositifs de sécurité, un accompagnement et des programmes de santé en place pour que tous les élèves se sentent en sécurité et soutenus.",
-  "faq_events_question": "Comment puis-je être informé des événements et des actualités de l'école ?",
-  "faq_events_answer": "Consultez notre site Web, suivez-nous sur les réseaux sociaux ou inscrivez-vous à notre newsletter pour rester informé. Nous pourrions également envoyer des avis à la maison ou vous appeler pour vous tenir au courant des mises à jour importantes."
+  "testimonial_section": {
+    "heading": "Témoignages",
+    "subheading": "Ce que disent les étudiants à notre sujet",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "ishimwe sandra",
+        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
+        "img": "https://c.stocksy.com/a/ynq000/z9/202986.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Divine josh",
+        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 3,
+        "name": "Tousaint Francis",
+        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
+        "img": "https://pngimg.com/uploads/student/student_PNG62539.png"
+      }
+    ]
+  }
 }
