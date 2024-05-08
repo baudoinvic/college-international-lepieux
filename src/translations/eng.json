@@ -87,14 +87,21 @@
     "blog": "Blog",
     "contact": "Get in Touch"
   },
-  
+
   "footer": {
     "main_address": "Main Address - Congo Drc. Kalemie 540 Street",
     "phone_number": "Phone Number - +250783012138",
     "email": "Email - Collègelepieuxinfo@gmail.com",
     "copyright": "Copyright",
     "made_by": "made by"
+  },
+
+  "about": {
+    "title": "About Us",
+    "description": "Collège international Lepieux is a leading secondary educational institution located in the city of Kalemie, Democratic Republic of Congo, dedicated to providing high-quality technical education to students. Our institute aims to equip students with the skills and knowledge to excel in various technical fields, promoting personal and professional growth. We offer a comprehensive curriculum, state-of-the-art facilities, and a supportive learning environment to ensure our students receive the best education possible.",
+    "studyWithTitle": "Study with Us",
+    "studyDescription1": "Discover the rich tapestry of learning experiences waiting for you within our institution.",
+    "studyDescription2": "Experience the transformative power of expert-led education, shaping minds and futures.",
+    "contactButton": "Contact Us"
   }
-  
-  
 }

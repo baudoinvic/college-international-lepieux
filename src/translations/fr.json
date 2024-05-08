@@ -79,6 +79,14 @@
       }
     ]
   },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "Collège international le pieux est un établissement d'enseignement secondaire de premier plan situé dans la ville de Kalemie, en République démocratique du Congo, dédié à fournir une éducation technique de haute qualité aux étudiants. Notre institut vise à doter les étudiants des compétences et des connaissances nécessaires pour exceller dans divers domaines techniques, favorisant la croissance personnelle et professionnelle. Nous proposons un programme complet, des installations de pointe et un environnement d'apprentissage favorable pour garantir que nos étudiants reçoivent la meilleure éducation possible.",
+    "studyWithTitle": "Étudiez avec Nous",
+    "studyDescription1": "Découvrez la riche diversité des expériences d'apprentissage qui vous attendent au sein de notre établissement.",
+    "studyDescription2": "Découvrez le pouvoir transformateur de l'éducation dirigée par des experts, façonnant les esprits et l'avenir.",
+    "contactButton": "Contactez-nous"
+  },
   "navigation": {
     "home": "Accueil",
     "courses": "Nos Cours",
@@ -91,9 +99,7 @@
     "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
     "phone_number": "Numéro de téléphone - +250783012138",
     "email": "E-mail - Collègelepieuxinfo@gmail.com",
-    "footer": {
-      "copyright": "Droits d'auteur",
-      "made_by": "réalisé par"
-    }
+    "copyright": "Droits d'auteur",
+    "made_by": "réalisé par"
   }
 }
