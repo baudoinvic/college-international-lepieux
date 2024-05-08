@@ -7,5 +7,20 @@
   "start_courses": "Cours de démarrage 2024",
   "start_courses_description": "Bienvenue au début de l'année académique 2024 au Collège international le pieux. Nous sommes impatients de commencer nos cours et de commencer un voyage d'apprentissage, de croissance et de succès ensemble.",
   "latest_blog": "Derniers articles de blog",
-  "read_more_blogs": "Lire d'autres articles de blog"
+  "read_more_blogs": "Lire d'autres articles de blog",
+  "choose_section": {
+    "heading": "Pourquoi choisir le Collège international le pieux?",
+    "card1": {
+      "title": "Excellence en éducation",
+      "description": "Nous offrons la meilleure éducation à nos étudiants, en veillant à ce qu'ils aient accès à une gamme diversifiée de ressources d'apprentissage et d'opportunités."
+    },
+    "card2": {
+      "title": "Nous gardons nos étudiants heureux",
+      "description": "Nos étudiants sont toujours heureux grâce aux cours avec une solide connaissance et expérience."
+    },
+    "card3": {
+      "title": "Notre mission",
+      "description": "Le Collège international le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses étudiants."
+    }
+  }
 }

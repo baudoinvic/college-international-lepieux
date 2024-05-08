@@ -5,7 +5,22 @@
   "our_courses": "Our Courses",
   "contact_us": "Contact Us",
   "start_courses": "2024 start courses",
-  "start_courses_description": "Welcome to the beginning of the 2024 academic year at Collège international le pieux We're excited to start our courses and begin a journey of learning, growth, and success together.",
+  "start_courses_description": "Welcome to the beginning of the 2024 academic year at Collège international le pieux. We're excited to start our courses and begin a journey of learning, growth, and success together.",
   "latest_blog": "Latest on the blog",
-  "read_more_blogs": "Read More Blogs"
+  "read_more_blogs": "Read More Blogs",
+  "choose_section": {
+    "heading": "Why choose Collège international le pieux?",
+    "card1": {
+      "title": "Education Excellence",
+      "description": "We offer the best education to our students, ensuring they have access to a diverse range of learning resources and opportunities."
+    },
+    "card2": {
+      "title": "We keep our students happy",
+      "description": "Our students are always happy because of the lectures with strong knowledge and experiences."
+    },
+    "card3": {
+      "title": "Our Mission",
+      "description": "Collège international le pieux is committed to providing quality technical education, fostering innovation, and promoting entrepreneurship among its students."
+    }
+  }
 }
