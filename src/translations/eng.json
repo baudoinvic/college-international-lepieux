@@ -86,5 +86,15 @@
     "about_us": "About Us",
     "blog": "Blog",
     "contact": "Get in Touch"
+  },
+  
+  "footer": {
+    "main_address": "Main Address - Congo Drc. Kalemie 540 Street",
+    "phone_number": "Phone Number - +250783012138",
+    "email": "Email - Collègelepieuxinfo@gmail.com",
+    "copyright": "Copyright",
+    "made_by": "made by"
   }
+  
+  
 }

@@ -86,5 +86,14 @@
     "about_us": "À Propos de Nous",
     "blog": "Blog",
     "contact": "Contactez-nous"
+  },
+  "footer": {
+    "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
+    "phone_number": "Numéro de téléphone - +250783012138",
+    "email": "E-mail - Collègelepieuxinfo@gmail.com",
+    "footer": {
+      "copyright": "Droits d'auteur",
+      "made_by": "réalisé par"
+    }
   }
 }

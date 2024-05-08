@@ -164,14 +164,16 @@ function App() {
                 <div className="col-12 col-md-6 col-lg-5 mb-5 mt-4 my-md-0">
                   <ul className="footer-navigation list-unstyled mb-0">
                     <Link to="/" className="text-decoration-none text-danger">
-                      <li className="text-uppercase fw-semibold">Home</li>
+                      <li className="text-uppercase fw-semibold">
+                        {t("navigation.home")}
+                      </li>
                     </Link>
                     <Link
                       to="/courses"
                       className="text-decoration-none text-danger"
                     >
                       <li className="text-uppercase fw-semibold">
-                        Our courses
+                        {t("navigation.courses")}
                       </li>
                     </Link>
                     <Link
@@ -179,27 +181,31 @@ function App() {
                       className="text-decoration-none text-danger"
                     >
                       <li className="text-uppercase fw-semibold">
-                        Short courses
+                        {t("navigation.short_courses")}
                       </li>
                     </Link>
                     <Link
                       to="/about"
                       className="text-decoration-none text-danger"
                     >
-                      <li className="text-uppercase fw-semibold">About us</li>
+                      <li className="text-uppercase fw-semibold">
+                        {t("navigation.about_us")}
+                      </li>
                     </Link>
                     <Link
                       to="/blog"
                       className="text-decoration-none text-danger"
                     >
-                      <li className="text-uppercase fw-semibold">Blog</li>
+                      <li className="text-uppercase fw-semibold">
+                        {t("navigation.blog")}
+                      </li>
                     </Link>
                     <Link
                       to="/contact"
                       className="text-decoration-none text-danger"
                     >
                       <li className="text-uppercase fw-semibold">
-                        Get In Touch
+                        {t("navigation.contact")}
                       </li>
                     </Link>
                   </ul>
@@ -207,13 +213,13 @@ function App() {
                 <div className="col-12 col-md-6 col-lg-7">
                   <ul className="list-unstyled mb-0">
                     <li>
-                      <p>Main Address - Congo Drc. Kalemie 540 Street</p>
+                      <p>{t("footer.main_address")}</p>
                     </li>
                     <li>
-                      <p>Phone Number - +250783012138</p>
+                      <p>{t("footer.phone_number")}</p>
                     </li>
                     <li>
-                      <p>Email - Collègelepieuxinfo@gmail.com</p>
+                      <p>{t("footer.email")}</p>
                     </li>
                   </ul>
                 </div>
@@ -224,7 +230,7 @@ function App() {
         <div className="bg-body-tertiary">
           <div className="container">
             <p className="p-3 m-0 text-center">
-              copyright @ made by Baudoin-coder
+              {t("footer.copyright")} @ {t("footer.made_by")} Baudoin-coder
             </p>
           </div>
         </div>
