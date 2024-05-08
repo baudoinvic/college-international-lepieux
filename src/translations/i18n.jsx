@@ -4,9 +4,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-// Import language resources
-import translationEN from "./locales/en/translation.json";
-import translationFR from "./locales/fr/translation.json";
+import translationEN from "./eng.json";
+import translationFR from "./fr.json";
 
 // Initialize i18next
 i18n

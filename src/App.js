@@ -12,7 +12,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from './pages/Short/Shortcouses';
 import { Button } from "react-bootstrap";
-
+import { useTranslation } from "react-i18next";
 
 
 
@@ -65,16 +65,14 @@ function App() {
               <Nav.Link href="/contact" className="text-uppercase">
                 Get in touch
               </Nav.Link>
-              {/* Language Selector */}
+              
               <select
                 className="form-select form-select-sm me-2 w-auto w-16"
                 aria-label=".form-select-sm example"
+                onChange={(e) => i18n.changeLanguage(e.target.value)}
               >
-                <option selected onClick={() => changeLanguage("en")}>
-                  Eng
-                </option>
-                <option onClick={() => changeLanguage("fr")}>Fr</option>
-                {/* <option>Swahili</option> */}
+                <option value="en">Eng</option>
+                <option value="fr">Fr</option>
               </select>
             </Nav>
           </Navbar.Collapse>
