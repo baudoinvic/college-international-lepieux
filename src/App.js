@@ -17,7 +17,7 @@ import { useTranslation } from "react-i18next";
 
 
 function App() {
-  
+  const { t } = useTranslation();
   const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -48,24 +48,24 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
               <Nav.Link href="/" className="text-uppercase">
-                Home
+                {t("navigation.home")}
               </Nav.Link>
               <Nav.Link href="/courses" className="text-uppercase">
-                Our courses
+                {t("navigation.courses")}
               </Nav.Link>
               <Nav.Link href="/Shortcourses" className="text-uppercase">
-                Short courses
+                {t("navigation.short_courses")}
               </Nav.Link>
               <Nav.Link href="/about" className="text-uppercase">
-                About us
+                {t("navigation.about_us")}
               </Nav.Link>
               <Nav.Link href="/blog" className="text-uppercase">
-                Blog
+                {t("navigation.blog")}
               </Nav.Link>
               <Nav.Link href="/contact" className="text-uppercase">
-                Get in touch
+                {t("navigation.contact")}
               </Nav.Link>
-              
+
               <select
                 className="form-select form-select-sm me-2 w-auto w-16"
                 aria-label=".form-select-sm example"

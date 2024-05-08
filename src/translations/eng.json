@@ -78,5 +78,13 @@
       "title": "Mechanical",
       "description": "Build your future career in Mechanical. This course covers principles of mechanics, including statics, dynamics, kinematics, and mechanical systems, and their applications in engineering and technology."
     }
-  ]
+  ],
+  "navigation": {
+    "home": "Home",
+    "courses": "Our Courses",
+    "short_courses": "Short Courses",
+    "about_us": "About Us",
+    "blog": "Blog",
+    "contact": "Get in Touch"
+  }
 }

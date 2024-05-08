@@ -2,7 +2,7 @@
   "welcome": "Bienvenue sur notre site Web!",
   "college_name": "Collège international le pieux",
   "education_excellence": "Excellence en éducation secondaire, nous sommes heureux de nous connecter avec vous de la manière qui vous convient le mieux.",
-  "our_courses": "Nos cours",
+  "our_courses": "Nos Cours",
   "contact_us": "Contactez-nous",
   "start_courses": "Cours de démarrage 2024",
   "start_courses_description": "Bienvenue au début de l'année académique 2024 au Collège international le pieux. Nous sommes impatients de commencer nos cours et de commencer un voyage d'apprentissage, de croissance et de succès ensemble.",
@@ -78,5 +78,13 @@
         "img": "https://pngimg.com/uploads/student/student_PNG62539.png"
       }
     ]
+  },
+  "navigation": {
+    "home": "Accueil",
+    "courses": "Nos Cours",
+    "short_courses": "Cours Courts",
+    "about_us": "À Propos de Nous",
+    "blog": "Blog",
+    "contact": "Contactez-nous"
   }
 }
