@@ -92,7 +92,7 @@ function App() {
         <div className="container my-5">
           <div
             className="row d-flex justify-content-between align-items-center "
-            style={{ marginTop: "-6rem" }}
+           
           >
             <div className="col-md-4">
               <Link to="/contact">

@@ -103,5 +103,34 @@
     "studyDescription1": "Discover the rich tapestry of learning experiences waiting for you within our institution.",
     "studyDescription2": "Experience the transformative power of expert-led education, shaping minds and futures.",
     "contactButton": "Contact Us"
+  },
+
+  "contact": {
+    "title": "Get In Touch",
+    "description": "If you would like to get updates on our events and stay in contact with us, please don't hesitate. Just reach out to us; we are here to help you.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "address": "Address",
+    "location": "Location",
+    "postcode": "Postcode",
+    "message": "Your Message",
+    "firstNamePlaceholder": "Enter your first name",
+    "lastNamePlaceholder": "Enter your last name",
+    "emailPlaceholder": "Enter your email",
+    "addressPlaceholder": "Enter your address",
+    "locationOptionLondon": "London",
+    "locationOptionManchester": "Manchester",
+    "locationOptionLiverpool": "Liverpool",
+    "postcodePlaceholder": "Enter your postcode",
+    "messagePlaceholder": "Enter your message",
+    "submit": "Submit",
+    "moreInfo": "For more information",
+    "addressTitle": "Address",
+    "addressDetails": "Kalemie: 560 street",
+    "emailTitle": "Email Us",
+    "emailDetails": "Collègelepieuxinfo@gmail.com",
+    "callTitle": "Call Us",
+    "callDetails": "+250783012138"
   }
 }

@@ -101,5 +101,33 @@
     "email": "E-mail - Collègelepieuxinfo@gmail.com",
     "copyright": "Droits d'auteur",
     "made_by": "réalisé par"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Si vous souhaitez recevoir des mises à jour sur nos événements et rester en contact avec nous, n'hésitez pas. Contactez-nous simplement ; nous sommes là pour vous aider.",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Email",
+    "address": "Adresse",
+    "location": "Emplacement",
+    "postcode": "Code postal",
+    "message": "Votre message",
+    "firstNamePlaceholder": "Entrez votre prénom",
+    "lastNamePlaceholder": "Entrez votre nom de famille",
+    "emailPlaceholder": "Entrez votre email",
+    "addressPlaceholder": "Entrez votre adresse",
+    "locationOptionLondon": "Londres",
+    "locationOptionManchester": "Manchester",
+    "locationOptionLiverpool": "Liverpool",
+    "postcodePlaceholder": "Entrez votre code postal",
+    "messagePlaceholder": "Entrez votre message",
+    "submit": "Soumettre",
+    "moreInfo": "Pour plus d'informations",
+    "addressTitle": "Adresse",
+    "addressDetails": "Kalemie: 560 rue",
+    "emailTitle": "Envoyez-nous un email",
+    "emailDetails": "Collègelepieuxinfo@gmail.com",
+    "callTitle": "Appelez-nous",
+    "callDetails": "+250783012138"
   }
 }
