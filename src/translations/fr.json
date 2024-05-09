@@ -61,6 +61,29 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!"
     }
   ],
+  "short_courses": {
+    "heading": "Cours Courts",
+    "course1": {
+      "title": "Marketing Digital",
+      "description": "Découvrez les stratégies et techniques les plus efficaces pour réussir dans le marketing numérique."
+    },
+    "course2": {
+      "title": "Finance Personnelle",
+      "description": "Apprenez à gérer vos finances personnelles de manière intelligente et stratégique pour un avenir financier stable."
+    },
+    "course3": {
+      "title": "Leadership et Gestion",
+      "description": "Développez vos compétences en leadership et en gestion pour réussir dans votre carrière et votre vie personnelle."
+    },
+    "course4": {
+      "title": "Programmation Python",
+      "description": "Plongez dans le monde de la programmation avec Python, un langage puissant et polyvalent utilisé dans divers domaines."
+    },
+    "course5": {
+      "title": "Créativité et Innovation",
+      "description": "Libérez votre créativité et apprenez à innover dans tous les aspects de votre vie professionnelle et personnelle."
+    }
+  },
   "faq_section": {
     "heading": "Questions fréquemment posées",
     "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi.",

@@ -105,7 +105,6 @@
     "blog": "Blog",
     "contact": "Get in Touch"
   },
-
   "footer": {
     "main_address": "Main Address - Congo Drc. Kalemie 540 Street",
     "phone_number": "Phone Number - +250783012138",
@@ -113,7 +112,6 @@
     "copyright": "Copyright",
     "made_by": "made by"
   },
-
   "about": {
     "title": "About Us",
     "description": "Collège international Lepieux is a leading secondary educational institution located in the city of Kalemie, Democratic Republic of Congo, dedicated to providing high-quality technical education to students. Our institute aims to equip students with the skills and knowledge to excel in various technical fields, promoting personal and professional growth. We offer a comprehensive curriculum, state-of-the-art facilities, and a supportive learning environment to ensure our students receive the best education possible.",
@@ -122,7 +120,6 @@
     "studyDescription2": "Experience the transformative power of expert-led education, shaping minds and futures.",
     "contactButton": "Contact Us"
   },
-
   "contact": {
     "title": "Get In Touch",
     "description": "If you would like to get updates on our events and stay in contact with us, please don't hesitate. Just reach out to us; we are here to help you.",
@@ -150,5 +147,43 @@
     "emailDetails": "Collègelepieuxinfo@gmail.com",
     "callTitle": "Call Us",
     "callDetails": "+250783012138"
-  }
+  },
+  "Shortcourses": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1333469661/photo/scientist-african-american-woman-working-in-laboratory-with-electronic-instruments.jpg?s=612x612&w=0&k=20&c=LeO10fn7KfyfW1ruY8SpDiHCLg_jqxPb08diXaeEpZY=",
+      "title": "Networking and telecomunication",
+      "description": "Discover networking essentials in this 6-month course covering architecture, protocols, and communication systems."
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "title": "cut and seam ",
+      "description": "For a hands-on experience, enroll in our 6-month 'Cut and Seam' course. Learn the art of precision cutting and expert seam techniques."
+    },
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/id/697520720/photo/better-than-any-man.jpg?s=612x612&w=0&k=20&c=gijyjuxgAvC1ZogRaD0Mg92H0pvzX0aXAi5CIgjs458=",
+      "title": "Adjustment and welding",
+      "description": "Join our 6-month 'Adjustment and Welding' course to master construction principles and techniques. Explore building materials, structural systems, construction methods, and project management essentials."
+    },
+    {
+      "id": 6,
+      "img": "https://crrfstgobain.fr/wp-content/uploads/2021/04/crrf-image-333-1536x1024.jpg",
+      "title": "Adult rehabilitation school",
+      "description": "Embark on a 6-month journey at our Adult Rehabilitation School. Gain expertise in commercial and management skills, covering marketing, sales, finance, human resources, and business operations"
+    },
+    {
+      "id": 7,
+      "img": "https://media.istockphoto.com/id/1351799533/photo/portrait-of-african-american-little-child-wearing-shirt-standing-with-a-drill-in-hands-and.jpg?s=612x612&w=0&k=20&c=KsijlPkM5SuEubjSkngt8Xkv4SyLi0QQc8Av47job_8=",
+      "title": "Domestic and industrial installation",
+      "description": "Explore mechanics in our 6-month 'Domestic and Industrial Installation' course. Learn statics, dynamics, kinematics, and mechanical systems, applied in engineering and technology"
+    },
+    {
+      "id": 8,
+      "img": "https://media.istockphoto.com/id/1858053631/photo/back-photo-of-the-helmeted-electrician-using-the-drill-to-make-a-hole-in-the-wall.jpg?s=612x612&w=0&k=20&c=qjqWpIxdRQrdtU3y0JieQSDFI8OH8YmbeR3m79jGHAM=",
+      "title": "Masonary and plumbing",
+      "description": "Enroll in our 6-month 'Masonry and Plumbing' course, diving into the essentials of construction and water systems. Learn masonry techniques alongside plumbing principles, preparing you for diverse projects in the field."
+    }
+  ]
 }
