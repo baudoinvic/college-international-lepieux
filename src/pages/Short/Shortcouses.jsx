@@ -2,10 +2,7 @@ import React from "react";
 import "./Short.css";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
-import HealthcareCourseImg from "../../utils/images/healthcare-course.jpg";
-import LawCourseImg from "../../utils/images/law-course.jpg";
-
+import { useTranslation } from "react-i18next";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 
 const courses = [
@@ -56,6 +53,7 @@ const courses = [
 ];
 
 function Shortcourses() {
+   const { t } = useTranslation();
   return (
     <div className="courses-page">
       <header className="height-75">
