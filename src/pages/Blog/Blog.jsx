@@ -2,15 +2,8 @@ import React from 'react';
 import './Blog.css';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
-import Blog1Img from '../../utils/images/blog1-img.jpg';
-import Blog2Img from '../../utils/images/blog2-img.jpg';
-import Blog3Img from '../../utils/images/blog3-img.jpg';
 import Blog4Img from '../../utils/images/blog4-img.jpg';
-import Blog5Img from '../../utils/images/blog5-img.jpg';
-import Blog6Img from '../../utils/images/blog6-img.jpg';
-import Blog7Img from '../../utils/images/blog7-img.jpg';
-import Blog8Img from '../../utils/images/blog8-img.jpg';
-import Blog9Img from '../../utils/images/blog9-img.jpg';
+
 
 const blogs = [
   {
