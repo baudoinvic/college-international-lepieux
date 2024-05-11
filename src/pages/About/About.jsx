@@ -3,7 +3,6 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
-import AboutUsSectionImg from "../../utils/images/about-us-section-img.jpg";
 import ChooseSection from "../../components/ChooseSection/ChooseSection";
 import { useTranslation } from "react-i18next";
 
@@ -35,7 +34,11 @@ function About() {
             </Link>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
-            <img src={AboutUsSectionImg} className="img-fluid w-75" alt="" />
+            <img
+              src="https://pbs.twimg.com/media/F-ZOGvhWgAEm9J2?format=jpg&name=4096x4096"
+              className="img-fluid w-75"
+              alt=""
+            />
           </div>
         </div>
       </div>
