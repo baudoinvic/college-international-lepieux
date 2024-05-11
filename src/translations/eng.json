@@ -25,15 +25,18 @@
   },
   "faq_section": {
     "heading": "Frequently asked questions",
-    "description": "In our institution, we offer a wide range of courses across various subjects, including but not limited to mathematics, science, language arts, social studies, fine arts, and physical education. Our curriculum is designed to provide students with a well-rounded education that prepares them for future success.",
-    "faq_enroll_question": "How do I enroll my child?",
-    "faq_enroll_answer": "To enroll your child at Lepieux international school, please visit our admissions page on our website or contact our admissions office directly. Our team will guide you through the enrollment process and answer any questions you may have.",
-    "faq_classes_question": "What classes do we offer?",
-    "faq_classes_answer": "We offer different subjects like math, science, language arts, social studies, arts, and physical education to give students a well-rounded education.",
-    "faq_safety_question": "How does Lepieux international school keep students safe and happy?",
-    "faq_safety_answer": "We have rules, security, counseling, and health programs in place to make sure all students feel safe and supported.",
-    "faq_events_question": "How can I know about school events and news?",
-    "faq_events_answer": "Check our website, follow us on social media, or sign up for emails to stay updated. We might also send notices home or call you with important updates."
+    "description": "In our institution, we offer a wide range of courses across various subjects, including but not limited to mathematics, science, language arts, social studies, fine arts, and physical education. Our curriculum is designed to provide students with a well-rounded education that prepares them for future success."
+    
+  },
+  "faq": {
+    "title": "How do I enroll my child?",
+    "description": "To enroll your child at Lepieux international school, please visit our admissions page on our website or contact our admissions office directly. Our team will guide you through the enrollment process and answer any questions you may have.",
+    "question": "What classes do we offer?",
+    "answer": "We offer different subjects like math, science, language arts, social studies, arts, and physical education to give students a well-rounded education.",
+    "2title": "How does Lepieux international school keep students safe and happy?",
+    "2answer": "We have rules, security, counseling, and health programs in place to make sure all students feel safe and supported.",
+    "3title": "How can I know about school events and news?",
+    "3answer": "Check our website, follow us on social media, or sign up for emails to stay updated. We might also send notices home or call you with important updates."
   },
   "testimonial_section": {
     "heading": "Testimonials",
@@ -192,7 +195,6 @@
   },
   "learn": {
     "title": "learn more"
-   
   },
   "short": {
     "title": "our short courses",
