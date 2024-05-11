@@ -76,7 +76,7 @@ function Home() {
                   type="button"
                   className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
                 >
-                  {t("learn_more")}
+                  {t("learn.title")}
                 </button>
               </Link>
             </div>

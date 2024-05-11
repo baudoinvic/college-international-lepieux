@@ -190,7 +190,11 @@
     "title": "Blog",
     "description": "Welcome to our blog on building a career in computing! Explore the diverse opportunities and pathways available in the ever-evolving world of technology, alongside other related fields."
   },
-   "short": {
+  "learn": {
+    "title": "learn more"
+   
+  },
+  "short": {
     "title": "our short courses",
     "description": "We offer a range of short courses in various fields each spanning approximately six months and conducted through in-person construction   "
   }

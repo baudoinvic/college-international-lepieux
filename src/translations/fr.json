@@ -136,6 +136,10 @@
     "title": "Blog",
     "description": "Bienvenue sur notre blog sur la construction d'une carrière dans l'informatique ! Explorez les diverses opportunités et voies disponibles dans le monde en constante évolution de la technologie, ainsi que dans d'autres domaines connexes."
   },
+  "learn": {
+    "title": "apprendre encore plus"
+   
+  },
   "short": {
     "title": "nos formations courtes",
     "description": "Nous proposons une gamme de cours courts  dans différents domaines chacun s'étendant sur environ six mois et dispensés en présentiel"
