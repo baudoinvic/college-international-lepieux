@@ -61,6 +61,47 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!"
     }
   ],
+
+  "blogs": [
+    
+{
+"id": 1,
+"img": "https://media.istockphoto.com/id/1401178933/photo/african-american-technician-repairing-a-3d-printer-in-laboratory.jpg?s=612x612&w=0&k=20&c=ZtwkDIUYj7Exvfdd-DEFwFHTm6svlMHojXopQTnHGc0=",
+"title": "Construisez votre carrière en électricité générale",
+"description": "Explorez les possibilités de construire une carrière en électricité générale. De l'installation électrique à la maintenance, ce domaine offre de nombreuses opportunités pour ceux qui ont une passion pour le travail pratique et la résolution de problèmes. Rejoignez-nous alors que nous éclairons le chemin vers une carrière enrichissante dans cette industrie dynamique."
+},
+    {
+"id": 2,
+"img": "https://media.istockphoto.com/id/1455946567/photo/college-instructor-assisting-electrical-engineering-students.jpg?s=612x612&w=0&k=20&c=NZk9l0sivK3QijpQ9Efc0833A9My4sp2frwIoUejZ98=",
+"title": "Construisez votre carrière dans l'électronique",
+"description": "Vous souhaitez construire une carrière dans le domaine de l'électronique ? Plongez dans un monde de possibilités infinies où vous pouvez innover, créer et façonner l'avenir de la technologie. Que vous soyez intéressé par la conception de circuits, le dépannage de systèmes ou le développement de gadgets de pointe, ..."
+},
+   
+{
+"id": 3,
+"img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
+"title": "Construisez votre carrière dans la gestion des ventes",
+"description": " Explorez les opportunités dynamiques disponibles dans ces secteurs où vous pouvez diriger, élaborer des stratégies et garantir le succès. Que vous soyez attiré par les ventes, le marketing, les finances ou les opérations, les rôles commerciaux et de gestion offrent des voies diverses pour la croissance et l'impact."
+},
+    {
+"id": 4,
+"img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+"title": "Construisez votre carrière en mécanique",
+"description": "Vous êtes intéressé par une carrière pratique ? Envisagez de devenir mécanicien ! Plongez dans le monde de la réparation, de la maintenance et du bricolage avec des véhicules et des machines. Que vous soyez attiré par les voitures, les camions, les avions ou l'équipement industriel, une carrière en mécanique offre des opportunités infinies pour travailler avec vos mains et résoudre des problèmes."
+},
+    {
+"id": 5,
+"img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
+"title": "Construisez votre carrière dans la construction",
+"description": "Vous cherchez à bâtir une carrière solide ? Considérez la construction ! Plongez dans un monde de construction, de façonnage et de création de structures qui définissent nos villes et nos communautés. Que vous soyez intéressé par un travail pratique comme la menuiserie et la maçonnerie,."
+},
+  {
+    "id": 6,
+    "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+    "title": "Construisez votre carrière en médecine vétérinaire et agronomie",
+    "description": "Explorez les possibilités infinies dans le monde de la technologie, où vous pouvez innover, résoudre des problèmes et façonner le paysage numérique. Que vous soyez passionné par le développement de logiciels, la cybersécurité, l'analyse de données."
+  }
+  ],
   "short_courses": {
     "heading": "Cours Courts",
     "course1": {
