@@ -185,5 +185,9 @@
       "title": "Masonary and plumbing",
       "description": "Enroll in our 6-month 'Masonry and Plumbing' course, diving into the essentials of construction and water systems. Learn masonry techniques alongside plumbing principles, preparing you for diverse projects in the field."
     }
-  ]
+  ],
+  "blog": {
+    "title": "Blog",
+    "description": "Welcome to our blog on building a career in computing! Explore the diverse opportunities and pathways available in the ever-evolving world of technology, alongside other related fields."
+  }
 }

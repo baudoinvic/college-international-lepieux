@@ -128,6 +128,10 @@
     "studyDescription2": "Découvrez le pouvoir transformateur de l'éducation dirigée par des experts, façonnant les esprits et l'avenir.",
     "contactButton": "Contactez-nous"
   },
+  "blog": {
+    "title": "Blog",
+    "description": "Bienvenue sur notre blog sur la construction d'une carrière dans l'informatique ! Explorez les diverses opportunités et voies disponibles dans le monde en constante évolution de la technologie, ainsi que dans d'autres domaines connexes."
+  },
   "navigation": {
     "home": "Accueil",
     "courses": "Nos Cours",
