@@ -57,14 +57,7 @@ function Blog() {
   return (
     <div className="blog-page">
       <header className="height-75">
-        {/* <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1 className="text-center fw-semibold">Blog</h1>
-          <p className="text-center w-75 mb-5">
-            Welcome to our blog on building a career in computing! Explore the
-            diverse opportunities and pathways available in the ever-evolving
-            world of technology,alongside other related fields.
-          </p>
-        </div> */}
+       
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h1 className="text-center fw-semibold">{t("blog.title")}</h1>
           <p className="text-center w-75 mb-5">{t("blog.description")}</p>

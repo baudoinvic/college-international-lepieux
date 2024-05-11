@@ -17,7 +17,7 @@ function Shortcourses() {
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h1 className="text-center fw-semibold">Our Short Courses</h1>
-          <p className="text-center w-75 mb-5">
+          <p className="text-center w-75 mb-5 description">
             We offer a range of short courses in various fields, each spanning approximately six months and conducted through in-person instruction.
           </p>
         </div>
