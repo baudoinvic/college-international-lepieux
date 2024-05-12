@@ -27,6 +27,13 @@
     "heading": "Maswali Yanayoulizwa Mara kwa Mara",
     "description": "Katika taasisi yetu, tunatoa kozi mbalimbali katika masomo tofauti, ikiwa ni pamoja na lakini sio tu, hisabati, sayansi, lugha, masomo ya kijamii, sanaa nzuri, na elimu ya mwili. Mtaala wetu umebuniwa kutoa elimu bora ya kumwandalia mwanafunzi kwa mafanikio ya baadaye."
   },
+  "blog": {
+    "title": "Blogu",
+    "description": "Karibu kwenye blogu yetu kuhusu kujenga kazi katika teknolojia ya habari na mawasiliano! Chunguza fursa mbalimbali na njia zilizopo katika ulimwengu unaoendelea wa teknolojia, pamoja na sekta nyingine zinazohusiana."
+  },
+  "learn": {
+    "title": "Jifunze zaidi"
+  },
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
     "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",
