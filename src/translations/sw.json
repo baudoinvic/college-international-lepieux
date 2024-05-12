@@ -1,0 +1,216 @@
+{
+  "welcome": "Karibu kwenye tovuti yetu!",
+  "college_name": "Collège international le pieux",
+  "education_excellence": "Ubora katika elimu ya shule ya sekondari tunafurahi kuungana nawe kwa njia yoyote unayopendelea",
+  "our_courses": "Kozi Zetu",
+  "contact_us": "Wasiliana Nasi",
+  "start_courses": "Kozi zinaanza 2024",
+  "start_courses_description": "Karibu mwanzo wa mwaka wa masomo wa 2024 katika Collège international le pieux. Tunatarajia kuanza kozi zetu na kuanza safari ya kujifunza, ukuaji, na mafanikio pamoja.",
+  "latest_blog": "Mpya kwenye blog",
+  "read_more_blogs": "Soma Zaidi Blogs",
+  "choose_section": {
+    "heading": "Kwa nini chagua Collège international le pieux?",
+    "card1": {
+      "title": "Ubora katika Elimu",
+      "description": "Tunatoa elimu bora kwa wanafunzi wetu, kuhakikisha wanapata upatikanaji wa aina mbalimbali za rasilimali za kujifunza na fursa."
+    },
+    "card2": {
+      "title": "Tunawafanya Wanafunzi Wetu Kuwa na Furaha",
+      "description": "Wanafunzi wetu daima ni wenye furaha kwa sababu ya mihadhara yenye maarifa na uzoefu imara."
+    },
+    "card3": {
+      "title": "Dhamira Yetu",
+      "description": "Collège international le pieux imejitolea kutoa elimu bora ya kiufundi, kukuza uvumbuzi, na kukuza ujasiriamali kati ya wanafunzi wake."
+    }
+  },
+  "faq_section": {
+    "heading": "Maswali Yanayoulizwa Mara kwa Mara",
+    "description": "Katika taasisi yetu, tunatoa kozi mbalimbali katika masomo tofauti, ikiwa ni pamoja na lakini sio tu, hisabati, sayansi, lugha, masomo ya kijamii, sanaa nzuri, na elimu ya mwili. Mtaala wetu umebuniwa kutoa elimu bora ya kumwandalia mwanafunzi kwa mafanikio ya baadaye."
+  },
+  "faq": {
+    "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
+    "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",
+    "question": "Tunatoa madarasa gani?",
+    "answer": "Tunatoa masomo mbalimbali kama hisabati, sayansi, lugha, masomo ya kijamii, sanaa, na elimu ya mwili ili kumpa mwanafunzi elimu kamili.",
+    "2title": "Shule ya Collègelepieux inawawezeshaje wanafunzi kuwa salama na wenye furaha?",
+    "2answer": "Tunayo sheria, usalama, ushauri, na mipango ya afya ili kuhakikisha kuwa wanafunzi wote wanajisikia salama na kuungwa mkono.",
+    "3title": "Ninawezaje kujua kuhusu matukio na habari za shule?",
+    "3answer": "Angalia tovuti yetu, tutufuate kwenye mitandao ya kijamii, au jiandikishe kwa barua pepe ili kubaki mstari wa mbele na taarifa za hivi karibuni. Pia tunaweza kutuma taarifa nyumbani au kukupigia simu na sasisho muhimu."
+  },
+  "testimonial_section": {
+    "heading": "Ushuhuda",
+    "subheading": "Wanafunzi Wanachosema Kuhusu Sisi",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "ishimwe sandra",
+        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
+        "img": "https://c.stocksy.com/a/ynq000/z9/202986.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Divine josh",
+        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180"
+      },
+      {
+        "id": 3,
+        "name": "Tousaint Francis",
+        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
+        "img": "https://pngimg.com/uploads/student/student_PNG62539.png"
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "title": "Veterinary and Agronomy",
+      "description": "Je, ungependa kujenga kazi yako katika Udaktari wa Mifugo na Agronomia? Kozi hii inachunguza sayansi ya mifugo na kilimo, ikifunika mada kama afya ya mifugo, lishe, uzalishaji, uzazi, na usimamizi wa udongo."
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
+      "title": "Ujenzi",
+      "description": "Je, ungependa kujenga kazi yako katika ujenzi? Kozi hii inajadili kanuni na mbinu za ujenzi, ikiwa ni pamoja na vifaa vya ujenzi, mifumo ya muundo, njia za ujenzi, na usimamizi wa miradi."
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "title": "Machanics",
+      "description": "Jenga kazi yako ya baadaye katika Machanics. Kozi hii inajumuisha kanuni za mechanics, ikiwa ni pamoja na statics, dynamics, kinematics, na mifumo ya mitambo, na matumizi yao katika uhandisi na teknolojia."
+    },
+    {
+      "id": 2,
+      "img": "https://th.bing.com/th/id/R.6fd439c991a18b6cc08605edbe3b7ee3?rik=NeyMT1dtpj7RCw&pid=ImgRaw&r=0",
+      "title": "Umeme wa jumla",
+      "description": "Kozi hii inajumuisha kanuni msingi na matumizi ya umeme wa jumla, ikiwa ni pamoja na mizunguko, voltage, sasa, upinzani, na nguvu."
+    },
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
+      "title": "Uuzaji na Usimamizi",
+      "description": "Kozi hii inazingatia stadi za kibiashara na usimamizi, ikiwa ni pamoja na masoko, mauzo, fedha, rasilimali watu, na shughuli za biashara."
+    },
+    {
+      "id": 5,
+      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "title": "Kukata na Kushona",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "img": "https://th.bing.com/th/id/R.6fd439c991a18b6cc08605edbe3b7ee3?rik=NeyMT1dtpj7RCw&pid=ImgRaw&r=0",
+      "title": "Jenga kazi yako katika umeme wa jumla",
+      "description": "Chunguza uwezekano wa kujenga kazi katika umeme wa jumla. Kutoka kwa usanidi wa umeme hadi matengenezo, uwanja huu unatoa fursa mbalimbali kwa wale wenye shauku ya kazi ya vitendo na kutatua matatizo. Jiunge nasi tunavyomulika njia kuelekea kazi yenye tuzo katika tasnia hii ya kipekee."
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/id/2007589058/photo/children-students-building-robotic-cars-at-stem-classv.jpg?s=612x612&w=0&k=20&c=GBJBW4diOQP7q3_0al-rqx0-9aXcpP3eqwulS9HwNQc=",
+      "title": "Jenga Kazi Yako Katika Umeme wa Umeme",
+      "description": "Unatafuta kujenga kazi katika umeme? Zama ndani ya ulimwengu wa fursa zisizokuwa na kikomo ambapo unaweza kuvumbua, kuunda, na kuunda mustakabali wa teknolojia. Iwe unavutiwa na kubuni mizunguko, kutatua shida za mifumo, au kuendeleza vifaa vya kukata viwango,"
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
+      "title": "Jenga kazi yako katika usimamizi wa mauzo",
+      "description": "Chunguza fursa za kipekee zilizopo katika sekta hizi ambapo unaweza kuongoza, kuweka mkakati, na kuendesha mafanikio. Iwe unavutiwa na mauzo, masoko, fedha, au shughuli za biashara, jukumu za biashara na usimamizi hutoa njia mbalimbali za ukuaji na athari."
+    },
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "title": "Jenga kazi yako katika Ufundi",
+      "description": "Je, unavutiwa na kazi ya vitendo? Fikiria kuwa fundi! Zama ndani ya ulimwengu wa kufanya, kudumisha, na kufanya majaribio na magari na mashine. Iwe unavutiwa na magari, malori, ndege, au vifaa vya viwanda, kazi ya ufundi inatoa fursa zisizo na kikomo za kufanya kazi kwa mikono yako na kutatua matatizo"
+    },
+    {
+      "id": 5,
+      "img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
+      "title": "Jenga kazi yako katika ujenzi",
+      "description": "Unatafuta kujenga kazi imara? Zingatia ujenzi! Zama ndani ya ulimwengu wa ujenzi, kubuni, na kuunda miundo ambayo inaamua miji na jamii zetu. Iwe unavutiwa na kazi za vitendo kama marasimu na uashi,."
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "title": "jenga kazi yako katika udaktari wa mifugo na agronomia",
+      "description": "Chunguza fursa zisizo na kikomo katika ulimwengu wa teknolojia, ambapo unaweza kuvumbua, kutatua matatizo, na kuunda mandhari ya kidijitali. Iwe unapenda maendeleo ya programu, usalama wa mtandao, uchambuzi wa data."
+    }
+  ],
+  "navigation": {
+    "home": "Nyumbani",
+    "courses": "Kozi Zetu",
+    "short_courses": "Kozi Fupi",
+    "about_us": "Kuhusu Sisi",
+    "blog": "Blogu",
+    "contact": "Wasiliana Nasi"
+  },
+  "footer": {
+    "main_address": "Anwani Kuu - Congo Drc. Kalemie 540 Street",
+    "phone_number": "Namba ya Simu - +250783012138",
+    "email": "Barua Pepe - Collègelepieuxinfo@gmail.com",
+    "copyright": "Haki miliki",
+    "made_by": "imeundwa na"
+  },
+  "about": {
+    "title": "Kuhusu Sisi",
+    "description": "Collège international Lepieux ni taasisi inayoongoza ya elimu ya sekondari iliyoko jijini Kalemie, Jamhuri ya Kidemokrasia ya Kongo, iliyopewa kutoa elimu ya kiufundi ya hali ya juu kwa wanafunzi. Taasisi yetu inalenga kuwajengea wanafunzi ujuzi na maarifa ya kufaulu katika maeneo mbalimbali ya kiufundi, ikisaidia ukuaji wa kibinafsi na kitaaluma. Tunatoa muhtasari wa mtaala, vifaa vya hali ya juu, na mazingira ya kujifunza yanayounga mkono ili kuhakikisha wanafunzi wetu wanapata elimu bora inayowezekana.",
+    "studyWithTitle": "Jisomea Nasi",
+    "studyDescription1": "Gundua mfano tajiri wa uzoefu wa kujifunza uliokungojea ndani ya taasisi yetu.",
+    "studyDescription2": "Pata uzoefu wa nguvu ya elimu inayoongozwa na wataalamu, ikiunda akili na mustakabali."
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "description": "Ikiwa ungependa kupata sasisho kuhusu matukio yetu na kuendelea kuwasiliana nasi, tafadhali usisite. Tuwasiliane tu; tupo hapa kusaidia.",
+    "firstName": "Jina la Kwanza",
+    "lastName": "Jina la Mwisho",
+    "email": "Barua Pepe",
+    "address": "Anwani",
+    "location": "Eneo",
+    "postcode": "Msimbo wa Posta",
+    "message": "Ujumbe Wako",
+    "firstNamePlaceholder": "Ingiza jina lako la kwanza",
+    "lastNamePlaceholder": "Ingiza jina lako la mwisho",
+    "emailPlaceholder": "Ingiza barua pepe yako",
+    "addressPlaceholder": "Ingiza anwani yako",
+    "locationOptionLondon": "London",
+    "locationOptionManchester": "Manchester",
+    "locationOptionLiverpool": "Liverpool",
+    "postcodePlaceholder": "Ingiza msimbo wako wa posta",
+    "messagePlaceholder": "Ingiza ujumbe wako",
+    "submit": "Tuma",
+    "moreInfo": "Kwa habari zaidi",
+    "addressTitle": "Anwani",
+    "addressDetails": "Kalemie: 560 street",
+    "emailTitle": "Tutumie Barua Pepe",
+    "emailDetails": "Collègelepieuxinfo@gmail.com",
+    "callTitle": "Piga Simu",
+    "callDetails": "+250783012138"
+  },
+  "Shortcourses": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1333469661/photo/scientist-african-american-male-working-in-lab-holding-test-tube-picture-id1333469661?b=1&k=20&m=1333469661&s=170667a&w=0&h=AdEtBsKkJXYp1nq2guyQZ6zE9s5pCpkk6QrSfqoF1Bo=",
+      "title": "Masuala ya Mazingira",
+      "description": "Kujifunza juu ya jinsi tunavyoweza kutunza mazingira yetu kupitia kozi hii fupi ya kipekee. Unda uelewa wa mazoea bora ya kijani na hatua unazoweza kuchukua kudumisha sayari yetu."
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/photos/universities-and-tertiary-education-concept-picture-id1302152128?b=1&k=20&m=1302152128&s=170667a&w=0&h=SoiR3FLOlX3RPyNBQ8RO9u64CJQ_J3x0G44hySrzK_Y=",
+      "title": "Kusimamia Wakti",
+      "description": "Kozi hii fupi inakusaidia kuendeleza stadi za usimamizi wa wakati ambazo zinaweza kuboresha ufanisi wako katika kazi na maisha ya kibinafsi."
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/photos/financial-education-class-picture-id1043934778?b=1&k=20&m=1043934778&s=170667a&w=0&h=2XNkt_TnDSWxQ0sBMwCN0xbINZ4TbB_QmIudq6Sf8Cg=",
+      "title": "Elimu ya Fedha",
+      "description": "Fahamu jinsi ya kusimamia pesa yako vizuri na kozi hii fupi ya elimu ya fedha. Jifunze kuhusu bajeti, akiba, uwekezaji, na mbinu za kujenga utajiri wa muda mrefu."
+    },
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/photos/high-school-teacher-in-classroom-giving-presentation-to-students-picture-id1308873902?b=1&k=20&m=1308873902&s=170667a&w=0&h=J-fOONXhH4GGgdZo-Uqg_mP8RjvAWXfBKnQHj-UBnmU=",
+      "title": "Stadi za Mawasiliano",
+      "description": "Kozi hii fupi inakuza stadi za mawasiliano ambazo ni muhimu katika mazingira ya kazi na maisha ya kibinafsi. Jifunze jinsi ya kuwasiliana kwa ufanisi na kuunda uhusiano wa kudumu."
+    }
+  ]
+}
