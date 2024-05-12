@@ -167,10 +167,12 @@
   },
   "about": {
     "title": "Kuhusu Sisi",
+     "contactButton": "Wasiliana Nasi",
     "description": "Collège international Lepieux ni taasisi inayoongoza ya elimu ya sekondari iliyoko jijini Kalemie, Jamhuri ya Kidemokrasia ya Kongo, iliyopewa kutoa elimu ya kiufundi ya hali ya juu kwa wanafunzi. Taasisi yetu inalenga kuwajengea wanafunzi ujuzi na maarifa ya kufaulu katika maeneo mbalimbali ya kiufundi, ikisaidia ukuaji wa kibinafsi na kitaaluma. Tunatoa muhtasari wa mtaala, vifaa vya hali ya juu, na mazingira ya kujifunza yanayounga mkono ili kuhakikisha wanafunzi wetu wanapata elimu bora inayowezekana.",
     "studyWithTitle": "Jisomea Nasi",
     "studyDescription1": "Gundua mfano tajiri wa uzoefu wa kujifunza uliokungojea ndani ya taasisi yetu.",
     "studyDescription2": "Pata uzoefu wa nguvu ya elimu inayoongozwa na wataalamu, ikiunda akili na mustakabali."
+    
   },
   "contact": {
     "title": "Wasiliana Nasi",
@@ -199,6 +201,7 @@
     "emailDetails": "Collègelepieuxinfo@gmail.com",
     "callTitle": "Piga Simu",
     "callDetails": "+250783012138"
+    
   },
   "Shortcourses": [
     {
