@@ -73,7 +73,7 @@ function App() {
               >
                 <option value="en">Eng</option>
                 <option value="fr">Fr</option>
-                <option value="fr">Swahili</option>
+                <option value="sw">Swahili</option>
               </select>
             </Nav>
           </Navbar.Collapse>
