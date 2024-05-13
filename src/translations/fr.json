@@ -2,10 +2,10 @@
   "welcome": "Bienvenue sur notre site Web!",
   "college_name": "Collège international le pieux",
   "education_excellence": "Avec excellence dans le domaine de l'éducation secondaire, nous sommes ravis d'établir le contact avec vous de la manière qui vous convient le mieux.",
-  "our_courses": "Option organisee",
+  "our_courses": "Options organisées",
   "contact_us": "Contactez-nous",
   "start_courses": "Cours de démarrage 2024",
-  "start_courses_description": "Bienvenue au début de l'année académique 2024 au Collège international le pieux. Nous sommes impatients de commencer nos cours et de commencer un voyage d'apprentissage, de croissance et de succès ensemble.",
+  "start_courses_description": "Bienvenue en cette année scolaire 2024-2025 au Collège international Le Pieux. Nous sommes enthousiastes à l'idée de débuter nos cours et d'entamer un parcours d'apprentissage, de développement et de réussite ensemble.",
   "latest_blog": "Derniers articles de blog",
   "read_more_blogs": "Lire d'autres articles de blog",
   "choose_section": {
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
-      "title": "Ventes et Gestion",
+      "title": "commerciale et Gestion",
       "description": "Ce cours met l'accent sur les compétences commerciales et de gestion, y compris le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales."
     },
     {
@@ -80,7 +80,7 @@
 {
 "id": 3,
 "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
-"title": "Construisez votre carrière dans la gestion des ventes",
+"title": "Construisez votre carrière dans le commercial et gestion",
 "description": " Explorez les opportunités dynamiques disponibles dans ces secteurs où vous pouvez diriger, élaborer des stratégies et garantir le succès. Que vous soyez attiré par les ventes, le marketing, les finances ou les opérations, les rôles commerciaux et de gestion offrent des voies diverses pour la croissance et l'impact."
 },
     {
@@ -184,12 +184,12 @@
   },
   "short": {
     "title": "nos formations courtes",
-    "description": "Nous proposons une gamme de cours courts  dans différents domaines chacun s'étendant sur environ six mois et dispensés en présentiel"
+    "description": "Nous proposons une gamme de formations à courte durée dans différents domaines, chacune s'étendant sur environ six mois et dispensées en présence."
   },
   "navigation": {
     "home": "Accueil",
     "courses": "Nos Cours",
-    "short_courses": "Cours Courts",
+    "short_courses": "Formation à cours durée",
     "about_us": "À Propos de Nous",
     "blog": "Blog",
     "contact": "Contactez-nous"
