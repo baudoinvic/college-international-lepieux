@@ -71,10 +71,12 @@ function App() {
                 aria-label=".form-select-sm example"
                 onChange={(e) => i18n.changeLanguage(e.target.value)}
               >
+               
                 <option value="fr">Fr</option>
                 <option value="en">Eng</option>
                 <option value="sw">Swahili</option>
               </select>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
