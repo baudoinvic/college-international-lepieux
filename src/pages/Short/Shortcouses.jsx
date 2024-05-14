@@ -1,16 +1,16 @@
 
 
 import React from "react";
-import "./Short.css";
-import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { Card } from "react-bootstrap";
+import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 
-function Shortcourses() {
+const Shortcourses = () => {
   const { t } = useTranslation();
 
-  const courses = t("courses", { returnObjects: true });
+  // Fetching the shortcourses data
+  const shortcourses = t("shortcourses", { returnObjects: true });
 
   return (
     <div className="courses-page">
@@ -25,14 +25,14 @@ function Shortcourses() {
 
       <div className="container py-5">
         <div className="row g-4">
-          {courses.map((course) => (
-            <div key={course.id} className="col-md-6 col-lg-4">
+          {shortcourses.map((shortcourse) => (
+            <div key={shortcourse.id} className="col-md-6 col-lg-4">
               <Link to="/blog" className="text-decoration-none">
                 <Card className="h-100 shadow scale-hover-effect">
-                  <Card.Img variant="top" src={course.img} />
+                  <Card.Img variant="top" src={shortcourse.img} />
                   <Card.Body className="p-md-5">
-                    <Card.Title>{course.title}</Card.Title>
-                    <Card.Text>{course.description}</Card.Text>
+                    <Card.Title>{shortcourse.title}</Card.Title>
+                    <Card.Text>{shortcourse.description}</Card.Text>
                   </Card.Body>
                 </Card>
               </Link>
@@ -46,7 +46,8 @@ function Shortcourses() {
       </div>
     </div>
   );
-}
+};
 
 export default Shortcourses;
+
 

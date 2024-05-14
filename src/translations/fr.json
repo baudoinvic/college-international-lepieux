@@ -63,72 +63,83 @@
   ],
 
   "blogs": [
-    
-{
-"id": 1,
-"img": "https://media.istockphoto.com/id/1401178933/photo/african-american-technician-repairing-a-3d-printer-in-laboratory.jpg?s=612x612&w=0&k=20&c=ZtwkDIUYj7Exvfdd-DEFwFHTm6svlMHojXopQTnHGc0=",
-"title": "Construisez votre carrière en électricité générale",
-"description": "Explorez les possibilités de construire une carrière en électricité générale. De l'installation électrique à la maintenance, ce domaine offre de nombreuses opportunités pour ceux qui ont une passion pour le travail pratique et la résolution de problèmes. Rejoignez-nous alors que nous éclairons le chemin vers une carrière enrichissante dans cette industrie dynamique."
-},
     {
-"id": 2,
-"img": "https://media.istockphoto.com/id/2007589058/photo/children-students-building-robotic-cars-at-stem-classv.jpg?s=612x612&w=0&k=20&c=GBJBW4diOQP7q3_0al-rqx0-9aXcpP3eqwulS9HwNQc=",
-"title": "Construisez votre carrière dans l'électronique",
-"description": "Vous souhaitez construire une carrière dans le domaine de l'électronique ? Plongez dans un monde de possibilités infinies où vous pouvez innover, créer et façonner l'avenir de la technologie. Que vous soyez intéressé par la conception de circuits, le dépannage de systèmes ou le développement de gadgets de pointe, ..."
-},
-   
-{
-"id": 3,
-"img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
-"title": "Construisez votre carrière dans le commercial et gestion",
-"description": " Explorez les opportunités dynamiques disponibles dans ces secteurs où vous pouvez diriger, élaborer des stratégies et garantir le succès. Que vous soyez attiré par les ventes, le marketing, les finances ou les opérations, les rôles commerciaux et de gestion offrent des voies diverses pour la croissance et l'impact."
-},
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/1401178933/photo/african-american-technician-repairing-a-3d-printer-in-laboratory.jpg?s=612x612&w=0&k=20&c=ZtwkDIUYj7Exvfdd-DEFwFHTm6svlMHojXopQTnHGc0=",
+      "title": "Construisez votre carrière en électricité générale",
+      "description": "Explorez les possibilités de construire une carrière en électricité générale. De l'installation électrique à la maintenance, ce domaine offre de nombreuses opportunités pour ceux qui ont une passion pour le travail pratique et la résolution de problèmes. Rejoignez-nous alors que nous éclairons le chemin vers une carrière enrichissante dans cette industrie dynamique."
+    },
     {
-"id": 4,
-"img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
-"title": "Construisez votre carrière en mécanique",
-"description": "Vous êtes intéressé par une carrière pratique ? Envisagez de devenir mécanicien ! Plongez dans le monde de la réparation, de la maintenance et du bricolage avec des véhicules et des machines. Que vous soyez attiré par les voitures, les camions, les avions ou l'équipement industriel, une carrière en mécanique offre des opportunités infinies pour travailler avec vos mains et résoudre des problèmes."
-},
+      "id": 2,
+      "img": "https://media.istockphoto.com/id/2007589058/photo/children-students-building-robotic-cars-at-stem-classv.jpg?s=612x612&w=0&k=20&c=GBJBW4diOQP7q3_0al-rqx0-9aXcpP3eqwulS9HwNQc=",
+      "title": "Construisez votre carrière dans l'électronique",
+      "description": "Vous souhaitez construire une carrière dans le domaine de l'électronique ? Plongez dans un monde de possibilités infinies où vous pouvez innover, créer et façonner l'avenir de la technologie. Que vous soyez intéressé par la conception de circuits, le dépannage de systèmes ou le développement de gadgets de pointe, ..."
+    },
+
     {
-"id": 5,
-"img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
-"title": "Construisez votre carrière dans la construction",
-"description": "Vous cherchez à bâtir une carrière solide ? Considérez la construction ! Plongez dans un monde de construction, de façonnage et de création de structures qui définissent nos villes et nos communautés. Que vous soyez intéressé par un travail pratique comme la menuiserie et la maçonnerie,."
-},
-  {
-    "id": 6,
-    "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
-    "title": "Construisez votre carrière en médecine vétérinaire et agronomie",
-    "description": "Explorez les possibilités infinies dans le monde de la technologie, où vous pouvez innover, résoudre des problèmes et façonner le paysage numérique. Que vous soyez passionné par le développement de logiciels, la cybersécurité, l'analyse de données."
-  }
-  ],
-  "short_courses": {
-    "heading": "Cours Courts",
-    "course1": {
-      "title": "Marketing Digital",
-      "description": "Découvrez les stratégies et techniques les plus efficaces pour réussir dans le marketing numérique."
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
+      "title": "Construisez votre carrière dans le commercial et gestion",
+      "description": " Explorez les opportunités dynamiques disponibles dans ces secteurs où vous pouvez diriger, élaborer des stratégies et garantir le succès. Que vous soyez attiré par les ventes, le marketing, les finances ou les opérations, les rôles commerciaux et de gestion offrent des voies diverses pour la croissance et l'impact."
     },
-    "course2": {
-      "title": "Finance Personnelle",
-      "description": "Apprenez à gérer vos finances personnelles de manière intelligente et stratégique pour un avenir financier stable."
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "title": "Construisez votre carrière en mécanique",
+      "description": "Vous êtes intéressé par une carrière pratique ? Envisagez de devenir mécanicien ! Plongez dans le monde de la réparation, de la maintenance et du bricolage avec des véhicules et des machines. Que vous soyez attiré par les voitures, les camions, les avions ou l'équipement industriel, une carrière en mécanique offre des opportunités infinies pour travailler avec vos mains et résoudre des problèmes."
     },
-    "course3": {
-      "title": "Leadership et Gestion",
-      "description": "Développez vos compétences en leadership et en gestion pour réussir dans votre carrière et votre vie personnelle."
+    {
+      "id": 5,
+      "img": "https://media.istockphoto.com/id/1569449982/photo/miniature-of-cement-blocks-used-for-practical-engineering-classes.jpg?s=612x612&w=0&k=20&c=iaHdGBK7NbYGDq02QL8zBovj2535I4ybnHOPhCFGV6Q=",
+      "title": "Construisez votre carrière dans la construction",
+      "description": "Vous cherchez à bâtir une carrière solide ? Considérez la construction ! Plongez dans un monde de construction, de façonnage et de création de structures qui définissent nos villes et nos communautés. Que vous soyez intéressé par un travail pratique comme la menuiserie et la maçonnerie,."
     },
-    "course4": {
-      "title": "Programmation Python",
-      "description": "Plongez dans le monde de la programmation avec Python, un langage puissant et polyvalent utilisé dans divers domaines."
-    },
-    "course5": {
-      "title": "Créativité et Innovation",
-      "description": "Libérez votre créativité et apprenez à innover dans tous les aspects de votre vie professionnelle et personnelle."
-    },
-    "course6": {
-      "title": "Maconnerie et Plomberie",
-      "description": "Inscrivez-vous à notre cours de 'Maconnerie et Plomberie' de 6 mois, plongeant dans les essentiels de la construction et des systèmes hydrauliques. Apprenez les techniques de maçonnerie aux côtés des principes de plomberie, vous préparant à des projets diversifiés sur le terrain."
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "title": "Construisez votre carrière en médecine vétérinaire et agronomie",
+      "description": "Explorez les possibilités infinies dans le monde de la technologie, où vous pouvez innover, résoudre des problèmes et façonner le paysage numérique. Que vous soyez passionné par le développement de logiciels, la cybersécurité, l'analyse de données."
     }
-  },
+  ],
+  "shortcourses": [
+    {
+      "id": 1,
+      "img": "https://www.isep-thies.sn/wp-content/uploads/2019/10/RT1-scaled.jpg",
+      "title": "Réseaux et télécommunications",
+      "description": "Découvrez les bases du réseautage dans ce cours de 6 mois couvrant l'architecture, les protocoles et les systèmes de communication."
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "title": "Coupe et couture",
+      "description": "Pour une expérience pratique, inscrivez-vous à notre cours de 6 mois 'Coupe et Couture'. Apprenez l'art de la coupe de précision et des techniques de couture expertes."
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/697520720/photo/better-than-any-man.jpg?s=612x612&w=0&k=20&c=gijyjuxgAvC1ZogRaD0Mg92H0pvzX0aXAi5CIgjs458=",
+      "title": "Ajustement et soudure",
+      "description": "Rejoignez notre cours de 6 mois 'Ajustement et Soudure' pour maîtriser les principes et techniques de construction. Explorez les matériaux de construction, les systèmes structurels, les méthodes de construction et les éléments essentiels de la gestion de projet."
+    },
+    {
+      "id": 4,
+      "img": "https://crrfstgobain.fr/wp-content/uploads/2021/04/crrf-image-333-1536x1024.jpg",
+      "title": "École de réhabilitation pour adultes",
+      "description": "Embarquez pour un parcours de 6 mois à notre École de Réhabilitation pour Adultes. Acquérez une expertise en compétences commerciales et de gestion, couvrant le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales."
+    },
+    {
+      "id": 5,
+      "img": "https://media.istockphoto.com/id/1351799533/photo/portrait-of-african-american-little-child-wearing-shirt-standing-with-a-drill-in-hands-and.jpg?s=612x612&w=0&k=20&c=KsijlPkM5SuEubjSkngt8Xkv4SyLi0QQc8Av47job_8=",
+      "title": "Installation domestique et industrielle",
+      "description": "Explorez la mécanique dans notre cours de 6 mois 'Installation Domestique et Industrielle'. Apprenez la statique, la dynamique, la cinématique et les systèmes mécaniques, appliqués dans l'ingénierie et la technologie."
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/1858053631/photo/back-photo-of-the-helmeted-electrician-using-the-drill-to-make-a-hole-in-the-wall.jpg?s=612x612&w=0&k=20&c=qjqWpIxdRQrdtU3y0JieQSDFI8OH8YmbeR3m79jGHAM=",
+      "title": "Maçonnerie et plomberie",
+      "description": "Inscrivez-vous à notre cours de 6 mois 'Maçonnerie et Plomberie', plongeant dans les fondamentaux de la construction et des systèmes d'eau. Apprenez les techniques de maçonnerie ainsi que les principes de la plomberie, vous préparant à divers projets sur le terrain."
+    }
+  ],
+  
   "faq_section": {
     "heading": "Questions fréquemment posées",
     "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi."
@@ -183,12 +194,12 @@
     "title": "apprendre encore plus"
   },
   "short": {
-    "title": "nos formations courtes",
+    "title": "Formation à cours durée",
     "description": "Nous proposons une gamme de formations à courte durée dans différents domaines, chacune s'étendant sur environ six mois et dispensées en présence."
   },
   "navigation": {
     "home": "Accueil",
-    "courses": "Nos Cours",
+    "courses": "Nos options ",
     "short_courses": "Formation à cours durée",
     "about_us": "À Propos de Nous",
     "blog": "Blog",
