@@ -66,17 +66,36 @@ function App() {
                 {t("navigation.contact")}
               </Nav.Link>
 
-              <select
-                className="form-select form-select-sm me-2 w-auto w-16"
-                aria-label=".form-select-sm example"
-                onChange={(e) => i18n.changeLanguage(e.target.value)}
-              >
-               
-                <option value="fr">Fr</option>
-                <option value="en">Eng</option>
-                <option value="sw">Swahili</option>
-              </select>
-              
+              <div className="flex items-center space-x-2">
+                <button
+                  onClick={() => i18n.changeLanguage("fr")}
+                  className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
+                >
+                  <img
+                    src="https://www.countryflags.com/wp-content/uploads/france-flag-png-xl.png"
+                    alt="French Flag"
+                    className="w-4"
+                  />
+                  <span className="text-white">Fr</span>
+                </button>
+                <button
+                  onClick={() => i18n.changeLanguage("en")}
+                  className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
+                >
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIEEb2cSAlgP4ZLCUL8r6Jgw0cvjAhXwiCtc1eXYGTA&s"
+                    alt="English Flag"
+                    className="w-4"
+                  />
+                  <span className="text-white">Eng</span>
+                </button>
+                <button
+                  onClick={() => i18n.changeLanguage("sw")}
+                  className="flex text-white items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
+                >
+                  <span>Swahili</span>
+                </button>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
