@@ -157,10 +157,10 @@
 
   "events": {
     "scienceFair": {
-      "title": "Concours de la foire aux sciences",
+      "title": "Concours des jeux olympiques",
       "date": "15 octobre 2024",
       "location": "Auditorium de l'école",
-      "description": "Rejoignez-nous pour une excitante compétition de foire aux sciences présentant les projets innovants de nos élèves du secondaire."
+      "description": "Rejoignez-nous pour une journée palpitante de compétitions sportives où nos élèves rivaliseront dans une série d'épreuves inspirées des Jeux Olympiques."
     },
     "sportsDay": {
       "title": "Journée sportive annuelle",
@@ -171,7 +171,7 @@
     "mathCompetition": {
       "title": "Compétition de mathématiques",
       "date": "10 décembre 2024",
-      "location": "Salle 101",
+      "location": "Salle 10",
       "description": "Participez à notre compétition de mathématiques pour tester et présenter vos compétences mathématiques."
     }
   },
