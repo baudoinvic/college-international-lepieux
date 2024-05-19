@@ -171,9 +171,9 @@ function Home() {
           {t("event.title")}
         </h1>
 
-        {/* Event Cards Container */}
+      
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Science Fair Competition */}
+         
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.scienceFair.title")}
