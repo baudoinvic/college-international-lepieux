@@ -15,12 +15,12 @@
       "description": "Nous offrons la meilleure éducation à nos élèves, en leur assurant l'accès à une gamme diversifiée de ressources pédagogiques et d'opportunités, y compris des laboratoires de nouvelle génération.."
     },
     "card2": {
-      "title": "Nous gardons nos étudiants heureux",
-      "description": "Nos étudiants sont toujours heureux grâce aux cours avec une solide connaissance et expérience."
+      "title": "Nous gardons nos élèves heureux",
+      "description": "Nos élèves sont toujours heureux grâce aux cours avec une solide connaissance et expérience."
     },
     "card3": {
       "title": "Notre mission",
-      "description": "Le Collège international le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses étudiants."
+      "description": "Le Collège international le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses élèves."
     }
   },
   "courses": [
@@ -234,7 +234,7 @@
   },
   "footer": {
     "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
-    "phone_number": "Numéro de téléphone - +250783012138",
+    "phone_number": "Numéro de téléphone - +243850651507",
     "email": "E-mail - Collègelepieuxinfo@gmail.com",
     "copyright": "Droits d'auteur",
     "made_by": ""
@@ -265,6 +265,6 @@
     "emailTitle": "email",
     "emailDetails": "Collègelepieuxinfo@gmail.com",
     "callTitle": "contact ",
-    "callDetails": "+250783012138"
+    "callDetails": "+243850651507"
   }
 }
