@@ -187,7 +187,7 @@ function Home() {
             </p>
           </div>
 
-          {/* Annual Sports Day */}
+          
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.sportsDay.title")}
@@ -199,7 +199,7 @@ function Home() {
             <p className="text-gray-800">{t("events.sportsDay.description")}</p>
           </div>
 
-          {/* Math Competition */}
+         
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.mathCompetition.title")}
