@@ -34,11 +34,14 @@
   "learn": {
     "title": "Jifunze zaidi"
   },
-   "short": {
+
+  "event": {
+    "title": "Matukio yanayokuja"
+  },
+  "short": {
     "title": "Kozi Zetu Fupi",
     "description": "Tunatoa mbalimbali ya kozi fupi katika maeneo mbalimbali kila moja ikiwa na kipindi cha takriban miezi sita na kufanyika kupitia ujenzi wa mtu binafsi"
-   },
-   
+  },
 
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
@@ -167,13 +170,34 @@
   },
   "about": {
     "title": "Kuhusu Sisi",
-     "contactButton": "Wasiliana Nasi",
+    "contactButton": "Wasiliana Nasi",
     "description": "Collège international Lepieux ni taasisi inayoongoza ya elimu ya sekondari iliyoko jijini Kalemie, Jamhuri ya Kidemokrasia ya Kongo, iliyopewa kutoa elimu ya kiufundi ya hali ya juu kwa wanafunzi. Taasisi yetu inalenga kuwajengea wanafunzi ujuzi na maarifa ya kufaulu katika maeneo mbalimbali ya kiufundi, ikisaidia ukuaji wa kibinafsi na kitaaluma. Tunatoa muhtasari wa mtaala, vifaa vya hali ya juu, na mazingira ya kujifunza yanayounga mkono ili kuhakikisha wanafunzi wetu wanapata elimu bora inayowezekana.",
     "studyWithTitle": "Jisomea Nasi",
     "studyDescription1": "Gundua mfano tajiri wa uzoefu wa kujifunza uliokungojea ndani ya taasisi yetu.",
     "studyDescription2": "Pata uzoefu wa nguvu ya elimu inayoongozwa na wataalamu, ikiunda akili na mustakabali."
-    
   },
+
+  "events": {
+    "scienceFair": {
+      "title": "Mbio za Kisayansi",
+      "date": "Oktoba 15, 2024",
+      "location": "Auditorium ya Shule",
+      "description": "Jiunge nasi kwa mashindano ya kusisimua ya kisayansi yakionyesha miradi yenye ubunifu wa wanafunzi wetu wa shule ya sekondari."
+    },
+    "sportsDay": {
+      "title": "Siku ya Michezo ya Mwaka",
+      "date": "Septemba 20, 2024",
+      "location": "Maeneo ya Shule",
+      "description": "Jitayarisheni kwa siku iliyojaa furaha na michezo wakati wa tukio letu la mwaka la siku ya michezo. Itangaze timu zenu pendwa!"
+    },
+    "mathCompetition": {
+      "title": "Mashindano ya Hisabati",
+      "date": "Desemba 10, 2024",
+      "location": "Chumba 101",
+      "description": "Shiriki katika mashindano yetu ya hisabati kujaribu na kuonyesha ujuzi wako wa hesabu."
+    }
+  },
+
   "contact": {
     "title": "Wasiliana Nasi",
     "description": "Ikiwa ungependa kupata sasisho kuhusu matukio yetu na kuendelea kuwasiliana nasi, tafadhali usisite. Tuwasiliane tu; tupo hapa kusaidia.",
@@ -201,7 +225,6 @@
     "emailDetails": "Collègelepieuxinfo@gmail.com",
     "callTitle": "Piga Simu",
     "callDetails": "+250783012138"
-    
   },
   "Shortcourses": [
     {

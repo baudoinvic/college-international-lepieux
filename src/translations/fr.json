@@ -139,7 +139,7 @@
       "description": "Inscrivez-vous à notre cours de 6 mois 'Maçonnerie et Plomberie', plongeant dans les fondamentaux de la construction et des systèmes d'eau. Apprenez les techniques de maçonnerie ainsi que les principes de la plomberie, vous préparant à divers projets sur le terrain."
     }
   ],
-  
+
   "faq_section": {
     "heading": "Questions fréquemment posées",
     "description": "Dans notre établissement, nous proposons une large gamme des options. notamment. Vétérinaire et Agronomie, construction, Mécanique, Électricité générale,Coupe et Couture."
@@ -154,6 +154,28 @@
     "3title": "Comment puis-je être informé des événements et des actualités de l'école ?",
     "3answer": "Consultez notre site Web, suivez-nous sur les réseaux sociaux ou inscrivez-vous à notre newsletter pour rester informé. Nous pourrions également envoyer des avis à la maison ou vous appeler pour vous tenir au courant des mises à jour importantes."
   },
+
+  "events": {
+    "scienceFair": {
+      "title": "Concours de la foire aux sciences",
+      "date": "15 octobre 2024",
+      "location": "Auditorium de l'école",
+      "description": "Rejoignez-nous pour une excitante compétition de foire aux sciences présentant les projets innovants de nos élèves du secondaire."
+    },
+    "sportsDay": {
+      "title": "Journée sportive annuelle",
+      "date": "20 septembre 2024",
+      "location": "Terrains de l'école",
+      "description": "Préparez-vous à une journée remplie de plaisir et d'athlétisme lors de notre événement annuel de journée sportive. Encouragez vos équipes préférées!"
+    },
+    "mathCompetition": {
+      "title": "Compétition de mathématiques",
+      "date": "10 décembre 2024",
+      "location": "Salle 101",
+      "description": "Participez à notre compétition de mathématiques pour tester et présenter vos compétences mathématiques."
+    }
+  },
+
   "testimonial_section": {
     "heading": "Témoignages",
     "subheading": "Ce que disent les étudiants à notre sujet",
@@ -193,6 +215,11 @@
   "learn": {
     "title": "apprendre encore plus"
   },
+
+  "event": {
+    "title": "Événements à venir"
+  },
+
   "short": {
     "title": "Formation à courte durée",
     "description": "Nous proposons une gamme de formations à courte durée dans différents domaines, chacune s'étendant sur environ six mois et dispensées en présence."
