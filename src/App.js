@@ -1,20 +1,18 @@
-import './App.css';
-import { Link, Routes, Route } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Home from './pages/Home/Home';
-import Courses from './pages/Courses/Courses';
-import About from './pages/About/About';
-import Blog from './pages/Blog/Blog';
-import Contact from './pages/Contact/Contact';
-import Testimonial from './components/Testimonial/Testimonial';
+import "./App.css";
+import { Link, Routes, Route } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Home from "./pages/Home/Home";
+import Courses from "./pages/Courses/Courses";
+import About from "./pages/About/About";
+import Blog from "./pages/Blog/Blog";
+import Contact from "./pages/Contact/Contact";
+import Testimonial from "./components/Testimonial/Testimonial";
 import logo from "../src/utils/images/logo.png";
-import Shortcouses from './pages/Short/Shortcouses';
+import Shortcouses from "./pages/Short/Shortcouses";
 import { Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-
-
 
 function App() {
   const { t } = useTranslation();
@@ -23,8 +21,7 @@ function App() {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-    
-  
+
   return (
     <div>
       <Navbar expand="lg" className="position-absolute w-100">
@@ -252,7 +249,7 @@ function App() {
         <div className="bg-body-tertiary">
           <div className="container">
             <p className="p-3 m-0 text-center">
-              {t("footer.copyright")} @ {t("footer.made_by")} Baudoin-coder
+              {t("footer.copyright")} @ {t("footer.made_by")}2024
             </p>
           </div>
         </div>

@@ -154,9 +154,9 @@ function Contact() {
               <h1>{t("contact.addressTitle")}</h1>
               <span className="text-white">{t("contact.addressDetails")}</span>
             </div>
-            <div className="first-card">
+            <div className="first-card p-8">
               <h1>{t("contact.emailTitle")}</h1>
-              <span className="text-white">{t("contact.emailDetails")}</span>
+              <span className="text-white ">{t("contact.emailDetails")}</span>
             </div>
             <div className="first-card">
               <h1>{t("contact.callTitle")}</h1>

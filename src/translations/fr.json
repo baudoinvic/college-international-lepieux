@@ -12,7 +12,7 @@
     "heading": "Pourquoi choisir le Collège international le pieux?",
     "card1": {
       "title": "Excellence en éducation",
-      "description": "Nous offrons la meilleure éducation à nos étudiants, en veillant à ce qu'ils aient accès à une gamme diversifiée de ressources d'apprentissage et d'opportunités."
+      "description": "Nous offrons la meilleure éducation à nos élèves, en leur assurant l'accès à une gamme diversifiée de ressources pédagogiques et d'opportunités, y compris des laboratoires de nouvelle génération.."
     },
     "card2": {
       "title": "Nous gardons nos étudiants heureux",
@@ -142,13 +142,13 @@
   
   "faq_section": {
     "heading": "Questions fréquemment posées",
-    "description": "Dans notre établissement, nous proposons une large gamme de cours dans diverses matières, notamment les mathématiques, les sciences, les arts du langage, les sciences sociales, les beaux-arts et l'éducation physique. Notre programme est conçu pour offrir aux étudiants une éducation complète qui les prépare à un avenir réussi."
+    "description": "Dans notre établissement, nous proposons une large gamme des options. notamment. Vétérinaire et Agronomie, construction, Mécanique, Électricité générale,Coupe et Couture."
   },
   "faq": {
     "title": "Comment inscrire mon enfant ?",
     "description": "Pour inscrire votre enfant à l'école internationale Lepieux, veuillez visiter notre page d'admissions sur notre site Web ou contacter directement notre bureau des admissions. Notre équipe vous guidera tout au long du processus d'inscription et répondra à toutes vos questions.",
     "question": "Quels cours offrons-nous ?",
-    "answer": "Nous proposons différentes matières telles que les mathématiques, les sciences, les arts du langage, les sciences sociales, les arts et l'éducation physique pour offrir aux étudiants une éducation complète.",
+    "answer": "Dans notre établissement, nous proposons une large gamme des options. notamment, Vétérinaire et Agronomie, construction, Mécanique, Électricité générale,Coupe et Couture.",
     "2title": "Comment l'école internationale Lepieux assure-t-elle la sécurité et le bonheur des élèves ?",
     "2answer": "Nous avons des règles, des dispositifs de sécurité, un accompagnement et des programmes de santé en place pour que tous les élèves se sentent en sécurité et soutenus.",
     "3title": "Comment puis-je être informé des événements et des actualités de l'école ?",
@@ -194,13 +194,13 @@
     "title": "apprendre encore plus"
   },
   "short": {
-    "title": "Formation à cours durée",
+    "title": "Formation à courte durée",
     "description": "Nous proposons une gamme de formations à courte durée dans différents domaines, chacune s'étendant sur environ six mois et dispensées en présence."
   },
   "navigation": {
     "home": "Accueil",
     "courses": "Nos options ",
-    "short_courses": "Formation à cours durée",
+    "short_courses": "Formation à courte durée",
     "about_us": "À Propos de Nous",
     "blog": "Blog",
     "contact": "Contactez-nous"
@@ -210,7 +210,7 @@
     "phone_number": "Numéro de téléphone - +250783012138",
     "email": "E-mail - Collègelepieuxinfo@gmail.com",
     "copyright": "Droits d'auteur",
-    "made_by": "réalisé par"
+    "made_by": ""
   },
   "contact": {
     "title": "Contactez-nous",
@@ -235,7 +235,7 @@
     "moreInfo": "Pour plus d'informations",
     "addressTitle": "Adresse",
     "addressDetails": "Kalemie: 560 rue",
-    "emailTitle": "Envoyez-nous un email",
+    "emailTitle": "un-email",
     "emailDetails": "Collègelepieuxinfo@gmail.com",
     "callTitle": "Appelez-nous",
     "callDetails": "+250783012138"
