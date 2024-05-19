@@ -120,15 +120,15 @@ function App() {
                   type="button"
                   className="btn btn-outline-danger btn-lg mb-5 mb-md-4"
                 >
-                  Get In Touch
+                  {t("navigation.contact")}
                 </button>
               </Link>
 
               <ul className="footer-social-icons flex p-4">
                 <CiFacebook className="cursor-pointer text-[24px]" />
-                <FaLinkedin className="cursor-pointer ml-5 text-[24px]"  />
+                <FaLinkedin className="cursor-pointer ml-5 text-[24px]" />
                 <FaXTwitter className="cursor-pointer ml-5 text-[24px]" />
-                <FaInstagram className="cursor-pointer ml-5 text-[24px]"/>
+                <FaInstagram className="cursor-pointer ml-5 text-[24px]" />
               </ul>
             </div>
             <div className="col-md-7 col-lg-8">
