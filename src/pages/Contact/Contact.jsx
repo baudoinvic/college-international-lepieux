@@ -53,7 +53,6 @@ function Contact() {
     }
   }
   return (
-    
     <div className="contact-page">
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
@@ -98,9 +97,6 @@ function Contact() {
               onChange={handleChange}
               required
             />
-            <Form.Text className="text-muted">
-              {t("contact.emailInfo")}
-            </Form.Text>
           </Form.Group>
 
           <Form.Group className="mb-3">
@@ -112,14 +108,7 @@ function Contact() {
           </Form.Group>
 
           <Row className="mb-3">
-            <Col sm={12} md={6} className="mb-3 mb-md-0">
-              <Form.Label>{t("contact.location")}</Form.Label>
-              <Form.Select>
-                <option>{t("contact.locationOptionLondon")}</option>
-                <option>{t("contact.locationOptionManchester")}</option>
-                <option>{t("contact.locationOptionLiverpool")}</option>
-              </Form.Select>
-            </Col>
+            
             <Col sm={12} md={6}>
               <Form.Label>{t("contact.postcode")}</Form.Label>
               <Form.Control placeholder={t("contact.postcodePlaceholder")} />
