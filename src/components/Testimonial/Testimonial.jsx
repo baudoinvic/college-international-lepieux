@@ -11,19 +11,19 @@ const Testimonial = () => {
   const TestimonialData = [
     {
       id: 1,
-      name: "ishimwe sandra",
+      name: "Baraka basubi",
       text: t("testimonial_section.testimonials.0.text"),
       img: "https://c.stocksy.com/a/ynq000/z9/202986.jpg",
     },
     {
       id: 2,
-      name: "Divine josh",
+      name: "Divine mugabo",
       text: t("testimonial_section.testimonials.1.text"),
       img: "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180",
     },
     {
       id: 3,
-      name: "Tousaint Francis",
+      name: "John Musafiri",
       text: t("testimonial_section.testimonials.2.text"),
       img: "https://pngimg.com/uploads/student/student_PNG62539.png",
     },
