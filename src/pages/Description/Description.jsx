@@ -2,7 +2,8 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="container mx-auto py-10 ">
+    <div className="">
+    <div className="container mx-auto py-10 mt-10 ">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">Course of Study</h2>
         <p className="text-lg text-gray-800 mb-6">
@@ -44,6 +45,7 @@ const Description = () => {
           <img src="lab3.jpg" alt="Laboratory 3" className="w-full" />
         </div>
       </div>
+    </div>
     </div>
   );
 };
