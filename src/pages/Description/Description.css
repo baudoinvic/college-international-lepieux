@@ -1,0 +1,6 @@
+.description-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-page-header.jpg);
+  height: 500px; /* Ensure the header has height */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+}
