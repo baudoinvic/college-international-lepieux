@@ -95,76 +95,7 @@ function Home() {
         <FaqAccordion />
       </div>
 
-      {/* <div className="blog-section text-light py-5">
-        <div className="container d-flex flex-column align-items-center">
-          <h2 className="text-center text-capitalize mb-5">
-            {t("latest_blog")}
-          </h2>
-          <div className="row g-4">
-            {blogs.map((blog) => (
-              <div key={blog.id} className="col-md-6 col-lg-4">
-                <Link to="/blog" className="text-decoration-none">
-                  <Card className="h-100 shadow scale-hover-effect">
-                    <Card.Img variant="top" src={blog.img} />
-                    <Card.Body className="p-md-5">
-                      <Card.Title>{blog.title}</Card.Title>
-                      <Card.Text>{blog.description}</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </div>
-            ))}
-          </div>
-          <Link to="/blog">
-            <button type="button" className="btn btn-danger btn-lg mt-5">
-              {t("read_more_blogs")}
-            </button>
-          </Link>
-        </div>
-      </div> */}
-      {/* <div className="event">
-        <div className="container mx-auto p-4">
-          <h1 className="text-3xl font-bold text-center mb-8">
-            Upcoming Events
-          </h1>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-xl font-bold mb-2">
-                Science Fair Competition
-              </h2>
-              <p className="text-gray-600 mb-2">october 15, 2024</p>
-              <p className="text-gray-600 mb-2">School Auditorium</p>
-              <p className="text-gray-800">
-                Join us for an exciting science fair competition showcasing the
-                innovative projects of our high school students.
-              </p>
-            </div>
-
-          
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-xl font-bold mb-2">Annual Sports Day</h2>
-              <p className="text-gray-600 mb-2">september 20, 2024</p>
-              <p className="text-gray-600 mb-2">School Grounds</p>
-              <p className="text-gray-800">
-                Get ready for a day filled with fun and athleticism at our
-                annual sports day event. Cheer for your favorite teams!
-              </p>
-            </div>
-
-           
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h2 className="text-xl font-bold mb-2">Math competition</h2>
-              <p className="text-gray-600 mb-2">December 10, 2024</p>
-              <p className="text-gray-600 mb-2">Room 101</p>
-              <p className="text-gray-800">
-                Participate in our Math competition to test and showcase your
-                mathematical skills.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
       <div className="container mx-auto p-4">
         
         <h1 className="text-3xl font-bold text-center mb-8">
