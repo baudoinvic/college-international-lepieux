@@ -4,7 +4,16 @@ import "./Description.css";
 const Description = () => {
   return (
     <div className="description-page">
-      <header>{/* Header content goes here if any */}</header>
+      <header className="height-75">
+        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
+          <h1>Our school programm</h1>
+          <p className="text-center w-75 mb-5">
+            Our school offers a diverse range of courses designed to meet the
+            educational needs of students Whether you're interested with our Courses
+            just read the instructions
+          </p>
+        </div>
+      </header>
       <div className="container mx-auto py-10 mt-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">Course of Study</h2>
