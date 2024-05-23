@@ -1,7 +1,7 @@
 .description-page header {
-  /* background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-page-header.jpg); */
-  background-color: black;
-  height: 500px; /* Ensure the header has height */
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url("https://media.istockphoto.com/id/1322841015/photo/smiling-black-girl-holding-pile-of-books.jpg?s=612x612&w=0&k=20&c=L1Zjrn20SemOSfi3DwM19l16uzB-ONmTD5HQdzuUy84=");
+  /* background-color: black; */
+  height: 600px; /* Ensure the header has height */
   background-size: cover; /* Ensure the image covers the header */
   background-position: center; /* Center the image */
 }
