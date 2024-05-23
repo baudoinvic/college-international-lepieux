@@ -5,6 +5,7 @@ import "./Courses.css";
 import { Card } from "react-bootstrap";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import { useTranslation } from "react-i18next";
+import { Link, Routes, Route } from "react-router-dom";
 
 const Courses = () => {
  const { t } = useTranslation();
@@ -28,17 +29,19 @@ const Courses = () => {
         <div className="row g-4">
           {courses.map((course) => (
             <div key={course.id} className="col-lg-6">
-              <Card className="text-white shadow scale-hover-effect">
-                <Card.Img src={course.img} />
-                <Card.ImgOverlay className="d-flex flex-column align-items-center justify-content-center p-md-5">
-                  <Card.Title className="fs-1 text-danger">
-                    {course.title}
-                  </Card.Title>
-                  <Card.Text className="text-center">
-                    {course.description}
-                  </Card.Text>
-                </Card.ImgOverlay>
-              </Card>
+              <Link to="/Description">
+                <Card className="text-white shadow scale-hover-effect">
+                  <Card.Img src={course.img} />
+                  <Card.ImgOverlay className="d-flex flex-column align-items-center justify-content-center p-md-5">
+                    <Card.Title className="fs-1 text-danger">
+                      {course.title}
+                    </Card.Title>
+                    <Card.Text className="text-center">
+                      {course.description}
+                    </Card.Text>
+                  </Card.ImgOverlay>
+                </Card>
+              </Link>
             </div>
           ))}
         </div>

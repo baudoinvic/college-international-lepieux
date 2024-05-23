@@ -11,6 +11,7 @@ import Contact from "./pages/Contact/Contact";
 import Testimonial from "./components/Testimonial/Testimonial";
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from "./pages/Short/Shortcouses";
+import Description from "./components/Description/Description";
 import { Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { CiFacebook } from "react-icons/ci";
@@ -109,6 +110,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        
       </Routes>
 
       <footer>
