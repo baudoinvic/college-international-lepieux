@@ -14,11 +14,10 @@ const Description = () => {
     <div className="description-page">
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1>Our school programm</h1>
+          <h1>School Curriculum</h1>
           <p className="text-center w-75 mb-5">
-            Our school offers a diverse range of courses designed to meet the
-            educational needs of students Whether you're interested with our
-            Courses just read the instructions
+            Explore our comprehensive school curriculum designed to provide a
+            high-quality and diversified education.
           </p>
         </div>
       </header>
@@ -56,9 +55,56 @@ const Description = () => {
               Contact us
             </button>
           </Link>
+          
         </div>
+
+          
         
+
         <div className="responsive">
+          <div className="container my-5">
+        <section className="subject-section">
+          <h2 className="text-2xl font-bold mb-4">Mathematics</h2>
+          <p>
+            Mathematics is essential for developing logical and analytical
+            thinking. Our curriculum covers arithmetic, algebra, geometry, and
+            statistics.
+          </p>
+        </section>
+
+        <section className="subject-section">
+          <h2 className="text-2xl font-bold mb-4">Science</h2>
+          <p>
+            The science program includes biology, chemistry, and physics,
+            enabling students to understand the natural world.
+          </p>
+        </section>
+
+        <section className="subject-section">
+          <h2 className="text-2xl font-bold mb-4">Languages</h2>
+          <p>
+            We offer courses in English, French, and other foreign languages to
+            help students become effective communicators.
+          </p>
+        </section>
+
+        <section className="subject-section">
+          <h2 className="text-2xl font-bold mb-4">History and Geography</h2>
+          <p>
+            These subjects help students understand the past, different cultures,
+            and geographical environments.
+          </p>
+        </section>
+
+        <section className="subject-section">
+          <h2 className="text-2xl font-bold mb-4">Arts</h2>
+          <p>
+            Arts encourage creativity and personal expression. We offer music,
+            visual arts, and theater classes.
+          </p>
+        </section>
+      </div>
+    </div>
           <h2 className="text-3xl font-bold mb-6 mt-10">Our Libraries</h2>
           <div className="flex flex-wrap gap-2 mb-4">
             <button
@@ -144,7 +190,7 @@ const Description = () => {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 
