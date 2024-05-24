@@ -27,9 +27,9 @@ const Description = () => {
           <h2 className="text-3xl font-bold mb-6">Course of Study</h2>
           <p className="text-lg text-gray-800 mb-6">
             Our school offers a diverse range of courses designed to meet the
-            educational needs of students. Whether you're interested in STEM
-            fields, humanities, arts, or social sciences, we have a program
-            tailored for you. Our experienced faculty members ensure a
+            educational needs of students. Whether you're interested in our courses
+            which we offer to our students, we have a program
+            tailored for you. Our experienced options ensure a
             high-quality education that prepares students for their future
             careers.
           </p>
@@ -39,15 +39,15 @@ const Description = () => {
           </h2>
 
           <p>
-            Thank you for reaching out to us. We appreciate your interest in Le
-            Pieux International University's undergraduate programs. We
-            understand the importance of transparency and clarity in financial
-            matters. Rest assured, we have prepared a comprehensive fees
-            structure and payment information document that outlines all the
-            necessary details for our undergraduate programs. Please find
-            attached the fees structure and payment information for your
-            reference. Should you have any questions or require further
-            clarification, feel free to contact our admissions
+            Thank you for reaching out to us. We appreciate your interest at
+            Collège international le pieux. We understand the importance of
+            transparency and clarity in financial matters. Rest assured, we have
+            prepared a comprehensive fees structure and payment information
+            document that outlines all the necessary details for our
+            students. Please find attached the fees structure and
+            payment information for your reference. Should you have any
+            questions or require further clarification, feel free to contact our
+            admissions
             <p>just reach out to us for for more informations.</p>
           </p>
           <Link to="/contact">
