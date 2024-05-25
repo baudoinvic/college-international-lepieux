@@ -49,7 +49,10 @@
   "school2": {
     "title": "Muundo wa Ada za Shule",
     "description": "Asante kwa kuwasiliana nasi. Tunathamini nia yako katika Collège international le pieux. Tunaelewa umuhimu wa uwazi na uwazi katika masuala ya kifedha. Hakikisha, tumetayarisha hati kamili ya muundo wa ada na taarifa za malipo ambayo inaelezea maelezo yote muhimu kwa wanafunzi wetu. Tafadhali pata muundo wa ada na taarifa za malipo kwa marejeleo yako. Ikiwa una maswali au unahitaji ufafanuzi zaidi, jisikie huru kuwasiliana na kitivo chetu cha uandikishaji.Tafadhali wasiliana nasi kwa habari zaidi. "
-    
+  },
+  "school3": {
+    "description": "Hii ni orodha ya chaguzi ambazo wanafunzi lazima wachague moja ambayo ni nzuri kwa yeye au yeye.Tunayo pia kozi fupi ambazo huchukua miezi 6 kukamilisha na kupata cheti. Ikiwa unataka kujua habari zaidi kuhusu kozi zetu fupi, tunakushauri usome habari zaidi hapa..",
+    "title": "Kozi fupi "
   },
   "conta": {
     "title": "Wasiliana nasi"

@@ -45,20 +45,12 @@ const Description = () => {
 
         <div className="responsive">
           <div className="container my-5">
-            <p>
-              {" "}
-              this is of options which organized the students must choose one
-              which is good for him or her
-              <br />
-              we have also short courses whcih takes 6 months to complete and
-              get certificate, in case if you want to know more informations
-              <br />
-              about our short courses we advise you to read more information
-              here.
+            <p className="w-3/4">
+              {t("school3.description")}
               <br />
               <Link to="/Shortcourses">
                 <a className="text-decoration-none" href="">
-                  Shortcourses
+                  {t("school3.title")}
                 </a>
               </Link>
             </p>

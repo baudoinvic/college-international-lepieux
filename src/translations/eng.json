@@ -262,21 +262,23 @@
     "title": "our short courses",
     "description": "We offer a range of short courses in various fields each spanning approximately six months and conducted through in-person construction   "
   },
-   "school": {
+  "school": {
     "title": "School Curriculum",
     "description": "Explore our comprehensive school curriculum designed to provide a high-quality and diversified education. Our curriculum emphasizes critical thinking, problem-solving skills, and creativity to prepare students for success in an ever-changing world.  "
   },
-   "school1": {
+  "school1": {
     "title": "School Curriculum",
     "description": "Our school offers a diverse range of courses designed to meet the educational needs of students. Whether you're interested in our courses which we offer to our students, we have a program tailored for you. Our experienced options ensure a high-quality education that prepares students for their future careers.  "
   },
-   "school2": {
+  "school2": {
     "title": "School Fees Structure",
     "description": "Thank you for reaching out to us. We appreciate your interest at Collège international le pieux. We understand the importance of transparency and clarity in financial matters. Rest assured, we have prepared a comprehensive fees structure and payment information document that outlines all the necessary details for our students. Please find attached the fees structure and payment information for your reference. Should you have any questions or require further clarification, feel free to contact our admissions.Just reach out to us for more information. "
-    
+  },
+  "school3": {
+    "description": "This is a list of options which organized the students must choose one which is good for him or her.We also have short courses which take 6 months to complete and get a certificate. If you want to know more information about our short courses, we advise you to read more information here.",
+    "title": "Shortcourses "
   },
   "conta": {
     "title": "contact us"
   }
-   
 }
