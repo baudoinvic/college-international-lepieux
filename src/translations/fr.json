@@ -215,13 +215,18 @@
   "learn": {
     "title": "apprendre encore plus"
   },
-   "school": {
+  "school": {
     "title": "Programme scolaire",
     "description": "Explorez notre programme scolaire complet conçu pour offrir une éducation de haute qualité et diversifiée. Notre programme met l'accent sur la pensée critique, les compétences en résolution de problèmes et la créativité pour préparer les éleves à réussir dans un monde en constante évolution  "
   },
-    "school1": {
+  "school1": {
     "title": "Programme scolaire",
     "description": "Notre école propose une gamme diversifiée de cours conçus pour répondre aux besoins éducatifs des élèves. Que vous soyez intéressé par nos cours que nous proposons à nos élèves, nous avons un programme adapté pour vous. Nos options expérimentées garantissent une éducation de haute qualité qui prépare nos éleves à leurs futures carrières. "
+  },
+
+  "school2": {
+    "title": "Structure des frais de scolarité",
+    "description": "Merci de nous avoir contactés. Nous apprécions votre intérêt pour Collège international le pieux. Nous comprenons l'importance de la transparence et de la clarté en matière financière. Soyez assuré que nous avons préparé un document complet sur la structure des frais et les informations de paiement qui détaille tous les éléments nécessaires pour nos étudiants. Veuillez trouver ci-joint la structure des frais et les informations de paiement pour votre référence. Si vous avez des questions ou avez besoin de plus de précisions, n'hésitez pas à contacter nos admissions.N'hésitez pas à nous contacter pour plus d'informations "
   },
 
   "event": {

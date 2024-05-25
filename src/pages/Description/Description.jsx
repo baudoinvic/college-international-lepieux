@@ -16,7 +16,6 @@ const Description = () => {
   return (
     <div className="description-page">
       <header className="height-75">
-       
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h1>{t("school.title")}</h1>
           <p className="text-center w-75 mb-5">{t("school.description")}</p>
@@ -30,20 +29,10 @@ const Description = () => {
           </p>
 
           <h2 className="text-3xl font-bold mb-6 mt-10">
-            School Fees structure
+            {t("school2.title")}
           </h2>
 
-          <p>
-            Thank you for reaching out to us. We appreciate your interest at
-            Collège international le pieux. We understand the importance of
-            transparency and clarity in financial matters. Rest assured, we have
-            prepared a comprehensive fees structure and payment information
-            document that outlines all the necessary details for our students.
-            Please find attached the fees structure and payment information for
-            your reference. Should you have any questions or require further
-            clarification, feel free to contact our admissions
-            <p>just reach out to us for for more informations.</p>
-          </p>
+          <p>{t("school2.description")}</p>
           <Link to="/contact">
             <button
               type="button"
