@@ -148,7 +148,7 @@
   "footer": {
     "main_address": "Main Address - Congo Drc. Kalemie 540 Street",
     "phone_number": "Phone Number - +250783012138",
-    "email": "Email - Collègelepieuxinfo@gmail.com",
+    "email": "Email - Collègelepieuxinfos@edu.com",
     "copyright": "Copyright",
     "made_by": ""
   },
@@ -261,5 +261,13 @@
   "short": {
     "title": "our short courses",
     "description": "We offer a range of short courses in various fields each spanning approximately six months and conducted through in-person construction   "
+  },
+   "school": {
+    "title": "School Curriculum",
+    "description": "Explore our comprehensive school curriculum designed to provide a high-quality and diversified education. Our curriculum emphasizes critical thinking, problem-solving skills, and creativity to prepare students for success in an ever-changing world.  "
+  },
+   "school1": {
+    "title": "School Curriculum",
+    "description": "Our school offers a diverse range of courses designed to meet the educational needs of students. Whether you're interested in our courses which we offer to our students, we have a program tailored for you. Our experienced options ensure a high-quality education that prepares students for their future careers.  "
   }
 }

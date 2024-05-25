@@ -38,6 +38,14 @@
   "event": {
     "title": "Matukio yanayokuja"
   },
+  "school": {
+    "title": "Mtaala wa Shule",
+    "description": "Chunguza mtaala wetu wa shule uliokamilika ulioundwa kutoa elimu ya hali ya juu na anuwai. Mtaala wetu unasisitiza kufikiri kwa kina, ujuzi wa kutatua matatizo, na ubunifu ili kuandaa wanafunzi kwa mafanikio katika ulimwengu unaobadilika kila wakati. "
+  },
+  "school1": {
+    "title": "Mtaala wa Shule",
+    "description": "Shule yetu inatoa aina mbalimbali za kozi zilizoundwa kukidhi mahitaji ya elimu ya wanafunzi. Iwe una nia ya kozi zetu ambazo tunatoa kwa wanafunzi wetu, tunayo programu iliyoundwa kwa ajili yako. Chaguzi zetu zenye uzoefu zinahakikisha elimu ya hali ya juu inayowaandaa wanafunzi kwa taaluma zao za baadaye. "
+  },
   "short": {
     "title": "Kozi Zetu Fupi",
     "description": "Tunatoa mbalimbali ya kozi fupi katika maeneo mbalimbali kila moja ikiwa na kipindi cha takriban miezi sita na kufanyika kupitia ujenzi wa mtu binafsi"

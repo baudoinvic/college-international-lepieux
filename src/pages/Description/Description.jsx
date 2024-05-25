@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import "./Description.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Description = () => {
+   const { t } = useTranslation();
+
   const [filter, setFilter] = useState("all");
 
   const handleFilterChange = (value) => {
@@ -13,25 +16,17 @@ const Description = () => {
   return (
     <div className="description-page">
       <header className="height-75">
+       
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1>School Curriculum</h1>
-          <p className="text-center w-75 mb-5">
-            Explore our comprehensive school curriculum designed to provide a
-            high-quality and diversified education. Our curriculum emphasizes
-            critical thinking, problem-solving skills, and creativity to prepare
-            students for success in an ever-changing world.
-          </p>
+          <h1>{t("school.title")}</h1>
+          <p className="text-center w-75 mb-5">{t("school.description")}</p>
         </div>
       </header>
       <div className="container py-10 mt-10">
         <div className="max-w-3xl">
-          <h2 className="text-3xl font-bold mb-6">Course of Study</h2>
+          <h2 className="text-3xl font-bold mb-6">{t("school1.title")}</h2>
           <p className="text-lg text-gray-800 mb-6">
-            Our school offers a diverse range of courses designed to meet the
-            educational needs of students. Whether you're interested in our
-            courses which we offer to our students, we have a program tailored
-            for you. Our experienced options ensure a high-quality education
-            that prepares students for their future careers.
+            {t("school1.description")}
           </p>
 
           <h2 className="text-3xl font-bold mb-6 mt-10">
@@ -61,44 +56,88 @@ const Description = () => {
 
         <div className="responsive">
           <div className="container my-5">
+            <p>
+              {" "}
+              this is of options which organized the students must choose one
+              which is good for him or her
+              <br />
+              we have also short courses whcih takes 6 months to complete and
+              get certificate, in case if you want to know more informations
+              <br />
+              about our short courses we advise you to read more information
+              here.
+              <br />
+              <Link to="/Shortcourses">
+                <a className="text-decoration-none" href="">
+                  Shortcourses
+                </a>
+              </Link>
+            </p>
+
+            <p>
+              {" "}
+              this is of options which organized the students must choose one
+              which is good for him or her once finish with orientation cycle.
+              <br />
+              our programm follow all the instructions and rueles of EPST
+            </p>
+
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Mathematics</h2>
+              <h2 className="text-2xl font-bold mb-4">
+                Veterinary and Agronomy
+              </h2>
               <p>
-                Mathematics is essential for developing logical and analytical
-                thinking. Our curriculum covers arithmetic, algebra, geometry,
-                and statistics.
+                Would you like to build your career in Veterinary and Agronomy?
+                This course explores veterinary science and agronomy,
+                <br /> covering topics such as animal health, nutrition,
+                breeding, crop production, and soil management
               </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Science</h2>
+              <h2 className="text-2xl font-bold mb-4">Construction</h2>
               <p>
-                The science program includes biology, chemistry, and physics,
-                enabling students to understand the natural world.
+                Would you like to build your career in construction? This course
+                covers the principles and techniques of construction, including{" "}
+                <br />
+                building materials, structural systems, construction methods,
+                and project management.
               </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Languages</h2>
+              <h2 className="text-2xl font-bold mb-4">Mechanical</h2>
               <p>
-                We offer courses in English, French, and other foreign languages
-                to help students become effective communicators.
+                Build your future career in Mechanical. This course covers
+                principles of mechanics, including statics, dynamics,
+                kinematics,
+                <br /> and mechanical systems, and their applications in
+                engineering and technology.
               </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">History and Geography</h2>
+              <h2 className="text-2xl font-bold mb-4">General electricity</h2>
               <p>
-                These subjects help students understand the past, different
-                cultures, and geographical environments.
+                This course covers fundamental principles and applications of
+                general electricity, including
+                <br /> circuits, voltage, current, resistance, and power.
               </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Arts</h2>
+              <h2 className="text-2xl font-bold mb-4">Sales and Management</h2>
               <p>
-                Arts encourage creativity and personal expression. We offer
-                music, visual arts, and theater classes.
+                This course focuses on commercial and management skills,
+                including marketing
+                <br /> sales, finance, human resources, and business operations.
+              </p>
+            </section>
+            <section className="subject-section">
+              <h2 className="text-2xl font-bold mb-4">cut and seam</h2>
+              <p>
+                Arts encourage creativity and personal expression. We offer much
+                practice for our students to allow them to get more skills
               </p>
             </section>
           </div>
@@ -109,8 +148,8 @@ const Description = () => {
             onClick={() => handleFilterChange("all")}
             className={`px-4 py-2 rounded ${
               filter === "all"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-500 text-white"
+                ? "bg-red-500 text-white"
+                : "bg-red-500 text-white"
             }`}
           >
             All

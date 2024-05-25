@@ -215,6 +215,14 @@
   "learn": {
     "title": "apprendre encore plus"
   },
+   "school": {
+    "title": "Programme scolaire",
+    "description": "Explorez notre programme scolaire complet conçu pour offrir une éducation de haute qualité et diversifiée. Notre programme met l'accent sur la pensée critique, les compétences en résolution de problèmes et la créativité pour préparer les éleves à réussir dans un monde en constante évolution  "
+  },
+    "school1": {
+    "title": "Programme scolaire",
+    "description": "Notre école propose une gamme diversifiée de cours conçus pour répondre aux besoins éducatifs des élèves. Que vous soyez intéressé par nos cours que nous proposons à nos élèves, nous avons un programme adapté pour vous. Nos options expérimentées garantissent une éducation de haute qualité qui prépare nos éleves à leurs futures carrières. "
+  },
 
   "event": {
     "title": "Événements à venir"
@@ -235,7 +243,7 @@
   "footer": {
     "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
     "phone_number": "Numéro de téléphone - +243850651507",
-    "email": "E-mail - Collègelepieuxinfo@gmail.com",
+    "email": "E-mail - Collègelepieuxinfos@edu.com",
     "copyright": "Droits d'auteur",
     "made_by": ""
   },
