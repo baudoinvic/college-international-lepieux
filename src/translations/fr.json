@@ -230,8 +230,11 @@
   },
 
   "school3": {
-    "description": "Ceci est une liste d'options que les étudiants doivent choisir celle qui leur convient.Nous avons également des cours courts qui prennent 6 mois pour être complétés et obtenir un certificat. Si vous souhaitez obtenir plus d'informations sur nos cours courts, nous vous conseillons de lire plus d'informations ici.",
+    "description": "Ceci est une liste d'options que nos éleves doivent choisir celle qui leur convient.Nous avons également des cours courts qui prennent 6 mois pour être complétés et obtenir un certificat. Si vous souhaitez obtenir plus d'informations sur nos cours courts, nous vous conseillons de lire plus d'informations ici.",
     "title": "formation à courte durée "
+  },
+  "school4": {
+    "description": "Ceci est une liste d'options que nos éleves doivent choisir celle qui leur convient une fois terminé le cycle d'orientation.Notre programme suit toutes les instructions et règles de l'EPST."
   },
 
   "conta": {

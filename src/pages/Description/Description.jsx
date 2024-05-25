@@ -55,13 +55,7 @@ const Description = () => {
               </Link>
             </p>
 
-            <p>
-              {" "}
-              this is of options which organized the students must choose one
-              which is good for him or her once finish with orientation cycle.
-              <br />
-              our programm follow all the instructions and rueles of EPST
-            </p>
+            <p className="w-3/4">{t("school4.description")}</p>
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
