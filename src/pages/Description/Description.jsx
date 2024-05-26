@@ -116,7 +116,7 @@ const Description = () => {
                 {t("cut_seam.title")} {/* Translating the title */}
               </h2>
 
-              <p>
+              <p className="w-3/4">
                 {t("cut_seam.description")} {/* Translating the description */}
               </p>
             </section>
