@@ -73,17 +73,6 @@ const Description = () => {
               <p className="w-3/4">{t("construction.description")} </p>
             </section>
 
-            {/* <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Mechanical</h2>
-              <p>
-                Build your future career in Mechanical. This course covers
-                principles of mechanics, including statics, dynamics,
-                kinematics,
-                <br /> and mechanical systems, and their applications in
-                engineering and technology.
-              </p>
-            </section> */}
-
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
                 {t("mechanical.title")} {/* Translating the title */}
