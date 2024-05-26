@@ -56,16 +56,16 @@ const Description = () => {
             </p>
 
             <p className="w-3/4">{t("school4.description")}</p>
+           
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                Veterinary and Agronomy
+                {t("vet_agronomy.title")} {/* Translating the title */}
               </h2>
-              <p>
-                Would you like to build your career in Veterinary and Agronomy?
-                This course explores veterinary science and agronomy,
-                <br /> covering topics such as animal health, nutrition,
-                breeding, crop production, and soil management
+
+              <p className="w-3/4">
+                {t("vet_agronomy.description")}{" "}
+                {/* Translating the description */}
               </p>
             </section>
 

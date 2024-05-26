@@ -237,6 +237,11 @@
     "description": "Ceci est une liste d'options que nos éleves doivent choisir celle qui leur convient une fois terminé le cycle d'orientation.Notre programme suit toutes les instructions et règles de l'EPST."
   },
 
+  "vet_agronomy": {
+    "title": "Vétérinaire et Agronomie",
+    "description": "Souhaitez-vous construire votre carrière en médecine vétérinaire et en agronomie ? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production de cultures et la gestion des sols."
+  },
+
   "conta": {
     "title": "contact nous"
   },
