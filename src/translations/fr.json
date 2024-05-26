@@ -252,6 +252,11 @@
     "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications en ingénierie et technologie."
   },
 
+  "electricity": {
+    "title": "Électricité générale",
+    "description": "Ce cours couvre les principes fondamentaux et les applications de l'électricité générale, y compris les circuits, la tension, le courant, la résistance et la puissance."
+  },
+
 
   "conta": {
     "title": "contact nous"

@@ -81,6 +81,11 @@
     "description": "Jenga kazi yako ya baadaye katika Umeme. Kozi hii inajumuisha kanuni za mitambo, ikiwa ni pamoja na utulivu, nguvu, kinematics, na mifumo ya umeme, na matumizi yao katika uhandisi na teknolojia."
   },
 
+  "electricity": {
+    "title": "Umeme wa Jumla",
+    "description": "Kozi hii inajumuisha kanuni msingi na matumizi ya umeme wa jumla, ikiwa ni pamoja na mizunguko, voltage, sasa, upinzani, na nguvu."
+  },
+
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
     "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",

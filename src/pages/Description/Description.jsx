@@ -59,7 +59,7 @@ const Description = () => {
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("vet_agronomy.title")} {/* Translating the title */}
+                {t("vet_agronomy.title")}
               </h2>
 
               <p className="w-3/4">{t("vet_agronomy.description")} </p>
@@ -75,26 +75,36 @@ const Description = () => {
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("mechanical.title")} {/* Translating the title */}
+                {t("mechanical.title")}
               </h2>
 
-              <p className="w-3/4">
-                {t("mechanical.description")}{" "}
-                {/* Translating the description */}
-              </p>
+              <p className="w-3/4">{t("mechanical.description")} </p>
             </section>
 
-            <section className="subject-section">
+            {/* <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">General electricity</h2>
               <p>
                 This course covers fundamental principles and applications of
                 general electricity, including
                 <br /> circuits, voltage, current, resistance, and power.
               </p>
+            </section> */}
+
+            <section className="subject-section">
+              <h2 className="text-2xl font-bold mb-4">
+                {t("electricity.title")} {/* Translating the title */}
+              </h2>
+
+              <p className="w-3/4">
+                {t("electricity.description")}{" "}
+                {/* Translating the description */}
+              </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Sales and Management</h2>
+              <h2 className="text-2xl font-bold mb-4">
+                commerciale et gestion
+              </h2>
               <p>
                 This course focuses on commercial and management skills,
                 including marketing
