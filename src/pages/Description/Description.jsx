@@ -56,7 +56,6 @@ const Description = () => {
             </p>
 
             <p className="w-3/4">{t("school4.description")}</p>
-           
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
@@ -70,13 +69,13 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">Construction</h2>
-              <p>
-                Would you like to build your career in construction? This course
-                covers the principles and techniques of construction, including{" "}
-                <br />
-                building materials, structural systems, construction methods,
-                and project management.
+              <h2 className="text-2xl font-bold mb-4">
+                {t("construction.title")} {/* Translating the title */}
+              </h2>
+
+              <p className="w-3/4">
+                {t("construction.description")}{" "}
+                {/* Translating the description */}
               </p>
             </section>
 
