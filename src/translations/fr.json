@@ -267,6 +267,15 @@
     "description": "Les arts encouragent la créativité et l'expression personnelle. Nous offrons beaucoup de pratique à nos étudiants pour leur permettre d'acquérir davantage de compétences."
   },
 
+   "library_filters": {
+    "title": "Nos Bibliothèques",
+    "all": "Tous",
+    "lab1": "Bibliothèque 1",
+    "lab2": "Bibliothèque 2",
+    "lab3": "Bibliothèque 3",
+    "computer_lab": "Laboratoire d'Informatique"
+  },
+
 
   "conta": {
     "title": "contact nous"

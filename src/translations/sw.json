@@ -96,6 +96,15 @@
     "description": "Sanaa inachochea ubunifu na kujieleza binafsi. Tunatoa mazoezi mengi kwa wanafunzi wetu kuwawezesha kupata zaidi ya ujuzi."
   },
 
+  "library_filters": {
+    "title": "Vyeti Vyetu",
+    "all": "Zote",
+    "lab1": "Vyeti 1",
+    "lab2": "Vyeti 2",
+    "lab3": "Vyeti 3",
+    "computer_lab": "Maabara ya Kompyuta"
+  },
+
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
     "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",

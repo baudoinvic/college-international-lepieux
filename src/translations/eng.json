@@ -309,6 +309,15 @@
     "description": "Arts encourage creativity and personal expression. We offer much practice for our students to allow them to get more skills."
   },
 
+  "library_filters": {
+    "title": "Our Libraries",
+    "all": "All",
+    "lab1": "Library 1",
+    "lab2": "Library 2",
+    "lab3": "Library 3",
+    "computer_lab": "Computer Lab"
+  },
+
 
   "mechanical": {
     "title": "Mechanical",

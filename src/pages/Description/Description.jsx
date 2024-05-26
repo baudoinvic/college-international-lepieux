@@ -104,7 +104,7 @@ const Description = () => {
             </section>
           </div>
         </div>
-        <h2 className="text-3xl font-bold mb-6 mt-10">Our Libraries</h2>
+        {/* <h2 className="text-3xl font-bold mb-6 mt-10">Our Libraries</h2>
         <div className="flex flex-wrap gap-2 mb-4">
           <button
             onClick={() => handleFilterChange("all")}
@@ -156,7 +156,65 @@ const Description = () => {
           >
             Computer Lab
           </button>
-        </div>
+        </div> */}
+
+        <>
+          <h2 className="text-3xl font-bold mb-6 mt-10">
+            {t("library_filters.title")}
+          </h2>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <button
+              onClick={() => handleFilterChange("all")}
+              className={`px-4 py-2 rounded ${
+                filter === "all"
+                  ? "bg-red-500 text-white"
+                  : "bg-red-500 text-white"
+              }`}
+            >
+              {t("library_filters.all")}
+            </button>
+            <button
+              onClick={() => handleFilterChange("lab1")}
+              className={`px-4 py-2 rounded ${
+                filter === "lab1"
+                  ? "bg-blue-700 text-white"
+                  : "bg-blue-500 text-white"
+              }`}
+            >
+              {t("library_filters.lab1")}
+            </button>
+            <button
+              onClick={() => handleFilterChange("lab2")}
+              className={`px-4 py-2 rounded ${
+                filter === "lab2"
+                  ? "bg-blue-700 text-white"
+                  : "bg-blue-500 text-white"
+              }`}
+            >
+              {t("library_filters.lab2")}
+            </button>
+            <button
+              onClick={() => handleFilterChange("lab3")}
+              className={`px-4 py-2 rounded ${
+                filter === "lab3"
+                  ? "bg-blue-700 text-white"
+                  : "bg-blue-500 text-white"
+              }`}
+            >
+              {t("library_filters.lab3")}
+            </button>
+            <button
+              onClick={() => handleFilterChange("computer4")}
+              className={`px-4 py-2 rounded ${
+                filter === "computer4"
+                  ? "bg-blue-700 text-white"
+                  : "bg-blue-500 text-white"
+              }`}
+            >
+              {t("library_filters.computer_lab")}
+            </button>
+          </div>
+        </>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
             src="https://auca.kg/uploads/00012021/177948667_10159035366570629_4164718236750303000_n.jpg"
