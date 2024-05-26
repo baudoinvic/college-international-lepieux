@@ -83,41 +83,33 @@ const Description = () => {
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("electricity.title")} {/* Translating the title */}
+                {t("electricity.title")} 
               </h2>
 
               <p className="w-3/4">
                 {t("electricity.description")}{" "}
-                {/* Translating the description */}
+              
               </p>
             </section>
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("commercial_management.title")} {/* Translating the title */}
+                {t("commercial_management.title")} 
               </h2>
 
               <p className="w-3/4">
                 {t("commercial_management.description")}{" "}
-                {/* Translating the description */}
+               
               </p>
             </section>
 
-            {/* <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">cut and seam</h2>
-              <p>
-                Arts encourage creativity and personal expression. We offer much
-                practice for our students to allow them to get more skills
-              </p>
-            </section> */}
-
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("cut_seam.title")} {/* Translating the title */}
+                {t("cut_seam.title")} 
               </h2>
 
               <p className="w-3/4">
-                {t("cut_seam.description")} {/* Translating the description */}
+                {t("cut_seam.description")} 
               </p>
             </section>
           </div>
