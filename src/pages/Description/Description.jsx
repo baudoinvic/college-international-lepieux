@@ -92,17 +92,6 @@ const Description = () => {
               </p>
             </section>
 
-            {/* <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
-                commerciale et gestion
-              </h2>
-              <p>
-                This course focuses on commercial and management skills,
-                including marketing
-                <br /> sales, finance, human resources, and business operations.
-              </p>
-            </section> */}
-
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
                 {t("commercial_management.title")} {/* Translating the title */}
@@ -114,11 +103,21 @@ const Description = () => {
               </p>
             </section>
 
-            <section className="subject-section">
+            {/* <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">cut and seam</h2>
               <p>
                 Arts encourage creativity and personal expression. We offer much
                 practice for our students to allow them to get more skills
+              </p>
+            </section> */}
+
+            <section className="subject-section">
+              <h2 className="text-2xl font-bold mb-4">
+                {t("cut_seam.title")} {/* Translating the title */}
+              </h2>
+
+              <p>
+                {t("cut_seam.description")} {/* Translating the description */}
               </p>
             </section>
           </div>
