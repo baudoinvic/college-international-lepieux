@@ -75,6 +75,12 @@
     "description": "Je! Ungependa kujenga kazi yako katika ujenzi? Kozi hii inajumuisha kanuni na mbinu za ujenzi, ikiwa ni pamoja na vifaa vya ujenzi, mifumo ya muundo, njia za ujenzi, na usimamizi wa miradi."
   },
 
+
+  "mechanical": {
+    "title": "Umeme",
+    "description": "Jenga kazi yako ya baadaye katika Umeme. Kozi hii inajumuisha kanuni za mitambo, ikiwa ni pamoja na utulivu, nguvu, kinematics, na mifumo ya umeme, na matumizi yao katika uhandisi na teknolojia."
+  },
+
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
     "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",

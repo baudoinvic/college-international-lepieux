@@ -62,24 +62,18 @@ const Description = () => {
                 {t("vet_agronomy.title")} {/* Translating the title */}
               </h2>
 
-              <p className="w-3/4">
-                {t("vet_agronomy.description")}{" "}
-                {/* Translating the description */}
-              </p>
+              <p className="w-3/4">{t("vet_agronomy.description")} </p>
             </section>
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("construction.title")} {/* Translating the title */}
+                {t("construction.title")}
               </h2>
 
-              <p className="w-3/4">
-                {t("construction.description")}{" "}
-                {/* Translating the description */}
-              </p>
+              <p className="w-3/4">{t("construction.description")} </p>
             </section>
 
-            <section className="subject-section">
+            {/* <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">Mechanical</h2>
               <p>
                 Build your future career in Mechanical. This course covers
@@ -87,6 +81,17 @@ const Description = () => {
                 kinematics,
                 <br /> and mechanical systems, and their applications in
                 engineering and technology.
+              </p>
+            </section> */}
+
+            <section className="subject-section">
+              <h2 className="text-2xl font-bold mb-4">
+                {t("mechanical.title")} {/* Translating the title */}
+              </h2>
+
+              <p className="w-3/4">
+                {t("mechanical.description")}{" "}
+                {/* Translating the description */}
               </p>
             </section>
 

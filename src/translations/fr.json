@@ -247,6 +247,11 @@
     "description": "Souhaitez-vous construire votre carrière dans le domaine de la construction ? Ce cours couvre les principes et les techniques de la construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projets."
   },
 
+   "mechanical": {
+    "title": "Mécanique",
+    "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications en ingénierie et technologie."
+  },
+
 
   "conta": {
     "title": "contact nous"
