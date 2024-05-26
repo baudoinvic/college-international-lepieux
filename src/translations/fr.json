@@ -257,6 +257,11 @@
     "description": "Ce cours couvre les principes fondamentaux et les applications de l'électricité générale, y compris les circuits, la tension, le courant, la résistance et la puissance."
   },
 
+  "commercial_management": {
+    "title": "Commerce et Gestion",
+    "description": "Ce cours se concentre sur les compétences commerciales et de gestion, y compris le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales."
+  },
+
 
   "conta": {
     "title": "contact nous"

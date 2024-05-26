@@ -86,6 +86,11 @@
     "description": "Kozi hii inajumuisha kanuni msingi na matumizi ya umeme wa jumla, ikiwa ni pamoja na mizunguko, voltage, sasa, upinzani, na nguvu."
   },
 
+  "commercial_management": {
+    "title": "Biashara na Usimamizi",
+    "description": "Kozi hii inazingatia ujuzi wa biashara na usimamizi, ikiwa ni pamoja na mauzo ya masoko, fedha, rasilimali watu, na shughuli za biashara."
+  },
+
   "faq": {
     "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
     "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",

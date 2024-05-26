@@ -81,15 +81,6 @@ const Description = () => {
               <p className="w-3/4">{t("mechanical.description")} </p>
             </section>
 
-            {/* <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">General electricity</h2>
-              <p>
-                This course covers fundamental principles and applications of
-                general electricity, including
-                <br /> circuits, voltage, current, resistance, and power.
-              </p>
-            </section> */}
-
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
                 {t("electricity.title")} {/* Translating the title */}
@@ -101,7 +92,7 @@ const Description = () => {
               </p>
             </section>
 
-            <section className="subject-section">
+            {/* <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
                 commerciale et gestion
               </h2>
@@ -110,7 +101,19 @@ const Description = () => {
                 including marketing
                 <br /> sales, finance, human resources, and business operations.
               </p>
+            </section> */}
+
+            <section className="subject-section">
+              <h2 className="text-2xl font-bold mb-4">
+                {t("commercial_management.title")} {/* Translating the title */}
+              </h2>
+
+              <p className="w-3/4">
+                {t("commercial_management.description")}{" "}
+                {/* Translating the description */}
+              </p>
             </section>
+
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">cut and seam</h2>
               <p>
