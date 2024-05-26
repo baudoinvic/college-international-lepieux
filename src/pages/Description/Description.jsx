@@ -83,34 +83,24 @@ const Description = () => {
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("electricity.title")} 
+                {t("electricity.title")}
               </h2>
 
-              <p className="w-3/4">
-                {t("electricity.description")}{" "}
-              
-              </p>
+              <p className="w-3/4">{t("electricity.description")} </p>
             </section>
 
             <section className="subject-section">
               <h2 className="text-2xl font-bold mb-4">
-                {t("commercial_management.title")} 
+                {t("commercial_management.title")}
               </h2>
 
-              <p className="w-3/4">
-                {t("commercial_management.description")}{" "}
-               
-              </p>
+              <p className="w-3/4">{t("commercial_management.description")} </p>
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
-                {t("cut_seam.title")} 
-              </h2>
+              <h2 className="text-2xl font-bold mb-4">{t("cut_seam.title")}</h2>
 
-              <p className="w-3/4">
-                {t("cut_seam.description")} 
-              </p>
+              <p className="w-3/4">{t("cut_seam.description")}</p>
             </section>
           </div>
         </div>
@@ -171,28 +161,28 @@ const Description = () => {
           <img
             src="https://auca.kg/uploads/00012021/177948667_10159035366570629_4164718236750303000_n.jpg"
             alt="Library 1"
-            className={`cursor-pointer w-full ${
+            className={`shadow scale-hover-effect cursor-pointer w-full ${
               filter !== "all" && filter !== "lab1" ? "hidden" : ""
             }`}
           />
           <img
             src="https://media.istockphoto.com/id/824750478/photo/girl-reading-book-by-shelf-in-library.jpg?s=612x612&w=0&k=20&c=LvT9UoHUVvgbHxLDDW4V8Vy_duOGPLH5jjxn_XcQDt0="
             alt="Library 2"
-            className={`cursor-pointer w-full ${
+            className={`shadow scale-hover-effect cursor-pointer w-full ${
               filter !== "all" && filter !== "lab2" ? "hidden" : ""
             }`}
           />
           <img
             src="https://media.istockphoto.com/id/1633844594/photo/young-boy-searching-through-bookshelves-in-library.jpg?s=612x612&w=0&k=20&c=YaGdWrpyvcdG14PMakyLj1-SX4CyeJEY6ohlXbcvQyQ="
             alt="Library 3"
-            className={`cursor-pointer w-full ${
+            className={`shadow scale-hover-effect cursor-pointer w-full ${
               filter !== "all" && filter !== "lab3" ? "hidden" : ""
             }`}
           />
           <img
             src="https://media.istockphoto.com/id/1415740420/photo/computers-in-empty-classroom-on-high-school.jpg?s=612x612&w=0&k=20&c=8u7IcOi8c775BD4w1Ri6_7Vpm4TRRWVkN_D3aqFYzTU="
             alt="Computer Lab"
-            className={`cursor-pointer w-full ${
+            className={`shadow scale-hover-effect cursor-pointer w-full ${
               filter !== "all" && filter !== "computer4" ? "hidden" : ""
             }`}
           />
