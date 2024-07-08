@@ -46,7 +46,7 @@ function Contact() {
       });
 
       console.log("Response Data:", response.data);
-      toast.success("Thank you for your feedback");
+      toast.success("Merci de nous avoir contactés");
     } catch (error) {
       console.error("Error:", error.response ? error.response.data : error);
       toast.error("Failed to send message. Please try again later.");
