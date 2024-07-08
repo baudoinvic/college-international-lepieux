@@ -15,7 +15,7 @@ const Description = () => {
 
   return (
     <div className="description-page">
-      <header className="height-75">
+      <header className="height-100 ">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h1>{t("school.title")}</h1>
           <p className="text-center w-75 mb-5">{t("school.description")}</p>
@@ -104,60 +104,7 @@ const Description = () => {
             </section>
           </div>
         </div>
-        {/* <h2 className="text-3xl font-bold mb-6 mt-10">Our Libraries</h2>
-        <div className="flex flex-wrap gap-2 mb-4">
-          <button
-            onClick={() => handleFilterChange("all")}
-            className={`px-4 py-2 rounded ${
-              filter === "all"
-                ? "bg-red-500 text-white"
-                : "bg-red-500 text-white"
-            }`}
-          >
-            All
-          </button>
-          <button
-            onClick={() => handleFilterChange("lab1")}
-            className={`px-4 py-2 rounded ${
-              filter === "lab1"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-500 text-white"
-            }`}
-          >
-            Library 1
-          </button>
-          <button
-            onClick={() => handleFilterChange("lab2")}
-            className={`px-4 py-2 rounded ${
-              filter === "lab2"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-500 text-white"
-            }`}
-          >
-            Library 2
-          </button>
-          <button
-            onClick={() => handleFilterChange("lab3")}
-            className={`px-4 py-2 rounded ${
-              filter === "lab3"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-500 text-white"
-            }`}
-          >
-            Library 3
-          </button>
-          <button
-            onClick={() => handleFilterChange("computer4")}
-            className={`px-4 py-2 rounded ${
-              filter === "computer4"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-500 text-white"
-            }`}
-          >
-            Computer Lab
-          </button>
-        </div> */}
-
+       
         <>
           <h2 className="text-3xl font-bold mb-6 mt-10">
             {t("library_filters.title")}
@@ -246,6 +193,7 @@ const Description = () => {
           />
         </div>
       </div>
+     
     </div>
   );
 };

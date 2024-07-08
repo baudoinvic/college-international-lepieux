@@ -1,8 +1,10 @@
+
 import "./App.css";
 import { Link, Routes, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Home from "./pages/Home/Home";
 import Courses from "./pages/Courses/Courses";
 import About from "./pages/About/About";
@@ -13,15 +15,22 @@ import logo from "../src/utils/images/logo.png";
 import Shortcouses from "./pages/Short/Shortcouses";
 import Description from "./pages/Description/Description";
 import { Button } from "react-bootstrap";
+
 import { useTranslation } from "react-i18next";
 import { CiFacebook } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { useState } from "react";
+import Gallery from "./pages/Gallery/Gallery";
 
 function App() {
-  const { t } = useTranslation();
-  const { i18n } = useTranslation();
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  const { t, i18n } = useTranslation();
+
+  const toggleDropdown = (index) => {
+    setActiveDropdown(activeDropdown === index ? null : index);
+  };
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -29,10 +38,10 @@ function App() {
 
   return (
     <div>
-      <Navbar expand="lg" className="position-absolute w-100">
+      <Navbar expand="lg" className="position-absolute w-100 ">
         <Container>
           <Navbar.Brand>
-            <Link to="/" className="navbar-brand d-flex align-items-center">
+            <Link to="/" className="navbar-brand d-flex align-items-center ">
               <img src={logo} alt="Logo" className="w-12" />
               <span className="mx-2 text-light lh-1 fw-semibold">
                 Collège
@@ -48,7 +57,7 @@ function App() {
             className="bg-light"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto justify-content-end w-100">
+            <Nav className="me-auto justify-content-end w-100  ">
               <Nav.Link href="/" className="text-uppercase">
                 {t("navigation.home")}
               </Nav.Link>
@@ -58,9 +67,24 @@ function App() {
               <Nav.Link href="/Shortcourses" className="text-uppercase">
                 {t("navigation.short_courses")}
               </Nav.Link>
-              <Nav.Link href="/about" className="text-uppercase">
-                {t("navigation.about_us")}
-              </Nav.Link>
+              <NavDropdown
+                title={t("navigation.about_us")}
+                id="about-us-dropdown"
+                className="text-uppercase"
+                show={activeDropdown === 0}
+                onMouseEnter={() => setActiveDropdown(0)}
+                onMouseLeave={() => setActiveDropdown(null)}
+              >
+                <NavDropdown.Item as={Link} to="/about">
+                  {t("navigation.about_us")}
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/description">
+                  {t("programme scholaire")}
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/gallery">
+                  {t("galerie")}
+                </NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="/blog" className="text-uppercase">
                 {t("navigation.blog")}
               </Nav.Link>
@@ -70,7 +94,7 @@ function App() {
 
               <div className="flex items-center space-x-2">
                 <button
-                  onClick={() => i18n.changeLanguage("fr")}
+                  onClick={() => changeLanguage("fr")}
                   className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
                 >
                   <img
@@ -81,7 +105,7 @@ function App() {
                   <span className="text-white">Fr</span>
                 </button>
                 <button
-                  onClick={() => i18n.changeLanguage("en")}
+                  onClick={() => changeLanguage("en")}
                   className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
                 >
                   <img
@@ -92,7 +116,7 @@ function App() {
                   <span className="text-white">Eng</span>
                 </button>
                 <button
-                  onClick={() => i18n.changeLanguage("sw")}
+                  onClick={() => changeLanguage("sw")}
                   className="flex text-white items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
                 >
                   <span>Swahili</span>
@@ -110,10 +134,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        {/* Route for the description page */}
         <Route path="/description" element={<Description />} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
-
       <footer>
         <div className="container my-5">
           <div className="row d-flex justify-content-between align-items-center ">
@@ -128,10 +151,6 @@ function App() {
               </Link>
 
               <ul className="footer-social-icons flex p-4">
-                {/* <CiFacebook className="cursor-pointer text-[24px]" />
-                <FaLinkedin className="cursor-pointer ml-5 text-[24px]" />
-                <FaXTwitter className="cursor-pointer ml-5 text-[24px]" />
-                <FaInstagram className="cursor-pointer ml-5 text-[24px]" /> */}
                 <a
                   href="https://www.facebook.com/profile.php?id=61561062195948"
                   target="_blank"
@@ -146,18 +165,10 @@ function App() {
                 >
                   <FaLinkedin className="cursor-pointer ml-5 text-[24px] text-black" />
                 </a>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <FaXTwitter className="cursor-pointer ml-5 text-[24px] text-black" />
                 </a>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <FaInstagram className="cursor-pointer ml-5 text-[24px] text-black" />
                 </a>
               </ul>

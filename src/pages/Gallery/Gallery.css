@@ -1,0 +1,5 @@
+.gallery-page header {
+  height: 600px; /* Ensure the header has height */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+}
