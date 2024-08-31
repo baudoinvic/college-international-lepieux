@@ -1,20 +1,3 @@
-// import React from "react";
-// import "./Gallery.css";
-
-
-// const Gallery = () => {
-//   return (
-//     <div className="gallery-page">
-//       <header className="height-100">
-//         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-//          <h1>gallery</h1>
-//         </div>
-//       </header>
-//     </div>
-//   );
-// };
-
-// export default Gallery;
 
 import React from "react";
 import "./Gallery.css";
