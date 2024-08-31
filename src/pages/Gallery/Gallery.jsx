@@ -33,7 +33,7 @@ const Gallery = () => {
       >
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h2>our many building</h2>
-          <p>hhhhhhhhhhhh</p>
+          
         </div>
       </header>
     
