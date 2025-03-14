@@ -21,6 +21,10 @@ import { CiFacebook } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+
 import { useState } from "react";
 import Gallery from "./pages/Gallery/Gallery";
 
@@ -135,119 +139,147 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/description" element={<Description />} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
-      <footer>
-        <div className="container my-5">
-          <div className="row d-flex justify-content-between align-items-center ">
-            <div className="col-md-4">
-              <Link className="" to="/contact" style={{ marginTop: "-4rem" }}>
+     
+
+      <footer className="bg-gradient-to-r from-gray-50 to-gray-100 pt-12 pb-4 border-t border-gray-200">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-start mb-8">
+            {/* Contact button and social icons */}
+            <div className="w-full md:w-1/3 mb-8 md:mb-0">
+              <Link to="/contact">
                 <button
                   type="button"
-                  className="btn btn-outline-danger btn-lg mb-5 mb-md-4"
+                  className="btn bg-white hover:bg-red-50 text-red-600 border-2 border-red-500 rounded-lg px-6 py-3 font-semibold transition-all duration-300 shadow-sm hover:shadow-md"
                 >
                   {t("navigation.contact")}
                 </button>
               </Link>
 
-              <ul className="footer-social-icons flex p-4">
-                <a
-                  href="https://www.facebook.com/profile.php?id=61561062195948"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <CiFacebook className="cursor-pointer text-[24px] text-black" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/collegeinternationallepieux/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin className="cursor-pointer ml-5 text-[24px] text-black" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaXTwitter className="cursor-pointer ml-5 text-[24px] text-black" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaInstagram className="cursor-pointer ml-5 text-[24px] text-black" />
-                </a>
-              </ul>
-            </div>
-            <div className="col-md-7 col-lg-8">
-              <div className="d-row d-md-flex justify-content-between align-items-center">
-                <div className="col-12 col-md-6 col-lg-5 mb-5 mt-4 my-md-0">
-                  <ul
-                    className="footer-navigation list-unstyled mb-0 "
-                    style={{ marginRight: "10rem" }}
+              <div className="mt-8">
+                <p className="text-gray-700 font-medium mb-4">
+                  {t("footer.follow_us")}
+                </p>
+                <div className="flex items-center space-x-5">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61561062195948"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-110 transition-transform duration-300"
                   >
-                    <Link to="/" className="text-decoration-none text-danger">
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.home")}
-                      </li>
-                    </Link>
-                    <Link
-                      to="/courses"
-                      className="text-decoration-none text-danger"
-                    >
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.courses")}
-                      </li>
-                    </Link>
-                    <Link
-                      to="/shortcourses"
-                      className="text-decoration-none text-danger"
-                    >
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.short_courses")}
-                      </li>
-                    </Link>
-                    <Link
-                      to="/about"
-                      className="text-decoration-none text-danger"
-                    >
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.about_us")}
-                      </li>
-                    </Link>
-                    <Link
-                      to="/blog"
-                      className="text-decoration-none text-danger"
-                    >
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.blog")}
-                      </li>
-                    </Link>
-                    <Link
-                      to="/contact"
-                      className="text-decoration-none text-danger"
-                    >
-                      <li className="text-uppercase fw-semibold">
-                        {t("navigation.contact")}
-                      </li>
-                    </Link>
-                  </ul>
-                </div>
-                <div className="col-12 col-md-6 col-lg-7">
-                  <ul className="list-unstyled mb-0">
-                    <li>
-                      <p>{t("footer.main_address")}</p>
-                    </li>
-                    <li>
-                      <p>{t("footer.phone_number")}</p>
-                    </li>
-                    <li>
-                      <p>{t("footer.email")}</p>
-                    </li>
-                  </ul>
+                    <CiFacebook className="text-2xl text-gray-700 hover:text-red-500" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/collegeinternationallepieux/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-110 transition-transform duration-300"
+                  >
+                    <FaLinkedin className="text-2xl text-gray-700 hover:text-red-500" />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-110 transition-transform duration-300"
+                  >
+                    <FaXTwitter className="text-2xl text-gray-700 hover:text-red-500" />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-110 transition-transform duration-300"
+                  >
+                    <FaInstagram className="text-2xl text-gray-700 hover:text-red-500" />
+                  </a>
                 </div>
               </div>
             </div>
+
+            {/* Navigation */}
+            <div className="w-full md:w-1/3 mb-8 md:mb-0">
+            
+              <ul className="space-y-3">
+                <li>
+                  <Link
+                    to="/"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.home")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/courses"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.courses")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/shortcourses"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.short_courses")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/about"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.about_us")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/blog"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.blog")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact"
+                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
+                  >
+                    {t("navigation.contact")}
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Contact information */}
+            <div className="w-full md:w-1/3">
+            
+              <ul className="space-y-4">
+                <li className="flex items-center">
+                  <FaLocationDot className="text-gray-500 mt-1 mr-3" style={{marginTop: '-14px'}} />
+                  <p className="text-gray-600">{t("footer.main_address")}</p>
+                </li>
+                <li className="flex items-center">
+                  <FaPhone className="text-gray-500 mr-3" style={{marginTop: '-12px'}} />
+                  <p className="text-gray-600">{t("footer.phone_number")}</p>
+                </li>
+                <li className="flex items-center">
+                  <FaEnvelope className="text-gray-500 mr-3" style={{marginTop: '-12px'}} />
+                  <p className="text-gray-600">{t("footer.email")}</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="bg-body-tertiary">
-          <div className="container">
-            <p className="p-3 m-0 text-center">
-              {t("footer.copyright")} @ {t("footer.made_by")}2024
+
+        {/* Copyright section */}
+        <div className="border-t border-gray-200 mt-6">
+          <div className="container mx-auto px-4">
+            <p className="py-4 text-center text-gray-500 text-sm">
+              {t("footer.copyright")} © {new Date().getFullYear()}{" "}
+              {t("footer.made_by")}
             </p>
           </div>
         </div>

@@ -13,8 +13,8 @@ function About() {
     <div className="about-page">
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1 className="text-center fw-semibold">{t("about.title")}</h1>
-          <p className="text-center w-75 mb-5">{t("about.description")}</p>
+          <h2 className="text-center fw-semibold">{t("about.title")}</h2>
+          <p className="text-center w-75 mb-5 mt-8">{t("about.description")}</p>
         </div>
       </header>
 
@@ -43,11 +43,11 @@ function About() {
         </div>
       </div>
 
-      <div className="bg-dark text-light py-5">
+      <div className=" text-light py-5" style={{marginTop: "-4rem"}}>
         <ChooseSection />
       </div>
 
-      <div className="bg-body-tertiary py-5"></div>
+ 
     </div>
   );
 }

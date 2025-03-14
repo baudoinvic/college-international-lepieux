@@ -17,18 +17,18 @@ const Description = () => {
     <div className="description-page">
       <header className="height-100 ">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1>{t("school.title")}</h1>
-          <p className="text-center w-75 mb-5">{t("school.description")}</p>
+          <h2>{t("school.title")}</h2>
+          <p className="text-center w-75 mb-5 mt-8">{t("school.description")}</p>
         </div>
       </header>
       <div className="container py-10 mt-10">
         <div className="max-w-3xl">
-          <h2 className="text-3xl font-bold mb-6">{t("school1.title")}</h2>
+          <h2 className="text-lg font-bold mb-6">{t("school1.title")}</h2>
           <p className="text-lg text-gray-800 mb-6">
             {t("school1.description")}
           </p>
 
-          <h2 className="text-3xl font-bold mb-6 mt-10">
+          <h2 className="text-lg font-bold mb-6 mt-10">
             {t("school2.title")}
           </h2>
 
@@ -58,7 +58,7 @@ const Description = () => {
             <p className="w-3/4">{t("school4.description")}</p>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-lg font-bold mb-4">
                 {t("vet_agronomy.title")}
               </h2>
 
@@ -66,7 +66,7 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-lg font-bold mb-4">
                 {t("construction.title")}
               </h2>
 
@@ -74,7 +74,7 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-lg font-bold mb-4">
                 {t("mechanical.title")}
               </h2>
 
@@ -82,7 +82,7 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-lg font-bold mb-4">
                 {t("electricity.title")}
               </h2>
 
@@ -90,7 +90,7 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-lg font-bold mb-4">
                 {t("commercial_management.title")}
               </h2>
 
@@ -98,14 +98,14 @@ const Description = () => {
             </section>
 
             <section className="subject-section">
-              <h2 className="text-2xl font-bold mb-4">{t("cut_seam.title")}</h2>
+              <h2 className="text-lg font-bold mb-4">{t("cut_seam.title")}</h2>
 
               <p className="w-3/4">{t("cut_seam.description")}</p>
             </section>
           </div>
         </div>
        
-        <>
+        {/* <>
           <h2 className="text-3xl font-bold mb-6 mt-10">
             {t("library_filters.title")}
           </h2>
@@ -161,8 +161,8 @@ const Description = () => {
               {t("library_filters.computer_lab")}
             </button>
           </div>
-        </>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        </> */}
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
             src="https://auca.kg/uploads/00012021/177948667_10159035366570629_4164718236750303000_n.jpg"
             alt="Library 1"
@@ -191,7 +191,7 @@ const Description = () => {
               filter !== "all" && filter !== "computer4" ? "hidden" : ""
             }`}
           />
-        </div>
+        </div> */}
       </div>
      
     </div>
