@@ -8,22 +8,17 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Home from "./pages/Home/Home";
 import Courses from "./pages/Courses/Courses";
 import About from "./pages/About/About";
-import Blog from "./pages/Blog/Blog";
+// import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
-import Testimonial from "./components/Testimonial/Testimonial";
 import logo from "../src/utils/images/logo.png";
 import Shortcouses from "./pages/Short/Shortcouses";
 import Description from "./pages/Description/Description";
-import { Button } from "react-bootstrap";
-
 import { useTranslation } from "react-i18next";
 import { CiFacebook } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
-import { FaPhone } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+
 
 import { useState } from "react";
 import Gallery from "./pages/Gallery/Gallery";
@@ -89,14 +84,12 @@ function App() {
                   {t("galerie")}
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/blog" className="text-uppercase">
-                {t("navigation.blog")}
-              </Nav.Link>
+
               <Nav.Link href="/contact" className="text-uppercase">
                 {t("navigation.contact")}
               </Nav.Link>
 
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 ml-8">
                 <button
                   onClick={() => changeLanguage("fr")}
                   className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
@@ -136,150 +129,201 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/Shortcourses" element={<Shortcouses />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/blog" element={<Blog />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/description" element={<Description />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
-     
 
-      <footer className="bg-gradient-to-r from-gray-50 to-gray-100 pt-12 pb-4 border-t border-gray-200">
+      <footer
+        className="text-white pt-12 pb-4"
+        style={{ backgroundColor: "#0a1844" }}
+      >
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-start mb-8">
-            {/* Contact button and social icons */}
-            <div className="w-full md:w-1/3 mb-8 md:mb-0">
-              <Link to="/contact">
-                <button
-                  type="button"
-                  className="btn bg-white hover:bg-red-50 text-red-600 border-2 border-red-500 rounded-lg px-6 py-3 font-semibold transition-all duration-300 shadow-sm hover:shadow-md"
-                >
-                  {t("navigation.contact")}
-                </button>
-              </Link>
+          <div className="flex justify-left mb-8">
+            <div>
+              <h3 className="text-lg font-bold ">
+                College Internationale lepieux
+              </h3>
+            </div>
+          </div>
 
-              <div className="mt-8">
-                <p className="text-gray-700 font-medium mb-4">
-                  {t("footer.follow_us")}
-                </p>
-                <div className="flex items-center space-x-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            {/* Campus Locations */}
+            <div>
+              <h4 className="text-lg font-medium mb-4">Campus Locations</h4>
+              <div className="mb-4">
+                <p className="font-medium">Main Campus</p>
+                <p>{t("footer.main_address")}</p>
+              </div>
+              <div>
+                <p className="font-medium">Secondary Campus</p>
+                <p>123 Education Street, City</p>
+              </div>
+            </div>
+
+            {/* Contact Information */}
+            <div>
+              <h4 className="text-lg font-medium mb-4">Head Office</h4>
+              <p className="font-medium">College Internationale S.R.L.</p>
+              <p>{t("footer.main_address")}</p>
+              <p className="mt-3">P.iva 12345678900</p>
+              <p>C.F. 09876543210</p>
+              <p className="mt-3">{t("footer.email")}</p>
+              <p>{t("footer.phone_number")}</p>
+            </div>
+
+            {/* Quick Links */}
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <h4 className="text-lg font-medium mb-4">Navigation</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link to="/" className="hover:text-red-400 text-white">
+                      {t("navigation.home")}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/courses"
+                      className="hover:text-red-400 text-white"
+                    >
+                      {t("navigation.courses")}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/shortcourses"
+                      className="hover:text-red-400 text-white"
+                    >
+                      {t("navigation.short_courses")}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/about" className="hover:text-red-400 text-white">
+                      {t("navigation.about_us")}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/contact"
+                      className="hover:text-red-400 text-white"
+                    >
+                      {t("navigation.contact")}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-lg font-medium mb-4">Information</h4>
+                <ul className="space-y-2">
+                  <li>
+                    <Link
+                      to="/privacy"
+                      className="hover:text-red-400 text-white"
+                    >
+                      Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/policies"
+                      className="hover:text-red-400 text-white"
+                    >
+                      School Policies
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/sitemap"
+                      className="hover:text-red-400 text-white"
+                    >
+                      Sitemap
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/careers"
+                      className="hover:text-red-400 text-white"
+                    >
+                      Join the Team
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Connect with us */}
+          <div className="border-t border-gray-700 pt-6 mb-6">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="mb-4 md:mb-0">
+                <h4 className="font-medium mb-3">CONNECT WITH US</h4>
+                <div className="flex space-x-4">
                   <a
                     href="https://www.facebook.com/profile.php?id=61561062195948"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transform hover:scale-110 transition-transform duration-300"
+                    className="hover:text-red-400 transition-colors"
                   >
-                    <CiFacebook className="text-2xl text-gray-700 hover:text-red-500" />
+                    <CiFacebook className="text-2xl" />
                   </a>
                   <a
                     href="https://www.linkedin.com/company/collegeinternationallepieux/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transform hover:scale-110 transition-transform duration-300"
+                    className="hover:text-red-400 transition-colors"
                   >
-                    <FaLinkedin className="text-2xl text-gray-700 hover:text-red-500" />
+                    <FaLinkedin className="text-2xl" />
                   </a>
                   <a
                     href="#"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transform hover:scale-110 transition-transform duration-300"
+                    className="hover:text-red-400 transition-colors"
                   >
-                    <FaXTwitter className="text-2xl text-gray-700 hover:text-red-500" />
+                    <FaXTwitter className="text-2xl" />
                   </a>
                   <a
                     href="#"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="transform hover:scale-110 transition-transform duration-300"
+                    className="hover:text-red-400 transition-colors"
                   >
-                    <FaInstagram className="text-2xl text-gray-700 hover:text-red-500" />
+                    <FaInstagram className="text-2xl" />
                   </a>
                 </div>
               </div>
-            </div>
 
-            {/* Navigation */}
-            <div className="w-full md:w-1/3 mb-8 md:mb-0">
-            
-              <ul className="space-y-3">
-                <li>
-                  <Link
-                    to="/"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.home")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/courses"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.courses")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/shortcourses"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.short_courses")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/about"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.about_us")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/blog"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.blog")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/contact"
-                    className="text-gray-600 hover:text-red-500 font-medium transition-colors duration-300"
-                  >
-                    {t("navigation.contact")}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            {/* Contact information */}
-            <div className="w-full md:w-1/3">
-            
-              <ul className="space-y-4">
-                <li className="flex items-center">
-                  <FaLocationDot className="text-gray-500 mt-1 mr-3" style={{marginTop: '-14px'}} />
-                  <p className="text-gray-600">{t("footer.main_address")}</p>
-                </li>
-                <li className="flex items-center">
-                  <FaPhone className="text-gray-500 mr-3" style={{marginTop: '-12px'}} />
-                  <p className="text-gray-600">{t("footer.phone_number")}</p>
-                </li>
-                <li className="flex items-center">
-                  <FaEnvelope className="text-gray-500 mr-3" style={{marginTop: '-12px'}} />
-                  <p className="text-gray-600">{t("footer.email")}</p>
-                </li>
-              </ul>
+              <div className="flex space-x-4">
+                <Link
+                  to="/mission"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                >
+                  OUR MISSION AND VISION
+                </Link>
+                <Link
+                  to="/curriculum"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                >
+                  OUR CURRICULUM
+                </Link>
+                <Link
+                  to="/apply"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                >
+                  HOW TO APPLY
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Copyright section */}
-        <div className="border-t border-gray-200 mt-6">
-          <div className="container mx-auto px-4">
-            <p className="py-4 text-center text-gray-500 text-sm">
-              {t("footer.copyright")} © {new Date().getFullYear()}{" "}
-              {t("footer.made_by")}
+          {/* Copyright */}
+          <div className="text-center text-gray-400 text-sm">
+            <p>{new Date().getFullYear()} | All rights reserved</p>
+            <p className="mt-2 text-xs">
+              Registration codes: Primary - MITEX5000 | Secondary I - MITAP5007
+              | Secondary II - MIPS2500P
             </p>
           </div>
         </div>
