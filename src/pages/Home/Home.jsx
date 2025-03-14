@@ -65,26 +65,38 @@ function Home() {
         <ChooseSection />
       </div>
 
+     
+
       <div className="py-5 bg-light">
         <div className="container">
-          <div className="row d-flex align-items-center justify-content-around">
+          <div className="row d-flex align-items-center justify-content-center text-center text-lg-start">
+            {/* Left Section */}
             <div className="col-lg-5">
-              <h2 className="text-capitalize">{t("start_courses")}</h2>
-              <p>{t("start_courses_description")}</p>
+              <h2 className="text-capitalize fw-bold">{t("start_courses")}</h2>
+              <p className="text-muted">{t("start_courses_description")}</p>
               <Link to="/courses">
                 <button
                   type="button"
-                  className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+                  className="btn btn-danger btn-lg px-4 shadow"
                 >
                   {t("learn.title")}
                 </button>
               </Link>
             </div>
-            <div className="col-lg-5 mt-5 mt-lg-0">
+
+            {/* Right Section (Image) */}
+            <div className="col-lg-5 mt-4 mt-lg-0 text-center">
               <img
                 src="https://pbs.twimg.com/media/F-ZOGvhWgAEm9J2?format=jpg&name=4096x4096"
-                className="img-fluid"
+                className="img-fluid rounded shadow-lg"
                 alt=""
+                style={{
+                  width: "100%", 
+                  maxWidth: "450px", 
+                  height: "480px", 
+                  objectFit: "cover", 
+                  borderRadius: "10px",
+                }}
               />
             </div>
           </div>
@@ -95,16 +107,12 @@ function Home() {
         <FaqAccordion />
       </div>
 
-      
       <div className="container mx-auto p-4">
-        
         <h1 className="text-3xl font-bold text-center mb-8">
           {t("event.title")}
         </h1>
 
-      
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-         
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.scienceFair.title")}
@@ -118,7 +126,6 @@ function Home() {
             </p>
           </div>
 
-          
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.sportsDay.title")}
@@ -130,7 +137,6 @@ function Home() {
             <p className="text-gray-800">{t("events.sportsDay.description")}</p>
           </div>
 
-         
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-bold mb-2">
               {t("events.mathCompetition.title")}

@@ -9,8 +9,8 @@ function ChooseSection() {
 
   return (
     <div>
-      {/* <div className="container">
-        <h2 className="text-center mb-5">{t("choose_section.heading")}</h2>
+      <div className="container">
+        <h3 className="text-center mb-5">{t("choose_section.heading")}</h3>
         <div className="row g-4">
           <div className="col-lg-4">
             <Card className="d-flex align-items-center border-0 h-100">
@@ -19,7 +19,7 @@ function ChooseSection() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
                   height="48"
-                  fill="#dc3545"
+                  fill="#0a1844"
                   className="bi bi-trophy-fill"
                   viewBox="0 0 16 16"
                 >
@@ -43,7 +43,7 @@ function ChooseSection() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
                   height="48"
-                  fill="#dc3545"
+                  fill="#0a1844"
                   className="bi bi-emoji-smile-fill"
                   viewBox="0 0 16 16"
                 >
@@ -62,12 +62,12 @@ function ChooseSection() {
           </div>
           <div className="col-lg-4">
             <Card className="d-flex align-items-center border-0 h-100">
-              <div className="mt-3">
+              <div className="mt-3 bg-navy">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
                   height="48"
-                  fill="#dc3545"
+                  fill="#0a1844"
                   className="bi bi-geo-alt-fill"
                   viewBox="0 0 16 16"
                 >
@@ -85,7 +85,7 @@ function ChooseSection() {
             </Card>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="container py-5">
         <h2 className="text-center mb-5">our core values</h2>
 
