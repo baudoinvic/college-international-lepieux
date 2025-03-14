@@ -39,12 +39,13 @@ function Home() {
         <div className="container d-flex flex-column align-items-center">
           <h2>{t("welcome")}</h2>
           <h1 className="text-center fw-semibold">{t("college_name")}</h1>
-          <p>{t("education_excellence")}</p>
+          <p className="w-2/4">{t("education_excellence")}</p>
           <div className="d-flex flex-column flex-sm-row align-items-center">
             <Link to="/courses">
               <button
                 type="button"
                 className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+                style={{ backgroundColor: "#0a1844" }}
               >
                 {t("our_courses")}
               </button>
@@ -65,8 +66,6 @@ function Home() {
         <ChooseSection />
       </div>
 
-     
-
       <div className="py-5 bg-light">
         <div className="container">
           <div className="row d-flex align-items-center justify-content-center text-center text-lg-start">
@@ -74,10 +73,11 @@ function Home() {
             <div className="col-lg-5">
               <h2 className="text-capitalize fw-bold">{t("start_courses")}</h2>
               <p className="text-muted">{t("start_courses_description")}</p>
-              <Link to="/courses">
+              <Link to="/about">
                 <button
                   type="button"
                   className="btn btn-danger btn-lg px-4 shadow"
+                  style={{ backgroundColor: "#0a1844" }}
                 >
                   {t("learn.title")}
                 </button>
@@ -91,10 +91,10 @@ function Home() {
                 className="img-fluid rounded shadow-lg"
                 alt=""
                 style={{
-                  width: "100%", 
-                  maxWidth: "450px", 
-                  height: "480px", 
-                  objectFit: "cover", 
+                  width: "100%",
+                  maxWidth: "450px",
+                  height: "480px",
+                  objectFit: "cover",
                   borderRadius: "10px",
                 }}
               />
@@ -107,7 +107,7 @@ function Home() {
         <FaqAccordion />
       </div>
 
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4 mb-16">
         <h1 className="text-3xl font-bold text-center mb-8">
           {t("event.title")}
         </h1>
