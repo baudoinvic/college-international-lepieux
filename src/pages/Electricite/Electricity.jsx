@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Electriciy = () => {
+const Electricity = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Header */}
@@ -70,4 +70,4 @@ const Electriciy = () => {
   );
 }
 
-export default Electriciy
+export default Electricity

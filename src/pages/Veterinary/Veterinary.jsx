@@ -4,6 +4,8 @@ const Veterinary = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Header */}
+      <heder></heder>
+
       <div className="bg-blue-600 text-white py-5 text-center">
         <h1 className="m-0 text-4xl">Vétérinaire et Agronomie</h1>
         <p>
@@ -11,7 +13,6 @@ const Veterinary = () => {
           carrière enrichissante.
         </p>
       </div>
-
       {/* Container */}
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md">
         {/* Course Overview Section */}
@@ -62,9 +63,6 @@ const Veterinary = () => {
             education in these fields.
           </p>
         </div>
-
-       
-       
       </div>
     </div>
   );

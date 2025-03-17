@@ -1,15 +1,15 @@
 {
   "welcome": "Bienvenue sur notre site Web!",
-  "college_name": "Collège international le pieux",
+  "college_name": "Collège internationale le pieux",
   "education_excellence": "Avec excellence dans le domaine de l'éducation secondaire, nous sommes ravis d'établir le contact avec vous de la manière qui vous convient le mieux.",
   "our_courses": "Options organisées",
   "contact_us": "Contactez-nous",
   "start_courses": "Cours de démarrage 2024",
-  "start_courses_description": "Bienvenue en cette année scolaire 2024-2025 au Collège international Le Pieux. Nous sommes enthousiastes à l'idée de débuter nos cours et d'entamer un parcours d'apprentissage, de développement et de réussite ensemble.",
+  "start_courses_description": "Bienvenue en cette année scolaire 2024-2025 au Collège internationale Le Pieux. Nous sommes enthousiastes à l'idée de débuter nos cours et d'entamer un parcours d'apprentissage, de développement et de réussite ensemble.",
   "latest_blog": "Derniers articles de blog",
   "read_more_blogs": "Lire d'autres articles de blog",
   "choose_section": {
-    "heading": "Pourquoi choisir le Collège international le pieux?",
+    "heading": "Pourquoi choisir le Collège internationale le pieux?",
     "card1": {
       "title": "Excellence en éducation",
       "description": "Nous offrons la meilleure éducation à nos élèves, en leur assurant l'accès à une gamme diversifiée de ressources pédagogiques et d'opportunités, y compris des laboratoires de nouvelle génération.."
@@ -20,7 +20,7 @@
     },
     "card3": {
       "title": "Notre mission",
-      "description": "Le Collège international le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses élèves."
+      "description": "Le Collège internationale le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses élèves."
     }
   },
   "courses": [
@@ -28,37 +28,43 @@
       "id": 1,
       "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
       "title": "Vétérinaire et Agronomie",
-      "description": "Souhaitez-vous construire votre carrière en Vétérinaire et Agronomie? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production végétale et la gestion des sols."
+      "description": "Souhaitez-vous construire votre carrière en Vétérinaire et Agronomie? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production végétale et la gestion des sols.",
+      "link": "/veterinary"
     },
     {
       "id": 2,
       "img": "https://www.simjo.ai/wp-content/uploads/2024/02/5-Trends-en-tips-in-bouwprojectmanagement-.jpg",
       "title": "Construction",
-      "description": "Souhaitez-vous construire votre carrière dans la construction? Ce cours couvre les principes et les techniques de construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projet."
+      "description": "Souhaitez-vous construire votre carrière dans la construction? Ce cours couvre les principes et les techniques de construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projet.",
+      "construction": "/construction"
     },
     {
       "id": 3,
       "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
       "title": "Mécanique",
-      "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications dans l'ingénierie et la technologie."
+      "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications dans l'ingénierie et la technologie.",
+      "link": "/mecaniq"
     },
     {
       "id": 4,
       "img": "https://st2.depositphotos.com/1010613/11847/i/450/depositphotos_118476202-stock-photo-technician-repairing-fusebox-with-screwdriver.jpg",
       "title": "Électricité générale",
-      "description": "Ce cours couvre les principes fondamentaux et les applications de l'électricité générale, y compris les circuits, la tension, le courant, la résistance et la puissance."
+      "description": "Ce cours couvre les principes fondamentaux et les applications de l'électricité générale, y compris les circuits, la tension, le courant, la résistance et la puissance.",
+      "link": "/electriciy"
     },
     {
       "id": 5,
       "img": "https://media.istockphoto.com/id/1126063017/photo/doctor-sharing-bad-news-to-young-patient-worrying.jpg?s=612x612&w=0&k=20&c=5D9UvMo4nZW5LHAJ33rLXlV7-XEs6xOB1iZiTDSLmzE=",
       "title": "commerciale et Gestion",
-      "description": "Ce cours met l'accent sur les compétences commerciales et de gestion, y compris le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales."
+      "description": "Ce cours met l'accent sur les compétences commerciales et de gestion, y compris le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales.",
+      "link": "/gestion"
     },
     {
       "id": 6,
       "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
       "title": "Coupe et Couture",
-      "description": "Envie de transformer votre passion pour la mode en une carrière florissante? Plongez dans le monde de la coupe et de la couture où vous découvrirez les techniques, les tendances et l'art de créer des vêtements uniques et élégants"
+      "description": "Envie de transformer votre passion pour la mode en une carrière florissante? Plongez dans le monde de la coupe et de la couture où vous découvrirez les techniques, les tendances et l'art de créer des vêtements uniques et élégants",
+      "link": "/coup"
     }
   ],
 
