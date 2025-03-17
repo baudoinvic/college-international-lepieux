@@ -22,7 +22,10 @@ const Courses = () => {
           {/* Using translated heading */}
         </div>
       </header>
-      <p className="text-center w-75 mb-5">{t("start_courses_description")}</p>
+     
+      <p className="text-center w-2/3 mx-auto mb-5 mt-4">
+        {t("start_courses_description")}
+      </p>
 
       <div className="container py-5 mb-16 mt-8">
         <div className="row g-4">
