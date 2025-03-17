@@ -66,12 +66,8 @@ const Construction = () => {
           </p>
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center mt-8">
-          <button className="bg-green-600 text-white py-2 px-6 rounded-md text-lg hover:bg-green-700">
-            Enroll Now
-          </button>
-        </div>
+     
+     
       </div>
     </div>
   );

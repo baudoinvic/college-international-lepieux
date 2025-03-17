@@ -63,12 +63,8 @@ const Veterinary = () => {
           </p>
         </div>
 
-        {/* Call to Action Section (Optional) */}
-        <div className="text-center mt-8">
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg hover:bg-blue-700 transition duration-300">
-            Enroll Now
-          </button>
-        </div>
+       
+       
       </div>
     </div>
   );
