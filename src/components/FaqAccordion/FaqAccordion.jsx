@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 function FaqAccordion() {
    const { t } = useTranslation();
   return (
-    <div className="faq-section">
+    <div className="faq-section mt-16 mb-8">
       <div className="container d-flex flex-column align-items-center">
         <h2 className="text-center text-capitalize mb-5">
           {t("faq_section.heading")}

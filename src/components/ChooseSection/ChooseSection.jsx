@@ -9,10 +9,10 @@ function ChooseSection() {
 
   return (
     <div>
-      <div className="container">
+      <div className="container mt-16 mb-16">
         <h3 className="text-center mb-5">{t("choose_section.heading")}</h3>
         <div className="row g-4">
-          <div className="col-lg-4">
+          <div className="col-lg-4 bg-white shadow-lg">
             <Card className="d-flex align-items-center border-0 h-100">
               <div className="mt-3">
                 <svg
@@ -36,7 +36,7 @@ function ChooseSection() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 bg-white shadow-lg">
             <Card className="d-flex align-items-center border-0 h-100">
               <div className="mt-3">
                 <svg
@@ -60,7 +60,7 @@ function ChooseSection() {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 bg-white shadow-lg">
             <Card className="d-flex align-items-center border-0 h-100">
               <div className="mt-3 bg-navy">
                 <svg

@@ -22,7 +22,7 @@ const Courses = () => {
           {/* Using translated heading */}
           <p className="text-center w-75 mb-5">
             {t("start_courses_description")}
-          </p>{" "}
+          </p>
           {/* Using translated description */}
         </div>
       </header>

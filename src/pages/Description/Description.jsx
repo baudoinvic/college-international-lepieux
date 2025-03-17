@@ -36,7 +36,7 @@ const Description = () => {
           <Link to="/contact">
             <button
               type="button"
-              className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0 "
+              className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0 " style={{backgroundColor: '#0a1844'}}
             >
               {t("conta.title")}
             </button>

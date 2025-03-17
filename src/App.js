@@ -45,7 +45,7 @@ function App() {
               <span className="mx-2 text-sm lh-1 fw-semibold text-light">
                 Collège
                 <br />
-                International
+                Internationale
                 <br />
                 lepieux
               </span>
@@ -89,7 +89,7 @@ function App() {
                 {t("navigation.contact")}
               </Nav.Link>
 
-              <div className="flex items-center space-x-2 ml-8">
+              {/* <div className="flex items-center space-x-2 ml-8">
                 <button
                   onClick={() => changeLanguage("fr")}
                   className="flex items-center space-x-1 bg-transparent border border-gray-300 px-2 py-1 rounded focus:outline-none"
@@ -118,6 +118,16 @@ function App() {
                 >
                   <span>Swahili</span>
                 </button>
+              </div> */}
+              <div className="ml-8">
+                <select
+                  onChange={(e) => changeLanguage(e.target.value)}
+                  className="border border-white px-2 py-1 rounded text-gray-900 cursor-pointer"
+                >
+                  <option value="fr">French</option>
+                  <option value="en">English</option>
+                  <option value="sw">Swahili</option>
+                </select>
               </div>
             </Nav>
           </Navbar.Collapse>
@@ -165,10 +175,9 @@ function App() {
             {/* Contact Information */}
             <div>
               <h4 className="text-lg font-medium mb-4">Head Office</h4>
-              <p className="font-medium">College Internationale S.R.L.</p>
-              <p>{t("footer.main_address")}</p>
-              <p className="mt-3">P.iva 12345678900</p>
-              <p>C.F. 09876543210</p>
+              <p className="font-medium">College Internationale I.T.I.L.</p>
+           
+             
               <p className="mt-3">{t("footer.email")}</p>
               <p>{t("footer.phone_number")}</p>
             </div>
@@ -219,7 +228,7 @@ function App() {
                 <ul className="space-y-2">
                   <li>
                     <Link
-                      to="/privacy"
+                      to=""
                       className="hover:text-red-400 text-white"
                     >
                       Privacy Policy
@@ -227,7 +236,7 @@ function App() {
                   </li>
                   <li>
                     <Link
-                      to="/policies"
+                      to=""
                       className="hover:text-red-400 text-white"
                     >
                       School Policies
@@ -235,7 +244,7 @@ function App() {
                   </li>
                   <li>
                     <Link
-                      to="/sitemap"
+                      to=""
                       className="hover:text-red-400 text-white"
                     >
                       Sitemap
@@ -243,7 +252,7 @@ function App() {
                   </li>
                   <li>
                     <Link
-                      to="/careers"
+                      to=""
                       className="hover:text-red-400 text-white"
                     >
                       Join the Team
@@ -297,22 +306,22 @@ function App() {
 
               <div className="flex space-x-4">
                 <Link
-                  to="/mission"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                  to="/about"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
                 >
                   OUR MISSION AND VISION
                 </Link>
                 <Link
-                  to="/curriculum"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                  to=""
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
                 >
                   OUR CURRICULUM
                 </Link>
                 <Link
-                  to="/apply"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded"
+                  to="/description"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
                 >
-                  HOW TO APPLY
+                  PROGRAMME SCHOLAIRE
                 </Link>
               </div>
             </div>

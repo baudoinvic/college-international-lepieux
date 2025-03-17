@@ -55,7 +55,7 @@ function About() {
             <div className="col-lg-5">
               <h2 className="text-capitalize fw-bold">{t("start_courses")}</h2>
               <p className="text-muted">{t("start_courses_description")}</p>
-              <Link to="/about">
+              <Link to="/contact">
                 <button
                   type="button"
                   className="btn btn-danger btn-lg px-4 shadow"

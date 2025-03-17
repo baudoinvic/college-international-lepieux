@@ -17,12 +17,14 @@ const Shortcourses = () => {
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
           <h2 className="text-center fw-semibold">{t("short.title")}</h2>
-          <p className="text-center w-75 mb-5 description">
-            {t("short.description")}
-          </p>
         </div>
       </header>
 
+      <div className="justify-center">
+        <p className="text-center w-2/3 md:w-1/2 mb-5 mt-8 mx-auto">
+          {t("short.description")}
+        </p>
+      </div>
       <div className="container py-5 mb-16 mt-8">
         <div className="row g-4">
           {shortcourses.map((shortcourse) => (
@@ -40,8 +42,6 @@ const Shortcourses = () => {
           ))}
         </div>
       </div>
-
-   
     </div>
   );
 };
