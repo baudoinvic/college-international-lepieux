@@ -68,13 +68,13 @@ function App() {
               </Nav.Link>
               <NavDropdown
                 title={t("navigation.about_us")}
-                id="about-us-dropdown"
+                id="about-us-dropdown "
                 className="text-uppercase"
                 show={activeDropdown === 0}
                 onMouseEnter={() => setActiveDropdown(0)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <NavDropdown.Item as={Link} to="/about">
+                <NavDropdown.Item  as={Link} to="/about">
                   {t("navigation.about_us")}
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/description">

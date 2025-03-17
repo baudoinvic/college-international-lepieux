@@ -20,42 +20,40 @@ const Courses = () => {
             {t("our_courses")}
           </h1>{" "}
           {/* Using translated heading */}
-          <p className="text-center w-75 mb-5">
-            {t("start_courses_description")}
-          </p>
-          {/* Using translated description */}
         </div>
       </header>
-
-   
+      <p className="text-center w-75 mb-5">{t("start_courses_description")}</p>
 
       <div className="container py-5 mb-16 mt-8">
         <div className="row g-4">
           {courses.map((course) => (
             <div key={course.id} className="col-md-6 col-lg-4">
-              {" "}
-              {/* Adjusted column size */}
               <Link to="/Description" className="text-decoration-none">
                 <Card className="text-white shadow rounded-4 overflow-hidden scale-hover-effect">
                   <div style={{ height: "250px", overflow: "hidden" }}>
-                    {" "}
-                    {/* Fixed height */}
                     <Card.Img
                       src={course.img}
                       className="w-100 h-100"
-                      style={{ objectFit: "cover" }} // Ensures images fit nicely
+                      style={{ objectFit: "cover" }}
                     />
                   </div>
                   <Card.ImgOverlay className="d-flex flex-column align-items-center justify-content-center p-4 bg-dark bg-opacity-50">
                     <Card.Title className="text-white fw-bold text-center fs-5">
                       {course.title}
                     </Card.Title>
-                    <Card.Text className="text-center small">
-                      {course.description}
-                    </Card.Text>
                   </Card.ImgOverlay>
                 </Card>
               </Link>
+              <Card.Text className="text-left small mt-8">
+                {course.description}
+              </Card.Text>
+              <button
+                type="button"
+                className="btn btn-danger btn-lg px-4 shadow "
+                style={{ backgroundColor: "#0a1844", fontSize: "14px" }}
+              >
+                {t("learn.title")}
+              </button>
             </div>
           ))}
         </div>
