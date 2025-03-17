@@ -27,6 +27,7 @@ import Gestion from "./pages/Gestion/Gestion";
 import Coup from "./pages/Coup/Coup";
 import Mechaniq from "./pages/Mechanic/Mechaniq";
 import Veterinary from "./pages/Veterinary/Veterinary";
+import Electriciy from "./pages/Electricite/Electriciy";
 
 function App() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -152,6 +153,7 @@ function App() {
         <Route path="/coup" element={<Coup />} />
         <Route path="/mecanic" element={<Mechaniq />} />
         <Route path="/veterinary" element={<Veterinary />} />
+          <Route path="/electricity" element={<Electriciy />} />
       </Routes>
 
       <footer
