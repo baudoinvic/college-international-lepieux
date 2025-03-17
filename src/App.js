@@ -22,6 +22,11 @@ import { FaInstagram } from "react-icons/fa";
 
 import { useState } from "react";
 import Gallery from "./pages/Gallery/Gallery";
+import Construction from "./pages/Construction/Construction";
+import Gestion from "./pages/Gestion/Gestion";
+import Coup from "./pages/Coup/Coup";
+import Mechaniq from "./pages/Mechanic/Mechaniq";
+import Veterinary from "./pages/Veterinary/Veterinary";
 
 function App() {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -74,7 +79,7 @@ function App() {
                 onMouseEnter={() => setActiveDropdown(0)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <NavDropdown.Item  as={Link} to="/about">
+                <NavDropdown.Item as={Link} to="/about">
                   {t("navigation.about_us")}
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/description">
@@ -139,10 +144,14 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/Shortcourses" element={<Shortcouses />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/blog" element={<Blog />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/description" element={<Description />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/construction" element={<Construction />} />
+        <Route path="/gestion" element={<Gestion />} />
+        <Route path="/coup" element={<Coup />} />
+        <Route path="/mecanic" element={<Mechaniq />} />
+        <Route path="/veterinary" element={<Veterinary />} />
       </Routes>
 
       <footer
@@ -176,8 +185,7 @@ function App() {
             <div>
               <h4 className="text-lg font-medium mb-4">Head Office</h4>
               <p className="font-medium">College Internationale I.T.I.L.</p>
-           
-             
+
               <p className="mt-3">{t("footer.email")}</p>
               <p>{t("footer.phone_number")}</p>
             </div>
@@ -227,34 +235,22 @@ function App() {
                 <h4 className="text-lg font-medium mb-4">Information</h4>
                 <ul className="space-y-2">
                   <li>
-                    <Link
-                      to=""
-                      className="hover:text-red-400 text-white"
-                    >
+                    <Link to="" className="hover:text-red-400 text-white">
                       Privacy Policy
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      className="hover:text-red-400 text-white"
-                    >
+                    <Link to="" className="hover:text-red-400 text-white">
                       School Policies
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      className="hover:text-red-400 text-white"
-                    >
+                    <Link to="" className="hover:text-red-400 text-white">
                       Sitemap
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      className="hover:text-red-400 text-white"
-                    >
+                    <Link to="" className="hover:text-red-400 text-white">
                       Join the Team
                     </Link>
                   </li>
