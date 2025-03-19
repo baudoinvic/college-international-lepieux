@@ -25,12 +25,12 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Nav expand="lg" className="position-absolute w-100">
+      <Navbar expand="lg" className="position-absolute w-100">
         <Container>
           <Navbar.Brand>
             <Link to="/" className="navbar-brand d-flex align-items-center">
               <img src={logo} alt="Logo" className="w-12 rounded-full" />
-              <span className="mx-2 text-sm lh-1 fw-semibold text-light">
+              <span className="mx-2 text-sm lh-1 fw-semibold text-light ">
                 Collège
                 <br />
                 Internationale
@@ -90,7 +90,7 @@ const NavbarComponent = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Nav>
+      </Navbar>
     </div>
   );
 };
