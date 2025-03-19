@@ -187,10 +187,10 @@ const Description = () => {
           <div className="flex flex-wrap justify-between">
             {/* Section 01 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-5xl font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
                 01
               </div>
-              <div className="bg-cyan-400 text-white p-2 mb-4">
+              <div className="bg-cyan-400 text-white p-2 mb-4 ">
                 <h4 className="font-medium">
                   L'enseignement et l'apprentissage en contexte
                 </h4>
@@ -207,7 +207,7 @@ const Description = () => {
 
             {/* Section 04 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-5xl font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
                 04
               </div>
               <div className="bg-red-600 text-white p-2 mb-4">
@@ -231,7 +231,7 @@ const Description = () => {
 
             {/* Section 02 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-5xl font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
                 02
               </div>
               <div className="bg-cyan-400 text-white p-2 mb-4">
@@ -249,7 +249,7 @@ const Description = () => {
 
             {/* Section 05 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-5xl font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
                 05
               </div>
               <div className="bg-blue-800 text-white p-2 mb-4">
@@ -266,7 +266,7 @@ const Description = () => {
 
             {/* Section 03 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-5xl font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
                 03
               </div>
               <div className="bg-orange-300 text-white p-2 mb-4">
