@@ -3,12 +3,8 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom"; 
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
-// Import components
 import NavbarComponent from "./components/NavbarComponent";
 import Footer from "./components/Footer";
-
-// Import pages
 import Home from "./pages/Home/Home";
 import Courses from "./pages/Courses/Courses";
 import About from "./pages/About/About";
