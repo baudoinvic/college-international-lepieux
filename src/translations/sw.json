@@ -142,21 +142,21 @@
   "courses": [
     {
       "id": 1,
-      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "img": "https://static.wixstatic.com/media/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Veterinary and Agronomy",
       "description": "Je, ungependa kujenga kazi yako katika Udaktari wa Mifugo na Agronomia? Kozi hii inachunguza sayansi ya mifugo na kilimo, ikifunika mada kama afya ya mifugo, lishe, uzalishaji, uzazi, na usimamizi wa udongo.",
       "link": "/veterinary"
     },
     {
       "id": 2,
-      "img": "https://www.simjo.ai/wp-content/uploads/2024/02/5-Trends-en-tips-in-bouwprojectmanagement-.jpg",
+      "img": "https://static.wixstatic.com/media/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Ujenzi",
       "description": "Je, ungependa kujenga kazi yako katika ujenzi? Kozi hii inajadili kanuni na mbinu za ujenzi, ikiwa ni pamoja na vifaa vya ujenzi, mifumo ya muundo, njia za ujenzi, na usimamizi wa miradi.",
       "link": "/construction"
     },
     {
       "id": 3,
-      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "img": "https://static.wixstatic.com/media/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_980,h_462,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Machanics",
       "description": "Jenga kazi yako ya baadaye katika Machanics. Kozi hii inajumuisha kanuni za mechanics, ikiwa ni pamoja na statics, dynamics, kinematics, na mifumo ya mitambo, na matumizi yao katika uhandisi na teknolojia.",
       "link": "/mechanic"
@@ -177,7 +177,7 @@
     },
     {
       "id": 6,
-      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "img": "https://static.wixstatic.com/media/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Kukata na Kushona",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
       "link": "/coup"

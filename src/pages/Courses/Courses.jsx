@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import "./Courses.css";
 import { Card } from "react-bootstrap";
@@ -24,12 +23,15 @@ const Courses = () => {
         {t("start_courses_description")}
       </p>
 
+    
+
       <div className="container py-5 mb-16 mt-8">
         <div className="row g-4">
           {courses.map((course) => (
             <div key={course.id} className="col-md-6 col-lg-4">
               <Link to={course.link} className="text-decoration-none">
                 <Card className="text-white shadow rounded-4 overflow-hidden scale-hover-effect">
+                 
                   <div style={{ height: "250px", overflow: "hidden" }}>
                     <Card.Img
                       src={course.img}
@@ -42,6 +44,7 @@ const Courses = () => {
                       {course.title}
                     </Card.Title>
                   </Card.ImgOverlay>
+                 
                 </Card>
               </Link>
               <Card.Text className="text-left small mt-8">

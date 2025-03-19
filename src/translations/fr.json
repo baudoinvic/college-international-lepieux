@@ -26,21 +26,21 @@
   "courses": [
     {
       "id": 1,
-      "img": "https://media.istockphoto.com/id/1519355186/photo/i-need-this-data.jpg?s=612x612&w=0&k=20&c=ivfi9uNZlwCQt842_4JyBK-9Y1egC1xQp3-qZ-gX1jU=",
+      "img": "https://static.wixstatic.com/media/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Vétérinaire et Agronomie",
       "description": "Souhaitez-vous construire votre carrière en Vétérinaire et Agronomie? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production végétale et la gestion des sols.",
       "link": "/veterinary"
     },
     {
       "id": 2,
-      "img": "https://www.simjo.ai/wp-content/uploads/2024/02/5-Trends-en-tips-in-bouwprojectmanagement-.jpg",
+      "img": "https://static.wixstatic.com/media/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Construction",
       "description": "Souhaitez-vous construire votre carrière dans la construction? Ce cours couvre les principes et les techniques de construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projet.",
       "construction": "/construction"
     },
     {
       "id": 3,
-      "img": "https://media.istockphoto.com/id/1484047390/photo/female-mechanic-fixing-car.jpg?s=612x612&w=0&k=20&c=cxyfex5_QlQqRTxLJRhhfzfwuuQqn6DBzioH6rWvzDA=",
+      "img": "https://static.wixstatic.com/media/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_980,h_462,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Mécanique",
       "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications dans l'ingénierie et la technologie.",
       "link": "/mecaniq"
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "img": "https://static.wixstatic.com/media/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Coupe et Couture",
       "description": "Envie de transformer votre passion pour la mode en une carrière florissante? Plongez dans le monde de la coupe et de la couture où vous découvrirez les techniques, les tendances et l'art de créer des vêtements uniques et élégants",
       "link": "/coup"
