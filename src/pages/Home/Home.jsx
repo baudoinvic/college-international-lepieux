@@ -87,7 +87,7 @@ function Home() {
             {/* Right Section (Image) */}
             <div className="col-lg-5 mt-4 mt-lg-0 text-center">
               <img
-                src="https://pbs.twimg.com/media/F-ZOGvhWgAEm9J2?format=jpg&name=4096x4096"
+                src="https://static.wixstatic.com/media/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg"
                 className="img-fluid rounded shadow-lg"
                 alt=""
                 style={{
