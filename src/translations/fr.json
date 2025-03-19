@@ -71,13 +71,13 @@
   "shortcourses": [
     {
       "id": 1,
-      "img": "https://www.isep-thies.sn/wp-content/uploads/2019/10/RT1-scaled.jpg",
+      "img": "https://static.wixstatic.com/media/113bea_3e4e0a06226f4682980b0893a44cf2d2~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_980,h_765,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/113bea_3e4e0a06226f4682980b0893a44cf2d2~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Réseaux et télécommunications",
       "description": "Découvrez les bases du réseautage dans ce cours de 6 mois couvrant l'architecture, les protocoles et les systèmes de communication."
     },
     {
       "id": 2,
-      "img": "https://media.istockphoto.com/id/1129416291/photo/young-afro-woman-in-sewing-workshop-from-above.jpg?s=612x612&w=0&k=20&c=iv0cuJ-cP01AjfbvjxcJ4PEv4CQuBwyX26FbRU0uYSo=",
+      "img": "https://static.wixstatic.com/media/c478e7_cc3dfd1a4e9a4d51868cb9276b748bf6~mv2.jpg/v1/fill/w_943,h_489,al_c,q_85,enc_avif,quality_auto/IMG-20180510-WA0000_edited.jpg",
       "title": "Coupe et couture",
       "description": "Pour une expérience pratique, inscrivez-vous à notre cours de 6 mois 'Coupe et Couture'. Apprenez l'art de la coupe de précision et des techniques de couture expertes."
     },
@@ -89,7 +89,7 @@
     },
     {
       "id": 4,
-      "img": "https://crrfstgobain.fr/wp-content/uploads/2021/04/crrf-image-333-1536x1024.jpg",
+      "img": "https://www.csbellevuelsh.org/images/slid2.jpg",
       "title": "École de réhabilitation pour adultes",
       "description": "Embarquez pour un parcours de 6 mois à notre École de Réhabilitation pour Adultes. Acquérez une expertise en compétences commerciales et de gestion, couvrant le marketing, les ventes, la finance, les ressources humaines et les opérations commerciales."
     },

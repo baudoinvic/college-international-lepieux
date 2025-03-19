@@ -178,7 +178,7 @@ const Description = () => {
       <div className="">
         <div className="max-w-6xl mx-auto px-4 py-8">
           {/* Titre principal */}
-          <h1 className="text-center text-cyan-400 text-xl md:text-2xl mb-12">
+          <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
             Les enseignants organisent le programme d'études en portant une
             attention adaptée au développement des éléments suivants.
           </h1>
@@ -187,7 +187,7 @@ const Description = () => {
           <div className="flex flex-wrap justify-between">
             {/* Section 01 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 01
               </div>
               <div className="bg-cyan-400 text-white p-2 mb-4 ">
@@ -207,7 +207,7 @@ const Description = () => {
 
             {/* Section 04 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 04
               </div>
               <div className="bg-red-600 text-white p-2 mb-4">
@@ -231,7 +231,7 @@ const Description = () => {
 
             {/* Section 02 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 02
               </div>
               <div className="bg-cyan-400 text-white p-2 mb-4">
@@ -249,11 +249,11 @@ const Description = () => {
 
             {/* Section 05 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 05
               </div>
               <div className="bg-blue-800 text-white p-2 mb-4">
-                <h4 className="font-medium">La langue et l'identité</h4>
+                <h4 className="font-medium ">La langue et l'identité</h4>
               </div>
               <p className="text-sm">
                 — Les élèves doivent apprendre au moins le français et l'anglais
@@ -266,7 +266,7 @@ const Description = () => {
 
             {/* Section 03 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-lg font-light">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 03
               </div>
               <div className="bg-orange-300 text-white p-2 mb-4">
