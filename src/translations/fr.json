@@ -264,8 +264,6 @@
     "contact": "Contactez-nous"
   },
 
-
-
   "coreValues": {
     "respect": "Respect",
     "curiosity": "Curiosité",
@@ -273,10 +271,27 @@
     "integrity": "Intégrité",
     "kindness": "Gentillesse"
   },
- 
-   "core": {
+
+  "core": {
     "values": "Nos valeurs fondamentales"
   },
+
+  "nav": {
+    "text": "Navigation"
+  },
+
+  "head": {
+    "office": "Siège social"
+  },
+
+  "information": {
+    "title": "Informations",
+    "privacy_policy": "Politique de confidentialité",
+    "school_policies": "Politiques de l'école",
+    "sitemap": "Plan du site",
+    "join_the_team": "Rejoindre l'équipe"
+  },
+
 
 
   "footer": {
@@ -314,5 +329,4 @@
     "callTitle": "contact ",
     "callDetails": "+243850651507"
   }
-
 }

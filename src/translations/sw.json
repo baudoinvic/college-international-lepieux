@@ -292,5 +292,25 @@
 
   "core": {
     "values": "Thamani zetu kuu"
+  },
+
+  
+  "information": {
+    "title": "Taarifa",
+    "privacy_policy": "Sera ya faragha",
+    "school_policies": "Sera za shule",
+    "sitemap": "Ramani ya tovuti",
+    "join_the_team": "Jiunge na timu"
+  },
+
+
+
+
+  "head": {
+    "office": "Ofisi kuu"
+  },
+
+  "nav": {
+    "text": "Urambazaji"
   }
 }

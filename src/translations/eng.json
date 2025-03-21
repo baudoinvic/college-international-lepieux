@@ -105,7 +105,7 @@
       "link": "/coup"
     }
   ],
- 
+
   "navigation": {
     "home": "Home",
     "courses": "Our Courses",
@@ -248,13 +248,12 @@
     "description": "This is a list of options which organized the students must choose one which is good for him or her once finish with orientation cycle.Our program follows all the instructions and rules of EPST."
   },
 
-
   "vet_agronomy": {
     "title": "Veterinary and Agronomy",
     "description": "Would you like to build your career in Veterinary and Agronomy? This course explores veterinary science and agronomy, covering topics such as animal health, nutrition, breeding, crop production, and soil management."
   },
 
-   "construction": {
+  "construction": {
     "title": "Construction",
     "description": "Would you like to build your career in construction? This course covers the principles and techniques of construction, including building materials, structural systems, construction methods, and project management."
   },
@@ -263,7 +262,6 @@
     "title": "General electricity",
     "description": "This course covers fundamental principles and applications of general electricity, including circuits, voltage, current, resistance, and power."
   },
-
 
   "commercial_management": {
     "title": "Commercial and Management",
@@ -284,19 +282,34 @@
     "title": "contact us"
   },
 
-   "core": {
+  "core": {
     "values": "Our core values"
   },
 
+  "nav": {
+    "text": "Navigation"
+  },
 
-   "coreValues": {
+  "head": {
+    "office": "Head office"
+  },
+
+  
+  "information": {
+    "title": "Information",
+    "privacy_policy": "Privacy Policy",
+    "school_policies": "School Policies",
+    "sitemap": "Sitemap",
+    "join_the_team": "Join the Team"
+  },
+
+
+
+  "coreValues": {
     "respect": "Respect",
     "curiosity": "Curiosity",
     "courage": "Courage",
     "integrity": "Integrity",
     "kindness": "Kindness"
   }
-
- 
- 
 }
