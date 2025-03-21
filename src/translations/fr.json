@@ -358,6 +358,10 @@
     }
   },
   "day": {
-    "description": "Rejoignez-nous pour ces événements à venir et faites partie de notre communauté scolaire dynamique. D'autres événements passionnants sont en préparation et seront bientôt annoncés !"
+    "description": "Rejoignez-nous pour ces événements à venir et faites partie de notre communauté scolaire dynamique. D'autres événements passionnants sont en préparation et seront bientôt annoncés"
+  },
+  "soon": {
+    "title": "Plus d'événements à venir",
+    "description": "Nous planifions d'autres événements pour les mois à venir. Abonnez-vous à notre newsletter pour être les premiers informés !"
   }
 }

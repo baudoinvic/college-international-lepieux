@@ -341,6 +341,10 @@
   },
 
   "day": {
-    "description": "Join us for these upcoming events and become part of our vibrant school community. More exciting events are being planned and will be announced soon!"
+    "description": "Join us for these upcoming events and become part of our vibrant school community. More exciting events are being planned and will be announced soon"
+  },
+  "soon": {
+    "title": "More Events Coming Soon",
+    "description": "We're planning additional events for the upcoming months. Subscribe to our newsletter to be the first to know!"
   }
 }

@@ -166,33 +166,13 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              {/* 
-              <div className="flex space-x-4">
-                <Link
-                  to="/about"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                  OUR MISSION AND VISION
-                </Link>
-                <Link
-                  to=""
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                  OUR CURRICULUM
-                </Link>
-                <Link
-                  to="/description"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                  PROGRAMME SCHOLAIRE
-                </Link>
-              </div> */}
+             
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
                   to="/about"
                   className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
                 >
-                  OUR MISSION AND VISION
+                 ABOUT US
                 </Link>
                 <Link
                   to=""
@@ -201,10 +181,10 @@ const Footer = () => {
                   OUR CURRICULUM
                 </Link>
                 <Link
-                  to="/description"
+                  to=""
                   className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
                 >
-                  PROGRAMME SCHOLAIRE
+                 EVENTS
                 </Link>
               </div>
             </div>
@@ -214,8 +194,7 @@ const Footer = () => {
           <div className="text-center text-gray-400 text-sm">
             <p>{new Date().getFullYear()} | All rights reserved</p>
             <p className="mt-2 text-xs">
-              Registration codes: Primary - MITEX5000 | Secondary I - MITAP5007
-              | Secondary II - MIPS2500P
+              All rights reserved| by college international lepieux
             </p>
           </div>
         </div>

@@ -341,5 +341,9 @@
   },
   "day": {
     "description": "Jiunge nasi kwa matukio haya yajayo na uwe sehemu ya jamii yetu shuleni iliyo hai. Matukio mengine ya kusisimua yanapangwa na yatatangazwa hivi karibuni!"
+  },
+  "soon": {
+    "title": "Matukio Zaidi Yanakuja Hivi Karibuni",
+    "description": "Tunapanga matukio mengine kwa miezi ijayo. Jisajili kwenye jarida letu ili uwe wa kwanza kujua!"
   }
 }

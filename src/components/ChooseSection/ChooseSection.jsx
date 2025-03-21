@@ -83,7 +83,6 @@ function ChooseSection() {
       </div>
 
       <div className="container py-5">
-       
         <h2 className="text-center mb-5">{t("core.values")}</h2>
 
         <div className="d-flex flex-wrap justify-content-center">
@@ -92,15 +91,15 @@ function ChooseSection() {
             <div
               className="rounded-circle d-flex flex-column align-items-center justify-content-center bg-navy text-white"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "150px",
+                height: "150px",
                 backgroundColor: "#0a1844",
               }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
+                width="38"
+                height="38"
                 fill="#e63946"
                 viewBox="0 0 16 16"
               >
@@ -122,8 +121,8 @@ function ChooseSection() {
             <div
               className="rounded-circle d-flex flex-column align-items-center justify-content-center bg-navy text-white"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "150px",
+                height: "150px",
                 backgroundColor: "#0a1844",
               }}
             >
@@ -142,8 +141,8 @@ function ChooseSection() {
             <div
               className="rounded-circle d-flex flex-column align-items-center justify-content-center bg-navy text-white"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "150px",
+                height: "150px",
                 backgroundColor: "#0a1844",
               }}
             >
@@ -171,8 +170,8 @@ function ChooseSection() {
             <div
               className="rounded-circle d-flex flex-column align-items-center justify-content-center bg-navy text-white"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "150px",
+                height: "150px",
                 backgroundColor: "#0a1844",
               }}
             >
@@ -201,8 +200,8 @@ function ChooseSection() {
             <div
               className="rounded-circle d-flex flex-column align-items-center justify-content-center bg-navy text-white"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "150px",
+                height: "150px",
                 backgroundColor: "#0a1844",
               }}
             >

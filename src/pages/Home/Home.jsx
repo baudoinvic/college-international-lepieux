@@ -16,33 +16,6 @@ function Home() {
 
   return (
     <div className="home-page">
-      {/* <header className="h-100 min-vh-100 d-flex align-items-center text-light">
-        <div className="container d-flex flex-column align-items-center">
-          <h2>{t("welcome")}</h2>
-          <h1 className="text-center fw-semibold">{t("college_name")}</h1>
-          <p className="w-2/4">{t("education_excellence")}</p>
-          <div className="d-flex flex-column flex-sm-row align-items-center">
-            <Link to="/courses">
-              <button
-                type="button"
-                className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-                style={{ backgroundColor: "#0a1844" }}
-              >
-                {t("our_courses")}
-              </button>
-            </Link>
-            <Link to="/contact">
-              <button
-                type="button"
-                className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
-              >
-                {t("contact_us")}
-              </button>
-            </Link>
-          </div>
-        </div>
-      </header> */}
-
       <header className="h-100 min-vh-100 d-flex align-items-center text-light">
         <div className="container px-4">
           <div className="row justify-content-center text-center">
@@ -356,17 +329,29 @@ function Home() {
 
         {/* "More Coming Soon" Section */}
         <div className="mt-12 text-center">
-          <h3 className="text-2xl font-bold mb-2">More Events Coming Soon</h3>
+          {/* <h3 className="text-2xl font-bold mb-2">More Events Coming Soon</h3>
           <p className="text-gray-600 max-w-lg mx-auto mb-6">
             We're planning additional events for the upcoming months. Subscribe
             to our newsletter to be the first to know!
+          </p> */}
+          <h3 className="text-2xl font-bold mb-2">{t("soon.title")}</h3>
+          <p className="text-gray-600 max-w-lg mx-auto mb-6">
+            {t("soon.description")}
           </p>
-          <button
-            className="inline-flex items-center justify-center px-6 py-3  text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-            style={{ backgroundColor: "#0a1844" }}
-          >
-            Stay with us
-          </button>
+          <div className="flex flex-col sm:flex-row gap-2 items-center">
+            <input
+              type="email"
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Enter your email"
+              aria-label="Email for subscription"
+            />
+            <button
+              className="inline-flex items-center justify-center px-6 py-3 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              style={{ backgroundColor: "#0a1844" }}
+            >
+              Subscribe Now
+            </button>
+          </div>
         </div>
       </div>
     </div>
