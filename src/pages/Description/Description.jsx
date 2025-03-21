@@ -16,14 +16,18 @@ const Description = () => {
 
   return (
     <div className="description-page">
-      <header className="height-100 ">
-        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h2>{t("school.title")}</h2>
-          <p className="text-center w-75 mb-5 mt-8">
+   
+      <header className="h-screen flex items-center justify-center text-light text-center px-4">
+        <div className="container">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+            {t("school.title")}
+          </h2>
+          <p className="w-full sm:w-3/4 lg:w-2/3 mx-auto mb-5 mt-8">
             {t("school.description")}
           </p>
         </div>
       </header>
+
       <div className="container py-10 mt-10">
         <div className="max-w-3xl">
           <h2 className="text-lg font-bold mb-6 italic">
@@ -174,7 +178,6 @@ const Description = () => {
             </div>
           </div>
         </div>
-       
       </div>
       <div className="">
         <div className="max-w-6xl mx-auto px-4 py-8">

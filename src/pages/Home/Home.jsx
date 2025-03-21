@@ -69,9 +69,9 @@ function Home() {
 
       <div className="py-5 bg-light">
         <div className="container">
-          <div className="row d-flex align-items-center justify-content-center text-center text-lg-start">
+          <div className="row d-flex align-items-center justify-content-center text-center text-md-start">
             {/* Left Section */}
-            <div className="col-lg-5">
+            <div className="col-12 col-md-6 col-lg-5">
               <h2 className="text-capitalize fw-bold">{t("start_courses")}</h2>
               <p className="text-muted">{t("start_courses_description")}</p>
               <Link to="/about">
@@ -86,15 +86,15 @@ function Home() {
             </div>
 
             {/* Right Section (Image) */}
-            <div className="col-lg-5 mt-4 mt-lg-0 text-center ml-16">
+            <div className="col-12 col-md-6 col-lg-5 mt-4 mt-md-0 text-center">
               <img
                 src="https://static.wixstatic.com/media/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg"
                 className="img-fluid rounded shadow-lg"
-                alt=""
+                alt="Course Image"
                 style={{
                   width: "100%",
-                  maxWidth: "450px",
-                  height: "480px",
+                  maxWidth: "400px",
+                  height: "auto",
                   objectFit: "cover",
                   borderRadius: "10px",
                 }}
@@ -333,20 +333,7 @@ function Home() {
           <p className="text-gray-600 max-w-lg mx-auto mb-6">
             {t("soon.description")}
           </p>
-          {/* <div className="flex flex-col sm:flex-row gap-2 items-center">
-            <input
-              type="email"
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Enter your email"
-              aria-label="Email for subscription"
-            />
-            <button
-              className="inline-flex items-center justify-center px-6 py-3 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-              style={{ backgroundColor: "#0a1844" }}
-            >
-              Subscribe Now
-            </button>
-          </div> */}
+
           <div className="flex flex-col sm:flex-row gap-2 items-center">
             <input
               type="email"

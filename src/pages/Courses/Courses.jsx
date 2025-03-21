@@ -19,11 +19,13 @@ const Courses = () => {
         </div>
       </header>
 
-      <p className="text-center w-2/3 mx-auto mb-5 mt-4">
+      {/* <p className="text-center w-2/3 mx-auto mb-5 mt-4">
+        {t("start_courses_description")}
+      </p> */}
+
+      <p className="text-center w-full sm:w-2/3 mx-auto mb-5 mt-4 px-4">
         {t("start_courses_description")}
       </p>
-
-    
 
       <div className="container py-5 mb-16 mt-8">
         <div className="row g-4">
@@ -31,7 +33,6 @@ const Courses = () => {
             <div key={course.id} className="col-md-6 col-lg-4">
               <Link to={course.link} className="text-decoration-none">
                 <Card className="text-white shadow rounded-4 overflow-hidden scale-hover-effect">
-                 
                   <div style={{ height: "250px", overflow: "hidden" }}>
                     <Card.Img
                       src={course.img}
@@ -44,7 +45,6 @@ const Courses = () => {
                       {course.title}
                     </Card.Title>
                   </Card.ImgOverlay>
-                 
                 </Card>
               </Link>
               <Card.Text className="text-left small mt-8">
