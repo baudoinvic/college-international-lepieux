@@ -95,10 +95,13 @@ function Home() {
             College Internationale lepieux Events
           </h6>
           <h1 className="text-4xl font-bold mb-4">{t("event.title")}</h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          {/* <p className="text-gray-600 max-w-2xl mx-auto">
             Join us for these upcoming events and become part of our vibrant
             school community. More exciting events are being planned and will be
             announced soon!
+          </p> */}
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            {t("day.description")}
           </p>
         </div>
 
