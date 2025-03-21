@@ -1,28 +1,4 @@
 
-// import React from "react";
-// import "./Gallery.css";
-// import pic1 from "../../utils/images/pic1.png"; 
-// import pic2 from "../../utils/images/pic2.png"; 
-// import pic3 from "../../utils/images/pic3.png"; 
-
-// const Gallery = () => {
-//   return (
-//     <div className="gallery-page">
-//       <header
-//         className="height-100"
-//         style={{
-//           backgroundImage: `linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(${pic1})`,
-//         }}
-//       >
-//       </header>
-    
-//        <h1 className="mt-16 mb-16 w-2/4 ">Currently we don't have pictures yet to put in this page but pictures will be uploaded soon </h1>
-//     </div>
-   
-//   );
-// };
-
-// export default Gallery;
 
 
 
@@ -85,11 +61,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-gray-200">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition-colors duration-300">
-              Subscribe for Updates
-            </button>
-          </div>
+       
         </div>
       </div>
     </div>
