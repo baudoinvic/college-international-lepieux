@@ -45,19 +45,19 @@ const NavbarComponent = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link as={Link} to="/" className="text-uppercase">
+              <Nav.Link as={Link} to="/" className="">
                 {t("navigation.home")}
               </Nav.Link>
-              <Nav.Link as={Link} to="/courses" className="text-uppercase">
+              <Nav.Link as={Link} to="/courses" className="">
                 {t("navigation.courses")}
               </Nav.Link>
-              <Nav.Link as={Link} to="/shortcourses" className="text-uppercase">
+              <Nav.Link as={Link} to="/shortcourses" className="">
                 {t("navigation.short_courses")}
               </Nav.Link>
               <NavDropdown
                 title={t("navigation.about_us")}
                 id="about-us-dropdown"
-                className="text-uppercase"
+                className=""
                 show={activeDropdown === 0}
                 onMouseEnter={() => setActiveDropdown(0)}
                 onMouseLeave={() => setActiveDropdown(null)}
@@ -73,7 +73,7 @@ const NavbarComponent = () => {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link as={Link} to="/contact" className="text-uppercase">
+              <Nav.Link as={Link} to="/contact" className="">
                 {t("navigation.contact")}
               </Nav.Link>
 

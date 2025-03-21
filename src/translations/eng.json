@@ -346,5 +346,20 @@
   "soon": {
     "title": "More Events Coming Soon",
     "description": "We're planning additional events for the upcoming months. Subscribe to our newsletter to be the first to know!"
-  }
+  },
+  "subscription": {
+    "placeholder": "Enter your email",
+    "button": "Subscribe Now",
+    "aria_label": "Email for subscription"
+  },
+  
+  "option": {
+    "veterinary": "Veterinary and Agronomy",
+    "construction": "Construction",
+    "mechanics": "Mechanics",
+    "electricity": "General Electricity",
+    "business": "Business and Management",
+    "fashion": "Cutting and Sewing"
+}
+
 }

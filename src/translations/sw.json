@@ -345,5 +345,18 @@
   "soon": {
     "title": "Matukio Zaidi Yanakuja Hivi Karibuni",
     "description": "Tunapanga matukio mengine kwa miezi ijayo. Jisajili kwenye jarida letu ili uwe wa kwanza kujua!"
+  },
+  "subscription": {
+    "placeholder": "Ingiza barua pepe yako",
+    "button": "Jisajili Sasa",
+    "aria_label": "Barua pepe ya usajili"
+  },
+  "option": {
+    "veterinary": "Mifugo na Kilimo",
+    "construction": "Ujenzi",
+    "mechanics": "Uhandisi wa Mitambo",
+    "electricity": "Umeme wa Kawaida",
+    "business": "Biashara na Usimamizi",
+    "fashion": "Kukatakata na Kushona"
   }
 }

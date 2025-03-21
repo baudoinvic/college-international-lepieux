@@ -363,5 +363,18 @@
   "soon": {
     "title": "Plus d'événements à venir",
     "description": "Nous planifions d'autres événements pour les mois à venir. Abonnez-vous à notre newsletter pour être les premiers informés !"
+  },
+  "subscription": {
+    "placeholder": "Entrez votre email",
+    "button": "S'abonner maintenant",
+    "aria_label": "Email pour l'abonnement"
+  },
+  "option": {
+    "veterinary": "Vétérinaire et Agronomie",
+    "construction": "Construction",
+    "mechanics": "Mécanique",
+    "electricity": "Électricité Générale",
+    "business": "Commerciale et Gestion",
+    "fashion": "Coupe et Couture"
   }
 }

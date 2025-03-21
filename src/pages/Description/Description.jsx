@@ -36,9 +36,9 @@ const Description = () => {
         <p>Le programme est composé de six groupes des options </p>
 
         <div className="w-full">
-          {/* Top row - 3 boxes */}
+          {/* Top Row */}
           <div className="flex gap-4">
-            {/* Vétérinaire et Agronomie */}
+            {/* Veterinary and Agronomy */}
             <div className="bg-green-500 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Description = () => {
                 <path d="M6 12v5h4v-5" />
                 <path d="M18 12v5h-4v-5" />
               </svg>
-              <p className="text-sm">• Vétérinaire et Agronomie</p>
+              <p className="text-sm">{t("option.veterinary")}</p>
             </div>
 
             {/* Construction */}
@@ -81,10 +81,10 @@ const Description = () => {
                 <path d="M17 2H7" />
                 <path d="M12 22V12" />
               </svg>
-              <p className="text-sm">• Construction</p>
+              <p className="text-sm">{t("option.construction")}</p>
             </div>
 
-            {/* Mécanique */}
+            {/* Mechanics */}
             <div className="bg-blue-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,13 +109,13 @@ const Description = () => {
                 <line x1="5" y1="12" x2="3" y2="12" />
                 <line x1="7" y1="7" x2="5" y2="5" />
               </svg>
-              <p className="text-sm">• Mécanique</p>
+              <p className="text-sm">{t("option.mechanics")}</p>
             </div>
           </div>
 
-          {/* Bottom row - 3 boxes */}
+          {/* Bottom Row */}
           <div className="flex gap-4 mt-4">
-            {/* Électricité Générale */}
+            {/* General Electricity */}
             <div className="bg-yellow-500 p-8 flex flex-col items-center justify-center text-center text-black flex-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,10 +132,10 @@ const Description = () => {
                 <path d="M6 18h12" />
                 <path d="M15 18v-6h4l-7-7-7 7h4v6h6z" />
               </svg>
-              <p className="text-sm">• Électricité Générale</p>
+              <p className="text-sm">{t("option.electricity")}</p>
             </div>
 
-            {/* Commerciale et Gestion */}
+            {/* Business and Management */}
             <div className="bg-purple-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -151,10 +151,10 @@ const Description = () => {
               >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
-              <p className="text-sm">• Commerciale et Gestion</p>
+              <p className="text-sm">{t("option.business")}</p>
             </div>
 
-            {/* Coupe et Couture */}
+            {/* Cutting and Sewing */}
             <div className="bg-red-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -170,20 +170,19 @@ const Description = () => {
               >
                 <path d="M6 9 L15 3 18 9 15 15 M9 3 L6 9 9 15 M15 3 L9 9 M9 15 L3 9" />
               </svg>
-              <p className="text-sm">• Coupe et Couture</p>
+              <p className="text-sm">{t("option.fashion")}</p>
             </div>
           </div>
         </div>
+       
       </div>
       <div className="">
         <div className="max-w-6xl mx-auto px-4 py-8">
-          {/* Titre principal */}
           <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
             Les enseignants organisent le programme d'études en portant une
             attention adaptée au développement des éléments suivants.
           </h1>
 
-          {/* Container principal */}
           <div className="flex flex-wrap justify-between">
             {/* Section 01 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">

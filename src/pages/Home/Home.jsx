@@ -329,16 +329,11 @@ function Home() {
 
         {/* "More Coming Soon" Section */}
         <div className="mt-12 text-center">
-          {/* <h3 className="text-2xl font-bold mb-2">More Events Coming Soon</h3>
-          <p className="text-gray-600 max-w-lg mx-auto mb-6">
-            We're planning additional events for the upcoming months. Subscribe
-            to our newsletter to be the first to know!
-          </p> */}
           <h3 className="text-2xl font-bold mb-2">{t("soon.title")}</h3>
           <p className="text-gray-600 max-w-lg mx-auto mb-6">
             {t("soon.description")}
           </p>
-          <div className="flex flex-col sm:flex-row gap-2 items-center">
+          {/* <div className="flex flex-col sm:flex-row gap-2 items-center">
             <input
               type="email"
               className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -350,6 +345,20 @@ function Home() {
               style={{ backgroundColor: "#0a1844" }}
             >
               Subscribe Now
+            </button>
+          </div> */}
+          <div className="flex flex-col sm:flex-row gap-2 items-center">
+            <input
+              type="email"
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder={t("subscription.placeholder")}
+              aria-label={t("subscription.aria_label")}
+            />
+            <button
+              className="inline-flex items-center justify-center px-6 py-3 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              style={{ backgroundColor: "#0a1844" }}
+            >
+              {t("subscription.button")}
             </button>
           </div>
         </div>
