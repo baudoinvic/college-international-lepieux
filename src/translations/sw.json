@@ -144,42 +144,42 @@
       "img": "https://static.wixstatic.com/media/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_1d79835618f44b18a93c5677a36fe566~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Veterinary and Agronomy",
       "description": "Je, ungependa kujenga kazi yako katika Udaktari wa Mifugo na Agronomia? Kozi hii inachunguza sayansi ya mifugo na kilimo, ikifunika mada kama afya ya mifugo, lishe, uzalishaji, uzazi, na usimamizi wa udongo.",
-      "link": "/veterinary"
+      "link": ""
     },
     {
       "id": 2,
       "img": "https://static.wixstatic.com/media/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_9d639ac9fdfa431b9c995ba7151c3204~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Ujenzi",
       "description": "Je, ungependa kujenga kazi yako katika ujenzi? Kozi hii inajadili kanuni na mbinu za ujenzi, ikiwa ni pamoja na vifaa vya ujenzi, mifumo ya muundo, njia za ujenzi, na usimamizi wa miradi.",
-      "link": "/construction"
+      "link": ""
     },
     {
       "id": 3,
       "img": "https://static.wixstatic.com/media/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_980,h_462,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/113bea_3b3776d4f89c4ef5aa6080dff891825e~mv2_d_5184_3456_s_4_2.jpg",
       "title": "Machanics",
       "description": "Jenga kazi yako ya baadaye katika Machanics. Kozi hii inajumuisha kanuni za mechanics, ikiwa ni pamoja na statics, dynamics, kinematics, na mifumo ya mitambo, na matumizi yao katika uhandisi na teknolojia.",
-      "link": "/mechanic"
+      "link": ""
     },
     {
       "id": 4,
       "img": "https://static.wixstatic.com/media/113bea_e629823666a443a991fc40deb77b06f7~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_e629823666a443a991fc40deb77b06f7~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Umeme wa jumla",
       "description": "Kozi hii inajumuisha kanuni msingi na matumizi ya umeme wa jumla, ikiwa ni pamoja na mizunguko, voltage, sasa, upinzani, na nguvu.",
-      "link": "/electricity"
+      "link": ""
     },
     {
       "id": 5,
       "img": "https://static.wixstatic.com/media/113bea_653eccba4b454c6396926d2b01c5c442~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_653eccba4b454c6396926d2b01c5c442~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Uuzaji na Usimamizi",
       "description": "Kozi hii inazingatia stadi za kibiashara na usimamizi, ikiwa ni pamoja na masoko, mauzo, fedha, rasilimali watu, na shughuli za biashara.",
-      "link": "/gestion"
+      "link": ""
     },
     {
       "id": 6,
       "img": "https://static.wixstatic.com/media/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_888,h_592,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/113bea_c392927bf87a430083d79f47e39ad742~mv2_d_6000_4000_s_4_2.jpg",
       "title": "Kukata na Kushona",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
-      "link": "/coup"
+      "link": ""
     }
   ],
 
@@ -306,7 +306,7 @@
     "title": "Tufuatilie kwenye mitandao ya kijamii"
   },
 
-   "campus_locations": {
+  "campus_locations": {
     "title": "Nafasi za kampasi",
     "main_campus": "Kampasi kuu",
     "secondary_campus": "Kampasi ya pili",
@@ -319,5 +319,24 @@
 
   "nav": {
     "text": "Urambazaji"
+  },
+
+  "gallery": {
+    "title": "Maktaba Yetu",
+    "subtitle": "Safari ya kuona inakuja hivi karibuni",
+    "coming_soon": "Inakuja Hivi Karibuni",
+    "description": "Tunaandaa mkusanyiko wa picha bora kwa maktaba hii. Timu yetu inafanya kazi ili kukuletea picha nzuri zinazoshika kiini chetu halisi.",
+    "check_back": {
+      "title": "Rudi Tena Hivi Karibuni",
+      "text": "Tunahuisha maktaba yetu mara kwa mara kwa maudhui mapya."
+    },
+    "quality_first": {
+      "title": "Ubora Kwanza",
+      "text": "Tunachukua muda kuhakikisha kila picha inakidhi viwango vyetu."
+    },
+    "stay_updated": {
+      "title": "Endelea Kupata Habari",
+      "text": "Fuata mitandao yetu ya kijamii kwa matangazo kuhusu picha mpya zinazoongezwa."
+    }
   }
 }

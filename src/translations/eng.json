@@ -306,7 +306,6 @@
     "title": "Follow Us on Social Media"
   },
 
-  
   "campus_locations": {
     "title": "Campus Locations",
     "main_campus": "Main Campus",
@@ -314,13 +313,30 @@
     "secondary_address": "123 Education Street, City"
   },
 
-
-
   "coreValues": {
     "respect": "Respect",
     "curiosity": "Curiosity",
     "courage": "Courage",
     "integrity": "Integrity",
     "kindness": "Kindness"
+  },
+
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "A visual journey coming soon",
+    "coming_soon": "Coming Soon",
+    "description": "We're currently curating a collection of exceptional images for this gallery. Our team is working to bring you stunning visuals that truly capture our essence.",
+    "check_back": {
+      "title": "Check Back Soon",
+      "text": "We're updating our gallery regularly with new content."
+    },
+    "quality_first": {
+      "title": "Quality First",
+      "text": "We're taking our time to ensure every image meets our standards."
+    },
+    "stay_updated": {
+      "title": "Stay Updated",
+      "text": "Follow our social media for announcements when new images are added."
+    }
   }
 }
