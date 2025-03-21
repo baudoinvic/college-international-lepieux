@@ -83,7 +83,7 @@ function ChooseSection() {
       </div>
 
       <div className="container py-5">
-        {/* <h2 className="text-center mb-5">Our core values</h2> */}
+       
         <h2 className="text-center mb-5">{t("core.values")}</h2>
 
         <div className="d-flex flex-wrap justify-content-center">
