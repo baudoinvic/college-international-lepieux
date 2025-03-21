@@ -65,16 +65,15 @@
     "description": "Tunatoa mbalimbali ya kozi fupi katika maeneo mbalimbali kila moja ikiwa na kipindi cha takriban miezi sita na kufanyika kupitia ujenzi wa mtu binafsi"
   },
 
-   "vet_agronomy": {
+  "vet_agronomy": {
     "title": "Udaktari wa Wanyama na Kilimo",
     "description": "Je! Ungependa kujenga kazi yako katika Udaktari wa Wanyama na Kilimo? Kozi hii inachunguza sayansi ya udaktari wa wanyama na kilimo, ikijadili mada kama afya ya wanyama, lishe, uzalishaji wa mifugo, uzalishaji wa mazao, na usimamizi wa udongo."
   },
 
-   "construction": {
+  "construction": {
     "title": "Ujenzi",
     "description": "Je! Ungependa kujenga kazi yako katika ujenzi? Kozi hii inajumuisha kanuni na mbinu za ujenzi, ikiwa ni pamoja na vifaa vya ujenzi, mifumo ya muundo, njia za ujenzi, na usimamizi wa miradi."
   },
-
 
   "mechanical": {
     "title": "Umeme",
@@ -282,5 +281,16 @@
       "title": "Stadi za Mawasiliano",
       "description": "Kozi hii fupi inakuza stadi za mawasiliano ambazo ni muhimu katika mazingira ya kazi na maisha ya kibinafsi. Jifunze jinsi ya kuwasiliana kwa ufanisi na kuunda uhusiano wa kudumu."
     }
-  ]
+  ],
+  "coreValues": {
+    "respect": "Heshima",
+    "curiosity": "Shauku",
+    "courage": "Ujasiri",
+    "integrity": "Uaminifu",
+    "kindness": "Upendo"
+  },
+
+  "core": {
+    "values": "Thamani zetu kuu"
+  }
 }

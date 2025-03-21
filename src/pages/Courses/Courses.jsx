@@ -51,7 +51,7 @@ const Courses = () => {
                 {course.description}
               </Card.Text>
               {/* Use Link component for the button as well */}
-              <Link to={course.link}>
+              {/* <Link to={course.link}>
                 <button
                   type="button"
                   className="btn btn-danger btn-lg px-4 shadow "
@@ -59,7 +59,7 @@ const Courses = () => {
                 >
                   {t("learn.title")}
                 </button>
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>

@@ -282,5 +282,22 @@
 
   "conta": {
     "title": "contact us"
+  },
+
+  
+   "core": {
+    "values": "Our core values"
+  },
+
+
+   "coreValues": {
+    "respect": "Respect",
+    "curiosity": "Curiosity",
+    "courage": "Courage",
+    "integrity": "Integrity",
+    "kindness": "Kindness"
   }
+
+ 
+ 
 }

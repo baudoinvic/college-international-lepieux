@@ -14,26 +14,10 @@ header h1 {
   font-size: 4rem;
 }
 
-.navbar .nav-link {
+.navbar-nav .nav-link {
+  color: white !important;
   font-size: 14px;
-  color: #ffffff;
-}
-
-.navbar .navbar-nav .nav-link:hover {        
- color: gray  ;
-}
-
-nav .navbar-toggler:focus {
-  box-shadow: none;
-}
-
-.scale-hover-effect {
-  transition: transform 0.5s ease;
-}
-
-.scale-hover-effect:hover {
-  transform: scale(1.05);
-}
+} 
 
 .height-75 {
   height: 75vh;

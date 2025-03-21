@@ -209,12 +209,12 @@
     "description": "Souhaitez-vous construire votre carrière en médecine vétérinaire et en agronomie ? Ce cours explore la science vétérinaire et l'agronomie, couvrant des sujets tels que la santé animale, la nutrition, l'élevage, la production de cultures et la gestion des sols."
   },
 
-   "construction": {
+  "construction": {
     "title": "Construction",
     "description": "Souhaitez-vous construire votre carrière dans le domaine de la construction ? Ce cours couvre les principes et les techniques de la construction, y compris les matériaux de construction, les systèmes structurels, les méthodes de construction et la gestion de projets."
   },
 
-   "mechanical": {
+  "mechanical": {
     "title": "Mécanique",
     "description": "Construisez votre future carrière en Mécanique. Ce cours couvre les principes de la mécanique, y compris la statique, la dynamique, la cinématique et les systèmes mécaniques, ainsi que leurs applications en ingénierie et technologie."
   },
@@ -234,7 +234,7 @@
     "description": "Les arts encouragent la créativité et l'expression personnelle. Nous offrons beaucoup de pratique à nos étudiants pour leur permettre d'acquérir davantage de compétences."
   },
 
-   "library_filters": {
+  "library_filters": {
     "title": "Nos Bibliothèques",
     "all": "Tous",
     "lab1": "Bibliothèque 1",
@@ -242,7 +242,6 @@
     "lab3": "Bibliothèque 3",
     "computer_lab": "Laboratoire d'Informatique"
   },
-
 
   "conta": {
     "title": "contact nous"
@@ -264,6 +263,22 @@
     "blog": "Blog",
     "contact": "Contactez-nous"
   },
+
+
+
+  "coreValues": {
+    "respect": "Respect",
+    "curiosity": "Curiosité",
+    "courage": "Courage",
+    "integrity": "Intégrité",
+    "kindness": "Gentillesse"
+  },
+ 
+   "core": {
+    "values": "Nos valeurs fondamentales"
+  },
+
+
   "footer": {
     "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
     "phone_number": "Numéro de téléphone - +243850651507",
@@ -299,4 +314,5 @@
     "callTitle": "contact ",
     "callDetails": "+243850651507"
   }
+
 }

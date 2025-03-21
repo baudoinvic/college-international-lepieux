@@ -3,6 +3,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { FaRegLightbulb } from "react-icons/fa6";
+import { RiFocus2Line } from "react-icons/ri";
 
 function ChooseSection() {
   const { t } = useTranslation();
@@ -63,16 +64,10 @@ function ChooseSection() {
           <div className="col-lg-4 bg-white shadow-lg">
             <Card className="d-flex align-items-center border-0 h-100">
               <div className="mt-3 bg-navy">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  fill="#0a1844"
-                  className="bi bi-geo-alt-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                </svg>
+                <RiFocus2Line
+                  className="text-5xl"
+                  style={{ color: "#0a1844" }}
+                />
               </div>
               <Card.Body>
                 <Card.Title className="text-center text-capitalize mb-3">
@@ -86,8 +81,10 @@ function ChooseSection() {
           </div>
         </div>
       </div>
+
       <div className="container py-5">
-        <h2 className="text-center mb-5">our core values</h2>
+        {/* <h2 className="text-center mb-5">Our core values</h2> */}
+        <h2 className="text-center mb-5">{t("core.values")}</h2>
 
         <div className="d-flex flex-wrap justify-content-center">
           {/* Respect */}
@@ -115,7 +112,7 @@ function ChooseSection() {
                 className="mt-3 mb-0 font-weight-bold"
                 style={{ fontWeight: "bold", fontSize: "1.2rem" }}
               >
-                Respect
+                {t("coreValues.respect")}
               </p>
             </div>
           </div>
@@ -135,7 +132,7 @@ function ChooseSection() {
                 className="mt-3 mb-0 font-weight-bold"
                 style={{ fontWeight: "bold", fontSize: "1.2rem" }}
               >
-                Curiosity
+                {t("coreValues.curiosity")}
               </p>
             </div>
           </div>
@@ -164,7 +161,7 @@ function ChooseSection() {
                 className="mt-3 mb-0 font-weight-bold"
                 style={{ fontWeight: "bold", fontSize: "1.2rem" }}
               >
-                Courage
+                {t("coreValues.courage")}
               </p>
             </div>
           </div>
@@ -194,7 +191,7 @@ function ChooseSection() {
                 className="mt-3 mb-0 font-weight-bold"
                 style={{ fontWeight: "bold", fontSize: "1.2rem" }}
               >
-                Integrity
+                {t("coreValues.integrity")}
               </p>
             </div>
           </div>
@@ -223,7 +220,7 @@ function ChooseSection() {
                 className="mt-3 mb-0 font-weight-bold"
                 style={{ fontWeight: "bold", fontSize: "1.2rem" }}
               >
-                Kindness
+                {t("coreValues.kindness")}
               </p>
             </div>
           </div>
