@@ -24,18 +24,6 @@ const Footer = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-            {/* <div>
-              <h4 className="text-lg font-medium mb-4">Campus Locations</h4>
-              <div className="mb-4">
-                <p className="font-medium">Main Campus</p>
-                <p>{t("footer.main_address")}</p>
-              </div>
-              <div>
-                <p className="font-medium">Secondary Campus</p>
-                <p>123 Education Street, City</p>
-              </div>
-            </div> */}
-
             <div>
               <h4 className="text-lg font-medium mb-4">
                 {t("campus_locations.title")}
@@ -178,8 +166,28 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-
+              {/* 
               <div className="flex space-x-4">
+                <Link
+                  to="/about"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
+                >
+                  OUR MISSION AND VISION
+                </Link>
+                <Link
+                  to=""
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
+                >
+                  OUR CURRICULUM
+                </Link>
+                <Link
+                  to="/description"
+                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
+                >
+                  PROGRAMME SCHOLAIRE
+                </Link>
+              </div> */}
+              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
                   to="/about"
                   className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
