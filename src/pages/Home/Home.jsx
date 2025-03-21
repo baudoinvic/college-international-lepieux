@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <div className="home-page">
-      <header className="h-100 min-vh-100 d-flex align-items-center text-light">
+      {/* <header className="h-100 min-vh-100 d-flex align-items-center text-light">
         <div className="container d-flex flex-column align-items-center">
           <h2>{t("welcome")}</h2>
           <h1 className="text-center fw-semibold">{t("college_name")}</h1>
@@ -39,6 +39,53 @@ function Home() {
                 {t("contact_us")}
               </button>
             </Link>
+          </div>
+        </div>
+      </header> */}
+
+      <header className="h-100 min-vh-100 d-flex align-items-center text-light">
+        <div className="container px-4">
+          <div className="row justify-content-center text-center">
+            <div className="col-12 col-md-10 col-lg-8">
+              {/* Welcome heading with responsive font size */}
+              <h2 className="mb-2 fs-4 fs-md-3">{t("welcome")}</h2>
+
+              {/* College name with responsive font size */}
+              <h1 className="fw-semibold mb-3 mb-md-4 fs-1 fs-md-1">
+                {t("college_name")}
+              </h1>
+
+              {/* Description with proper width constraints for all devices */}
+              <p
+                className="mx-auto mb-4 mb-md-5"
+                style={{ maxWidth: "90%", width: "100%" }}
+              >
+                {t("education_excellence")}
+              </p>
+
+              {/* Button container with improved spacing */}
+              <div className="d-flex flex-column flex-sm-row justify-content-center">
+                <Link to="/courses" className="mb-3 mb-sm-0 mx-sm-2">
+                  <button
+                    type="button"
+                    className="btn btn-danger btn-lg w-100"
+                    style={{ backgroundColor: "#0a1844", minWidth: "160px" }}
+                  >
+                    {t("our_courses")}
+                  </button>
+                </Link>
+
+                <Link to="/contact" className="mx-sm-2">
+                  <button
+                    type="button"
+                    className="btn btn-outline-light btn-lg w-100"
+                    style={{ minWidth: "160px" }}
+                  >
+                    {t("contact_us")}
+                  </button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -95,11 +142,7 @@ function Home() {
             College Internationale lepieux Events
           </h6>
           <h1 className="text-4xl font-bold mb-4">{t("event.title")}</h1>
-          {/* <p className="text-gray-600 max-w-2xl mx-auto">
-            Join us for these upcoming events and become part of our vibrant
-            school community. More exciting events are being planned and will be
-            announced soon!
-          </p> */}
+
           <p className="text-gray-600 max-w-2xl mx-auto">
             {t("day.description")}
           </p>
