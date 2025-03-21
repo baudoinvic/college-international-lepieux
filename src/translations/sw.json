@@ -294,7 +294,6 @@
     "values": "Thamani zetu kuu"
   },
 
-  
   "information": {
     "title": "Taarifa",
     "privacy_policy": "Sera ya faragha",
@@ -303,8 +302,16 @@
     "join_the_team": "Jiunge na timu"
   },
 
+  "connect": {
+    "title": "Tufuatilie kwenye mitandao ya kijamii"
+  },
 
-
+   "campus_locations": {
+    "title": "Nafasi za kampasi",
+    "main_campus": "Kampasi kuu",
+    "secondary_campus": "Kampasi ya pili",
+    "secondary_address": "123 Barabara ya Elimu, Jiji"
+  },
 
   "head": {
     "office": "Ofisi kuu"

@@ -294,13 +294,24 @@
     "office": "Head office"
   },
 
-  
   "information": {
     "title": "Information",
     "privacy_policy": "Privacy Policy",
     "school_policies": "School Policies",
     "sitemap": "Sitemap",
     "join_the_team": "Join the Team"
+  },
+
+  "connect": {
+    "title": "Suivez-nous sur les réseaux sociaux"
+  },
+
+  
+  "campus_locations": {
+    "title": "Campus Locations",
+    "main_campus": "Main Campus",
+    "secondary_campus": "Secondary Campus",
+    "secondary_address": "123 Education Street, City"
   },
 
 

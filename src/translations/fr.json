@@ -291,6 +291,19 @@
     "sitemap": "Plan du site",
     "join_the_team": "Rejoindre l'équipe"
   },
+  
+   "connect": {
+    "title": "Follow us on social media"
+   },
+
+
+   
+  "campus_locations": {
+    "title": "Emplacements des campus",
+    "main_campus": "Campus principal",
+    "secondary_campus": "Campus secondaire",
+    "secondary_address": "123 Rue de l'Éducation, Ville"
+  },
 
 
 

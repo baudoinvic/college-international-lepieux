@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-            <div>
+            {/* <div>
               <h4 className="text-lg font-medium mb-4">Campus Locations</h4>
               <div className="mb-4">
                 <p className="font-medium">Main Campus</p>
@@ -33,6 +33,24 @@ const Footer = () => {
               <div>
                 <p className="font-medium">Secondary Campus</p>
                 <p>123 Education Street, City</p>
+              </div>
+            </div> */}
+
+            <div>
+              <h4 className="text-lg font-medium mb-4">
+                {t("campus_locations.title")}
+              </h4>
+              <p>{t("footer.main_address")}</p>
+              <div className="mb-4">
+                <p className="font-medium">
+                  {t("campus_locations.main_campus")}
+                </p>
+              </div>
+              <div>
+                <p className="font-medium">
+                  {t("campus_locations.secondary_campus")}
+                </p>
+                <p>{t("campus_locations.secondary_address")}</p>
               </div>
             </div>
 
@@ -86,31 +104,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div>
-                <h4 className="text-lg font-medium mb-4">Information</h4>
-                <ul className="space-y-2">
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      School Policies
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      Sitemap
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      Join the Team
-                    </Link>
-                  </li>
-                </ul>
-              </div> */}
+
               <div>
                 <h4 className="text-lg font-medium mb-4">
                   {t("information.title")}
@@ -145,7 +139,10 @@ const Footer = () => {
           <div className="border-t border-gray-700 pt-6 mb-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
-                <h4 className="font-medium mb-3">CONNECT WITH US</h4>
+                <h4 className="font-medium mb-3 text-sm">
+                  {t("connect.title")}
+                </h4>
+
                 <div className="flex space-x-4">
                   <a
                     href="https://www.facebook.com/profile.php?id=61561062195948"
