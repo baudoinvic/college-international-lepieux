@@ -378,5 +378,11 @@
       "title": "Service as Action (Community Service)",
       "description": "— Action (learning by doing and experiencing) and service are values we want to instill in young people. Learners take action by applying what they have learned in the classroom and beyond. They strive to be selfless members of the community by engaging in mutual aid and working to improve the lives of others and the state of the environment. Service as action is an integral part of the program, especially within the framework of the KIS community project."
     }
+  },
+  "concept": {
+    "understanding": {
+      "title": "Conceptual Understanding",
+      "description": "— Concepts are big ideas that are relevant within specific disciplines and in an interdisciplinary manner. Students use concepts as a vehicle to explore important questions and ideas on a personal, local, and global level, and to examine knowledge holistically."
+    }
   }
 }

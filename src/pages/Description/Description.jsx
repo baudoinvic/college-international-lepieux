@@ -197,28 +197,6 @@ const Description = () => {
             </div>
 
             {/* Section 04 */}
-            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
-                04
-              </div>
-              <div className="bg-red-600 text-white p-2 mb-4">
-                <h4 className="font-medium">
-                  Le service en tant qu'action (service communautaire)
-                </h4>
-              </div>
-              <p className="text-sm">
-                — L'action (apprendre en faisant et en expérimentant) et le
-                service sont des valeurs que nous souhaitons développer chez les
-                jeunes. Les apprenants se mobilisent en appliquant ce qu'ils ont
-                appris au sein de la salle de classe et au-delà. Les apprenants
-                s'efforcent d'être des membres altruistes de la communauté en
-                s'impliquant à travers l'entraide et en œuvrant à l'amélioration
-                de l'existence d'autrui et de l'état de l'environnement. Le
-                service en tant qu'action fait partie intégrante du programme,
-                tout particulièrement dans le cadre du projet communautaire de
-                KIS.
-              </p>
-            </div> */}
 
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
@@ -231,7 +209,7 @@ const Description = () => {
             </div>
 
             {/* Section 02 */}
-            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 02
               </div>
@@ -245,6 +223,19 @@ const Description = () => {
                 vecteur d'exploration de questions et d'idées importantes au
                 niveau personnel, local et mondial et d'examen des connaissances
                 de manière globale.
+              </p>
+            </div> */}
+            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
+                02
+              </div>
+              <div className="bg-cyan-400 text-white p-2 mb-4">
+                <h4 className="font-medium">
+                  {t("concept.understanding.title")}
+                </h4>
+              </div>
+              <p className="text-sm">
+                {t("concept.understanding.description")}
               </p>
             </div>
 

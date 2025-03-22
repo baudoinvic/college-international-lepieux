@@ -389,10 +389,16 @@
       "description": "— Les élèves apprennent le mieux lorsque leurs expériences d'apprentissage ont lieu dans un contexte et sont connectées à leurs vies et au monde qui les entoure. Grâce aux contextes mondiaux, les élèves explorent l'identité humaine, les défis mondiaux et ce que cela signifie d'être sensible à la réalité internationale."
     }
   },
-   "service": {
+  "service": {
     "action": {
       "title": "Le service en tant qu'action (service communautaire)",
       "description": "— L'action (apprendre en faisant et en expérimentant) et le service sont des valeurs que nous souhaitons développer chez les jeunes. Les apprenants se mobilisent en appliquant ce qu'ils ont appris au sein de la salle de classe et au-delà. Les apprenants s'efforcent d'être des membres altruistes de la communauté en s'impliquant à travers l'entraide et en œuvrant à l'amélioration de l'existence d'autrui et de l'état de l'environnement. Le service en tant qu'action fait partie intégrante du programme, tout particulièrement dans le cadre du projet communautaire de KIS."
+    }
+  },
+  "concept": {
+    "understanding": {
+      "title": "La compréhension conceptuelle",
+      "description": "— Les concepts sont de grandes idées qui sont pertinentes au sein de disciplines spécifiques et de manière interdisciplinaire. Les élèves utilisent les concepts comme vecteur d'exploration de questions et d'idées importantes au niveau personnel, local et mondial et d'examen des connaissances de manière globale."
     }
   }
 }
