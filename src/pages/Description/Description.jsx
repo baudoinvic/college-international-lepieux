@@ -16,7 +16,6 @@ const Description = () => {
 
   return (
     <div className="description-page">
-   
       <header className="h-screen flex items-center justify-center text-light text-center px-4">
         <div className="container">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
@@ -37,7 +36,8 @@ const Description = () => {
             {t("school1.description")}
           </p>
         </div>
-        <p>Le programme est composé de six groupes des options </p>
+       
+        <p>{t("program.description")}</p>
 
         <div className="w-full">
           {/* Top Row */}
@@ -181,10 +181,13 @@ const Description = () => {
       </div>
       <div className="">
         <div className="max-w-6xl mx-auto px-4 py-8">
-          <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
+          {/* <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
             Les enseignants organisent le programme d'études en portant une
             attention adaptée au développement des éléments suivants.
-          </h1>
+          </h1> */}
+           <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
+      {t("desc.title")}
+    </h1>
 
           <div className="flex flex-wrap justify-between">
             {/* Section 01 */}

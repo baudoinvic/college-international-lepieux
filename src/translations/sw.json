@@ -358,5 +358,11 @@
     "electricity": "Umeme wa Kawaida",
     "business": "Biashara na Usimamizi",
     "fashion": "Kukatakata na Kushona"
+  },
+  "program": {
+    "description": "Mpango huu unajumuisha vikundi sita vya chaguzi"
+  },
+  "desc": {
+    "title": "Walimu hupanga mtaala kwa umakini maalum kwa maendeleo ya vipengele vifuatavyo."
   }
 }

@@ -360,6 +360,12 @@
     "electricity": "General Electricity",
     "business": "Business and Management",
     "fashion": "Cutting and Sewing"
-}
+},
+"program": {
+    "description": "The program consists of six groups of options"
+  },
+   "desc": {
+    "title": "Teachers organize the curriculum with special attention to the development of the following elements."
+  }
 
 }

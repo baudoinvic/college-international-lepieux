@@ -376,5 +376,11 @@
     "electricity": "Électricité Générale",
     "business": "Commerciale et Gestion",
     "fashion": "Coupe et Couture"
+  },
+  "program": {
+    "description": "Le programme est composé de six groupes des options"
+  },
+  "desc": {
+    "title": "Les enseignants organisent le programme d'études en portant une attention adaptée au développement des éléments suivants."
   }
 }
