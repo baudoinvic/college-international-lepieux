@@ -225,21 +225,7 @@ const Description = () => {
             </div>
 
             {/* Section 05 */}
-            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
-                05
-              </div>
-              <div className="bg-blue-800 text-white p-2 mb-4">
-                <h4 className="font-medium ">La langue et l'identité</h4>
-              </div>
-              <p className="text-sm">
-                — Les élèves doivent apprendre au moins le français et l'anglais
-                ainsi qu'avoir des notions en Kiswahili. Apprendre à communiquer
-                de différentes façons est essentiel pour le développement d'une
-                compréhension interculturelle et crucial pour la formation de
-                son identité.
-              </p>
-            </div> */}
+
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 05
@@ -251,7 +237,7 @@ const Description = () => {
             </div>
 
             {/* Section 03 */}
-            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 03
               </div>
@@ -268,6 +254,17 @@ const Description = () => {
                 contextes nouveaux. Le développement et l'application de ces
                 compétences aident les élèves à apprendre à apprendre.
               </p>
+            </div> */}
+            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
+                03
+              </div>
+              <div className="bg-orange-300 text-white p-2 mb-4">
+                <h4 className="font-medium">
+                  {t("fix.approaches.title")}
+                </h4>
+              </div>
+              <p className="text-sm">{t("fix.approaches.description")}</p>
             </div>
           </div>
         </div>

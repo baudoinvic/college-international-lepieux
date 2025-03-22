@@ -390,5 +390,11 @@
       "title": "Language and Identity",
       "description": "— Students must learn at least French and English as well as have basic knowledge of Kiswahili. Learning to communicate in different ways is essential for developing intercultural understanding and crucial for shaping one's identity."
     }
+  },
+  "fix": {
+    "approaches": {
+      "title": "Approaches to Learning",
+      "description": "— A key element across all subject groups in our curriculum, approaches to learning provide the foundation for independent learning and encourage students to apply their knowledge and skills in new contexts. The development and application of these skills help students learn how to learn."
+    }
   }
 }

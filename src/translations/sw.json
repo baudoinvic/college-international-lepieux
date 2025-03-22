@@ -388,5 +388,11 @@
       "title": "Lugha na Utambulisho",
       "description": "— Wanafunzi wanapaswa kujifunza angalau Kifaransa na Kiingereza pamoja na kuwa na maarifa ya msingi ya Kiswahili. Kujifunza kuwasiliana kwa njia tofauti ni muhimu kwa maendeleo ya uelewa wa tamaduni mbalimbali na ni muhimu katika kujenga utambulisho wa mtu."
     }
+  },
+   "fix": {
+    "approaches": {
+      "title": "Mbinu za Kujifunza",
+      "description": "— Kipengele muhimu katika makundi yote ya masomo kwenye mtaala wetu, mbinu za kujifunza hutoa msingi wa kujifunza kwa uhuru na kuwahimiza wanafunzi kutumia maarifa na ujuzi wao katika muktadha mpya. Kuendeleza na kutumia ujuzi huu huwasaidia wanafunzi kujifunza jinsi ya kujifunza."
+    }
   }
 }

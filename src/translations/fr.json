@@ -406,5 +406,11 @@
       "title": "La langue et l'identité",
       "description": "— Les élèves doivent apprendre au moins le français et l'anglais ainsi qu'avoir des notions en Kiswahili. Apprendre à communiquer de différentes façons est essentiel pour le développement d'une compréhension interculturelle et crucial pour la formation de son identité."
     }
+  },
+  "fix": {
+    "approaches": {
+      "title": "Les approches de l'apprentissage",
+      "description": "— Fil conducteur de tous les groupes de matières de notre programme, les approches de l'apprentissage fournissent la base d'un apprentissage autonome et encouragent l'application par les élèves de leurs connaissances et de leurs compétences dans des contextes nouveaux. Le développement et l'application de ces compétences aident les élèves à apprendre à apprendre."
+    }
   }
 }
