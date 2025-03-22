@@ -209,7 +209,7 @@ const Description = () => {
             </div>
 
             {/* Section 02 */}
-           
+
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 02
@@ -225,7 +225,7 @@ const Description = () => {
             </div>
 
             {/* Section 05 */}
-            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 05
               </div>
@@ -239,6 +239,15 @@ const Description = () => {
                 compréhension interculturelle et crucial pour la formation de
                 son identité.
               </p>
+            </div> */}
+            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
+                05
+              </div>
+              <div className="bg-blue-800 text-white p-2 mb-4">
+                <h4 className="font-medium">{t("language.identity.title")}</h4>
+              </div>
+              <p className="text-sm">{t("language.identity.description")}</p>
             </div>
 
             {/* Section 03 */}

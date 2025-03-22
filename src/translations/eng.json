@@ -384,5 +384,11 @@
       "title": "Conceptual Understanding",
       "description": "— Concepts are big ideas that are relevant within specific disciplines and in an interdisciplinary manner. Students use concepts as a vehicle to explore important questions and ideas on a personal, local, and global level, and to examine knowledge holistically."
     }
+  },
+  "language": {
+    "identity": {
+      "title": "Language and Identity",
+      "description": "— Students must learn at least French and English as well as have basic knowledge of Kiswahili. Learning to communicate in different ways is essential for developing intercultural understanding and crucial for shaping one's identity."
+    }
   }
 }

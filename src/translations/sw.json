@@ -382,5 +382,11 @@
       "title": "Uelewa wa Kimuundo",
       "description": "— Dhima ni mawazo makubwa ambayo ni muhimu ndani ya taaluma maalum na kwa njia ya taaluma mbalimbali. Wanafunzi hutumia dhana kama njia ya kuchunguza maswali muhimu na mawazo katika ngazi ya kibinafsi, ya ndani, na ya kimataifa, na kuchunguza maarifa kwa mtazamo mpana."
     }
+  },
+  "language": {
+    "identity": {
+      "title": "Lugha na Utambulisho",
+      "description": "— Wanafunzi wanapaswa kujifunza angalau Kifaransa na Kiingereza pamoja na kuwa na maarifa ya msingi ya Kiswahili. Kujifunza kuwasiliana kwa njia tofauti ni muhimu kwa maendeleo ya uelewa wa tamaduni mbalimbali na ni muhimu katika kujenga utambulisho wa mtu."
+    }
   }
 }
