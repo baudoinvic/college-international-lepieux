@@ -209,22 +209,7 @@ const Description = () => {
             </div>
 
             {/* Section 02 */}
-            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
-                02
-              </div>
-              <div className="bg-cyan-400 text-white p-2 mb-4">
-                <h4 className="font-medium">La compréhension conceptuelle</h4>
-              </div>
-              <p className="text-sm">
-                — Les concepts sont de grandes idées qui sont pertinentes au
-                sein de disciplines spécifiques et de manière
-                interdisciplinaire. Les élèves utilisent les concepts comme
-                vecteur d'exploration de questions et d'idées importantes au
-                niveau personnel, local et mondial et d'examen des connaissances
-                de manière globale.
-              </p>
-            </div> */}
+           
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 02
