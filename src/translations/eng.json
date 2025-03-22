@@ -352,7 +352,7 @@
     "button": "Subscribe Now",
     "aria_label": "Email for subscription"
   },
-  
+
   "option": {
     "veterinary": "Veterinary and Agronomy",
     "construction": "Construction",
@@ -360,12 +360,23 @@
     "electricity": "General Electricity",
     "business": "Business and Management",
     "fashion": "Cutting and Sewing"
-},
-"program": {
+  },
+  "program": {
     "description": "The program consists of six groups of options"
   },
-   "desc": {
+  "desc": {
     "title": "Teachers organize the curriculum with special attention to the development of the following elements."
+  },
+  "learning": {
+    "context": {
+      "title": "Teaching and Learning in Context",
+      "description": "— Students learn best when their learning experiences take place in a context and are connected to their lives and the world around them. Through global contexts, students explore human identity, global challenges, and what it means to be sensitive to international realities."
+    }
+  },
+  "service": {
+    "action": {
+      "title": "Service as Action (Community Service)",
+      "description": "— Action (learning by doing and experiencing) and service are values we want to instill in young people. Learners take action by applying what they have learned in the classroom and beyond. They strive to be selfless members of the community by engaging in mutual aid and working to improve the lives of others and the state of the environment. Service as action is an integral part of the program, especially within the framework of the KIS community project."
+    }
   }
-
 }

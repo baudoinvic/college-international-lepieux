@@ -36,7 +36,7 @@ const Description = () => {
             {t("school1.description")}
           </p>
         </div>
-       
+
         <p>{t("program.description")}</p>
 
         <div className="w-full">
@@ -181,37 +181,23 @@ const Description = () => {
       </div>
       <div className="">
         <div className="max-w-6xl mx-auto px-4 py-8">
-          {/* <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
-            Les enseignants organisent le programme d'études en portant une
-            attention adaptée au développement des éléments suivants.
-          </h1> */}
-           <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
-      {t("desc.title")}
-    </h1>
+          <h1 className="text-center text-cyan-400 text-xl md:text-lg mb-12">
+            {t("desc.title")}
+          </h1>
 
           <div className="flex flex-wrap justify-between">
-            {/* Section 01 */}
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 01
               </div>
-              <div className="bg-cyan-400 text-white p-2 mb-4 ">
-                <h4 className="font-medium">
-                  L'enseignement et l'apprentissage en contexte
-                </h4>
+              <div className="bg-cyan-400 text-white p-2 mb-4">
+                <h4 className="font-medium">{t("learning.context.title")}</h4>
               </div>
-              <p className="text-sm">
-                — Les élèves apprennent le mieux lorsque leurs expériences
-                d'apprentissage ont lieu dans un contexte et sont connectées à
-                leurs vies et au monde qui les entoure. Grâce aux contextes
-                mondiaux, les élèves explorent l'identité humaine, les défis
-                mondiaux et ce que cela signifie d'être sensible à la réalité
-                internationale.
-              </p>
+              <p className="text-sm">{t("learning.context.description")}</p>
             </div>
 
             {/* Section 04 */}
-            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 04
               </div>
@@ -232,6 +218,16 @@ const Description = () => {
                 tout particulièrement dans le cadre du projet communautaire de
                 KIS.
               </p>
+            </div> */}
+
+            <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
+              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
+                04
+              </div>
+              <div className="bg-red-600 text-white p-2 mb-4">
+                <h4 className="font-medium">{t("service.action.title")}</h4>
+              </div>
+              <p className="text-sm">{t("service.action.description")}</p>
             </div>
 
             {/* Section 02 */}

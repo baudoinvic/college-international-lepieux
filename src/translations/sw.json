@@ -364,5 +364,17 @@
   },
   "desc": {
     "title": "Walimu hupanga mtaala kwa umakini maalum kwa maendeleo ya vipengele vifuatavyo."
+  },
+  "learning": {
+    "context": {
+      "title": "Ufundishaji na Ujifunzaji katika Muktadha",
+      "description": "— Wanafunzi hujifunza vyema zaidi wanapopata uzoefu wa kujifunza katika muktadha unaohusiana na maisha yao na ulimwengu unaowazunguka. Kupitia muktadha wa kimataifa, wanafunzi huchunguza utambulisho wa binadamu, changamoto za kimataifa, na maana ya kuwa na hisia kwa hali halisi za kimataifa."
+    }
+  },
+  "service": {
+    "action": {
+      "title": "Huduma kama Kitendo (Huduma ya Jamii)",
+      "description": "— Kitendo (kujifunza kwa kufanya na kupitia uzoefu) na huduma ni maadili tunayopenda kukuza kwa vijana. Wanafunzi hujihusisha kwa kutumia kile walichojifunza darasani na nje yake. Wanajitahidi kuwa wanajamii wasio na ubinafsi kwa kushiriki katika kusaidiana na kufanya kazi kuboresha maisha ya wengine na hali ya mazingira. Huduma kama kitendo ni sehemu muhimu ya mtaala, hasa katika muktadha wa mradi wa jamii wa KIS."
+    }
   }
 }
