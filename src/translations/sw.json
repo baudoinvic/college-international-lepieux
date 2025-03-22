@@ -210,19 +210,19 @@
   "events": {
     "scienceFair": {
       "title": "Mbio za Kisayansi",
-      "date": "Oktoba 15, 2024",
+      "date": "Oktoba 15, 2025",
       "location": "Auditorium ya Shule",
       "description": "Jiunge nasi kwa mashindano ya kusisimua ya kisayansi yakionyesha miradi yenye ubunifu wa wanafunzi wetu wa shule ya sekondari."
     },
     "sportsDay": {
       "title": "Siku ya Michezo ya Mwaka",
-      "date": "Septemba 20, 2024",
+      "date": "Septemba 20, 2025",
       "location": "Maeneo ya Shule",
       "description": "Jitayarisheni kwa siku iliyojaa furaha na michezo wakati wa tukio letu la mwaka la siku ya michezo. Itangaze timu zenu pendwa!"
     },
     "mathCompetition": {
       "title": "Mashindano ya Hisabati",
-      "date": "Desemba 10, 2024",
+      "date": "Desemba 10, 2025",
       "location": "Chumba 101",
       "description": "Shiriki katika mashindano yetu ya hisabati kujaribu na kuonyesha ujuzi wako wa hesabu."
     }

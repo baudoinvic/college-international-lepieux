@@ -125,19 +125,19 @@
   "events": {
     "scienceFair": {
       "title": "Science Fair Competition",
-      "date": "October 15, 2024",
+      "date": "October 15, 2025",
       "location": "School Auditorium",
       "description": "Join us for an exciting science fair competition showcasing the innovative projects of our high school students."
     },
     "sportsDay": {
       "title": "Annual Sports Day",
-      "date": "September 20, 2024",
+      "date": "September 20, 2025",
       "location": "School Grounds",
       "description": "Get ready for a day filled with fun and athleticism at our annual sports day event. Cheer for your favorite teams!"
     },
     "mathCompetition": {
       "title": "Math Competition",
-      "date": "December 10, 2024",
+      "date": "December 10, 2025",
       "location": "Room 101",
       "description": "Participate in our Math competition to test and showcase your mathematical skills."
     }

@@ -18,11 +18,6 @@ const Courses = () => {
           </h1>
         </div>
       </header>
-
-      {/* <p className="text-center w-2/3 mx-auto mb-5 mt-4">
-        {t("start_courses_description")}
-      </p> */}
-
       <p className="text-center w-full sm:w-2/3 mx-auto mb-5 mt-4 px-4">
         {t("start_courses_description")}
       </p>
