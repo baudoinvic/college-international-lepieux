@@ -7,12 +7,43 @@ import ChooseSection from "../../components/ChooseSection/ChooseSection";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import { Card } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-
-
+import { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Home() {
   const { t } = useTranslation();
+  const [email, setEmail] = useState("");
 
+    const handleChange = (e) => {
+      setEmail(e.target.value);
+    };
+
+     const handleSubscribe = async (e) => {
+    e.preventDefault();
+
+    if (!email) {
+      toast.error("Please enter your email.");
+      return;
+    }
+
+    try {
+      const response = await fetch("http://localhost:3000/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Subscription failed.");
+      }
+
+      toast.success("Subscribed successfully!");
+      setEmail("");
+    } catch (error) {
+      toast.error("Something went wrong. Please try again.");
+    }
+  };
 
   return (
     <div className="home-page">
@@ -334,9 +365,12 @@ function Home() {
             {t("soon.description")}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-2 items-center">
+          <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2 items-center">
             <input
               type="email"
+              name="email"
+              value={email}
+              onChange={handleChange}
               className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder={t("subscription.placeholder")}
               aria-label={t("subscription.aria_label")}
@@ -347,9 +381,10 @@ function Home() {
             >
               {t("subscription.button")}
             </button>
-          </div>
+          </form>
         </div>
       </div>
+      <ToastContainer position="top-center" autoClose={3000} />
     </div>
   );
 }
