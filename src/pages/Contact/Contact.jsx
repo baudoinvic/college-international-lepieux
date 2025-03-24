@@ -43,11 +43,14 @@ function Contact() {
       }
 
       try {
-        const response = await fetch("http://localhost:3000/api/contact", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        });
+        const response = await fetch(
+          "https://challenge-assement.onrender.com/api/contact",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+          }
+        );
 
         if (!response.ok) {
           throw new Error("Failed to send message");
