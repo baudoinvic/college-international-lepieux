@@ -18,6 +18,7 @@ import Coup from "./pages/Coup/Coup";
 import Mechaniq from "./pages/Mechanic/Mechaniq";
 import Veterinary from "./pages/Veterinary/Veterinary";
 import Electricity from "./pages/Electricite/Electricity";
+import ScrollToTop from "./pages/ScrollToTop/ScrollToTop";
 
 const Layout = ({ children }) => (
   <>
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
