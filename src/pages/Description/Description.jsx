@@ -39,11 +39,11 @@ const Description = () => {
 
         <p>{t("program.description")}</p>
 
-        <div className="w-full">
+        <div className="w-full px-4 sm:px-6">
           {/* Top Row */}
-          <div className="flex gap-4">
-            {/* Veterinary and Agronomy */}
-            <div className="bg-green-500 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {/* Veterinary */}
+            <div className="bg-green-500 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -62,11 +62,11 @@ const Description = () => {
                 <path d="M6 12v5h4v-5" />
                 <path d="M18 12v5h-4v-5" />
               </svg>
-              <p className="text-sm">{t("option.veterinary")}</p>
+              <p className="text-xs sm:text-sm">{t("option.veterinary")}</p>
             </div>
 
             {/* Construction */}
-            <div className="bg-amber-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
+            <div className="bg-amber-600 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -85,11 +85,11 @@ const Description = () => {
                 <path d="M17 2H7" />
                 <path d="M12 22V12" />
               </svg>
-              <p className="text-sm">{t("option.construction")}</p>
+              <p className="text-xs sm:text-sm">{t("option.construction")}</p>
             </div>
 
             {/* Mechanics */}
-            <div className="bg-blue-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
+            <div className="bg-blue-600 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -113,14 +113,14 @@ const Description = () => {
                 <line x1="5" y1="12" x2="3" y2="12" />
                 <line x1="7" y1="7" x2="5" y2="5" />
               </svg>
-              <p className="text-sm">{t("option.mechanics")}</p>
+              <p className="text-xs sm:text-sm">{t("option.mechanics")}</p>
             </div>
           </div>
 
           {/* Bottom Row */}
-          <div className="flex gap-4 mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             {/* General Electricity */}
-            <div className="bg-yellow-500 p-8 flex flex-col items-center justify-center text-center text-black flex-1">
+            <div className="bg-yellow-500 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -136,11 +136,11 @@ const Description = () => {
                 <path d="M6 18h12" />
                 <path d="M15 18v-6h4l-7-7-7 7h4v6h6z" />
               </svg>
-              <p className="text-sm">{t("option.electricity")}</p>
+              <p className="text-xs sm:text-sm">{t("option.electricity")}</p>
             </div>
 
             {/* Business and Management */}
-            <div className="bg-purple-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
+            <div className="bg-purple-600 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -155,11 +155,11 @@ const Description = () => {
               >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
-              <p className="text-sm">{t("option.business")}</p>
+              <p className="text-xs sm:text-sm">{t("option.business")}</p>
             </div>
 
             {/* Cutting and Sewing */}
-            <div className="bg-red-600 p-8 flex flex-col items-center justify-center text-center text-white flex-1">
+            <div className="bg-red-600 p-4 sm:p-6 md:p-8 flex flex-col items-center justify-center text-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"
@@ -174,7 +174,7 @@ const Description = () => {
               >
                 <path d="M6 9 L15 3 18 9 15 15 M9 3 L6 9 9 15 M15 3 L9 9 M9 15 L3 9" />
               </svg>
-              <p className="text-sm">{t("option.fashion")}</p>
+              <p className="text-xs sm:text-sm">{t("option.fashion")}</p>
             </div>
           </div>
         </div>
@@ -237,32 +237,13 @@ const Description = () => {
             </div>
 
             {/* Section 03 */}
-            {/* <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
-              <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
-                03
-              </div>
-              <div className="bg-orange-300 text-white p-2 mb-4">
-                <h4 className="font-medium">
-                  Les approches de l'apprentissage
-                </h4>
-              </div>
-              <p className="text-sm">
-                — Fil conducteur de tous les groupes de matières de notre
-                programme, les approches de l'apprentissage fournissent la base
-                d'un apprentissage autonome et encouragent l'application par les
-                élèves de leurs connaissances et de leurs compétences dans des
-                contextes nouveaux. Le développement et l'application de ces
-                compétences aident les élèves à apprendre à apprendre.
-              </p>
-            </div> */}
+
             <div className="w-full md:w-5/12 mb-10 relative pl-16 md:pl-20">
               <div className="absolute left-0 top-0 text-gray-300 text-4xl font-light">
                 03
               </div>
               <div className="bg-orange-300 text-white p-2 mb-4">
-                <h4 className="font-medium">
-                  {t("fix.approaches.title")}
-                </h4>
+                <h4 className="font-medium">{t("fix.approaches.title")}</h4>
               </div>
               <p className="text-sm">{t("fix.approaches.description")}</p>
             </div>
