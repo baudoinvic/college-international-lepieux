@@ -56,7 +56,7 @@ function Contact() {
           throw new Error("Failed to send message");
         }
 
-        toast.success("Message sent successfully!");
+        toast.success("Thank you for contact us!");
         setFormData({ firstname: "", lastname: "", email: "", message: "" });
       } catch (error) {
         toast.error("Something went wrong. Please try again.");

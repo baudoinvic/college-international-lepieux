@@ -41,7 +41,7 @@ function Home() {
         throw new Error("Subscription failed.");
       }
 
-      toast.success("Subscribed successfully!");
+      toast.success("Thank you for Subscribing ");
       setEmail("");
     } catch (error) {
       toast.error("Something went wrong. Please try again.");
