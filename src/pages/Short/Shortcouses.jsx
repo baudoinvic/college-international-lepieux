@@ -4,7 +4,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
-import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
+
 
 const Shortcourses = () => {
   const { t } = useTranslation();
@@ -13,12 +13,8 @@ const Shortcourses = () => {
   const shortcourses = t("shortcourses", { returnObjects: true });
 
   return (
-    <div className="courses-page">
-      <header className="height-75">
-        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h2 className="text-center fw-semibold">{t("short.title")}</h2>
-        </div>
-      </header>
+    <div className="courses-page mt-24">
+    
 
       <div className="flex justify-center">
         <p className="text-center w-full sm:w-2/3 md:w-1/2 mb-5 mt-8 mx-auto px-4">

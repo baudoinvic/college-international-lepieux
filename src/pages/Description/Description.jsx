@@ -1,6 +1,5 @@
 
 import React, { useState } from "react";
-import "./Description.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { RiH4 } from "react-icons/ri";
@@ -16,16 +15,6 @@ const Description = () => {
 
   return (
     <div className="description-page">
-      <header className="h-screen flex items-center justify-center text-light text-center px-4">
-        <div className="container">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            {t("school.title")}
-          </h2>
-          <p className="w-full sm:w-3/4 lg:w-2/3 mx-auto mb-5 mt-8">
-            {t("school.description")}
-          </p>
-        </div>
-      </header>
 
       <div className="container py-10 mt-10">
         <div className="max-w-3xl">

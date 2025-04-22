@@ -23,13 +23,13 @@ const NavbarComponent = () => {
        <header className="w-full bg-[#002855] text-white font-serif">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center space-x-3 no-underline">
-          <img src={logo} alt="Logo" className="w-12 h-12 rounded-full" />
+          <img src={logo} alt="Logo" className="w-24 h-24 rounded-full" />
           <span className="text-white leading-tight text-lg font-semibold uppercase">
             LEPIEUX<br /> INTERNATIONAL<br /> COLLEGE
           </span>
         </Link>
 
-        <nav className="flex space-x-8 text-lg">
+        <nav className="flex space-x-8 text-xm">
           <Link to="/" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
             {t("navigation.home")}
           </Link>

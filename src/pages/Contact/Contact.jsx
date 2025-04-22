@@ -1,5 +1,4 @@
 import React from 'react';
-import './Contact.css';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -63,9 +62,9 @@ function Contact() {
       }
     };
   return (
-    <div className="contact-page">
+    <div className="contact-page mt-24">
       <header className="height-75">
-        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
+        <div className="container h-100 d-flex flex-column align-items-center justify-content-center ">
           <h2 className="text-center text-1xl fw-semibold">
             {t("contact.title")}
           </h2>
@@ -168,7 +167,7 @@ function Contact() {
               variant=""
               type="submit"
               className="w-100 py-2 fw-bold shadow-sm rounded-lg text-white"
-              style={{ transition: "0.3s", backgroundColor: "#0a1844" }}
+              style={{ transition: "0.3s", backgroundColor: "#c9a85c" }}
             >
               {t("contact.submit")}
             </Button>

@@ -1,6 +1,5 @@
 
 import React from "react";
-import "./Courses.css";
 import { Card } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -10,14 +9,8 @@ const Courses = () => {
   const courses = t("courses", { returnObjects: true });
 
   return (
-    <div className="courses-page">
-      <header className="height-75">
-        <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-white">
-          <h1 className="text-center fw-semibold text-lg text-light">
-            {t("our_courses")}
-          </h1>
-        </div>
-      </header>
+    <div className="courses-page mt-32">
+ 
       <p className="text-center w-full sm:w-2/3 mx-auto mb-5 mt-4 px-4">
         {t("start_courses_description")}
       </p>

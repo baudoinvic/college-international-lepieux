@@ -396,12 +396,13 @@
 
 
 import React from 'react';
-import pic1 from "../../utils/images/pic1.png";
+import front from "../../utils/images/front.png";
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import campus from "../../utils/images/campus.png";
 
 
 const Home = () => {
@@ -446,7 +447,7 @@ const Home = () => {
       <div className="relative">
         <div className="w-full h-[500px] bg-gray-200">
           <img 
-            src={pic1} 
+            src={front} 
             alt="Campus view" 
             className="w-full h-full object-cover"
           />
@@ -553,7 +554,7 @@ const Home = () => {
         
         <div className="md:w-1/2">
           <img 
-            src={pic1} 
+            src={campus} 
             alt="Campus aerial view" 
             className="w-full h-full object-cover rounded-lg"
           />
