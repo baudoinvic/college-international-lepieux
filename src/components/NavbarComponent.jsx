@@ -1,114 +1,13 @@
 
-
-// import React from 'react'
-
-// import { useState } from "react";
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
-// import { Link } from "react-router-dom";
-// import logo from "../utils/images/logo.png";
-// import { useTranslation } from "react-i18next";
-
-// const NavbarComponent = () => {
-//   const [activeDropdown, setActiveDropdown] = useState(null);
-//   const { t, i18n } = useTranslation();
-
-//   const toggleDropdown = (index) => {
-//     setActiveDropdown(activeDropdown === index ? null : index);
-//   };
-
-//   const changeLanguage = (lng) => {
-//     i18n.changeLanguage(lng);
-//   };
-
-//   return (
-//     <div>
-//       <Navbar expand="lg" className="position-absolute w-100">
-//         <Container>
-//           <Navbar.Brand>
-//             <Link to="/" className="navbar-brand d-flex align-items-center">
-//               <img src={logo} alt="Logo" className="w-12 rounded-full" />
-//               <span className="mx-2 text-sm lh-1 fw-semibold text-light ">
-//                 Collège
-//                 <br />
-//                 Internationale
-//                 <br />
-//                 lepieux
-//               </span>
-//             </Link>
-//           </Navbar.Brand>
-//           <Navbar.Toggle
-//             aria-controls="basic-navbar-nav"
-//             className="bg-light"
-//           />
-//           <Navbar.Collapse id="basic-navbar-nav">
-//             <Nav className="me-auto justify-content-end w-100">
-//               <Nav.Link as={Link} to="/" className="">
-//                 {t("navigation.home")}
-//               </Nav.Link>
-//               <Nav.Link as={Link} to="/courses" className="">
-//                 {t("navigation.courses")}
-//               </Nav.Link>
-//               <Nav.Link as={Link} to="/shortcourses" className="">
-//                 {t("navigation.short_courses")}
-//               </Nav.Link>
-//               <NavDropdown
-//                 title={t("navigation.about_us")}
-//                 id="about-us-dropdown"
-//                 className=""
-//                 show={activeDropdown === 0}
-//                 onMouseEnter={() => setActiveDropdown(0)}
-//                 onMouseLeave={() => setActiveDropdown(null)}
-//               >
-//                 <NavDropdown.Item as={Link} to="/about">
-//                   {t("navigation.about_us")}
-//                 </NavDropdown.Item>
-//                 <NavDropdown.Item as={Link} to="/description">
-//                   {t("programme scholaire")}
-//                 </NavDropdown.Item>
-//                 <NavDropdown.Item as={Link} to="/gallery">
-//                   {t("galerie")}
-//                 </NavDropdown.Item>
-//               </NavDropdown>
-
-//               <Nav.Link as={Link} to="/contact" className="">
-//                 {t("navigation.contact")}
-//               </Nav.Link>
-
-//               <div className="ml-8">
-//                 <select
-//                   onChange={(e) => changeLanguage(e.target.value)}
-//                   className="border border-white px-2 py-1 rounded text-gray-900 cursor-pointer"
-//                 >
-//                   <option value="fr">French</option>
-//                   <option value="en">English</option>
-//                   <option value="sw">Swahili</option>
-//                 </select>
-//               </div>
-//             </Nav>
-//           </Navbar.Collapse>
-//         </Container>
-//       </Navbar>
-//     </div>
-//   );
-// };
-
-// export default NavbarComponent;
-
-import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import React from 'react'
 import { Link } from "react-router-dom";
 import logo from "../utils/images/logo.png";
 import { useTranslation } from "react-i18next";
+import { useState } from 'react';
 
 const NavbarComponent = () => {
+
   const [activeDropdown, setActiveDropdown] = useState(null);
-  const [expanded, setExpanded] = useState(false); // Track if navbar is open
   const { t, i18n } = useTranslation();
 
   const toggleDropdown = (index) => {
@@ -121,77 +20,68 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Navbar expand="lg" className="position-absolute w-100" expanded={expanded}>
-        <Container>
-          <Navbar.Brand>
-            <Link to="/" className="navbar-brand d-flex align-items-center">
-              <img src={logo} alt="Logo" className="w-12 rounded-full" />
-              <span className="mx-2 text-sm lh-1 fw-semibold text-light ">
-                Collège
-                <br />
-                Internationale
-                <br />
-                lepieux
-              </span>
-            </Link>
-          </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="basic-navbar-nav"
-            className="bg-light"
-            onClick={() => setExpanded(expanded ? false : true)} // Toggle navbar
-          />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto justify-content-end w-100">
-              {/* Close menu on click */}
-              <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
-                {t("navigation.home")}
-              </Nav.Link>
-              <Nav.Link as={Link} to="/courses" onClick={() => setExpanded(false)}>
-                {t("navigation.courses")}
-              </Nav.Link>
-              <Nav.Link as={Link} to="/shortcourses" onClick={() => setExpanded(false)}>
-                {t("navigation.short_courses")}
-              </Nav.Link>
-              <NavDropdown
-                title={t("navigation.about_us")}
-                id="about-us-dropdown"
-                className=""
-                show={activeDropdown === 0}
-                onMouseEnter={() => setActiveDropdown(0)}
-                onMouseLeave={() => setActiveDropdown(null)}
-              >
-                <NavDropdown.Item as={Link} to="/about" onClick={() => setExpanded(false)}>
+       <header className="w-full bg-[#002855] text-white font-serif">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <Link to="/" className="flex items-center space-x-3 no-underline">
+          <img src={logo} alt="Logo" className="w-12 h-12 rounded-full" />
+          <span className="text-white leading-tight text-lg font-semibold uppercase">
+            LEPIEUX<br /> INTERNATIONAL<br /> COLLEGE
+          </span>
+        </Link>
+
+        <nav className="flex space-x-8 text-lg">
+          <Link to="/" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
+            {t("navigation.home")}
+          </Link>
+          <Link to="/courses" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
+            {t("navigation.courses")}
+          </Link>
+          <Link to="/shortcourses" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
+            {t("navigation.short_courses")}
+          </Link>
+
+          <div
+            className="relative"
+            onMouseEnter={() => setActiveDropdown(0)}
+            onMouseLeave={() => setActiveDropdown(null)}
+          >
+            <button className="text-white no-underline hover:text-[#c9a85c]">
+              {t("navigation.about_us")}
+            </button>
+            {activeDropdown === 0 && (
+              <div className="absolute mt-2 bg-white text-[#002855] rounded shadow-lg">
+                <Link to="/about" className="block px-4 py-2 hover:bg-gray-100 no-underline">
                   {t("navigation.about_us")}
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/description" onClick={() => setExpanded(false)}>
+                </Link>
+                <Link to="/description" className="block px-4 py-2 hover:bg-gray-100 no-underline">
                   {t("programme scholaire")}
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/gallery" onClick={() => setExpanded(false)}>
+                </Link>
+                <Link to="/gallery" className="block px-4 py-2 hover:bg-gray-100 no-underline">
                   {t("galerie")}
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              <Nav.Link as={Link} to="/contact" onClick={() => setExpanded(false)}>
-                {t("navigation.contact")}
-              </Nav.Link>
-
-              <div className="ml-8">
-                <select
-                  onChange={(e) => changeLanguage(e.target.value)}
-                  className="border border-white px-2 py-1 rounded text-gray-900 cursor-pointer"
-                >
-                  <option value="fr">French</option>
-                  <option value="en">English</option>
-                  <option value="sw">Swahili</option>
-                </select>
+                </Link>
               </div>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+            )}
+          </div>
+
+          <Link to="/contact" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
+            {t("navigation.contact")}
+          </Link>
+        </nav>
+
+        <div>
+          <select
+            onChange={(e) => changeLanguage(e.target.value)}
+            className="text-black px-2 py-1 rounded"
+          >
+            <option value="fr">French</option>
+            <option value="en">English</option>
+            <option value="sw">Swahili</option>
+          </select>
+        </div>
+      </div>
+    </header>
     </div>
-  );
-};
+  )
+}
 
-export default NavbarComponent;
-
+export default NavbarComponent
