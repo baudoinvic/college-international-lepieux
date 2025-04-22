@@ -21,15 +21,15 @@ const NavbarComponent = () => {
   return (
     <div>
        <header className="w-full bg-[#001A38]  text-white font-serif">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center space-x-3 no-underline">
+      <div className=" mx-auto flex items-center justify-between px-6 py-4">
+        <Link to="/" className="flex items-center  no-underline">
           <img src={logo2} alt="Logo" className="w-24 h-24 rounded-lg" />
-          <span className="text-white leading-tight text-lg font-semibold uppercase">
+          <span className="text-white leading-tight text-lg font-semibold uppercase  " style={{fontSize: '25px'}}>
             LEPIEUX<br /> INTERNATIONAL<br /> COLLEGE
           </span>
         </Link>
 
-        <nav className="flex space-x-8 text-xm">
+        <nav className="flex space-x-8 text-xm ml-32">
           <Link to="/" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
             {t("navigation.home")}
           </Link>
@@ -66,9 +66,7 @@ const NavbarComponent = () => {
           <Link to="/contact" onClick={() => setActiveDropdown(null)} className="text-white no-underline hover:text-[#c9a85c]">
             {t("navigation.contact")}
           </Link>
-        </nav>
-
-        <div>
+          <div>
           <select
             onChange={(e) => changeLanguage(e.target.value)}
             className="text-black px-2 py-1 rounded"
@@ -78,6 +76,9 @@ const NavbarComponent = () => {
             <option value="sw">Swahili</option>
           </select>
         </div>
+        </nav>
+
+    
       </div>
     </header>
     </div>

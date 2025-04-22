@@ -1,205 +1,80 @@
+
+
 import React from 'react'
 import { CiFacebook } from "react-icons/ci";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+
 const Footer = () => {
-
-     const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
   return (
-    <div>
-      <footer
-        className="text-white pt-12 pb-4"
-        style={{ backgroundColor: "#001A38" }}
-      >
-        <div className="container mx-auto px-4">
-          <div className="flex justify-left mb-8">
-            <div>
-              <h3 className="text-lg font-bold ">
-                College Internationale lepieux
-              </h3>
-            </div>
+    <footer
+      className="text-white py-8"
+      style={{ backgroundColor: "#001A38" }}
+    >
+      <div className="container mx-auto px-4">
+        {/* Logo section */}
+        <div className="mb-8">
+          <h3 className="text-xl font-bold">
+            College Internationale Lepieux
+          </h3>
+        </div>
+
+        {/* Main footer content */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* WHERE WE ARE */}
+          <div>
+            <h4 className="text-lg font-medium mb-4">WHERE WE ARE</h4>
+            <p className="mb-2">Quartier Mulengi, Kalemie 3</p>
+            <p className="mb-4">Kalemie, Tanganyika Republique democratique Congo</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-            <div>
-              <h4 className="text-lg font-medium mb-4">
-                {t("campus_locations.title")}
-              </h4>
-              <p>{t("footer.main_address")}</p>
-              <div className="mb-4">
-                <p className="font-medium">
-                  {t("campus_locations.main_campus")}
-                </p>
-              </div>
-              <div>
-                <p className="font-medium">
-                  {t("campus_locations.secondary_campus")}
-                </p>
-                <p>{t("campus_locations.secondary_address")}</p>
-              </div>
-            </div>
-
-            <div>
-              {/* <h4 className="text-lg font-medium mb-4">Head Office</h4> */}
-              <h4 className="text-lg font-medium mb-4">{t("head.office")}</h4>
-              <p className="font-medium">College Internationale I.T.I.L.</p>
-
-              <p className="mt-3">{t("footer.email")}</p>
-              <p>{t("footer.phone_number")}</p>
-            </div>
-
-            {/* Quick Links */}
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <h4 className="text-lg font-medium mb-4">{t("nav.text")}</h4>
-                <ul className="space-y-2">
-                  <li>
-                    <Link to="/" className="hover:text-red-400 text-white">
-                      {t("navigation.home")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/courses"
-                      className="hover:text-red-400 text-white"
-                    >
-                      {t("navigation.courses")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/shortcourses"
-                      className="hover:text-red-400 text-white"
-                    >
-                      {t("navigation.short_courses")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/about" className="hover:text-red-400 text-white">
-                      {t("navigation.about_us")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/contact"
-                      className="hover:text-red-400 text-white"
-                    >
-                      {t("navigation.contact")}
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-lg font-medium mb-4">
-                  {t("information.title")}
-                </h4>
-                <ul className="space-y-2">
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      {t("information.privacy_policy")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      {t("information.school_policies")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      {t("information.sitemap")}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" className="hover:text-red-400 text-white">
-                      {t("information.join_the_team")}
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          {/* CONTACT US */}
+          <div>
+            <h4 className="text-lg font-medium mb-4">CONTACTS US</h4>
+            <p className="mb-2">+243 814 627 868</p>
+            <p className="mb-2">infos@cil.com</p>
+            <p className="mb-2">protocole@cil.com</p>
+            <Link to="/contact" className="text-sm hover:underline">
+              Write to us
+            </Link>
           </div>
 
-          {/* Connect with us */}
-          <div className="border-t border-gray-700 pt-6 mb-6">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="mb-4 md:mb-0">
-                <h4 className="font-medium mb-3 text-sm">
-                  {t("connect.title")}
-                </h4>
-
-                <div className="flex space-x-4">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61561062195948"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-red-400 transition-colors"
-                  >
-                    <CiFacebook className="text-2xl" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/collegeinternationallepieux/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-red-400 transition-colors"
-                  >
-                    <FaLinkedin className="text-2xl" />
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-red-400 transition-colors"
-                  >
-                    <FaXTwitter className="text-2xl" />
-                  </a>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-red-400 transition-colors"
-                  >
-                    <FaInstagram className="text-2xl" />
-                  </a>
-                </div>
-              </div>
-             
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <Link
-                  to="/about"
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                 ABOUT US
-                </Link>
-                <Link
-                  to=""
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                  OUR CURRICULUM
-                </Link>
-                <Link
-                  to=""
-                  className="px-4 py-2 border border-gray-600 hover:border-red-400 hover:text-red-400 transition-colors rounded text-white"
-                >
-                 EVENTS
-                </Link>
-              </div>
+          {/* FOLLOW US */}
+          <div>
+            <h4 className="text-lg font-medium mb-4">FOLLOW US</h4>
+            <div className="flex space-x-4">
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <CiFacebook />
+              </Link>
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <FaXTwitter />
+              </Link>
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <FaInstagram />
+              </Link>
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <FaYoutube />
+              </Link>
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <FaLinkedin />
+              </Link>
+              <Link to="#" className="hover:text-gray-300 text-xl">
+                <FaTiktok />
+              </Link>
             </div>
-          </div>
-
-          {/* Copyright */}
-          <div className="text-center text-gray-400 text-sm">
-            <p>{new Date().getFullYear()} | All rights reserved</p>
-            <p className="mt-2 text-xs">
-              All rights reserved| by college international lepieux
-            </p>
+            
+          
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }
 
