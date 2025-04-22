@@ -138,9 +138,9 @@
 //         </div>
 //       </div>
 
-//       <div className="py-5">
-//         <FaqAccordion />
-//       </div>
+      // <div className="py-5">
+      //   <FaqAccordion />
+      // </div>
 
 //       <div className="container mx-auto p-4 py-12 mb-16">
 //         {/* Enhanced Header */}
@@ -400,6 +400,7 @@ import pic1 from "../../utils/images/pic1.png";
 
 const Home = () => {
   return (
+    <div>
     <div className="bg-white">
       {/* Hero Section with Campus Image and Overlay Text */}
       <div className="relative">
@@ -523,6 +524,10 @@ const Home = () => {
             className="w-full h-full object-cover"
           />
         </div>
+      </div>
+    </div>
+    <div className="py-5">
+        <FaqAccordion />
       </div>
     </div>
   );
