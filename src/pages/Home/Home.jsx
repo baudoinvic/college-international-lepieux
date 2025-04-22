@@ -463,7 +463,7 @@ const Home = () => {
       </div>
 
       {/* Mission Section */}
-      <div className="bg-[#00234a] text-white py-12 px-8 flex flex-col md:flex-row justify-between">
+      <div className="bg-[#001A38] text-white py-12 px-8 flex flex-col md:flex-row justify-between">
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4">Notre mission</h2>
           <p className="text-lg mb-6">

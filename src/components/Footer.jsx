@@ -12,7 +12,7 @@ const Footer = () => {
     <div>
       <footer
         className="text-white pt-12 pb-4"
-        style={{ backgroundColor: "#00234a" }}
+        style={{ backgroundColor: "#001A38" }}
       >
         <div className="container mx-auto px-4">
           <div className="flex justify-left mb-8">

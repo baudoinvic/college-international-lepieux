@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from "../utils/images/logo.png";
+import logo2 from "../utils/images/logo2.jpg";
 import { useTranslation } from "react-i18next";
 import { useState } from 'react';
 
@@ -20,10 +20,10 @@ const NavbarComponent = () => {
 
   return (
     <div>
-       <header className="w-full bg-[#002855] text-white font-serif">
+       <header className="w-full bg-[#001A38]  text-white font-serif">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center space-x-3 no-underline">
-          <img src={logo} alt="Logo" className="w-24 h-24 rounded-full" />
+          <img src={logo2} alt="Logo" className="w-24 h-24 rounded-lg" />
           <span className="text-white leading-tight text-lg font-semibold uppercase">
             LEPIEUX<br /> INTERNATIONAL<br /> COLLEGE
           </span>
