@@ -50,7 +50,7 @@ const Home = () => {
     <div>
     <div className="bg-white">
       <div className="relative">
-        <div className="w-full h-[500px] bg-gray-200">
+        <div className="w-full h-[580px] bg-gray-200">
           <img 
             src={front} 
             alt="Campus view" 
@@ -66,6 +66,10 @@ const Home = () => {
           </h1>
         </div>
       </div>
+
+
+
+
 
       {/* Mission Section */}
       <div className="bg-[#001A38] text-white py-12 px-8 flex flex-col md:flex-row justify-between">
@@ -168,7 +172,7 @@ const Home = () => {
     </div>
    
        
-      <div className="container mx-auto p-4 py-12 mb-16">
+      <div className="container mx-auto p-4 py-12 mb-16 mt-16">
         {/* Enhanced Header */}
         <div className="text-center mb-12">
           <h6 className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase bg-[#c9a85c] rounded-full mb-3">
