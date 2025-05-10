@@ -120,7 +120,6 @@ function NavbarComponent() {
               >
                 <option value='fr'>French</option>
                 <option value='en'>English</option>
-                <option value='sw'>Swahili</option>
               </select>
             </div>
           </nav>

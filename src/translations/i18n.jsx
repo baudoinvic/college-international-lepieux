@@ -5,29 +5,28 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import translationFR from "./fr.json";
 import translationEN from "./eng.json";
-
 import translationSW from "./sw.json";
 
 // Initialize i18next
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next)
   .init({
     resources: {
       fr: {
-        translation: translationFR, // French translations
+        translation: translationFR,
       },
       en: {
-        translation: translationEN, // English translations
+        translation: translationEN, 
       },
 
       sw: {
-        translation: translationSW, // French translations
+        translation: translationSW, 
       },
     },
     lng: "fr", // default language
-    fallbackLng: "fr", // fallback language
+    fallbackLng: "fr", 
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false, 
     },
   });
 
