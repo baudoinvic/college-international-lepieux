@@ -107,20 +107,7 @@
     }
   ],
 
-  "faq_section": {
-    "heading": "Questions fréquemment posées",
-    "description": "Dans notre établissement, nous proposons une large gamme des options. notamment. Vétérinaire et Agronomie, construction, Mécanique, Électricité générale,Coupe et Couture."
-  },
-  "faq": {
-    "title": "Comment inscrire mon enfant ?",
-    "description": "Pour inscrire votre enfant à l'école internationale Lepieux, veuillez visiter notre page d'admissions sur notre site Web ou contacter directement notre bureau des admissions. Notre équipe vous guidera tout au long du processus d'inscription et répondra à toutes vos questions.",
-    "question": "Quels cours offrons-nous ?",
-    "answer": "Dans notre établissement, nous proposons une large gamme des options. notamment, Vétérinaire et Agronomie, construction, Mécanique, Électricité générale,Coupe et Couture.",
-    "2title": "Comment l'école internationale Lepieux assure-t-elle la sécurité et le bonheur des élèves ?",
-    "2answer": "Nous avons des règles, des dispositifs de sécurité, un accompagnement et des programmes de santé en place pour que tous les élèves se sentent en sécurité et soutenus.",
-    "3title": "Comment puis-je être informé des événements et des actualités de l'école ?",
-    "3answer": "Consultez notre site Web, suivez-nous sur les réseaux sociaux ou inscrivez-vous à notre newsletter pour rester informé. Nous pourrions également envoyer des avis à la maison ou vous appeler pour vous tenir au courant des mises à jour importantes."
-  },
+
 
   "events": {
     "scienceFair": {
@@ -143,30 +130,6 @@
     }
   },
 
-  "testimonial_section": {
-    "heading": "Témoignages",
-    "subheading": "Ce que disent les étudiants à notre sujet",
-    "testimonials": [
-      {
-        "id": 1,
-        "name": "ishimwe sandra",
-        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
-        "img": "https://c.stocksy.com/a/ynq000/z9/202986.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Divine josh",
-        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
-        "img": "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180"
-      },
-      {
-        "id": 3,
-        "name": "Tousaint Francis",
-        "text": "Je suis toujours heureux d'étudier dans cette école car les compétences que j'acquiers à l'école me suffisent. Ils offrent la meilleure éducation que j'aie jamais vue.",
-        "img": "https://pngimg.com/uploads/student/student_PNG62539.png"
-      }
-    ]
-  },
   "about": {
     "title": "À Propos de Nous",
     "description": "Collège international le pieux est un établissement d'enseignement secondaire de premier plan situé dans la ville de Kalemie, en République démocratique du Congo, dédié à fournir une éducation technique de haute qualité aux étudiants. Notre institut vise à doter les étudiants des compétences et des connaissances nécessaires pour exceller dans divers domaines techniques, favorisant la croissance personnelle et professionnelle. Nous proposons un programme complet, des installations de pointe et un environnement d'apprentissage favorable pour garantir que nos étudiants reçoivent la meilleure éducation possible.",
@@ -175,10 +138,7 @@
     "studyDescription2": "Découvrez le pouvoir transformateur de l'éducation dirigée par des experts, façonnant les esprits et l'avenir.",
     "contactButton": "Contactez-nous"
   },
-  "blog": {
-    "title": "Blog",
-    "description": "Bienvenue sur notre blog sur la construction d'une carrière dans l'informatique ! Explorez les diverses opportunités et voies disponibles dans le monde en constante évolution de la technologie, ainsi que dans d'autres domaines connexes."
-  },
+
   "learn": {
     "title": "Apprendre encore Plus"
   },
@@ -234,14 +194,7 @@
     "description": "Les arts encouragent la créativité et l'expression personnelle. Nous offrons beaucoup de pratique à nos étudiants pour leur permettre d'acquérir davantage de compétences."
   },
 
-  "library_filters": {
-    "title": "Nos Bibliothèques",
-    "all": "Tous",
-    "lab1": "Bibliothèque 1",
-    "lab2": "Bibliothèque 2",
-    "lab3": "Bibliothèque 3",
-    "computer_lab": "Laboratoire d'Informatique"
-  },
+ 
 
   "conta": {
     "title": "contact nous"
@@ -264,13 +217,7 @@
     "contact": "Contactez-nous"
   },
 
-  "coreValues": {
-    "respect": "Respect",
-    "curiosity": "Curiosité",
-    "courage": "Courage",
-    "integrity": "Intégrité",
-    "kindness": "Gentillesse"
-  },
+
 
   "core": {
     "values": "Nos valeurs fondamentales"
@@ -284,23 +231,9 @@
     "office": "Siège social"
   },
 
-  "information": {
-    "title": "Informations",
-    "privacy_policy": "Politique de confidentialité",
-    "school_policies": "Politiques de l'école",
-    "sitemap": "Plan du site",
-    "join_the_team": "Rejoindre l'équipe"
-  },
 
   "connect": {
     "title": "Suivez-nous sur les réseaux sociaux"
-  },
-
-  "campus_locations": {
-    "title": "Emplacements des campus",
-    "main_campus": "Campus principal",
-    "secondary_campus": "Campus secondaire",
-    "secondary_address": "123 Rue de l'Éducation, Ville"
   },
 
   "footer": {

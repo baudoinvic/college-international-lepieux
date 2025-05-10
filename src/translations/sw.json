@@ -23,14 +23,7 @@
       "description": "Collège international le pieux imejitolea kutoa elimu bora ya kiufundi, kukuza uvumbuzi, na kukuza ujasiriamali kati ya wanafunzi wake."
     }
   },
-  "faq_section": {
-    "heading": "Maswali Yanayoulizwa Mara kwa Mara",
-    "description": "Katika taasisi yetu, tunatoa kozi mbalimbali katika masomo tofauti, ikiwa ni pamoja na lakini sio tu, hisabati, sayansi, lugha, masomo ya kijamii, sanaa nzuri, na elimu ya mwili. Mtaala wetu umebuniwa kutoa elimu bora ya kumwandalia mwanafunzi kwa mafanikio ya baadaye."
-  },
-  "blog": {
-    "title": "Blogu",
-    "description": "Karibu kwenye blogu yetu kuhusu kujenga kazi katika teknolojia ya habari na mawasiliano! Chunguza fursa mbalimbali na njia zilizopo katika ulimwengu unaoendelea wa teknolojia, pamoja na sekta nyingine zinazohusiana."
-  },
+ 
   "learn": {
     "title": "Jifunze zaidi"
   },
@@ -95,49 +88,10 @@
     "description": "Sanaa inachochea ubunifu na kujieleza binafsi. Tunatoa mazoezi mengi kwa wanafunzi wetu kuwawezesha kupata zaidi ya ujuzi."
   },
 
-  "library_filters": {
-    "title": "Vyeti Vyetu",
-    "all": "Zote",
-    "lab1": "Vyeti 1",
-    "lab2": "Vyeti 2",
-    "lab3": "Vyeti 3",
-    "computer_lab": "Maabara ya Kompyuta"
-  },
+ 
 
-  "faq": {
-    "title": "Jinsi gani ninaweza kujiandikisha mtoto wangu?",
-    "description": "Ili kujiandikisha mtoto wako katika shule ya Collègelepieux, tafadhali tembelea ukurasa wetu wa uandikishaji kwenye tovuti yetu au wasiliana moja kwa moja na ofisi yetu ya uandikishaji. Timu yetu itakuongoza kupitia mchakato wa kujiandikisha na kujibu maswali yoyote unayoweza kuwa nayo.",
-    "question": "Tunatoa madarasa gani?",
-    "answer": "Tunatoa masomo mbalimbali kama hisabati, sayansi, lugha, masomo ya kijamii, sanaa, na elimu ya mwili ili kumpa mwanafunzi elimu kamili.",
-    "2title": "Shule ya Collègelepieux inawawezeshaje wanafunzi kuwa salama na wenye furaha?",
-    "2answer": "Tunayo sheria, usalama, ushauri, na mipango ya afya ili kuhakikisha kuwa wanafunzi wote wanajisikia salama na kuungwa mkono.",
-    "3title": "Ninawezaje kujua kuhusu matukio na habari za shule?",
-    "3answer": "Angalia tovuti yetu, tutufuate kwenye mitandao ya kijamii, au jiandikishe kwa barua pepe ili kubaki mstari wa mbele na taarifa za hivi karibuni. Pia tunaweza kutuma taarifa nyumbani au kukupigia simu na sasisho muhimu."
-  },
-  "testimonial_section": {
-    "heading": "Ushuhuda",
-    "subheading": "Wanafunzi Wanachosema Kuhusu Sisi",
-    "testimonials": [
-      {
-        "id": 1,
-        "name": "ishimwe sandra",
-        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
-        "img": "https://c.stocksy.com/a/ynq000/z9/202986.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Divine josh",
-        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
-        "img": "https://tse1.mm.bing.net/th?id=OIP.CTsmIkEVMgmpguoOa7iR2gHaKq&pid=Api&P=0&h=180"
-      },
-      {
-        "id": 3,
-        "name": "Tousaint Francis",
-        "text": "Nina furaha sana kusoma shuleni hapa kwa sababu ujuzi ninakaopata shuleni ni wa kutosha kwangu. Wana elimu bora ambayo nimewahi kuiona.",
-        "img": "https://pngimg.com/uploads/student/student_PNG62539.png"
-      }
-    ]
-  },
+  
+  
   "courses": [
     {
       "id": 1,
@@ -294,13 +248,7 @@
     "values": "Thamani zetu kuu"
   },
 
-  "information": {
-    "title": "Taarifa",
-    "privacy_policy": "Sera ya faragha",
-    "school_policies": "Sera za shule",
-    "sitemap": "Ramani ya tovuti",
-    "join_the_team": "Jiunge na timu"
-  },
+
 
   "connect": {
     "title": "Tufuatilie kwenye mitandao ya kijamii"
