@@ -1,12 +1,12 @@
 
 import React from 'react';
 import front from "../../utils/images/front.png";
-import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import campus from "../../utils/images/campus.png";
+import { Cpu, Zap, BookOpen, Sprout } from "lucide-react";
 
 
 const Home = () => {
@@ -96,52 +96,52 @@ const Home = () => {
           {/* Four Subject Areas */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12'>
             {/* Electronics */}
-            <div className='flex flex-col items-center text-center'>
-              <div className='text-3xl text-[#c9a85c] mb-4'>⚙️</div>
-              <h3 className='text-xl font-bold mb-2'>Electronique</h3>
-              <p>Formation à guessigos</p>
+            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+              <div className='text-[#c9a85c] mb-4'>
+                <Cpu size={48} strokeWidth={1.5} />
+              </div>
+              <h3 className='text-xl font-bold mb-2'>Électronique</h3>
+              <p className='text-gray-600'>
+                Formation complète en circuits électroniques et systèmes
+                embarqués
+              </p>
             </div>
 
             {/* Electricity */}
-            <div className='flex flex-col items-center text-center'>
+            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
-                <svg
-                  className='w-12 h-12'
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 24 24'
-                  fill='currentColor'
-                >
-                  <path d='M11 21h-1l1-7H7.5c-.58 0-.58-.5-.39-.91L11.12 3h1l-1 7h3.5c.49 0 .56.37.39.91L11 21z' />
-                </svg>
+                <Zap size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>Electricité</h3>
-              <p>Formation de tie et ouriosité</p>
+              <h3 className='text-xl font-bold mb-2'>Électricité</h3>
+              <p className='text-gray-600'>
+                Formation pratique en installation et maintenance électrique
+              </p>
             </div>
 
             {/* Mathematics & Physics */}
-            <div className='flex flex-col items-center text-center'>
+            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
-                <svg
-                  className='w-12 h-12'
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 24 24'
-                  fill='currentColor'
-                >
-                  <path d='M7 20h4V4H7v16zM13 4v16h4V4h-4z' />
-                </svg>
+                <BookOpen size={48} strokeWidth={1.5} />
               </div>
               <h3 className='text-xl font-bold mb-2'>
                 Mathématiques
                 <br />& Physique
               </h3>
-              <p>Formation et programmes</p>
+              <p className='text-gray-600'>
+                Programmes complets pour maîtriser les sciences fondamentales
+              </p>
             </div>
 
             {/* Agronomy */}
-            <div className='flex flex-col items-center text-center'>
-              <div className=' mb-4 text-3xl'>🌱</div>
+            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+              <div className='text-[#c9a85c] mb-4'>
+                <Sprout size={48} strokeWidth={1.5} />
+              </div>
               <h3 className='text-xl font-bold mb-2'>Agronomie</h3>
-              <p>Entreprise et agriuanes</p>
+              <p className='text-gray-600'>
+                Formation en techniques agricoles durables et gestion des
+                cultures
+              </p>
             </div>
           </div>
 
