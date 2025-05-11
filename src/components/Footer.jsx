@@ -1,11 +1,9 @@
 
+
 import React from "react";
 import { CiFacebook } from "react-icons/ci";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -14,14 +12,13 @@ const Footer = () => {
 
   return (
     <footer className='text-white py-12' style={{ backgroundColor: "#001A38" }}>
-      <div className='container mx-auto px-4 sm:px-6 lg:px-8  '>
+      <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+          {/* Column 1 */}
           <div>
             <h4 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
               College Internationale Lepieux
             </h4>
-
-            {/* WHERE WE ARE */}
             <div className='mb-6'>
               <h5 className='text-base font-semibold uppercase tracking-wider mb-2'>
                 Où nous sommes
@@ -35,9 +32,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Second column */}
-          <div className='ml-32'>
-            {/* CONTACT US */}
+          {/* Column 2 */}
+          <div className='md:ml-32'>
             <div className='mb-6'>
               <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
                 Contactez-nous
@@ -48,51 +44,48 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Third column */}
-          <div>
-            {/* FOLLOW US */}
-            <div className='ml-24'>
-              <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
-                Suivez-nous
-              </h5>
-              <div className='flex items-center space-x-4'>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-2xl transition-colors'
-                >
-                  <CiFacebook />
-                </Link>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-xl transition-colors'
-                >
-                  <FaXTwitter />
-                </Link>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-xl transition-colors'
-                >
-                  <FaInstagram />
-                </Link>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-xl transition-colors'
-                >
-                  <FaYoutube />
-                </Link>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-xl transition-colors'
-                >
-                  <FaLinkedin />
-                </Link>
-                <Link
-                  to='#'
-                  className='hover:text-gray-300 text-xl transition-colors'
-                >
-                  <FaTiktok />
-                </Link>
-              </div>
+          {/* Column 3 */}
+          <div className='md:ml-24'>
+            <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
+              Suivez-nous
+            </h5>
+            <div className='flex flex-wrap items-center gap-4'>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-2xl transition-colors'
+              >
+                <CiFacebook />
+              </Link>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-xl transition-colors'
+              >
+                <FaXTwitter />
+              </Link>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-xl transition-colors'
+              >
+                <FaInstagram />
+              </Link>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-xl transition-colors'
+              >
+                <FaYoutube />
+              </Link>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-xl transition-colors'
+              >
+                <FaLinkedin />
+              </Link>
+              <Link
+                to='#'
+                className='hover:text-gray-300 text-xl transition-colors'
+              >
+                <FaTiktok />
+              </Link>
             </div>
           </div>
         </div>

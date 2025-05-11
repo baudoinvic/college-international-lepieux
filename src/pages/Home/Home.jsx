@@ -1,5 +1,7 @@
 
-import React from 'react';
+
+
+import React from "react";
 import front from "../../utils/images/front.png";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
@@ -8,16 +10,15 @@ import "react-toastify/dist/ReactToastify.css";
 import campus from "../../utils/images/campus.png";
 import { Cpu, Zap, BookOpen, Sprout } from "lucide-react";
 
-
 const Home = () => {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
 
-    const handleChange = (e) => {
-      setEmail(e.target.value);
-    };
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
 
-     const handleSubscribe = async (e) => {
+  const handleSubscribe = async (e) => {
     e.preventDefault();
 
     if (!email) {
@@ -49,7 +50,7 @@ const Home = () => {
     <div>
       <div className='bg-white'>
         <div className='relative'>
-          <div className='w-full h-[580px] bg-gray-200'>
+          <div className='w-full h-[580px] sm:h-[580px] bg-gray-200'>
             <img
               src={front}
               alt='Campus view'
@@ -57,8 +58,8 @@ const Home = () => {
             />
           </div>
 
-          <div className='absolute bottom-0 left-0 p-8 pb-12 bg-opacity-70'>
-            <h1 className='text-4xl md:text-5xl font-bold text-white mb-4'>
+          <div className='absolute bottom-0 left-0 p-4 sm:p-8 pb-6 sm:pb-12 bg-opacity-70'>
+            <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4'>
               Construis ton avenir avec <br />
               la première école secondaire <br />
               d'ingenierie de RDC
@@ -67,36 +68,40 @@ const Home = () => {
         </div>
 
         {/* Mission Section */}
-        <div className='bg-[#001A38] text-white py-12 px-8 flex flex-col md:flex-row justify-between'>
-          <div className='md:w-1/2'>
-            <h2 className='text-3xl font-bold mb-4'>Notre mission</h2>
-            <p className='text-lg mb-6'>
-               Notre mission est de former les innovateurs congolais de demain
-              en dispensant une éducation d'excellence dans les domaines des
+        <div className='bg-[#001A38] text-white py-8 sm:py-12 px-6 sm:px-8 flex flex-col md:flex-row justify-between'>
+          <div className='md:w-1/2 mb-6 md:mb-0'>
+            <h2 className='text-2xl sm:text-3xl font-bold mb-4'>
+              Notre mission
+            </h2>
+            <p className='text-base sm:text-lg mb-6'>
+              Notre mission est de former les innovateurs congolais de demain en
+              dispensant une éducation d'excellence dans les domaines des
               sciences et des technologies
             </p>
           </div>
 
-          <div className='md:w-2/5 border-[1px] border-solid border-[#c9a85c] p-6 flex items-center'>
-            <p className='text-lg italic'>
-               Changer le monde commence ici : à Lepieux, j’apprends à résoudre
-              des problèmes concrets et à bâtir l’avenir de mon pays.
+          <div className='md:w-2/5 border-[1px] border-solid border-[#c9a85c] p-4 sm:p-6 flex items-center'>
+            <p className='text-base sm:text-lg italic'>
+              Changer le monde commence ici : à Lepieux, j'apprends à résoudre
+              des problèmes concrets et à bâtir l'avenir de mon pays.
             </p>
           </div>
         </div>
 
         {/* Educational Program Section */}
-        <div className='bg-beige-100 py-12 px-8 ml-10 mr-10'>
-          <h2 className='text-3xl font-bold mb-6'>Programme pédagogique</h2>
-          <p className='text-lg mb-12'>
+        <div className='bg-beige-100 py-8 sm:py-12 px-6 sm:px-8'>
+          <h2 className='text-2xl sm:text-3xl font-bold mb-4 sm:mb-6'>
+            Programme pédagogique
+          </h2>
+          <p className='text-base sm:text-lg mb-8 sm:mb-12'>
             Notre cursus de six ans combine théorie et pratique pour préparer
             les élèves aux défis de demain
           </p>
 
           {/* Four Subject Areas */}
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8 sm:mb-12'>
             {/* Electronics */}
-            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+            <div className='flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
                 <Cpu size={48} strokeWidth={1.5} />
               </div>
@@ -108,7 +113,7 @@ const Home = () => {
             </div>
 
             {/* Electricity */}
-            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+            <div className='flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
                 <Zap size={48} strokeWidth={1.5} />
               </div>
@@ -119,7 +124,7 @@ const Home = () => {
             </div>
 
             {/* Mathematics & Physics */}
-            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+            <div className='flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
                 <BookOpen size={48} strokeWidth={1.5} />
               </div>
@@ -133,7 +138,7 @@ const Home = () => {
             </div>
 
             {/* Agronomy */}
-            <div className='flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
+            <div className='flex flex-col items-center text-center p-4 sm:p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
               <div className='text-[#c9a85c] mb-4'>
                 <Sprout size={48} strokeWidth={1.5} />
               </div>
@@ -154,21 +159,23 @@ const Home = () => {
         </div>
 
         {/* Campus Section */}
-        <div className='flex flex-col md:flex-row ml-10 mr-10 mb-12'>
-          <div className='md:w-1/2 p-12 flex flex-col justify-center'>
-            <h2 className='text-3xl font-bold mb-6'>Notre Etablissement</h2>
-            <p className='text-lg'>
+        <div className='flex flex-col md:flex-row px-6 sm:px-8 mb-12'>
+          <div className='w-full md:w-1/2 px-0 py-6 sm:py-8 md:p-12 flex flex-col justify-center'>
+            <h2 className='text-2xl md:text-3xl font-bold mb-4 md:mb-6'>
+              Notre Etablissement
+            </h2>
+            <p className='text-base md:text-lg'>
               Notre établissement, situé à Kalemie, offre un cadre moderne, sûr
-              et encadré, propice à l’épanouissement et à la réussite des
-              élèves. Il dispose d’infrastructures de qualité, dont un
-              laboratoire informatique équipé pour accueillir jusqu’à 50 élèves
-              en simultané, ainsi que des laboratoires d’électronique et
-              d’électricité, favorisant l’apprentissage pratique et l’innovation
-              dès le secondaire. 
+              et encadré, propice à l'épanouissement et à la réussite des
+              élèves. Il dispose d'infrastructures de qualité, dont un
+              laboratoire informatique équipé pour accueillir jusqu'à 50 élèves
+              en simultané, ainsi que des laboratoires d'électronique et
+              d'électricité, favorisant l'apprentissage pratique et l'innovation
+              dès le secondaire.
             </p>
           </div>
 
-          <div className='md:w-1/2'>
+          <div className='md:w-1/2 mt-4 md:mt-0'>
             <img
               src={campus}
               alt='Campus aerial view'
@@ -178,13 +185,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='container mx-auto p-4 py-12 mb-16 mt-16'>
+      <div className='px-6 sm:px-8 py-8 sm:py-12 mb-12 mt-8 sm:mt-16'>
         {/* Enhanced Header */}
-        <div className='text-center mb-12'>
+        <div className='text-center mb-8 sm:mb-12'>
           <h6 className='inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase bg-[#c9a85c] rounded-full mb-3'>
             College Internationale lepieux Events
           </h6>
-          <h1 className='text-4xl font-bold mb-4'>{t("event.title")}</h1>
+          <h1 className='text-3xl sm:text-4xl font-bold mb-4'>
+            {t("event.title")}
+          </h1>
 
           <p className='text-gray-600 max-w-2xl mx-auto'>
             {t("day.description")}
@@ -192,16 +201,16 @@ const Home = () => {
         </div>
 
         {/* Event Cards with Enhanced Design */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8'>
           {/* Science Fair Card */}
           <div className='bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1'>
             <div className='h-3  bg-[#c9a85c]'></div>
-            <div className='p-6'>
+            <div className='p-4 sm:p-6'>
               <div className='flex items-center mb-4'>
-                <div className='w-10 h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
+                <div className='w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-5 w-5'
+                    className='h-4 w-4 sm:h-5 sm:w-5'
                     viewBox='0 0 20 20'
                     fill='currentColor'
                   >
@@ -212,7 +221,7 @@ const Home = () => {
                     />
                   </svg>
                 </div>
-                <h2 className='text-xl font-bold'>
+                <h2 className='text-lg sm:text-xl font-bold'>
                   {t("events.scienceFair.title")}
                 </h2>
               </div>
@@ -265,12 +274,12 @@ const Home = () => {
           {/* Sports Day Card */}
           <div className='bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1'>
             <div className='h-3 bg-[#c9a85c]'></div>
-            <div className='p-6'>
+            <div className='p-4 sm:p-6'>
               <div className='flex items-center mb-4'>
-                <div className='w-10 h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
+                <div className='w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-5 w-5'
+                    className='h-4 w-4 sm:h-5 sm:w-5'
                     viewBox='0 0 20 20'
                     fill='currentColor'
                   >
@@ -281,7 +290,7 @@ const Home = () => {
                     />
                   </svg>
                 </div>
-                <h2 className='text-xl font-bold'>
+                <h2 className='text-lg sm:text-xl font-bold'>
                   {t("events.sportsDay.title")}
                 </h2>
               </div>
@@ -334,19 +343,19 @@ const Home = () => {
           {/* Math Competition Card */}
           <div className='bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1'>
             <div className='h-3 bg-[#c9a85c]'></div>
-            <div className='p-6'>
+            <div className='p-4 sm:p-6'>
               <div className='flex items-center mb-4'>
-                <div className='w-10 h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
+                <div className='w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-5 w-5'
+                    className='h-4 w-4 sm:h-5 sm:w-5'
                     viewBox='0 0 20 20'
                     fill='currentColor'
                   >
                     <path d='M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z' />
                   </svg>
                 </div>
-                <h2 className='text-xl font-bold'>
+                <h2 className='text-lg sm:text-xl font-bold'>
                   {t("events.mathCompetition.title")}
                 </h2>
               </div>
@@ -398,27 +407,29 @@ const Home = () => {
         </div>
 
         {/* "More Coming Soon" Section */}
-        <div className='mt-12 text-center'>
-          <h3 className='text-2xl font-bold mb-2'>{t("soon.title")}</h3>
+        <div className='mt-8 sm:mt-12 text-center'>
+          <h3 className='text-xl sm:text-2xl font-bold mb-2'>
+            {t("soon.title")}
+          </h3>
           <p className='text-gray-600 max-w-lg mx-auto mb-6'>
             {t("soon.description")}
           </p>
 
           <form
             onSubmit={handleSubscribe}
-            className='flex flex-col sm:flex-row gap-2 items-center'
+            className='flex flex-col sm:flex-row gap-2 items-center justify-center'
           >
             <input
               type='email'
               name='email'
               value={email}
               onChange={handleChange}
-              className='px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
+              className='w-full sm:w-auto px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
               placeholder={t("subscription.placeholder")}
               aria-label={t("subscription.aria_label")}
             />
             <button
-              className='inline-flex items-center justify-center px-6 py-3 text-white  rounded-lg hover:bg-blue-700 transition-colors'
+              className='w-full sm:w-auto px-6 py-3 text-white rounded-lg hover:bg-blue-700 transition-colors'
               style={{ backgroundColor: "#c9a85c" }}
             >
               {t("subscription.button")}
@@ -426,6 +437,8 @@ const Home = () => {
           </form>
         </div>
       </div>
+
+      <ToastContainer position='bottom-right' />
     </div>
   );
 };
