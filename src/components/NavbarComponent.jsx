@@ -2,17 +2,27 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import logo2 from "../utils/images/logo2.jpg";
+import eng from "../utils/images/eng.jpeg";
+import fr from "../utils/images/fr.jpeg";
 import { useTranslation } from "react-i18next";
 
 function NavbarComponent() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const { t, i18n } = useTranslation();
   const dropdownRef = useRef(null);
+  const langDropdownRef = useRef(null);
+  const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
 
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setActiveDropdown(null);
+      }
+      if (
+        langDropdownRef.current &&
+        !langDropdownRef.current.contains(event.target)
+      ) {
+        setIsLangDropdownOpen(false);
       }
     }
 
@@ -28,7 +38,11 @@ function NavbarComponent() {
 
   function changeLanguage(lng) {
     i18n.changeLanguage(lng);
+    setIsLangDropdownOpen(false);
   }
+
+  // Get current language
+  const currentLanguage = i18n.language || "en";
 
   return (
     <div>
@@ -77,7 +91,6 @@ function NavbarComponent() {
                 className='text-white no-underline hover:text-[#c9a85c] focus:outline-none flex items-center'
               >
                 {t("navigation.about_us")}
-             
               </button>
               {activeDropdown === 0 && (
                 <div className='absolute mt-2 bg-white text-[#002855] rounded shadow-lg z-10 w-40'>
@@ -113,14 +126,54 @@ function NavbarComponent() {
               {t("navigation.contact")}
             </Link>
 
-            <div className='relative'>
-              <select
-                onChange={(e) => changeLanguage(e.target.value)}
-                className='text-black px-2 py-1 rounded'
+            {/* Language Selector */}
+            <div className='relative' ref={langDropdownRef}>
+              <button
+                onClick={() => setIsLangDropdownOpen(!isLangDropdownOpen)}
+                className='flex items-center bg-white rounded px-2 py-1 focus:outline-none'
               >
-                <option value='fr'>French</option>
-                <option value='en'>English</option>
-              </select>
+                <img
+                  src={currentLanguage === "en" ? eng : fr}
+                  alt={currentLanguage === "en" ? "English" : "French"}
+                  className='w-6 h-4 mr-1'
+                />
+                <span className='text-black'>
+                  {currentLanguage.toUpperCase()}
+                </span>
+                <svg
+                  className='w-4 h-4 ml-1 text-black'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth='2'
+                    d='M19 9l-7 7-7-7'
+                  />
+                </svg>
+              </button>
+
+              {isLangDropdownOpen && (
+                <div className='absolute mt-1 right-0 bg-white rounded shadow-lg z-10'>
+                  <button
+                    onClick={() => changeLanguage("en")}
+                    className='flex items-center w-full px-3 py-2 hover:bg-gray-100 text-left'
+                  >
+                    <img src={eng} alt='English' className='w-6 h-4 mr-2' />
+                    <span className='text-black'>EN</span>
+                  </button>
+                  <button
+                    onClick={() => changeLanguage("fr")}
+                    className='flex items-center w-full px-3 py-2 hover:bg-gray-100 text-left'
+                  >
+                    <img src={fr} alt='French' className='w-6 h-4 mr-2' />
+                    <span className='text-black'>FR</span>
+                  </button>
+                </div>
+              )}
             </div>
           </nav>
         </div>
