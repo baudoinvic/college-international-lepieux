@@ -1,6 +1,4 @@
 
-
-
 import React from "react";
 import front from "../../utils/images/front.png";
 import { useTranslation } from "react-i18next";
