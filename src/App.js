@@ -14,7 +14,6 @@ import Description from "./pages/Description/Description";
 import Gallery from "./pages/Gallery/Gallery";
 import Construction from "./pages/Construction/Construction";
 import Gestion from "./pages/Gestion/Gestion";
-import Coup from "./pages/Coup/Coup";
 import Mechaniq from "./pages/Mechanic/Mechaniq";
 import Veterinary from "./pages/Veterinary/Veterinary";
 import Electricity from "./pages/Electricite/Electricity";
@@ -49,7 +48,6 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/construction" element={<Construction />} />
         <Route path="/gestion" element={<Gestion />} />
-        <Route path="/coup" element={<Coup />} />
         <Route path="/mechanic" element={<Mechaniq />} />
         <Route path="/veterinary" element={<Veterinary />} />
         <Route path="/electricity" element={<Electricity />} />
