@@ -11,8 +11,6 @@ const Shortcourses = () => {
 
   return (
     <div className="courses-page mt-24">
-    
-
       <div className="flex justify-center">
         <p className="text-center w-full sm:w-2/3 md:w-1/2 mb-5 mt-8 mx-auto px-4">
           {t("short.description")}
