@@ -47,13 +47,11 @@ function NavbarComponent() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   }
 
-  // Close mobile menu when clicking a link
   function handleMobileMenuItemClick() {
     setIsMobileMenuOpen(false);
     setActiveDropdown(null);
   }
 
-  // Get current language
   const currentLanguage = i18n.language || "en";
 
   return (
