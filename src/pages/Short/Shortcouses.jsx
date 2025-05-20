@@ -1,15 +1,12 @@
 
-
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 
 
 const Shortcourses = () => {
   const { t } = useTranslation();
 
-  // Fetching the shortcourses data
   const shortcourses = t("shortcourses", { returnObjects: true });
 
   return (

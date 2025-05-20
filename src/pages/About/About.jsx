@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import ChooseSection from "../../components/ChooseSection/ChooseSection";
+// import ChooseSection from "../../components/ChooseSection/ChooseSection";
 import { useTranslation } from "react-i18next";
 import campus from "../../utils/images/campus.png";
 
