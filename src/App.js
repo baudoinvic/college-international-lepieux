@@ -45,7 +45,6 @@ function App() {
         <Route path="/description" element={<Description />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/gestion" element={<Gestion />} />
-        <Route path="/veterinary" element={<Veterinary />} />
       </Routes>
     </Layout>
   );
