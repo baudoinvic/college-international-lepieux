@@ -15,7 +15,6 @@ import Gallery from "./pages/Gallery/Gallery";
 import Construction from "./pages/Construction/Construction";
 import Gestion from "./pages/Gestion/Gestion";
 import Veterinary from "./pages/Veterinary/Veterinary";
-import Electricity from "./pages/Electricite/Electricity";
 import ScrollToTop from "./pages/ScrollToTop/ScrollToTop";
 
 const Layout = ({ children }) => (
@@ -47,9 +46,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/construction" element={<Construction />} />
         <Route path="/gestion" element={<Gestion />} />
-      
         <Route path="/veterinary" element={<Veterinary />} />
-        <Route path="/electricity" element={<Electricity />} />
       </Routes>
     </Layout>
   );
