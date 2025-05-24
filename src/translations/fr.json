@@ -13,15 +13,8 @@
     "card1": {
       "title": "Excellence en éducation",
       "description": "Nous offrons la meilleure éducation à nos élèves, en leur assurant l'accès à une gamme diversifiée de ressources pédagogiques et d'opportunités, y compris des laboratoires de nouvelle génération.."
-    },
-    "card2": {
-      "title": "Nous gardons nos élèves heureux",
-      "description": "Nos élèves sont toujours heureux grâce aux cours avec une solide connaissance et expérience."
-    },
-    "card3": {
-      "title": "Notre mission",
-      "description": "Le Collège internationale le pieux s'engage à fournir une éducation technique de qualité, à favoriser l'innovation et à promouvoir l'entrepreneuriat parmi ses élèves."
     }
+  
   },
   "courses": [
     {
@@ -106,8 +99,6 @@
       "description": "Inscrivez-vous à notre cours de 6 mois 'Maçonnerie et Plomberie', plongeant dans les fondamentaux de la construction et des systèmes d'eau. Apprenez les techniques de maçonnerie ainsi que les principes de la plomberie, vous préparant à divers projets sur le terrain."
     }
   ],
-
-
 
   "events": {
     "scienceFair": {
