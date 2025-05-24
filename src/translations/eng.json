@@ -13,18 +13,10 @@
     "card1": {
       "title": "Education Excellence",
       "description": "We offer the best education to our students, ensuring they have access to a diverse range of learning resources and opportunities."
-    },
-    "card2": {
-      "title": "We keep our students happy",
-      "description": "Our students are always happy because of the lectures with strong knowledge and experiences."
-    },
-    "card3": {
-      "title": "Our Mission",
-      "description": "Collège international le pieux is committed to providing quality technical education, fostering innovation, and promoting entrepreneurship among its students."
     }
+   
   },
  
-
   "courses": [
     {
       "id": 1,
