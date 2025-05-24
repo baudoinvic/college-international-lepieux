@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import { CiFacebook } from "react-icons/ci";
 import { FaLinkedin, FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
@@ -14,7 +13,6 @@ const Footer = () => {
     <footer className='text-white py-12' style={{ backgroundColor: "#001A38" }}>
       <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
-          {/* Column 1 */}
           <div>
             <h4 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
               College Internationale Lepieux
