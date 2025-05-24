@@ -403,8 +403,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* "More Coming Soon" Section */}
+        
         <div className='mt-8 sm:mt-12 text-center'>
           <h3 className='text-xl sm:text-2xl font-bold mb-2'>
             {t("soon.title")}
