@@ -141,7 +141,7 @@ const Home = () => {
           {/* Learn More Button */}
           <div className='flex justify-center'>
             <button className='bg-[#c9a85c] hover:bg-gold-600 text-white font-bold py-2 px-10 rounded'>
-              En savoir plus
+              {t("plus.title")}
             </button>
           </div>
         </div>
@@ -150,16 +150,10 @@ const Home = () => {
         <div className='flex flex-col md:flex-row px-6 sm:px-8 mb-12'>
           <div className='w-full md:w-1/2 px-0 py-6 sm:py-8 md:p-12 flex flex-col justify-center'>
             <h2 className='text-2xl md:text-3xl font-bold mb-4 md:mb-6'>
-              Notre Etablissement
+              {t("Etablissement.title")}
             </h2>
             <p className='text-base md:text-lg'>
-              Notre établissement, situé à Kalemie, offre un cadre moderne, sûr
-              et encadré, propice à l'épanouissement et à la réussite des
-              élèves. Il dispose d'infrastructures de qualité, dont un
-              laboratoire informatique équipé pour accueillir jusqu'à 50 élèves
-              en simultané, ainsi que des laboratoires d'électronique et
-              d'électricité, favorisant l'apprentissage pratique et l'innovation
-              dès le secondaire.
+              {t("localisation.title")}
             </p>
           </div>
 
