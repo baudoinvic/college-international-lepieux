@@ -73,21 +73,17 @@ const Home = () => {
           </div>
 
           <div className='md:w-2/5 border-[1px] border-solid border-[#c9a85c] p-4 sm:p-6 flex items-center'>
-            <p className='text-base sm:text-lg italic'>
-             
-              {t("change.title")}
-            </p>
+            <p className='text-base sm:text-lg italic'>{t("change.title")}</p>
           </div>
         </div>
 
         {/* Educational Program Section */}
         <div className='bg-beige-100 py-8 sm:py-12 px-6 sm:px-8'>
           <h2 className='text-2xl sm:text-3xl font-bold mb-4 sm:mb-6'>
-            Programme pédagogique
+            {t("seconder.title")}
           </h2>
           <p className='text-base sm:text-lg mb-8 sm:mb-12'>
-            Notre cursus de six ans combine théorie et pratique pour préparer
-            les élèves aux défis de demain
+            {t("cursus.title")}
           </p>
 
           {/* Four Subject Areas */}

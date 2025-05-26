@@ -14,7 +14,6 @@
       "title": "Excellence en éducation",
       "description": "Nous offrons la meilleure éducation à nos élèves, en leur assurant l'accès à une gamme diversifiée de ressources pédagogiques et d'opportunités, y compris des laboratoires de nouvelle génération.."
     }
-  
   },
   "courses": [
     {
@@ -185,22 +184,30 @@
     "description": "Les arts encouragent la créativité et l'expression personnelle. Nous offrons beaucoup de pratique à nos étudiants pour leur permettre d'acquérir davantage de compétences."
   },
 
-   "first": {
+  "first": {
     "title": "construi ton avenir avec la  première école secondaire  d'ingenierie de la RDC"
-   },
+  },
 
-   "notre": {
+  "notre": {
     "title": "Notre Mission"
-   },
+  },
 
-   "lieu": {
+  "lieu": {
     "title": " Notre mission est de former les innovateurs congolais de demain en dispasant une éducation d'excellence dans les domaines  sciences et des technologies"
-   },
+  },
 
-   "change":{
+  "change": {
     "title": " Changer le monde commence ici :  à Lepieux, j'apprends à résoudre des problèmes concrets et à bâtir l'avenir de mon pays."
-   },
-   
+  },
+
+  "seconder": {
+    "title": " Programme pédagogique"
+  },
+
+  "cursus": {
+    "title": "Notre cursus de six ans combine théorie et pratique pour préparer  les élèves aux défis de demain"
+  },
+
   "conta": {
     "title": "contact nous"
   },
@@ -222,8 +229,6 @@
     "contact": "Contactez-nous"
   },
 
-
-
   "core": {
     "values": "Nos valeurs fondamentales"
   },
@@ -235,7 +240,6 @@
   "head": {
     "office": "Siège social"
   },
-
 
   "connect": {
     "title": "Suivez-nous sur les réseaux sociaux"
@@ -339,7 +343,7 @@
       "description": "— Les concepts sont de grandes idées qui sont pertinentes au sein de disciplines spécifiques et de manière interdisciplinaire. Les élèves utilisent les concepts comme vecteur d'exploration de questions et d'idées importantes au niveau personnel, local et mondial et d'examen des connaissances de manière globale."
     }
   },
-   "language": {
+  "language": {
     "identity": {
       "title": "La langue et l'identité",
       "description": "— Les élèves doivent apprendre au moins le français et l'anglais ainsi qu'avoir des notions en Kiswahili. Apprendre à communiquer de différentes façons est essentiel pour le développement d'une compréhension interculturelle et crucial pour la formation de son identité."
