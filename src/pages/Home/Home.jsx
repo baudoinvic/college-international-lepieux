@@ -70,9 +70,6 @@ const Home = () => {
               {t("notre.title")}
             </h2>
             <p className='text-base sm:text-lg mb-6'>
-              Notre mission est de former les innovateurs congolais de demain en
-              dispensant une éducation d'excellence dans les domaines des
-              sciences et des technologies
               {t("lieu.title")}
             </p>
           </div>
