@@ -69,15 +69,13 @@ const Home = () => {
             <h2 className='text-2xl sm:text-3xl font-bold mb-4'>
               {t("notre.title")}
             </h2>
-            <p className='text-base sm:text-lg mb-6'>
-              {t("lieu.title")}
-            </p>
+            <p className='text-base sm:text-lg mb-6'>{t("lieu.title")}</p>
           </div>
 
           <div className='md:w-2/5 border-[1px] border-solid border-[#c9a85c] p-4 sm:p-6 flex items-center'>
             <p className='text-base sm:text-lg italic'>
-              Changer le monde commence ici : à Lepieux, j'apprends à résoudre
-              des problèmes concrets et à bâtir l'avenir de mon pays.
+             
+              {t("change.title")}
             </p>
           </div>
         </div>
