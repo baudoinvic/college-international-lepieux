@@ -14,9 +14,8 @@
       "title": "Education Excellence",
       "description": "We offer the best education to our students, ensuring they have access to a diverse range of learning resources and opportunities."
     }
-   
   },
- 
+
   "courses": [
     {
       "id": 1,
@@ -225,9 +224,17 @@
   },
 
   "first": {
-  "title": "Build your future with the first secondary engineering school in the DRC"
+    "title": "Build your future with the first secondary engineering school in the DRC"
+  },
+
+  "lieu": {
+  "title": "Our mission is to train the Congolese innovators of tomorrow by providing excellent education in the fields of science and technology"
 },
 
+
+  "notre": {
+    "title": "Our Mission"
+  },
 
   "cut_seam": {
     "title": "Cut and Seam",
@@ -255,13 +262,9 @@
     "office": "Head office"
   },
 
- 
-
   "connect": {
     "title": "Follow Us on Social Media"
   },
-
- 
 
   "coreValues": {
     "respect": "Respect",

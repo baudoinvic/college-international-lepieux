@@ -67,12 +67,13 @@ const Home = () => {
         <div className='bg-[#001A38] text-white py-8 sm:py-12 px-6 sm:px-8 flex flex-col md:flex-row justify-between'>
           <div className='md:w-1/2 mb-6 md:mb-0'>
             <h2 className='text-2xl sm:text-3xl font-bold mb-4'>
-              Notre mission
+              {t("notre.title")}
             </h2>
             <p className='text-base sm:text-lg mb-6'>
               Notre mission est de former les innovateurs congolais de demain en
               dispensant une éducation d'excellence dans les domaines des
               sciences et des technologies
+              {t("lieu.title")}
             </p>
           </div>
 
