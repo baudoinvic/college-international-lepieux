@@ -12,9 +12,7 @@ import Contact from "./pages/Contact/Contact";
 import Shortcouses from "./pages/Short/Shortcouses";
 import Description from "./pages/Description/Description";
 import Gallery from "./pages/Gallery/Gallery";
-import Construction from "./pages/Construction/Construction";
 import Gestion from "./pages/Gestion/Gestion";
-import Veterinary from "./pages/Veterinary/Veterinary";
 import ScrollToTop from "./pages/ScrollToTop/ScrollToTop";
 
 const Layout = ({ children }) => (

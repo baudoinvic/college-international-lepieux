@@ -56,11 +56,9 @@ const Home = () => {
             />
           </div>
 
-          <div className='absolute bottom-0 left-0 p-4 sm:p-8 pb-6 sm:pb-12 bg-opacity-70'>
-            <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4'>
-              Construis ton avenir avec <br />
-              la première école secondaire <br />
-              d'ingenierie de RDC
+          <div className='absolute bottom-0 left-0 p-4 sm:p-8 pb-6 sm:pb-12 bg-opacity-70 w-2/5'>
+            <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 '>
+              {t("first.title")}
             </h1>
           </div>
         </div>
@@ -403,7 +401,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+
         <div className='mt-8 sm:mt-12 text-center'>
           <h3 className='text-xl sm:text-2xl font-bold mb-2'>
             {t("soon.title")}
