@@ -103,9 +103,7 @@ const Home = () => {
                 <Zap size={48} strokeWidth={1.5} />
               </div>
               <h3 className='text-xl font-bold mb-2'>{t("element.title")}</h3>
-              <p className='text-gray-600'>
-                {t("dom.desc")}
-              </p>
+              <p className='text-gray-600'>{t("dom.desc")}</p>
             </div>
 
             {/* Mathematics & Physics */}
@@ -114,11 +112,10 @@ const Home = () => {
                 <BookOpen size={48} strokeWidth={1.5} />
               </div>
               <h3 className='text-xl font-bold mb-2'>
-                Mathématiques
-                <br />& Physique
+                {t("math.title")}
               </h3>
               <p className='text-gray-600'>
-                Programmes complets pour maîtriser les sciences fondamentales
+                {t("physic.desc")}
               </p>
             </div>
 

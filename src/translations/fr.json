@@ -239,6 +239,14 @@
     "desc": "Formation pratique en installation et maintenance électrique"
   },
 
+  "math": {
+    "title": " Mathématiques&Physique"
+  },
+
+  "physic": {
+    "desc": " Programmes complets pour maîtriser les sciences fondamentales."
+  },
+
   "conta": {
     "title": "contact nous"
   },

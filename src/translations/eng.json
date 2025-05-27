@@ -278,7 +278,13 @@
   "desc": "Hands-on training in electrical installation and maintenance"
 },
 
+"math": {
+  "title": "Mathematics & Physics"
+},
 
+"physic": {
+  "desc": "Comprehensive programs to master fundamental sciences."
+},
 
   "cut_seam": {
     "title": "Cut and Seam",
