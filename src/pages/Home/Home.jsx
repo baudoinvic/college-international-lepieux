@@ -7,6 +7,8 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import campus from "../../utils/images/campus.png";
 import { Cpu, Zap, BookOpen, Sprout } from "lucide-react";
+import { FaRegCirclePlay } from "react-icons/fa6";
+import { IoStatsChart } from "react-icons/io5";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -121,9 +123,7 @@ const Home = () => {
                 <Sprout size={48} strokeWidth={1.5} />
               </div>
               <h3 className='text-xl font-bold mb-2'>{t("agro.title")}</h3>
-              <p className='text-gray-600'>
-                {t("nomy.desc")}
-              </p>
+              <p className='text-gray-600'>{t("nomy.desc")}</p>
             </div>
           </div>
 
@@ -245,18 +245,7 @@ const Home = () => {
             <div className='p-4 sm:p-6'>
               <div className='flex items-center mb-4'>
                 <div className='w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    className='h-4 w-4 sm:h-5 sm:w-5'
-                    viewBox='0 0 20 20'
-                    fill='currentColor'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z'
-                      clipRule='evenodd'
-                    />
-                  </svg>
+                  <FaRegCirclePlay />
                 </div>
                 <h2 className='text-lg sm:text-xl font-bold'>
                   {t("events.sportsDay.title")}
@@ -314,14 +303,7 @@ const Home = () => {
             <div className='p-4 sm:p-6'>
               <div className='flex items-center mb-4'>
                 <div className='w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-[#c9a85c] text-white mr-3'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    className='h-4 w-4 sm:h-5 sm:w-5'
-                    viewBox='0 0 20 20'
-                    fill='currentColor'
-                  >
-                    <path d='M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z' />
-                  </svg>
+                  <IoStatsChart />
                 </div>
                 <h2 className='text-lg sm:text-xl font-bold'>
                   {t("events.mathCompetition.title")}
