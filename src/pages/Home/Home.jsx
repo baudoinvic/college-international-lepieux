@@ -93,10 +93,12 @@ const Home = () => {
               <div className='text-[#c9a85c] mb-4'>
                 <Cpu size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>Électronique</h3>
+              <h3 className='text-xl font-bold mb-2'>
+               
+                {t("electro.title")}
+              </h3>
               <p className='text-gray-600'>
-                Formation complète en circuits électroniques et systèmes
-                embarqués
+                {t("complete.desc")}
               </p>
             </div>
 
@@ -152,9 +154,7 @@ const Home = () => {
             <h2 className='text-2xl md:text-3xl font-bold mb-4 md:mb-6'>
               {t("Etablissement.title")}
             </h2>
-            <p className='text-base md:text-lg'>
-              {t("localisation.title")}
-            </p>
+            <p className='text-base md:text-lg'>{t("localisation.title")}</p>
           </div>
 
           <div className='md:w-1/2 mt-4 md:mt-0'>
@@ -171,7 +171,7 @@ const Home = () => {
         {/* Enhanced Header */}
         <div className='text-center mb-8 sm:mb-12'>
           <h6 className='inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase bg-[#c9a85c] rounded-full mb-3'>
-            College Internationale lepieux Events
+            {t("upcoming.title")}
           </h6>
           <h1 className='text-3xl sm:text-4xl font-bold mb-4'>
             {t("event.title")}
@@ -182,7 +182,6 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Event Cards with Enhanced Design */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8'>
           {/* Science Fair Card */}
           <div className='bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1'>
@@ -418,7 +417,6 @@ const Home = () => {
           </form>
         </div>
       </div>
-
       <ToastContainer position='bottom-right' />
     </div>
   );

@@ -251,11 +251,23 @@
   },
 
   "Etablissement": {
-  "title": "Our Institution"
-},
+    "title": "Our Institution"
+  },
 
-"localisation": {
-  "title": "Our institution, located in Kalemie, offers a modern safe, and supervised environment that fosters student growth and success. It features high-quality infrastructure,including a computer lab equipped to accommodate up to 50 students at once, as well as electronics and electricity labs that promote hands-on learning and innovation from secondary school onward."
+  "localisation": {
+    "title": "Our institution, located in Kalemie, offers a modern safe, and supervised environment that fosters student growth and success. It features high-quality infrastructure,including a computer lab equipped to accommodate up to 50 students at once, as well as electronics and electricity labs that promote hands-on learning and innovation from secondary school onward."
+  },
+
+  "upcoming": {
+    "title": "  College Internationale lepieux Events"
+  },
+
+  "electro": {
+    "title": "Electronics"
+  },
+
+  "complete": {
+  "desc": "Comprehensive training in electronic circuits and embedded systems."
 },
 
 

@@ -220,6 +220,17 @@
     "title": "Notre établissement, situé à Kalemie, offre un cadre moderne, sûr  et encadré, propice à l'épanouissement et à la réussite des élèves. Il dispose d'infrastructures de qualité, dont un laboratoire informatique équipé pour  accueillir jusqu'à 50 élèves.  en simultané, ainsi que des laboratoires d'électronique, et d'électricité, favorisant l'apprentissage pratique et l'innovation des élèves dès secondaire. "
   },
 
+  "upcoming": {
+    "title": "Événements du Collège International Lepieux"
+  },
+
+  "electro": {
+    "title": "Électronique"
+  },
+  "complete": {
+    "desc": " Formation complète en circuits électroniques et systèmes embarqués."            
+  },
+
   "conta": {
     "title": "contact nous"
   },
