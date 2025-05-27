@@ -228,7 +228,15 @@
     "title": "Électronique"
   },
   "complete": {
-    "desc": " Formation complète en circuits électroniques et systèmes embarqués."            
+    "desc": " Formation complète en circuits électroniques et systèmes embarqués."
+  },
+
+  "element": {
+    "title": "Électricité"
+  },
+
+  "dom": {
+    "desc": "Formation pratique en installation et maintenance électrique"
   },
 
   "conta": {

@@ -270,6 +270,15 @@
   "desc": "Comprehensive training in electronic circuits and embedded systems."
 },
 
+ "element": {
+  "title": "Electricity"
+},
+
+"dom": {
+  "desc": "Hands-on training in electrical installation and maintenance"
+},
+
+
 
   "cut_seam": {
     "title": "Cut and Seam",

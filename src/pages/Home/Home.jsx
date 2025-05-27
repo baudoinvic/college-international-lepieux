@@ -93,13 +93,8 @@ const Home = () => {
               <div className='text-[#c9a85c] mb-4'>
                 <Cpu size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>
-               
-                {t("electro.title")}
-              </h3>
-              <p className='text-gray-600'>
-                {t("complete.desc")}
-              </p>
+              <h3 className='text-xl font-bold mb-2'>{t("electro.title")}</h3>
+              <p className='text-gray-600'>{t("complete.desc")}</p>
             </div>
 
             {/* Electricity */}
@@ -107,9 +102,9 @@ const Home = () => {
               <div className='text-[#c9a85c] mb-4'>
                 <Zap size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>Électricité</h3>
+              <h3 className='text-xl font-bold mb-2'>{t("element.title")}</h3>
               <p className='text-gray-600'>
-                Formation pratique en installation et maintenance électrique
+                {t("dom.desc")}
               </p>
             </div>
 
