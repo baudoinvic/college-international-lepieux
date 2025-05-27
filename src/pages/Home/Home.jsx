@@ -111,12 +111,8 @@ const Home = () => {
               <div className='text-[#c9a85c] mb-4'>
                 <BookOpen size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>
-                {t("math.title")}
-              </h3>
-              <p className='text-gray-600'>
-                {t("physic.desc")}
-              </p>
+              <h3 className='text-xl font-bold mb-2'>{t("math.title")}</h3>
+              <p className='text-gray-600'>{t("physic.desc")}</p>
             </div>
 
             {/* Agronomy */}
@@ -124,10 +120,9 @@ const Home = () => {
               <div className='text-[#c9a85c] mb-4'>
                 <Sprout size={48} strokeWidth={1.5} />
               </div>
-              <h3 className='text-xl font-bold mb-2'>Agronomie</h3>
+              <h3 className='text-xl font-bold mb-2'>{t("agro.title")}</h3>
               <p className='text-gray-600'>
-                Formation en techniques agricoles durables et gestion des
-                cultures
+                {t("nomy.desc")}
               </p>
             </div>
           </div>

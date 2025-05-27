@@ -247,6 +247,14 @@
     "desc": " Programmes complets pour maîtriser les sciences fondamentales."
   },
 
+  "agro": {
+    "title": "Agronomie"
+  },
+
+  "nomy": {
+    "desc": " Formation en techniques agricoles durables et gestion des  cultures."        
+  },
+
   "conta": {
     "title": "contact nous"
   },
