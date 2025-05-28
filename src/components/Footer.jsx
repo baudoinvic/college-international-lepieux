@@ -20,6 +20,7 @@ const Footer = () => {
             <div className='mb-6'>
               <h5 className='text-base font-semibold uppercase tracking-wider mb-2'>
                 Où nous sommes
+                {t("somme.title")}
               </h5>
               <p className='text-gray-300'>Quartier Mulengi, Kalemie 3</p>
               <p className='text-gray-300'>
@@ -34,7 +35,6 @@ const Footer = () => {
           <div className='md:ml-32'>
             <div className='mb-6'>
               <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
-                Contactez-nous
                 {t("cantactez.title")}
               </h5>
               <p className='text-gray-300'>+243 814 627 868 </p>
