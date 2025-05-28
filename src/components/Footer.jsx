@@ -22,13 +22,9 @@ const Footer = () => {
                 Où nous sommes
                 {t("somme.title")}
               </h5>
-              <p className='text-gray-300'>
-                {t("quartier.title")}
-              </p>
-              <p className='text-gray-300'>
-                Kalemie Tanganyika.
-                <br />
-                République Démocratique Du Congo
+              <p className='text-gray-300'>{t("quartier.title")}</p>
+              <p className='text-gray-300 w-2/3'>
+                {t("kalemie.title")}
               </p>
             </div>
           </div>
