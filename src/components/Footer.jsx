@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
           <div>
             <h4 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
-              College Internationale Lepieux
+              {t("pieux.title")}
             </h4>
             <div className='mb-6'>
               <h5 className='text-base font-semibold uppercase tracking-wider mb-2'>
@@ -37,7 +37,7 @@ const Footer = () => {
                 Contactez-nous
                 {t("cantactez.title")}
               </h5>
-              <p className='text-gray-300'>+243 814 627 868</p>
+              <p className='text-gray-300'>+243 814 627 868 </p>
               <p className='text-gray-300'>infos@cil.com</p>
               <p className='text-gray-300'>protocole@cil.com</p>
             </div>
