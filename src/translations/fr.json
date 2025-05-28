@@ -252,7 +252,7 @@
   },
 
   "nomy": {
-    "desc": " Formation en techniques agricoles durables et gestion des  cultures."        
+    "desc": " Formation en techniques agricoles durables et gestion des  cultures."
   },
 
   "conta": {
@@ -261,6 +261,10 @@
 
   "event": {
     "title": "Événements à venir"
+  },
+
+  "contactez": {
+    "title": "Contactez-nous"
   },
 
   "short": {
@@ -292,13 +296,6 @@
     "title": "Suivez-nous sur les réseaux sociaux"
   },
 
-  "footer": {
-    "main_address": "Adresse Principale - Congo RDC. Kalemie 540 Rue",
-    "phone_number": "Numéro de téléphone - +243850651507",
-    "email": "E-mail - Collègelepieuxinfos@edu.com",
-    "copyright": "Droits d'auteur",
-    "made_by": ""
-  },
   "contact": {
     "title": "Contactez-nous",
     "description": "Si vous souhaitez recevoir des mises à jour sur nos événements et rester en contact avec nous, n'hésitez pas. Contactez-nous simplement ; nous sommes là pour vous aider.",

@@ -35,6 +35,7 @@ const Footer = () => {
             <div className='mb-6'>
               <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
                 Contactez-nous
+                {t("cantactez.title")}
               </h5>
               <p className='text-gray-300'>+243 814 627 868</p>
               <p className='text-gray-300'>infos@cil.com</p>
@@ -45,7 +46,7 @@ const Footer = () => {
           {/* Column 3 */}
           <div className='md:ml-24'>
             <h5 className='text-lg font-semibold mb-6 border-b border-white/20 pb-2'>
-              Suivez-nous
+              {t("connect.title")}
             </h5>
             <div className='flex flex-wrap items-center gap-4'>
               <Link

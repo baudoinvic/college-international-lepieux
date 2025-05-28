@@ -267,33 +267,32 @@
   },
 
   "complete": {
-  "desc": "Comprehensive training in electronic circuits and embedded systems."
-},
+    "desc": "Comprehensive training in electronic circuits and embedded systems."
+  },
 
- "element": {
-  "title": "Electricity"
-},
+  "element": {
+    "title": "Electricity"
+  },
 
-"dom": {
-  "desc": "Hands-on training in electrical installation and maintenance"
-},
+  "dom": {
+    "desc": "Hands-on training in electrical installation and maintenance"
+  },
 
-"math": {
-  "title": "Mathematics & Physics"
-},
+  "math": {
+    "title": "Mathematics & Physics"
+  },
 
-"physic": {
-  "desc": "Comprehensive programs to master fundamental sciences."
-},
+  "physic": {
+    "desc": "Comprehensive programs to master fundamental sciences."
+  },
 
-"agro": {
-  "title": "Agronomy"
-},
+  "agro": {
+    "title": "Agronomy"
+  },
 
-"nomy": {
-  "desc": "Training in sustainable agricultural techniques and crop management."
-},
-
+  "nomy": {
+    "desc": "Training in sustainable agricultural techniques and crop management."
+  },
 
   "cut_seam": {
     "title": "Cut and Seam",
@@ -325,12 +324,8 @@
     "title": "Follow Us on Social Media"
   },
 
-  "coreValues": {
-    "respect": "Respect",
-    "curiosity": "Curiosity",
-    "courage": "Courage",
-    "integrity": "Integrity",
-    "kindness": "Kindness"
+  "contactez": {
+    "title": "Contact us"
   },
 
   "gallery": {
