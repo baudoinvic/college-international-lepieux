@@ -328,12 +328,16 @@
     "title": "Contact us"
   },
   "pieux": {
-  "title": "College Internationale Lepieux"
-},
+    "title": "College Internationale Lepieux"
+  },
 
-"somme": {
-"title": "Where we are"
-},
+  "quartier": {
+    "title": "Mulengi Neighborhood, Kalemie 3"
+  },
+
+  "somme": {
+    "title": "Where we are"
+  },
 
   "gallery": {
     "title": "Our Gallery",

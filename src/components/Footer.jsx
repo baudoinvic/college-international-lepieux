@@ -22,7 +22,9 @@ const Footer = () => {
                 Où nous sommes
                 {t("somme.title")}
               </h5>
-              <p className='text-gray-300'>Quartier Mulengi, Kalemie 3</p>
+              <p className='text-gray-300'>
+                {t("quartier.title")}
+              </p>
               <p className='text-gray-300'>
                 Kalemie Tanganyika.
                 <br />
