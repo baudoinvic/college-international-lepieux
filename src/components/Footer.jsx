@@ -19,7 +19,6 @@ const Footer = () => {
             </h4>
             <div className='mb-6'>
               <h5 className='text-base font-semibold uppercase tracking-wider mb-2'>
-                Où nous sommes
                 {t("somme.title")}
               </h5>
               <p className='text-gray-300'>{t("quartier.title")}</p>
