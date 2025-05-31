@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
 
+  
   return (
     <footer className='text-white py-12' style={{ backgroundColor: "#001A38" }}>
       <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
