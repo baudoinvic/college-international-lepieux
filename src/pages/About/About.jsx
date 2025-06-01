@@ -39,7 +39,6 @@ function About() {
                 src={campus}
                 className="w-full h-full object-cover rounded-lg"
                 alt=""
-               
               />
             </div>
           </div>
