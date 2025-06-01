@@ -9,8 +9,6 @@ function About() {
 
   return (
     <div className="about-page">
-   
-
       <div className="mt-16 flex justify-center px-4">
         <p className="text-center w-full sm:w-4/5 md:w-2/3 lg:w-1/2 mb-5 mt-8 mx-auto italic">
           {t("about.description")}
