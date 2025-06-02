@@ -20,13 +20,11 @@ function Contact() {
       address: "",
       message: "",
     });
-
-    // Handle input changes
+    
     const handleChange = (e) => {
       setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    // Handle form submission
     const handleSubmit = async (e) => {
       e.preventDefault();
 
