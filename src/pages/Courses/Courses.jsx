@@ -10,7 +10,6 @@ const Courses = () => {
 
   return (
     <div className="courses-page mt-32">
- 
       <p className="text-center w-full sm:w-2/3 mx-auto mb-5 mt-4 px-4">
         {t("start_courses_description")}
       </p>
@@ -38,16 +37,6 @@ const Courses = () => {
               <Card.Text className="text-left small mt-8">
                 {course.description}
               </Card.Text>
-              {/* Use Link component for the button as well */}
-              {/* <Link to={course.link}>
-                <button
-                  type="button"
-                  className="btn btn-danger btn-lg px-4 shadow "
-                  style={{ backgroundColor: "#0a1844", fontSize: "14px" }}
-                >
-                  {t("learn.title")}
-                </button>
-              </Link> */}
             </div>
           ))}
         </div>
